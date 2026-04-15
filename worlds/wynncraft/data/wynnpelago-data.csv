@@ -1,5 +1,4 @@
 Content,Level,Type,AP,ID (Hex),Region/Connections
-Bovine Barn,20,Boss,,00 15 00 01,
 Pigman Barbeque,1,Cave,Location,00 12 00 01,Emerald Trail
 Ancestor Grotto,2,Cave,Location,00 12 00 02,
 Tidepool Terrace,4,Cave,Location,00 12 00 03,
@@ -24,8 +23,6 @@ Cave Springs,17,Cave,Location,00 12 00 15,
 Sunken Ship,18,Cave,Location,00 12 00 16,
 Pirate Hold,18,Cave,Location,00 12 00 17,
 Captain's Quarters,19,Cave,Location,00 12 00 18,
-Lovers' Cavern,20,Cave,,,
-Muddy Cavern,20,Cave,,,
 Decrepit Sewers,8,Dungeon,Location,00 13 00 01,
 Infested Pit,17,Dungeon,Location,00 13 00 02,
 Slay Spiders,4,Mini-Quest,Location,00 14 00 01,
@@ -47,8 +44,6 @@ Stable Story,13,Quest,Location,00 11 00 0e,
 Arachnids' Ascent,14,Quest,Location,00 11 00 0f,
 Supply and Delivery,16,Quest,Location,00 11 00 10,
 Lava Springs,18,Quest,Location,00 11 00 11,
-Pit of the Dead,20,Quest,,,
-Grave Digger,20,Quest,,,
 Nothing,,Special,Filler,00 20 00 01,
 Progressive Max Level,,Special,Item,00 00 00 01,
 Level Up: 2,1,Special,Location,00 17 00 02,
@@ -69,11 +64,8 @@ Level Up: 16,15,Special,Location,00 17 00 10,
 Level Up: 17,16,Special,Location,00 17 00 11,
 Level Up: 18,17,Special,Location,00 17 00 12,
 Level Up: 19,18,Special,Location,00 17 00 13,
-Freeze Trap,,Special,Trap,00 20 01 01,
-Blind Trap,,Special,Trap,00 20 01 02,
-Drop Trap,,Special,Trap,00 20 01 03,
 Ragni,1,Territory,Default,,"Ragni Main Entrance, Ragni North Entrance, Ragni South Entrance"
-Ragni Main Entrance,1,Territory,Default,,"Ragni, Ragni Countryside South, Emerald Trail"
+Ragni Main Entrance,1,Territory,Item,00 01 00 00,"Ragni, Ragni Countryside South, Emerald Trail"
 Alekin,2,Territory,Default,,"Blooming Boulders, Nivla Woods, Arachnid Woods, Nivla Woods Exit"
 Detlas,3,Territory,Default,,"Essren's Hut, Detlas Suburbs, Scorched Trail"
 Tempo Town,5,Territory,Default,,"Elkurn, Time Valley, Blooming Boulders, Road to Elkurn"
@@ -174,11 +166,4 @@ Bremminglar,15,World,Location,00 16 00 12,Bremminglar
 Ancient Nemract,15,World,Location,00 16 00 13,Ancient Nemract
 Abandoned Mines,15,World,Location,00 16 00 14,Abandoned Mines
 Bovine Barn,15,World,Location,00 16 00 15,Durum Isles Barn
-Seavale Reef,20,World,,,
-Selchar,20,World,,,
-Pirate's Bay,20,World,,,
-Time Valley,20,World,,,
-Sanctuary Bridge,20,World,,,
-Roots of Corruption,20,World,,,
-Rotten Passage,20,World,,,
 Silent Road,,Territory,,,

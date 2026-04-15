@@ -66,8 +66,8 @@ def get_random_filler_item_name(world: WynncraftWorld) -> str:
     # This ensures that generating with the same generator seed twice yields the same output.
     # DO NOT use a bare random object from Python's built-in random module.
 
-    if world.random.randint(0, 99) < world.options.trap_chance:
-        return trap_names[world.random.randint(0, len(trap_names) - 1)]
+    #if world.random.randint(0, 99) < world.options.trap_chance:
+    #    return trap_names[world.random.randint(0, len(trap_names) - 1)]
     return filler_names[world.random.randint(0, len(filler_names) - 1)]
 
 
@@ -103,7 +103,7 @@ def create_all_items(world: WynncraftWorld) -> None:
         if item == "Region: Ragni Main Entrance" or item == "Region: Emerald Trail":
             world.push_precollected(ap_item)
 
-    level_items = 4
+    level_items = 3
     for i in range(level_items):
         itempool.append(world.create_item("Progressive Max Level"))
 
