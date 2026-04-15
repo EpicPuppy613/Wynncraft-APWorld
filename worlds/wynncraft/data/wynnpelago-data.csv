@@ -1,0 +1,184 @@
+Content,Level,Type,AP,ID (Hex),Region/Connections
+Bovine Barn,20,Boss,,00 15 00 01,
+Pigman Barbeque,1,Cave,Location,00 12 00 01,Emerald Trail
+Ancestor Grotto,2,Cave,Location,00 12 00 02,
+Tidepool Terrace,4,Cave,Location,00 12 00 03,
+Spider Mother Grove,4,Cave,Location,00 12 00 04,
+Fungas Log,5,Cave,Location,00 12 00 05,
+Derelict Mine,6,Cave,Location,00 12 00 06,
+Crypt Excavation,6,Cave,Location,00 12 00 07,
+Crab Fighters,6,Cave,Location,00 12 00 08,
+Roots of Infestation,7,Cave,Location,00 12 00 09,
+Fire & Water,7,Cave,Location,00 12 00 0a,
+Old Growth Rot,7,Cave,Location,00 12 00 0b,
+Hex Keep Gateway,7,Cave,Location,00 12 00 0c,
+Corrupted Passageway,9,Cave,Location,00 12 00 0d,
+Detlas Salt Mine,10,Cave,Location,00 12 00 0e,
+Raging Tower,10,Cave,Location,00 12 00 0f,
+Winery Infestation,11,Cave,Location,00 12 00 10,
+Hill Hover,11,Cave,Location,00 12 00 11,
+Spore Spiral,12,Cave,Location,00 12 00 12,
+Willow Crypt,16,Cave,Location,00 12 00 13,
+Mossy Grotto,16,Cave,Location,00 12 00 14,
+Cave Springs,17,Cave,Location,00 12 00 15,
+Sunken Ship,18,Cave,Location,00 12 00 16,
+Pirate Hold,18,Cave,Location,00 12 00 17,
+Captain's Quarters,19,Cave,Location,00 12 00 18,
+Lovers' Cavern,20,Cave,,,
+Muddy Cavern,20,Cave,,,
+Decrepit Sewers,8,Dungeon,Location,00 13 00 01,
+Infested Pit,17,Dungeon,Location,00 13 00 02,
+Slay Spiders,4,Mini-Quest,Location,00 14 00 01,
+Slay Mooshrooms,15,Mini-Quest,Location,00 14 00 02,
+King's Recruit,1,Quest,Location,00 11 00 01,Ragni
+Enzan's Brother,1,Quest,Location,00 11 00 02,Emerald Trail
+Poisoning the Pest,2,Quest,Location,00 11 00 03,Ragni Countryside South
+Cook Assistant,3,Quest,Location,00 11 00 04,Katoa Ranch
+Infested Plants,4,Quest,Location,00 11 00 05,
+The Sewers of Ragni,5,Quest,Location,00 11 00 06,
+Mushroom Man,6,Quest,Location,00 11 00 07,
+Tunnel Trouble,6,Quest,Location,00 11 00 08,
+Taking the Tower,8,Quest,Location,00 11 00 09,
+Underwater,9,Quest,Location,00 11 00 0a,
+Maltic's Well,10,Quest,Location,00 11 00 0b,
+Elemental Exercise,11,Quest,Location,00 11 00 0c,
+Potion Making,12,Quest,Location,00 11 00 0d,
+Stable Story,13,Quest,Location,00 11 00 0e,
+Arachnids' Ascent,14,Quest,Location,00 11 00 0f,
+Supply and Delivery,16,Quest,Location,00 11 00 10,
+Lava Springs,18,Quest,Location,00 11 00 11,
+Pit of the Dead,20,Quest,,,
+Grave Digger,20,Quest,,,
+Nothing,,Special,Filler,00 20 00 01,
+Progressive Max Level,,Special,Item,00 00 00 01,
+Level Up: 2,1,Special,Location,00 17 00 02,
+Level Up: 3,2,Special,Location,00 17 00 03,
+Level Up: 4,3,Special,Location,00 17 00 04,
+Level Up: 5,4,Special,Location,00 17 00 05,
+Level Up: 6,5,Special,Location,00 17 00 06,
+Level Up: 7,6,Special,Location,00 17 00 07,
+Level Up: 8,7,Special,Location,00 17 00 08,
+Level Up: 9,8,Special,Location,00 17 00 09,
+Level Up: 10,9,Special,Location,00 17 00 0a,
+Level Up: 11,10,Special,Location,00 17 00 0b,
+Level Up: 12,11,Special,Location,00 17 00 0c,
+Level Up: 13,12,Special,Location,00 17 00 0d,
+Level Up: 14,13,Special,Location,00 17 00 0e,
+Level Up: 15,14,Special,Location,00 17 00 0f,
+Level Up: 16,15,Special,Location,00 17 00 10,
+Level Up: 17,16,Special,Location,00 17 00 11,
+Level Up: 18,17,Special,Location,00 17 00 12,
+Level Up: 19,18,Special,Location,00 17 00 13,
+Freeze Trap,,Special,Trap,00 20 01 01,
+Blind Trap,,Special,Trap,00 20 01 02,
+Drop Trap,,Special,Trap,00 20 01 03,
+Ragni,1,Territory,Default,,"Ragni Main Entrance, Ragni North Entrance, Ragni South Entrance"
+Ragni Main Entrance,1,Territory,Default,,"Ragni, Ragni Countryside South, Emerald Trail"
+Alekin,2,Territory,Default,,"Blooming Boulders, Nivla Woods, Arachnid Woods, Nivla Woods Exit"
+Detlas,3,Territory,Default,,"Essren's Hut, Detlas Suburbs, Scorched Trail"
+Tempo Town,5,Territory,Default,,"Elkurn, Time Valley, Blooming Boulders, Road to Elkurn"
+Maltic,5,Territory,Default,,"Farmers Settlement, Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks"
+Ternaves,10,Territory,Default,,"Abandoned Mines Entrance, Black Road, Ternaves Tunnel"
+Elkurn,10,Territory,Default,,"Tempo Town, Road to Elkurn, Corrupted Road, Corrupted River, Frosty Spikes, Nesaak Transition"
+Nemract,15,Territory,Default,,"Mount Wynn Inn, Blackstring Den, Rocky Shore, Rooster Island, Nemract Cathedral"
+Bremminglar,15,Territory,Default,,"Savannah Plains, Lion Lair"
+Selchar,20,Territory,Default,,"Rooster Island, Durum Barley Islet, Durum Isles Barn, Durum Malt Islet"
+Ragni North Entrance,1,Territory,Item,00 01 00 01,"Ragni, Katoa Ranch, Riverbank Knoll"
+Katoa Ranch,1,Territory,Item,00 01 00 02,"Ragni North Entrance, Riverbank Knoll"
+Riverbank Knoll,1,Territory,Item,00 01 00 03,"Ragni North Entrance, Katoa Ranch, Ragni Countryside North"
+Ragni Countryside South,1,Territory,Item,00 01 00 04,"Ragni Main Entrance, Farmers Settlement, Ragni Countryside North"
+Ragni Countryside North,1,Territory,Item,00 01 00 05,"Coastal Trail, Maltic, Ragni Countryside South, Riverbank Knoll"
+Farmers Settlement,1,Territory,Item,00 01 00 06,"Emerald Trail, Ragni Countryside South, Maltic, Ancient Waterworks, Nomads' Refuge"
+Nomads' Refuge,1,Territory,Item,00 01 00 07,"Entrance to Nivla Woods, Farmers Settlement, Ancient Waterworks, Webbed Fracture, Arachnid Woods"
+Blooming Boulders,1,Territory,Item,00 01 00 08,"Tempo Town, Road to Time Valley, Nivla Woods, Alekin, Road to Elkurn"
+Arachnid Woods,1,Territory,Item,00 01 00 09,"Alekin, Nomads' Refuge, Webbed Fracture, Nivla Woods Exit"
+Road to Elkurn,1,Territory,Item,00 01 00 0a,"Elkurn, Tempo Town, Blooming Boulders, Nivla Woods Exit"
+Corrupted Road,1,Territory,Item,00 01 00 0b,"Elkurn, Akias Ruins, Corrupted Warfront, Roots of Corruption"
+Emerald Trail,1,Territory,Item,00 01 00 0c,"Ragni Main Entrance, Farmers Settlement, Entrance to Nivla Woods"
+Nivla Woods,1,Territory,Item,00 01 00 0d,"Blooming Boulders, Road to Time Valley, Entrance to Nivla Woods, Alekin"
+Entrance to Nivla Woods,2,Territory,Item,00 01 00 0e,"Road to Time Valley, Emerald Trail, Nomads' Refuge, Nivla Woods"
+Nivla Woods Exit,2,Territory,Item,00 01 00 0f,"Road to Elkurn, Alekin, Arachnid Woods, Nested Cliffside, Akias Ruins"
+Akias Ruins,3,Territory,Item,00 01 00 10,"Corrupted Road, Nivla Woods Exit, Corrupted Tower, Corrupted Orchard, Corrupted Warfront"
+Detlas Suburbs,3,Territory,Item,00 01 00 11,"Corrupted Warfront, Corrupted Orchard, Scorched Trail, Detlas"
+Corrupted Orchard,3,Territory,Item,00 01 00 12,"Corrupted Warfront, Akias Ruins, Corrupted Tower, Scorched Trail, Detlas Suburbs"
+Maltic Coast,5,Territory,Item,00 01 00 13,"Maltic, Coastal Trail, Jagged Foothills, Ancient Waterworks"
+Road to Time Valley,5,Territory,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders"
+Ancient Waterworks,5,Territory,Item,00 01 00 15,"Nomads' Refuge, Farmers Settlement, Maltic, Maltic Coast, Jagged Foothills"
+Scorched Trail,5,Territory,Item,00 01 00 16,"Detlas Suburbs, Corrupted Orchard, Ancient Nemract, Cathedral Harbour, Detlas"
+Corrupted Tower,5,Territory,Item,00 01 00 17,"Akias Ruins, Razed Inn, Ancient Nemract, Corrupted Orchard"
+Jagged Foothills,5,Territory,Item,00 01 00 18,"Ancient Waterworks, Maltic Coast, Rocky Shore"
+Webbed Fracture,5,Territory,Item,00 01 00 19,"Arachnid Woods, Nomads' Refuge, Nested Cliffside"
+Coastal Trail,5,Territory,Item,00 01 00 1a,"Ragni Countryside North, Maltic Coast, Maltic"
+Ragni South Entrance,10,Territory,Item,00 01 00 1b,"Sulphuric Hollow, Ragni, Pigmen Ravines"
+Sulphuric Hollow,10,Territory,Item,00 01 00 1c,"Little Wood, Ragni South Entrance, Pigmen Ravines"
+Little Wood,10,Territory,Item,00 01 00 1d,"Time Valley, Sulphuric Hollow"
+Abandoned Farm,10,Territory,Item,00 01 00 1e,"Time Valley, Pigmen Ravines"
+Black Road,10,Territory,Item,00 01 00 1f,"Abandoned Mines Entrance, Essren's Hut, Lava Springs, Ternaves"
+Abandoned Mines Entrance,10,Territory,Item,00 01 00 20,"Mining Base Camp, Mine Base Plains, Black Road, Ternaves, Abandoned Pass"
+Bear Zoo,10,Territory,Item,00 01 00 21,Rooster Island
+Pigmen Ravines,10,Territory,Item,00 01 00 22,"Ragni South Entrance, Abandoned Farm"
+Essren's Hut,10,Territory,Item,00 01 00 23,"Mine Base Plains, Detlas, Lava Springs, Black Road"
+Abandoned Pass,10,Territory,Item,00 01 00 24,"Mining Base Camp, Abandoned Mines Entrance"
+Cathedral Harbour,15,Territory,Item,00 01 00 25,"Scorched Trail, Ancient Nemract, Nemract Cathedral, Durum Malt Islet, Durum Oat Islet, Savannah Plains"
+Nemract Cathedral,15,Territory,Item,00 01 00 26,"Ancient Nemract, Mount Wynn Inn, Nemract, Cathedral Harbour"
+Rocky Shore,15,Territory,Item,00 01 00 27,"Jagged Foothills, Nemract, Blackstring Den"
+Mount Wynn Inn,15,Territory,Item,00 01 00 28,"Razed Inn, Nested Cliffside, Blackstring Den, Nemract, Nemract Cathedral, Ancient Nemract"
+Blackstring Den,15,Territory,Item,00 01 00 29,"Nested Cliffside, Rocky Shore, Mount Wynn Inn"
+Nested Cliffside,15,Territory,Item,00 01 00 2a,"Nivla Woods Exit, Webbed Fracture, Blackstring Den, Mount Wynn Inn"
+Razed Inn,15,Territory,Item,00 01 00 2b,"Corrupted Tower, Mount Wynn Inn"
+Corrupted Warfront,15,Territory,Item,00 01 00 2c,"Roots of Corruption, Corrupted Road, Akias Ruins, Corrupted Orchard, Detlas Suburbs, Plains Lake"
+Durum Oat Islet,15,Territory,Item,00 01 00 2d,"Cathedral Harbour, Durum Isles Barn"
+Durum Malt Islet,15,Territory,Item,00 01 00 2e,"Cathedral Harbour, Rooster Island, Durum Isles Barn, Selchar"
+Durum Barley Islet,15,Territory,Item,00 01 00 2f,"Durum Isles Barn, Selchar"
+Corrupted River,15,Territory,Item,00 01 00 30,"Elkurn, Roots of Corruption, Desolate Valley, Nesaak Transition"
+Durum Isles Barn,15,Territory,Item,00 01 00 31,"Durum Malt Islet, Selchar, Durum Barley Islet, Durum Oat Islet"
+Rooster Island,15,Territory,Item,00 01 00 32,"Nemract, Bear Zoo, Selchar, Durum Malt Islet"
+Ancient Nemract,15,Territory,Item,00 01 00 33,"Corrupted Tower, Mount Wynn Inn, Nemract Cathedral, Cathedral Harbour, Scorched Trail"
+Lion Lair,15,Territory,Item,00 01 00 34,Bremminglar
+Savannah Plains,15,Territory,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Lava Springs"
+Mine Base Plains,15,Territory,Item,00 01 00 36,"Silent Road, Plains Lake, Essren's Hut, Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines"
+Mining Base Camp,15,Territory,Item,00 01 00 37,"Abandoned Mines, Mine Base Plains, Abandoned Mines Entrance, Abandoned Pass"
+Entrance to Almuj,20,Territory,,,
+Ternaves Tunnel,20,Territory,,,
+Lava Springs,20,Territory,,,
+Abandoned Mines,20,Territory,,,
+Desolate Valley,20,Territory,,,
+Plains Lake,20,Territory,,,
+Time Valley,20,Territory,,,
+Sanctuary Bridge,20,Territory,,,
+Roots of Corruption,20,Territory,,,
+Skien's Island,,Territory,,,
+Nodguj Nation,,Territory,,,
+Mage Island,,Territory,,,
+Nesaak Transition,,Territory,,,
+Frosty Spikes,,Territory,,,
+Troms,,Territory,,,
+Emerald Trail,1,World,Location,00 16 00 01,Emerald Trail
+Katoa Ranch,1,World,Location,00 16 00 02,Katoa Ranch
+Nivla Woods,1,World,Location,00 16 00 03,Entrance to Nivla Woods
+Detlas Suburbs,1,World,Location,00 16 00 04,Detlas Suburbs
+Detlas,1,World,Location,00 16 00 05,Detlas
+Alekin Village,1,World,Location,00 16 00 06,Alekin
+Maltic,5,World,Location,00 16 00 07,Maltic
+Ternaves,5,World,Location,00 16 00 08,Ternaves
+Bear Zoo,10,World,Location,00 16 00 09,Bear Zoo
+Pigmen's Ravine,10,World,Location,00 16 00 0a,Pigmen Ravines
+Elkurn,10,World,Location,00 16 00 0b,Elkurn
+Black Road,10,World,Location,00 16 00 0c,Essren's Hut
+Durum Isles,15,World,Location,00 16 00 0d,Durum Isles Barn
+Rooster Island,15,World,Location,00 16 00 0e,Rooster Island
+Bremmyn-Hierra,15,World,Location,00 16 00 0f,Lion Lair
+Nemract,15,World,Location,00 16 00 10,Nemract
+Savannah,15,World,Location,00 16 00 11,Savannah Plains
+Bremminglar,15,World,Location,00 16 00 12,Bremminglar
+Ancient Nemract,15,World,Location,00 16 00 13,Ancient Nemract
+Abandoned Mines,15,World,Location,00 16 00 14,Abandoned Mines
+Bovine Barn,15,World,Location,00 16 00 15,Durum Isles Barn
+Seavale Reef,20,World,,,
+Selchar,20,World,,,
+Pirate's Bay,20,World,,,
+Time Valley,20,World,,,
+Sanctuary Bridge,20,World,,,
+Roots of Corruption,20,World,,,
+Rotten Passage,20,World,,,
+Silent Road,,Territory,,,
