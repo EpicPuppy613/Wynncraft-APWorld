@@ -19,7 +19,7 @@ def create_all_regions(world: WynncraftWorld) -> None:
     regions = [Region("Menu", world.player, world.multiworld)]
 
     for row in loader.rows:
-        if row[loader.TYPE] != "Territory":
+        if row[loader.TYPE] != "Territory" or row[loader.NAME].startswith("*"):
             continue
         regions.append(Region(row[loader.NAME], world.player, world.multiworld))
 

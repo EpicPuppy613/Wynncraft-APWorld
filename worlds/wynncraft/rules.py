@@ -4,9 +4,7 @@ from typing import TYPE_CHECKING
 
 from math import ceil
 
-from BaseClasses import CollectionState
 from worlds.generic.Rules import add_rule, set_rule
-from . import WynncraftWorld
 
 from .data import loader
 
@@ -42,10 +40,11 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
             for region in regions:
                 add_rule(location, lambda state: state.can_reach_region(region, world.player))
 
-
         levels_needed = ceil(int(row[loader.LEVEL]) / 5) - 1
         if levels_needed > 0:
             add_rule(world.get_location(row[loader.NAME]), lambda state: state.has("Progressive Max Level", world.player, levels_needed))
+
+    add_rule(world.get_location("Level Up: 20"), lambda state: state.has("Progressive Max Level", world.player, 3))
 
 
 def set_completion_condition(world: WynncraftWorld) -> None:
