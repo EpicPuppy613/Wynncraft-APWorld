@@ -112,24 +112,24 @@ Stable Story,13,Quest,Location,00 11 00 0e,"Essren's Hut, Ternaves, *Owl Tribe"
 Arachnids' Ascent,14,Quest,Location,00 11 00 0f,"Detlas, Lava Springs, Arachnid Woods, Webbed Fracture"
 Supply and Delivery,16,Quest,Location,00 11 00 10,"Detlas, Alekin"
 Lava Springs,18,Quest,Location,00 11 00 11,Lava Springs
-Level Up: 2,1,Special,Location,00 17 00 02,
-Level Up: 3,2,Special,Location,00 17 00 03,
-Level Up: 4,3,Special,Location,00 17 00 04,
-Level Up: 5,4,Special,Location,00 17 00 05,
-Level Up: 6,5,Special,Location,00 17 00 06,
-Level Up: 7,6,Special,Location,00 17 00 07,
-Level Up: 8,7,Special,Location,00 17 00 08,
-Level Up: 9,8,Special,Location,00 17 00 09,
-Level Up: 10,9,Special,Location,00 17 00 0a,
-Level Up: 11,10,Special,Location,00 17 00 0b,
-Level Up: 12,11,Special,Location,00 17 00 0c,
-Level Up: 13,12,Special,Location,00 17 00 0d,
-Level Up: 14,13,Special,Location,00 17 00 0e,
-Level Up: 15,14,Special,Location,00 17 00 0f,
-Level Up: 16,15,Special,Location,00 17 00 10,
-Level Up: 17,16,Special,Location,00 17 00 11,
-Level Up: 18,17,Special,Location,00 17 00 12,
-Level Up: 19,18,Special,Location,00 17 00 13,
+Level Up: 2,2,Special,Location,00 17 00 02,
+Level Up: 3,3,Special,Location,00 17 00 03,
+Level Up: 4,4,Special,Location,00 17 00 04,
+Level Up: 5,5,Special,Location,00 17 00 05,Alekin
+Level Up: 6,6,Special,Location,00 17 00 06,Alekin
+Level Up: 7,7,Special,Location,00 17 00 07,Alekin
+Level Up: 8,8,Special,Location,00 17 00 08,Alekin
+Level Up: 9,9,Special,Location,00 17 00 09,Alekin
+Level Up: 10,10,Special,Location,00 17 00 0a,Detlas
+Level Up: 11,11,Special,Location,00 17 00 0b,Detlas
+Level Up: 12,12,Special,Location,00 17 00 0c,Detlas
+Level Up: 13,13,Special,Location,00 17 00 0d,Detlas
+Level Up: 14,14,Special,Location,00 17 00 0e,Detlas
+Level Up: 15,15,Special,Location,00 17 00 0f,Detlas
+Level Up: 16,16,Special,Location,00 17 00 10,Detlas
+Level Up: 17,17,Special,Location,00 17 00 11,Detlas
+Level Up: 18,18,Special,Location,00 17 00 12,Detlas
+Level Up: 19,19,Special,Location,00 17 00 13,Detlas
 Emerald Trail,1,World,Location,00 16 00 01,Ragni Main Entrance
 Katoa Ranch,1,World,Location,00 16 00 02,Katoa Ranch
 Nivla Woods,1,World,Location,00 16 00 03,Entrance to Nivla Woods
