@@ -71,3 +71,17 @@ def create_all_items(world: WynncraftWorld) -> None:
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
     itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
     world.multiworld.itempool += itempool
+
+    # Early region hints
+    early_items = [
+        "Region: Entrance to Nivla Woods",
+        "Region: Nivla Woods",
+        "Region: Nivla Woods Exit",
+        "Region: Akias Ruins",
+        "Region: Corrupted Orchard",
+        "Region: Detlas Suburbs"
+    ]
+
+    for item in early_items:
+        world.multiworld.local_early_items[world.player][item] = 1
+
