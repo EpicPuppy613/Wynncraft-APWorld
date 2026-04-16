@@ -15,6 +15,20 @@ trap_names = []
 item_name_to_id = {}
 default_item_classifications = {}
 
+STARTING_ITEMS = [
+    "Region: Ragni Main Entrance",
+    "Region: Emerald Trail",
+    "Region: Entrance to Nivla Woods",
+    "Region: Nivla Woods"
+]
+
+EARLY_ITEMS = [
+    "Region: Nivla Woods Exit",
+    "Region: Akias Ruins",
+    "Region: Corrupted Orchard",
+    "Region: Detlas Suburbs"
+]
+
 for row in loader.rows:
     if not row[loader.AP] in ["Item", "Filler", "Trap"] or row[loader.ID] == '':
         continue
@@ -59,7 +73,7 @@ def create_all_items(world: WynncraftWorld) -> None:
     for item in item_names:
         ap_item = world.create_item(item)
         itempool.append(ap_item)
-        if item == "Region: Ragni Main Entrance" or item == "Region: Emerald Trail":
+        if item in STARTING_ITEMS:
             world.push_precollected(ap_item)
 
     level_items = 3
@@ -73,15 +87,5 @@ def create_all_items(world: WynncraftWorld) -> None:
     world.multiworld.itempool += itempool
 
     # Early region hints
-    early_items = [
-        "Region: Entrance to Nivla Woods",
-        "Region: Nivla Woods",
-        "Region: Nivla Woods Exit",
-        "Region: Akias Ruins",
-        "Region: Corrupted Orchard",
-        "Region: Detlas Suburbs"
-    ]
-
-    for item in early_items:
+    for item in EARLY_ITEMS:
         world.multiworld.local_early_items[world.player][item] = 1
-

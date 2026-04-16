@@ -1,7 +1,7 @@
 import csv
 import os
 
-file = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'wynnpelago-data.csv'))
+file = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'wynncraft-data.csv'))
 reader = csv.DictReader(file)
 rows = []
 
