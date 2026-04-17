@@ -56,7 +56,7 @@ for row in loader.rows:
     default_item_classifications[name] = item_class
 
 class WynncraftItem(Item):
-    game = "Wyncraft"
+    game = "Wynncraft"
 
 def get_random_filler_item_name(world: WynncraftWorld) -> str:
     return filler_names[world.random.randint(0, len(filler_names) - 1)]

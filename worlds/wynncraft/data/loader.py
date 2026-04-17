@@ -1,8 +1,9 @@
 import csv
 import os
+from pkgutil import get_data
 
-file = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'wynncraft-data.csv'))
-reader = csv.DictReader(file)
+data = get_data(__name__, 'wynncraft-data.csv')
+reader = csv.DictReader(data.decode("utf-8").splitlines())
 rows = []
 
 # csv column consts
