@@ -86,17 +86,6 @@ class BlindTrapWeight(Range):
     range_end = 100
     default = 2
 
-class TrapDuration(Range):
-    """
-    Number of seconds for freeze, silence, and blind traps to take effect.
-    """
-
-    display_name = "Trap Duration"
-
-    range_start = 1
-    range_end = 60
-    default = 5
-
 class KillTrapWeight(Range):
     """
     Relative weight of kill traps.
@@ -108,6 +97,17 @@ class KillTrapWeight(Range):
     range_start = 0
     range_end = 100
     default = 1
+
+class TrapDuration(Range):
+    """
+    Number of seconds for freeze, silence, and blind traps to take effect.
+    """
+
+    display_name = "Trap Duration"
+
+    range_start = 1
+    range_end = 60
+    default = 10
 
 class LockedRegionEnforcement(Choice):
     """
@@ -204,8 +204,8 @@ class WynncraftOptions(PerGameCommonOptions):
     freeze_trap_weight: FreezeTrapWeight
     silence_trap_weight: SilenceTrapWeight
     blind_trap_weight: BlindTrapWeight
-    trap_duration: TrapDuration
     kill_trap_weight: KillTrapWeight
+    trap_duration: TrapDuration
 
 
 option_groups = [
@@ -223,7 +223,7 @@ option_groups = [
     ),
     OptionGroup(
         "Trap Options",
-        [TrapChance, FreezeTrapWeight, SilenceTrapWeight, BlindTrapWeight, TrapDuration, KillTrapWeight]
+        [TrapChance, FreezeTrapWeight, SilenceTrapWeight, BlindTrapWeight, KillTrapWeight, TrapDuration]
     )
 ]
 
