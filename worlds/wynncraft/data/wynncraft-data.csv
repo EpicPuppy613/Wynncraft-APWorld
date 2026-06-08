@@ -17,7 +17,7 @@ Explore: Raging Tower,TRUE,10,Cave,Location,00 12 00 0f,Corrupted Tower,,,,
 Explore: Winery Infestation,TRUE,11,Cave,Location,00 12 00 10,Corrupted Warfront,,,,
 Explore: Hill Hovel,TRUE,11,Cave,Location,00 12 00 11,Corrupted Orchard,,,,
 Explore: Spore Spiral,TRUE,12,Cave,Location,00 12 00 12,Black Road,,,,
-Explore: Willow Crypt,TRUE,16,Cave,Location,00 12 00 13,Scorched Trail,,,,
+Explore: Willow Crypt,TRUE,16,Cave,Location,00 12 00 13,Savannah Plains,,,,
 Explore: Mossy Grotto,TRUE,16,Cave,Location,00 12 00 14,"Road to Time Valley, *Abandoned Farm",,,,
 Explore: Cave Springs,TRUE,17,Cave,Location,00 12 00 15,Scorched Trail,,,,
 Explore: Sunken Ship,TRUE,18,Cave,Location,00 12 00 16,Nemract,,,,
@@ -223,56 +223,56 @@ Level Up: 6,TRUE,6,Level,Location,00 16 00 06,,,,,
 Level Up: 7,TRUE,7,Level,Location,00 16 00 07,,,,,
 Level Up: 8,TRUE,8,Level,Location,00 16 00 08,,,,,
 Level Up: 9,TRUE,9,Level,Location,00 16 00 09,,,,,
-Level Up: 10,TRUE,10,Level,Location,00 16 00 0a,Detlas,,,,
-Level Up: 11,TRUE,11,Level,Location,00 16 00 0b,Detlas,,,,
-Level Up: 12,TRUE,12,Level,Location,00 16 00 0c,Detlas,,,,
-Level Up: 13,TRUE,13,Level,Location,00 16 00 0d,Detlas,,,,
-Level Up: 14,TRUE,14,Level,Location,00 16 00 0e,Detlas,,,,
-Level Up: 15,TRUE,15,Level,Location,00 16 00 0f,Detlas,,,,
-Level Up: 16,TRUE,16,Level,Location,00 16 00 10,Detlas,,,,
-Level Up: 17,TRUE,17,Level,Location,00 16 00 11,Detlas,,,,
-Level Up: 18,TRUE,18,Level,Location,00 16 00 12,Detlas,,,,
-Level Up: 19,TRUE,19,Level,Location,00 16 00 13,Detlas,,,,
-Level Up: 20,TRUE,20,Level,Location,00 16 00 14,Nemract,,,,
-Level Up: 21,TRUE,21,Level,Location,00 16 00 15,Nemract,,,,
-Level Up: 22,TRUE,22,Level,Location,00 16 00 16,Nemract,,,,
-Level Up: 23,TRUE,23,Level,Location,00 16 00 17,Nemract,,,,
-Level Up: 24,TRUE,24,Level,Location,00 16 00 18,Nemract,,,,
-Level Up: 25,TRUE,25,Level,Location,00 16 00 19,Nemract,,,,
-Level Up: 26,TRUE,26,Level,Location,00 16 00 1a,Nemract,,,,
-Level Up: 27,TRUE,27,Level,Location,00 16 00 1b,Nemract,,,,
-Level Up: 28,TRUE,28,Level,Location,00 16 00 1c,Nemract,,,,
-Level Up: 29,TRUE,29,Level,Location,00 16 00 1d,Nemract,,,,
-Level Up: 30,TRUE,30,Level,Location,00 16 00 1e,Almuj,,,,
-Level Up: 31,TRUE,31,Level,Location,00 16 00 1f,Almuj,,,,
-Level Up: 32,TRUE,32,Level,Location,00 16 00 20,Almuj,,,,
-Level Up: 33,TRUE,33,Level,Location,00 16 00 21,Almuj,,,,
-Level Up: 34,TRUE,34,Level,Location,00 16 00 22,Almuj,,,,
-Level Up: 35,TRUE,35,Level,Location,00 16 00 23,Almuj,,,,
-Level Up: 36,TRUE,36,Level,Location,00 16 00 24,Almuj,,,,
-Level Up: 37,TRUE,37,Level,Location,00 16 00 25,Almuj,,,,
-Level Up: 38,TRUE,38,Level,Location,00 16 00 26,Almuj,,,,
-Level Up: 39,TRUE,39,Level,Location,00 16 00 27,Almuj,,,,
-Level Up: 40,TRUE,40,Level,Location,00 16 00 28,"Nesaak, Llevigar",,,,
-Level Up: 41,TRUE,41,Level,Location,00 16 00 29,"Nesaak, Llevigar",,,,
-Level Up: 42,TRUE,42,Level,Location,00 16 00 2a,"Nesaak, Llevigar",,,,
-Level Up: 43,TRUE,43,Level,Location,00 16 00 2b,"Nesaak, Llevigar",,,,
-Level Up: 44,TRUE,44,Level,Location,00 16 00 2c,"Nesaak, Llevigar",,,,
-Level Up: 45,TRUE,45,Level,Location,00 16 00 2d,"Nesaak, Llevigar",,,,
-Level Up: 46,TRUE,46,Level,Location,00 16 00 2e,"Nesaak, Llevigar",,,,
-Level Up: 47,TRUE,47,Level,Location,00 16 00 2f,"Nesaak, Llevigar",,,,
-Level Up: 48,TRUE,48,Level,Location,00 16 00 30,"Nesaak, Llevigar",,,,
-Level Up: 49,TRUE,49,Level,Location,00 16 00 31,"Nesaak, Llevigar",,,,
-Level Up: 50,TRUE,50,Level,Location,00 16 00 32,"Nesaak, Olux",,,,
-Level Up: 51,TRUE,51,Level,Location,00 16 00 33,"Nesaak, Olux",,,,
-Level Up: 52,TRUE,52,Level,Location,00 16 00 34,"Nesaak, Olux",,,,
-Level Up: 53,TRUE,53,Level,Location,00 16 00 35,"Nesaak, Olux",,,,
-Level Up: 54,TRUE,54,Level,Location,00 16 00 36,"Nesaak, Olux",,,,
-Level Up: 55,TRUE,55,Level,Location,00 16 00 37,"Troms, Olux",,,,
-Level Up: 56,TRUE,56,Level,Location,00 16 00 38,"Troms, Olux",,,,
-Level Up: 57,TRUE,57,Level,Location,00 16 00 39,"Troms, Olux",,,,
-Level Up: 58,TRUE,58,Level,Location,00 16 00 3a,"Troms, Olux",,,,
-Level Up: 59,TRUE,59,Level,Location,00 16 00 3b,"Troms, Olux",,,,
+Level Up: 10,TRUE,10,Level,Location,00 16 00 0a,,,,,
+Level Up: 11,TRUE,11,Level,Location,00 16 00 0b,,,,,
+Level Up: 12,TRUE,12,Level,Location,00 16 00 0c,,,,,
+Level Up: 13,TRUE,13,Level,Location,00 16 00 0d,,,,,
+Level Up: 14,TRUE,14,Level,Location,00 16 00 0e,,,,,
+Level Up: 15,TRUE,15,Level,Location,00 16 00 0f,,,,,
+Level Up: 16,TRUE,16,Level,Location,00 16 00 10,,,,,
+Level Up: 17,TRUE,17,Level,Location,00 16 00 11,,,,,
+Level Up: 18,TRUE,18,Level,Location,00 16 00 12,,,,,
+Level Up: 19,TRUE,19,Level,Location,00 16 00 13,,,,,
+Level Up: 20,TRUE,20,Level,Location,00 16 00 14,,,,,
+Level Up: 21,TRUE,21,Level,Location,00 16 00 15,,,,,
+Level Up: 22,TRUE,22,Level,Location,00 16 00 16,,,,,
+Level Up: 23,TRUE,23,Level,Location,00 16 00 17,,,,,
+Level Up: 24,TRUE,24,Level,Location,00 16 00 18,,,,,
+Level Up: 25,TRUE,25,Level,Location,00 16 00 19,,,,,
+Level Up: 26,TRUE,26,Level,Location,00 16 00 1a,,,,,
+Level Up: 27,TRUE,27,Level,Location,00 16 00 1b,,,,,
+Level Up: 28,TRUE,28,Level,Location,00 16 00 1c,,,,,
+Level Up: 29,TRUE,29,Level,Location,00 16 00 1d,,,,,
+Level Up: 30,TRUE,30,Level,Location,00 16 00 1e,,,,,
+Level Up: 31,TRUE,31,Level,Location,00 16 00 1f,,,,,
+Level Up: 32,TRUE,32,Level,Location,00 16 00 20,,,,,
+Level Up: 33,TRUE,33,Level,Location,00 16 00 21,,,,,
+Level Up: 34,TRUE,34,Level,Location,00 16 00 22,,,,,
+Level Up: 35,TRUE,35,Level,Location,00 16 00 23,,,,,
+Level Up: 36,TRUE,36,Level,Location,00 16 00 24,,,,,
+Level Up: 37,TRUE,37,Level,Location,00 16 00 25,,,,,
+Level Up: 38,TRUE,38,Level,Location,00 16 00 26,,,,,
+Level Up: 39,TRUE,39,Level,Location,00 16 00 27,,,,,
+Level Up: 40,TRUE,40,Level,Location,00 16 00 28,,,,,
+Level Up: 41,TRUE,41,Level,Location,00 16 00 29,,,,,
+Level Up: 42,TRUE,42,Level,Location,00 16 00 2a,,,,,
+Level Up: 43,TRUE,43,Level,Location,00 16 00 2b,,,,,
+Level Up: 44,TRUE,44,Level,Location,00 16 00 2c,,,,,
+Level Up: 45,TRUE,45,Level,Location,00 16 00 2d,,,,,
+Level Up: 46,TRUE,46,Level,Location,00 16 00 2e,,,,,
+Level Up: 47,TRUE,47,Level,Location,00 16 00 2f,,,,,
+Level Up: 48,TRUE,48,Level,Location,00 16 00 30,,,,,
+Level Up: 49,TRUE,49,Level,Location,00 16 00 31,,,,,
+Level Up: 50,TRUE,50,Level,Location,00 16 00 32,,,,,
+Level Up: 51,TRUE,51,Level,Location,00 16 00 33,,,,,
+Level Up: 52,TRUE,52,Level,Location,00 16 00 34,,,,,
+Level Up: 53,TRUE,53,Level,Location,00 16 00 35,,,,,
+Level Up: 54,TRUE,54,Level,Location,00 16 00 36,,,,,
+Level Up: 55,TRUE,55,Level,Location,00 16 00 37,,,,,
+Level Up: 56,TRUE,56,Level,Location,00 16 00 38,,,,,
+Level Up: 57,TRUE,57,Level,Location,00 16 00 39,,,,,
+Level Up: 58,TRUE,58,Level,Location,00 16 00 3a,,,,,
+Level Up: 59,TRUE,59,Level,Location,00 16 00 3b,,,,,
 Level Up: 60,FALSE,60,Level,Location,00 16 00 3c,,,,,
 Level Up: 61,FALSE,61,Level,Location,00 16 00 3d,,,,,
 Level Up: 62,FALSE,62,Level,Location,00 16 00 3e,,,,,
@@ -546,7 +546,7 @@ Corrupted Orchard,TRUE,6,Region,Item,00 01 00 12,"Akias Ruins, Corrupted Tower, 
 Maltic Coast,TRUE,4,Region,Item,00 01 00 13,"Coastal Trail, Jagged Foothills, Ancient Waterworks, Maltic",,,4,"Explore: Tidepool Terrace, Complete: Underwater, Visit: Maltic Coast"
 Road to Time Valley,TRUE,4,Region,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders",,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Complete: Infested Plants, Visit: Road to Time Valley"
 Ancient Waterworks,TRUE,5,Region,Item,00 01 00 15,"Maltic, Maltic Coast, Jagged Foothills, Nomads' Refuge, Farmers Settlement",,,5,Visit: Ancient Waterworks
-Scorched Trail,TRUE,6,Region,Item,00 01 00 16,"Ancient Nemract, Cathedral Harbour, Detlas, Detlas Suburbs, Corrupted Orchard, Corrupted Tower, Lava Springs, Savannah Plains",,,6,"Explore: Hex Keep Gateway, Explore: Willow Crypt, Explore: Cave Springs, Complete: Slay Skeletons, Complete: Tunnel Trouble, Complete: Elemental Exercise, Visit: Scorched Trail"
+Scorched Trail,TRUE,6,Region,Item,00 01 00 16,"Ancient Nemract, Cathedral Harbour, Detlas, Detlas Suburbs, Corrupted Orchard, Corrupted Tower, Lava Springs, Savannah Plains",,,6,"Explore: Hex Keep Gateway, Explore: Cave Springs, Complete: Slay Skeletons, Complete: Tunnel Trouble, Complete: Elemental Exercise, Visit: Scorched Trail"
 Corrupted Tower,TRUE,6,Region,Item,00 01 00 17,"Razed Inn, Ancient Nemract, Corrupted Orchard, Akias Ruins, Scorched Trail",,,6,"Explore: Detlas Salt Mine, Explore: Raging Tower, Complete: Tunnel Trouble, Complete: Taking the Tower, Visit: Corrupted Tower"
 Jagged Foothills,TRUE,23,Region,Item,00 01 00 18,"Maltic Coast, Rocky Shore, Ancient Waterworks",,,23,Visit: Jagged Foothills
 Webbed Fracture,TRUE,14,Region,Item,00 01 00 19,"Nomads' Refuge, Nested Cliffside, Arachnid Woods",,,14,"Complete: Infested Pit, Complete: Arachnids' Ascent, Visit: Webbed Fracture"
@@ -577,7 +577,7 @@ Durum Isles Barn,TRUE,25,Region,Item,00 01 00 31,"Durum Malt Islet, Selchar, Dur
 Rooster Island,TRUE,23,Region,Item,00 01 00 32,"Bear Zoo, Selchar, Nemract",,,23,"Complete: Cluck Cluck, Visit: Rooster Island"
 Ancient Nemract,TRUE,18,Region,Item,00 01 00 33,"Mount Wynn Inn, Nemract Cathedral, Cathedral Harbour, Scorched Trail, Corrupted Tower",,,18,"Complete: Underworld Crypt, Complete: The Dark Descent, Complete: Lost Tower, Visit: Ancient Nemract"
 Lion Lair,TRUE,30,Region,Item,00 01 00 34,Bremminglar,,,30,"Explore: Lion's Lair, Visit: Lion Lair"
-Savannah Plains,TRUE,18,Region,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Entrance to Almuj, Lava Springs, Scorched Trail",,,18,"Explore: Captain's Quarters, Complete: Bob's Lost Soul, Visit: Savannah Plains"
+Savannah Plains,TRUE,16,Region,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Entrance to Almuj, Lava Springs, Scorched Trail",,,16,"Explore: Willow Crypt, Explore: Captain's Quarters, Complete: Bob's Lost Soul, Visit: Savannah Plains"
 Mine Base Plains,TRUE,24,Region,Item,00 01 00 36,"Plains Lake, Essren's Hut, Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines",,,24,"Explore: Lake Pit, Visit: Mine Base Plains"
 Mining Base Camp,TRUE,22,Region,Item,00 01 00 37,"Mine Base Plains, Abandoned Mines Entrance, Abandoned Pass, Abandoned Mines",,,22,"Explore: Lower Abandoned Mines, Visit: Mining Base Camp"
 Entrance to Almuj,TRUE,30,Region,Item,00 01 00 38,"Savannah Plains, Almuj, Ternaves Tunnel",,,30,Visit: Entrance to Almuj
@@ -922,26 +922,26 @@ University Campus,FALSE,,Region,Item,00 01 01 8c,,,,111,"Explore: Theatre Royal,
 Ragni,TRUE,1,Region,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,,1,"Complete: King's Recruit, Complete: Poisoning the Pest, Complete: A Journey Home, Visit: Ragni"
 Alekin,TRUE,4,Region,Default,,"Nivla Woods, Arachnid Woods, Nivla Woods Exit, Blooming Boulders",,,4,"Complete: Infested Plants, Complete: Mushroom Man, Complete: Supply and Delivery, Visit: Alekin"
 Maltic,TRUE,4,Region,Default,,"Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks, Farmers Settlement",,,4,"Complete: Maltic's Well, Visit: Maltic"
-Detlas,TRUE,6,Region,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut, Plains Lake",,,6,"Level Up: 10, Level Up: 11, Level Up: 12, Level Up: 13, Level Up: 14, Level Up: 15, Level Up: 16, Level Up: 17, Level Up: 18, Level Up: 19, Complete: Mushroom Man, Complete: Taking the Tower, Complete: Elemental Exercise, Complete: Potion Making, Complete: Arachnids' Ascent, Complete: Supply and Delivery, Complete: Grave Digger, Complete: The Mercenary, Complete: Jungle Fever, Visit: Detlas"
+Detlas,TRUE,6,Region,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut, Plains Lake",,,6,"Complete: Mushroom Man, Complete: Taking the Tower, Complete: Elemental Exercise, Complete: Potion Making, Complete: Arachnids' Ascent, Complete: Supply and Delivery, Complete: Grave Digger, Complete: The Mercenary, Complete: Jungle Fever, Visit: Detlas"
 Ternaves,TRUE,13,Region,Default,,"Black Road, Ternaves Tunnel, Abandoned Mines Entrance, Owl Tribe",,,13,"Complete: Stable Story, Complete: Meaningful Holiday, Visit: Ternaves"
 *Abandoned Farm,TRUE,16,Region,Item,,,,,16,"Explore: Mossy Grotto, Visit: Abandoned Farm"
-Nemract,TRUE,18,Region,Default,,"Rocky Shore, Rooster Island, Nemract Cathedral, Mount Wynn Inn, Selchar",,,18,"Explore: Sunken Ship, Level Up: 20, Level Up: 21, Level Up: 22, Level Up: 23, Level Up: 24, Level Up: 25, Level Up: 26, Level Up: 27, Level Up: 28, Level Up: 29, Complete: Pit of the Dead, Complete: Grave Digger, Complete: Dwelling Walls, Complete: Lost Tower, Complete: Tempo Town Trouble, Complete: Misadventure on the Sea, Visit: Nemract"
+Nemract,TRUE,18,Region,Default,,"Rocky Shore, Rooster Island, Nemract Cathedral, Mount Wynn Inn, Selchar",,,18,"Explore: Sunken Ship, Complete: Pit of the Dead, Complete: Grave Digger, Complete: Dwelling Walls, Complete: Lost Tower, Complete: Tempo Town Trouble, Complete: Misadventure on the Sea, Visit: Nemract"
 Tempo Town,TRUE,22,Region,Default,,"Time Valley, Blooming Boulders, Road to Elkurn, Elkurn",,,22,"Explore: Corrupt Time Warp, Explore: Vortex Complex, Explore: Time Valley Aquifer, Complete: Tempo Town Trouble, Complete: Creeper Infiltration, Visit: Tempo Town"
 Elkurn,TRUE,22,Region,Default,,"Tempo Town, Road to Elkurn, Corrupted Road, Corrupted River, Nesaak Transition, Frosty Spikes",,,22,"Explore: Vortex Complex, Complete: Recover the Past, Visit: Elkurn"
-Nesaak,TRUE,22,Region,Default,,"Frigid Crossroads, Frozen Homestead, Florist's Hut, Bob's Tomb, Wolves' Den",,,22,"Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54, Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
+Nesaak,TRUE,22,Region,Default,,"Frigid Crossroads, Frozen Homestead, Florist's Hut, Bob's Tomb, Wolves' Den",,,27,"Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
 *Time Valley,TRUE,22,Region,Item,,,,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
 Selchar,TRUE,28,Region,Default,,"Skien's Island, Durum Isles Barn, Rooster Island, Nemract, Zhight Island, Pirate Town, Lost Atoll, Nodguj Nation",,,28,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
-Almuj,TRUE,30,Region,Default,,"Entrance to Almuj, Dusty Pit, Gloopy Cave, Ruined Villa, Almuj Slums",,,30,"Explore: Crystal Caverns, Explore: Quicksand Carvers' Den, Level Up: 30, Level Up: 31, Level Up: 32, Level Up: 33, Level Up: 34, Level Up: 35, Level Up: 36, Level Up: 37, Level Up: 38, Level Up: 39, Complete: Slay Scarabs, Complete: The Mercenary, Complete: Green Gloop, Complete: A Sandy Scandal, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Complete: Jungle Fever, Visit: Almuj"
+Almuj,TRUE,30,Region,Default,,"Entrance to Almuj, Dusty Pit, Gloopy Cave, Ruined Villa, Almuj Slums",,,30,"Explore: Crystal Caverns, Explore: Quicksand Carvers' Den, Complete: Slay Scarabs, Complete: The Mercenary, Complete: Green Gloop, Complete: A Sandy Scandal, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Complete: Jungle Fever, Visit: Almuj"
 Bremminglar,TRUE,30,Region,Default,,"Savannah Plains, Lion Lair",,,30,Visit: Bremminglar
 Rymek,TRUE,34,Region,Default,,"Ruined Prospect, Sunrise Plateau",,,34,"Complete: Canyon Condor, Complete: Wrath of the Mummy, Visit: Rymek"
 Pirate Town,TRUE,39,Region,Default,,"Bloody Beach, Volcanic Isles, Lost Atoll, Zhight Island, Selchar",,,39,"Complete: Beneath the Depths, Visit: Pirate Town"
-Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Karoc Quarry, Llevigar Gate",,,39,"Level Up: 40, Level Up: 41, Level Up: 42, Level Up: 43, Level Up: 44, Level Up: 45, Level Up: 46, Level Up: 47, Level Up: 48, Level Up: 49, Complete: Pirate's Trove, Complete: Heart of Llevigar, Visit: Llevigar"
+Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Karoc Quarry, Llevigar Gate",,,39,"Complete: Pirate's Trove, Complete: Heart of Llevigar, Visit: Llevigar"
 Nodguj Nation,TRUE,40,Region,Default,,"Skien's Island, Dujgon Nation, Icy Island, Santa's Hideout, Mage Island, Durum Barley Islet, Selchar",,,40,"Complete: Ice Nations, Visit: Nodguj Nation"
 Dujgon Nation,TRUE,40,Region,Default,,"Nodguj Nation, Dreary Docks, Disturbed Crypt, Regular Island, Icy Island",,,40,"Complete: Ice Nations, Visit: Dujgon Nation"
 Lusuco,TRUE,44,Region,Default,,Icy Descent,,,44,"Explore: Raiders' Hideout, Explore: Submerged Coal Mine, Visit: Lusuco"
 Entrance to Bucie,TRUE,45,Region,Default,,"Llevigar Farm, Goblin Plains East, Centerworld Fortress, Bucie Waterfall",,,45,Visit: Entrance to Bucie
-Troms,TRUE,50,Region,Default,,"Temple of Legends, Troms Lake",,,50,"Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59, Complete: Corrupted Betrayal, Complete: The Passage, Visit: Troms"
-Olux,TRUE,50,Region,Default,,"Path to the Grootslangs, Entrance to Olux, Lizardman Lake, Olux Lumberyard",,,50,"Explore: Maddening Mud, Level Up: 50, Level Up: 51, Level Up: 52, Level Up: 53, Level Up: 54, Level Up: 55, Level Up: 56, Level Up: 57, Level Up: 58, Level Up: 59, Complete: The Maiden Tower, Complete: Crop Failure, Complete: The Shadow of the Beast, Complete: An Iron Heart Part II, Visit: Olux"
+Troms,TRUE,50,Region,Default,,"Temple of Legends, Troms Lake",,,50,"Complete: Corrupted Betrayal, Complete: The Passage, Visit: Troms"
+Olux,TRUE,50,Region,Default,,"Path to the Grootslangs, Entrance to Olux, Lizardman Lake, Olux Lumberyard",,,50,"Explore: Maddening Mud, Complete: The Maiden Tower, Complete: Crop Failure, Complete: The Shadow of the Beast, Complete: An Iron Heart Part II, Visit: Olux"
 Iboju Village,TRUE,50,Region,Default,,"Fountain of Youth, Apprentice Huts",,,50,"Explore: Carnadile Den, Explore: Jade Well, Explore: Jungle Fetish Camp, Complete: Corrupted Betrayal, Complete: Jungle Fever, Complete: The Passage, Visit: Iboju Village"
 Cinfras,FALSE,,Region,Default,,,,,0,Visit: Cinfras
 Gelibord,FALSE,,Region,Default,,,,,66,"Explore: Elemental Hollow, Complete: Lazarus Pit, Complete: Forbidden Prison, Visit: Gelibord"
@@ -1040,7 +1040,7 @@ Visit: Time Valley,TRUE,22,Territory,Location,00 17 00 3e,Time Valley,,,,
 Visit: Sanctuary Bridge,TRUE,22,Territory,Location,00 17 00 3f,Sanctuary Bridge,,,,
 Visit: Tempo Town,TRUE,22,Territory,Location,00 17 01 93,Tempo Town,,,,
 Visit: Elkurn,TRUE,22,Territory,Location,00 17 01 94,Elkurn,,,,
-Visit: Nesaak,TRUE,22,Territory,Location,00 17 01 95,Nesaak,,,,
+Visit: Nesaak,TRUE,27,Territory,Location,00 17 01 95,Nesaak,,,,
 Visit: Jagged Foothills,TRUE,23,Territory,Location,00 17 00 18,Jagged Foothills,,,,
 Visit: Rocky Shore,TRUE,23,Territory,Location,00 17 00 27,Rocky Shore,,,,
 Visit: Blackstring Den,TRUE,23,Territory,Location,00 17 00 29,Blackstring Den,,,,
