@@ -99,9 +99,10 @@ def create_all_items(world: WynncraftWorld) -> None:
             continue
 
         ap_item = world.create_item(item)
-        itempool.append(ap_item)
         if item in starting_items:
             world.push_precollected(ap_item)
+        else:
+            itempool.append(ap_item)
 
     level_items = ceil((world.options.goal_level - 1) / world.options.level_increment)
     itempool += [world.create_item("Progressive Max Level") for _ in range(level_items)]
