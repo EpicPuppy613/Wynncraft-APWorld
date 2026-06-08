@@ -39,18 +39,14 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
         regions = row[loader.REGION].split(", ")
 
         if row[loader.TYPE] == "Level":
-            if row[loader.REGION] != "":
-                rule = False_()
-                for region in regions:
-                    rule = rule | CanReachRegion(region)
-            else:
-                rule = True_()
+            rule = True_()
             try:
                 prev_level = int(row[loader.NAME].replace("Level Up: ", "")) - 1
                 if prev_level > 1:
                     rule &= CanReachLocation("Level Up: " + str(prev_level))
             except ValueError:
                 pass
+            world.get_location(row[loader.NAME]).item_rule = lambda item: item.name != "Progressive Max Level"
         else:
             rule = True_()
             if len(regions) > 1:
