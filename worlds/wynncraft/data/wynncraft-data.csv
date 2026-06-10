@@ -368,7 +368,7 @@ Complete: Hunt Banshee Stags,FALSE,112,Mini-Quest,Location,00 14 00 1f,Aldwell,,
 Complete: Hunt Wolly Rhinos,FALSE,117,Mini-Quest,Location,00 14 00 20,Citadel's Shadow,,,,
 Complete: King's Recruit,TRUE,1,Quest,Location,00 11 00 01,Ragni,,,,
 Complete: Enzan's Brother,TRUE,1,Quest,Location,00 11 00 02,Emerald Trail,,,,
-Complete: Poisoning the Pest,TRUE,2,Quest,Location,00 11 00 03,"Ragni, Ragni Main Entrance",,,,
+Complete: Dearly Departed,FALSE,2,Quest,Location,00 11 00 03,,,,,
 Complete: Cook Assistant,TRUE,3,Quest,Location,00 11 00 04,"Katoa Ranch, Ragni North Entrance",,,,
 Complete: Infested Plants,TRUE,4,Quest,Location,00 11 00 05,"Entrance to Nivla Woods, Road to Time Valley, Alekin",,,,
 Complete: The Sewers of Ragni,TRUE,5,Quest,Location,00 11 00 06,Katoa Ranch,,,,
@@ -524,7 +524,7 @@ Complete: Overture to Despair,FALSE,116,Quest,Location,00 11 00 9b,"Hyloch, Feud
 Complete: The Strong Survive,FALSE,117,Quest,Location,00 11 00 9c,"Hyloch, Fort Tericen",Complete: Revelations in Fall,,,
 Complete: Ensemble of Hope,FALSE,118,Quest,Location,00 11 00 9d,"Hyloch, Citadel's Shadow, Royal Dam, Deforested Ecotone, Gates to Aelumia, Contested District",Complete: Overture to Despair,,,
 Complete: Apotheosis,FALSE,119,Quest,Location,00 11 00 9e,"Hyloch, Lake Gitephe, Contested District, Gates to Aelumia, Royal Barracks",Complete: Ensemble of Hope,,,
-Ragni Main Entrance,TRUE,1,Region,Item,00 01 00 00,"Ragni, Ragni Countryside South, Emerald Trail",,,1,"Complete: Poisoning the Pest, Visit: Ragni Main Entrance"
+Ragni Main Entrance,TRUE,1,Region,Item,00 01 00 00,"Ragni, Ragni Countryside South, Emerald Trail",,,1,Visit: Ragni Main Entrance
 Ragni North Entrance,TRUE,3,Region,Item,00 01 00 01,"Katoa Ranch, Riverbank Knoll, Ragni",,,3,"Complete: Cook Assistant, Visit: Ragni North Entrance"
 Katoa Ranch,TRUE,3,Region,Item,00 01 00 02,"Ragni North Entrance, Riverbank Knoll",,,3,"Explore: Crab Fighters, Complete: Decrepit Sewers, Complete: Cook Assistant, Complete: The Sewers of Ragni, Complete: Tunnel Trouble, Visit: Katoa Ranch"
 Riverbank Knoll,TRUE,3,Region,Item,00 01 00 03,"Ragni North Entrance, Katoa Ranch, Ragni Countryside North",,,3,Visit: Riverbank Knoll
@@ -919,7 +919,7 @@ Feuding Houses,FALSE,,Region,Item,00 01 01 89,,,,116,"Explore: Tericen Stables, 
 Royal Barracks,FALSE,,Region,Item,00 01 01 8a,,,,108,"Explore: The Barracks, Complete: The Scarred Springs, Complete: The Missing Piece, Complete: Apotheosis, Visit: Royal Barracks"
 Gates to Aelumia,FALSE,,Region,Item,00 01 01 8b,,,,118,"Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Gates to Aelumia"
 University Campus,FALSE,,Region,Item,00 01 01 8c,,,,111,"Explore: Theatre Royal, Complete: The Missing Piece, Complete: Echoes of Change, Visit: University Campus"
-Ragni,TRUE,1,Region,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,,1,"Complete: King's Recruit, Complete: Poisoning the Pest, Complete: A Journey Home, Visit: Ragni"
+Ragni,TRUE,1,Region,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,,1,"Complete: King's Recruit, Complete: A Journey Home, Visit: Ragni"
 Alekin,TRUE,4,Region,Default,,"Nivla Woods, Arachnid Woods, Nivla Woods Exit, Blooming Boulders",,,4,"Complete: Infested Plants, Complete: Mushroom Man, Complete: Supply and Delivery, Visit: Alekin"
 Maltic,TRUE,4,Region,Default,,"Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks, Farmers Settlement",,,4,"Complete: Maltic's Well, Visit: Maltic"
 Detlas,TRUE,6,Region,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut, Plains Lake",,,6,"Complete: Mushroom Man, Complete: Taking the Tower, Complete: Elemental Exercise, Complete: Potion Making, Complete: Arachnids' Ascent, Complete: Supply and Delivery, Complete: Grave Digger, Complete: The Mercenary, Complete: Jungle Fever, Visit: Detlas"
