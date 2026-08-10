@@ -560,8 +560,8 @@ Webbed Fracture,TRUE,14,Region,Item,00 01 00 19,"Nomads' Refuge, Arachnid Woods,
 Lava Springs,TRUE,14,Region,Item,00 01 00 3a,"Ternaves Tunnel, Black Road, Savannah Plains, Essren's Hut, Scorched Trail",,,14,"Explore: Termite Mounds, Complete: Arachnids' Ascent, Complete: Lava Springs, Visit: Lava Springs"
 Abandoned Farm,TRUE,16,Region,Item,00 01 00 1e,"Pigmen Ravines, Time Valley, Road to Time Valley",,,16,Visit: Abandoned Farm
 Savannah Plains,TRUE,16,Region,Item,00 01 00 35,"Entrance to Almuj, Lava Springs, Bremminglar, Cathedral Harbour, Scorched Trail",,,16,"Explore: Willow Crypt, Explore: Captain's Quarters, Complete: Bob's Lost Soul, Visit: Savannah Plains"
-*Abandoned Farm,TRUE,16,Region,Item,,"Pigmen Ravines, Time Valley, Road to Time Valley",,,16,"Explore: Mossy Grotto, Visit: Abandoned Farm"
 Bremminglar,TRUE,16,Region,Default,,"Savannah Plains, Lion Lair",,,16,"Complete: Lava Springs, Visit: Bremminglar"
+*Abandoned Farm,TRUE,16,Region,Item,,"Pigmen Ravines, Time Valley, Road to Time Valley",,,16,"Explore: Mossy Grotto, Visit: Abandoned Farm"
 Cathedral Harbour,TRUE,18,Region,Item,00 01 00 25,"Savannah Plains, Ancient Nemract, Nemract Cathedral, Scorched Trail",,,18,"Explore: Pirate Hold, Explore: Captain's Quarters, Explore: Lovers' Cavern, Visit: Cathedral Harbour"
 Nemract Cathedral,TRUE,18,Region,Item,00 01 00 26,"Nemract, Mount Wynn Inn, Ancient Nemract, Cathedral Harbour",,,18,"Complete: Brothers Return, Visit: Nemract Cathedral"
 Mount Wynn Inn,TRUE,18,Region,Item,00 01 00 28,"Nemract, Nested Cliffside, Razed Inn, Ancient Nemract, Blackstring Den, Nemract Cathedral",,,18,"Explore: Muddy Cavern, Visit: Mount Wynn Inn"
@@ -598,8 +598,8 @@ Time Valley,TRUE,25,Region,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo 
 Roots of Corruption,TRUE,25,Region,Item,00 01 00 40,"Corrupted Road, Corrupted River, Corrupted Warfront, Plains Lake",,,25,"Explore: Corruption Mines, Complete: Temple of the Legends, Visit: Roots of Corruption"
 Half Moon Island,TRUE,25,Region,Item,00 01 00 48,Selchar,,,25,"Explore: Dead Man's Dugout, Explore: Half Moon Island, Visit: Half Moon Island"
 Tree Island,TRUE,25,Region,Item,00 01 00 50,Selchar,,,25,Visit: Tree Island
+Selchar,TRUE,25,Region,Default,,"Nemract, Rooster Island, Bear Zoo, Zhight Island, Corkus Castle, Pirate Town, Lost Atoll, Volcanic Excavation, Entrance to Gavel, Tree Island, Maro Peaks, Skien's Island, Dreary Docks, Nodguj Nation, Durum Isles Barn, Mage Island, Half Moon Island, Florist's Hut",,,25,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
 *Time Valley,TRUE,25,Region,Item,,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
-Selchar,TRUE,25,Region,Default,,"Nemract, Rooster Island, Bear Zoo, Zhight Island, Corkus Castle, Pirate Town, Lost Atoll, Volcanic Excavation, Entrance to Gavel, Tree Island, Maro Peaks, Skien's Island, Nodguj Nation, Durum Isles Barn, Mage Island, Half Moon Island, Florist's Hut",,,25,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
 Nesaak Transition,TRUE,27,Region,Item,00 01 00 43,"Florist's Hut, Desolate Valley, Elkurn, Corrupted River",,,27,"Complete: The Corrupted Village, Complete: A Journey Beyond, Visit: Nesaak Transition"
 Frosty Spikes,TRUE,27,Region,Item,00 01 00 44,"Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard, Sanctuary Bridge",,,27,"Explore: Ice Doors, Visit: Frosty Spikes"
 Florist's Hut,TRUE,27,Region,Item,00 01 00 b4,"Bob's Tomb, Frosty Spikes, Frozen Homestead, Nesaak, Nesaak Transition, Selchar",,,27,"Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Florist's Hut"
@@ -634,7 +634,6 @@ Sanguine Spider Den,TRUE,39,Region,Item,00 01 00 d0,"Llevigar Gate, Cliffhearth 
 Llevigar Stables,TRUE,39,Region,Item,00 01 00 d1,"Llevigar Gate, Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road",,,39,Visit: Llevigar Stables
 Cliffhearth Orc Camp,TRUE,39,Region,Item,00 01 00 d2,"Sanguine Spider Den, Llevigar Stables, Meteor Trail",,,39,"Complete: Clearing the Camps, Visit: Cliffhearth Orc Camp"
 Trunkstump Goblin Camp,TRUE,39,Region,Item,00 01 00 d4,"Llevigar Stables, Meteor Trail, Stonecave Orc Camp, Orc Lake",,,39,"Complete: Clearing the Camps, Complete: Star Thief, Visit: Trunkstump Goblin Camp"
-Volcanic Isles,TRUE,39,Region,Item,00 01 01 6d,Volcanic Excavation,,,39,"Explore: Volcanus Pit, Visit: Volcanic Isles"
 Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Llevigar Gate, Karoc Quarry",,,39,"Complete: Pirate's Trove, Complete: Heart of Llevigar, Complete: The Hero of Gavel, Visit: Llevigar"
 Icy Island,TRUE,40,Region,Item,00 01 00 96,"Dujgon Nation, Nodguj Nation, Santa's Hideout",,,40,Visit: Icy Island
 Wolves' Den,TRUE,40,Region,Item,00 01 00 b2,"Bob's Tomb, Frigid Crossroads, Nesaak",,,40,"Explore: Wolf Den, Complete: Ice Barrows, Complete: Slay Creatures of Nesaak Forest, Complete: Underice, Complete: Fate of the Fallen, Complete: A Hunter's Calling, Visit: Wolves' Den"
@@ -698,6 +697,7 @@ Zhight Island,TRUE,55,Region,Item,00 01 00 4e,Selchar,,,55,"Complete: Zhight Isl
 Volcanic Excavation,TRUE,55,Region,Item,00 01 00 cd,"Volcanic Isles, Selchar",,,55,"Complete: WynnExcavation Site C, Visit: Volcanic Excavation"
 Scorpion Nest,TRUE,58,Region,Item,00 01 00 e6,Secluded Workshop,,,58,Visit: Scorpion Nest
 Secluded Workshop,TRUE,58,Region,Item,00 01 00 e7,"Infested Sinkhole, Scorpion Nest, Naga Lake",,,58,"Complete: An Iron Heart Part II, Complete: A Hunter's Calling, Visit: Secluded Workshop"
+Volcanic Isles,TRUE,58,Region,Item,00 01 01 6d,Volcanic Excavation,,,58,"Explore: Volcanus Pit, Visit: Volcanic Isles"
 Fountain of Youth,TRUE,60,Region,Item,00 01 01 58,"Entamis Village, Delnar Manor, Iboju Village",,,60,"Explore: Subterranean Mine, Explore: Bird Sanctuary, Explore: Fallen Salient, Complete: WynnExcavation Site D, Visit: Fountain of Youth"
 Pirate Town,TRUE,60,Region,Default,,Selchar,,,60,"Complete: Beneath the Depths, Complete: Redbeard's Booty, Visit: Pirate Town"
 Lost Atoll,TRUE,61,Region,Item,00 01 00 9a,Selchar,,,61,"Complete: Galleon's Graveyard, Complete: Redbeard's Booty, Visit: Lost Atoll"
@@ -724,7 +724,7 @@ Path to Cinfras,TRUE,70,Region,Item,00 01 00 5b,"The Forgery, Entrance to Cinfra
 Lifeless Forest,TRUE,70,Region,Item,00 01 00 c9,"Disturbed Crypt, Derelict Mansion",,,70,"Complete: Haven Antiquity, Visit: Lifeless Forest"
 Disturbed Crypt,TRUE,70,Region,Item,00 01 00 ca,"Lifeless Forest, Dreary Docks",,,70,"Complete: Haven Antiquity, Visit: Disturbed Crypt"
 Derelict Mansion,TRUE,70,Region,Item,00 01 00 cb,"Lifeless Forest, Dreary Docks",,,70,"Complete: Haven Antiquity, Visit: Derelict Mansion"
-Dreary Docks,TRUE,70,Region,Item,00 01 00 cc,"Disturbed Crypt, Derelict Mansion",,,70,"Complete: Slay Dead Villagers, Complete: Haven Antiquity, Visit: Dreary Docks"
+Dreary Docks,TRUE,70,Region,Item,00 01 00 cc,"Disturbed Crypt, Derelict Mansion, Selchar",,,70,"Complete: Slay Dead Villagers, Complete: Haven Antiquity, Visit: Dreary Docks"
 Efilim Crossroads,TRUE,70,Region,Item,00 01 00 f3,"Efilim, Path to the Forgery, Guardian of the Forest",,,70,Visit: Efilim Crossroads
 Minotaur Barbecue,TRUE,70,Region,Item,00 01 00 f4,"Efilim, Path to the Forgery",,,70,Visit: Minotaur Barbecue
 Path to the Forgery,TRUE,70,Region,Item,00 01 00 f5,"Efilim Crossroads, Minotaur Barbecue, Unicorn Trail, The Forgery",,,70,Visit: Path to the Forgery
@@ -757,6 +757,7 @@ Decayed Basin,TRUE,72,Region,Item,00 01 00 63,"Lexdale, Fungal Grove, Heart of D
 Heart of Decay,TRUE,72,Region,Item,00 01 00 64,"Lexdale, Decayed Basin, Mushroom Hill",,,72,"Complete: Lexdale Witch Trials, Visit: Heart of Decay"
 Mushroom Hill,TRUE,72,Region,Item,00 01 00 65,"Decayed Basin, Heart of Decay, Weird Clearing, Jitak's Farm",,,72,"Explore: Kander Crypt, Explore: Bandit Groundbreaking, Complete: Hollow Serenity, Complete: Hunger of the Gerts Part I, Visit: Mushroom Hill"
 Fallen Village,TRUE,72,Region,Item,00 01 00 66,"Weird Clearing, Gylia Research Cabin, Cinfras Outskirts",,,72,"Complete: Purple and Blue, Visit: Fallen Village"
+Cinfras Outskirts,TRUE,72,Region,Item,00 01 00 92,"Dark Forest Village, Talor Cemetery, Fungal Grove, Fallen Village, Cinfras",,,72,"Explore: Weirding Ring, Explore: Burning Bog, Visit: Cinfras Outskirts"
 Light Peninsula,TRUE,72,Region,Item,00 01 00 b0,The Shiar,,,72,"Explore: Weird Wilds, Visit: Light Peninsula"
 Lexdale Penitentiary,TRUE,72,Region,Item,00 01 01 0b,"Path to the Penitentiary, Twisted Ridge",,,72,"Complete: Forbidden Prison, Visit: Lexdale Penitentiary"
 Path to the Penitentiary,TRUE,72,Region,Item,00 01 01 0c,"Lexdale Penitentiary, Entrance to Kander, Viscera Pits, Twisted Ridge",,,72,Visit: Path to the Penitentiary
@@ -794,6 +795,7 @@ Celestial Impact,TRUE,79,Region,Item,00 01 01 16,"Silverbull Headquarters, Gylia
 Gylia Fisherman Camp,TRUE,79,Region,Item,00 01 01 17,"Celestial Impact, Cosmic Fissures, Path to Thanos",,,79,Visit: Gylia Fisherman Camp
 Pine Pillar Forest,TRUE,79,Region,Item,00 01 01 23,"Waterfall Cave, Timeworn Arch, Evergreen Outbreak",,,79,Visit: Pine Pillar Forest
 Evergreen Outbreak,TRUE,79,Region,Item,00 01 01 24,"Pine Pillar Forest, Burning Farm",,,79,Visit: Evergreen Outbreak
+Otherworldly Monolith,TRUE,79,Region,Item,00 01 01 6b,"Azure Frontier, Path to Light",,,79,"Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Otherworldly Monolith"
 Silent Road,FALSE,,Region,Item,00 01 00 45,"Mine Base Plains, Broken Road",,,100,"Complete: A Journey Beyond, Visit: Silent Road"
 Thanos Exit,FALSE,,Region,Item,00 01 00 6d,"Illuminant Path, Thanos Underpass",,,97,"Complete: The Breaking Point, Visit: Thanos Exit"
 Canyon Dropoff,FALSE,,Region,Item,00 01 00 6e,"Rocky Bend, Featherfall Cliffs",,,85,"Complete: The Lost, Visit: Canyon Dropoff"
@@ -830,7 +832,6 @@ Sky Falls,FALSE,,Region,Item,00 01 00 8d,"Frozen Fort, Wybel Island, Sky Island 
 Jofash Tunnel,FALSE,,Region,Item,00 01 00 8e,"Sky Island Ascent, Jofash Docks",,,95,"Explore: Sky Shroom, Visit: Jofash Tunnel"
 Jofash Docks,FALSE,,Region,Item,00 01 00 8f,"Jofash Tunnel, Regular Island",,,90,"Complete: Fantastic Voyage, Complete: Recipe For Disaster, Visit: Jofash Docks"
 Santa's Hideout,FALSE,,Region,Item,00 01 00 90,"Icy Island, Nodguj Nation",,,0,Visit: Santa's Hideout
-Cinfras Outskirts,FALSE,,Region,Item,00 01 00 92,"Dark Forest Village, Talor Cemetery, Fungal Grove, Fallen Village, Cinfras",,,75,"Explore: Weirding Ring, Explore: Burning Bog, Visit: Cinfras Outskirts"
 Regular Island,FALSE,,Region,Item,00 01 00 93,Jofash Docks,,,0,Visit: Regular Island
 Royal Gate,FALSE,,Region,Item,00 01 00 97,"Lighthouse Lookout, Fort Torann",,,103,"Complete: Queen's Recruit, Complete: A Journey Home, Visit: Royal Gate"
 Southern Outpost,FALSE,,Region,Item,00 01 00 9b,"Legendary Island, Balloon Airbase",,,0,Visit: Southern Outpost
@@ -915,7 +916,6 @@ Raiders' Airbase,FALSE,,Region,Item,00 01 01 66,Raiders' Stronghold,,,98,"Comple
 Lighthouse Lookout,FALSE,,Region,Item,00 01 01 67,"Royal Gate, Balloon Airbase",,,86,"Complete: Desperate Metal, Visit: Lighthouse Lookout"
 Balloon Airbase,FALSE,,Region,Item,00 01 01 69,"Relos, Lighthouse Lookout, Southern Outpost",,,86,"Complete: Slay Pernix Monkeys, Complete: Desperate Metal, Visit: Balloon Airbase"
 Broken Road,FALSE,,Region,Item,00 01 01 6a,"Silent Road, Worm Tunnel",,,100,"Complete: A Journey Beyond, Visit: Broken Road"
-Otherworldly Monolith,FALSE,,Region,Item,00 01 01 6b,"Azure Frontier, Path to Light",,,79,"Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Otherworldly Monolith"
 Troll's Challenge,FALSE,,Region,Item,00 01 01 6e,"Colourful Mountaintop, Thanos Underpass, Upper Thanos",,,0,Visit: Troll's Challenge
 Harpy's Haunt South,FALSE,,Region,Item,00 01 01 6f,"Wayward Split, Harpy's Haunt North, Fleris Cranny",,,0,Visit: Harpy's Haunt South
 Hobgoblin's Hoard,FALSE,,Region,Item,00 01 01 70,"Elefolk Stomping Grounds, Krolton's Cave",,,84,"Complete: The Canyon Guides, Visit: Hobgoblin's Hoard"
@@ -1093,7 +1093,6 @@ Visit: Sanguine Spider Den,TRUE,39,Territory,Location,00 17 00 d0,Sanguine Spide
 Visit: Llevigar Stables,TRUE,39,Territory,Location,00 17 00 d1,Llevigar Stables,,,,
 Visit: Cliffhearth Orc Camp,TRUE,39,Territory,Location,00 17 00 d2,Cliffhearth Orc Camp,,,,
 Visit: Trunkstump Goblin Camp,TRUE,39,Territory,Location,00 17 00 d4,Trunkstump Goblin Camp,,,,
-Visit: Volcanic Isles,TRUE,39,Territory,Location,00 17 01 6d,Volcanic Isles,,,,
 Visit: Llevigar,TRUE,39,Territory,Location,00 17 01 9b,Llevigar,,,,
 Visit: Icy Island,TRUE,40,Territory,Location,00 17 00 96,Icy Island,,,,
 Visit: Wolves' Den,TRUE,40,Territory,Location,00 17 00 b2,Wolves' Den,,,,
@@ -1157,6 +1156,7 @@ Visit: Zhight Island,TRUE,55,Territory,Location,00 17 00 4e,Zhight Island,,,,
 Visit: Volcanic Excavation,TRUE,55,Territory,Location,00 17 00 cd,Volcanic Excavation,,,,
 Visit: Scorpion Nest,TRUE,58,Territory,Location,00 17 00 e6,Scorpion Nest,,,,
 Visit: Secluded Workshop,TRUE,58,Territory,Location,00 17 00 e7,Secluded Workshop,,,,
+Visit: Volcanic Isles,TRUE,58,Territory,Location,00 17 01 6d,Volcanic Isles,,,,
 Visit: Fountain of Youth,TRUE,60,Territory,Location,00 17 01 58,Fountain of Youth,,,,
 Visit: Pirate Town,TRUE,60,Territory,Location,00 17 01 9a,Pirate Town,,,,
 Visit: Lost Atoll,TRUE,61,Territory,Location,00 17 00 9a,Lost Atoll,,,,
@@ -1216,6 +1216,7 @@ Visit: Decayed Basin,TRUE,72,Territory,Location,00 17 00 63,Decayed Basin,,,,
 Visit: Heart of Decay,TRUE,72,Territory,Location,00 17 00 64,Heart of Decay,,,,
 Visit: Mushroom Hill,TRUE,72,Territory,Location,00 17 00 65,Mushroom Hill,,,,
 Visit: Fallen Village,TRUE,72,Territory,Location,00 17 00 66,Fallen Village,,,,
+Visit: Cinfras Outskirts,FALSE,72,Territory,Location,00 17 00 92,Cinfras Outskirts,,,,
 Visit: Light Peninsula,TRUE,72,Territory,Location,00 17 00 b0,Light Peninsula,,,,
 Visit: Lexdale Penitentiary,TRUE,72,Territory,Location,00 17 01 0b,Lexdale Penitentiary,,,,
 Visit: Path to the Penitentiary,TRUE,72,Territory,Location,00 17 01 0c,Path to the Penitentiary,,,,
@@ -1253,6 +1254,7 @@ Visit: Celestial Impact,TRUE,79,Territory,Location,00 17 01 16,Celestial Impact,
 Visit: Gylia Fisherman Camp,TRUE,79,Territory,Location,00 17 01 17,Gylia Fisherman Camp,,,,
 Visit: Pine Pillar Forest,TRUE,79,Territory,Location,00 17 01 23,Pine Pillar Forest,,,,
 Visit: Evergreen Outbreak,TRUE,79,Territory,Location,00 17 01 24,Evergreen Outbreak,,,,
+Visit: Otherworldly Monolith,FALSE,79,Territory,Location,00 17 01 6b,Otherworldly Monolith,,,,
 Visit: Silent Road,FALSE,,Territory,Location,00 17 00 45,Silent Road,,,,
 Visit: Thanos Exit,FALSE,,Territory,Location,00 17 00 6d,Thanos Exit,,,,
 Visit: Canyon Dropoff,FALSE,,Territory,Location,00 17 00 6e,Canyon Dropoff,,,,
@@ -1289,7 +1291,6 @@ Visit: Sky Falls,FALSE,,Territory,Location,00 17 00 8d,Sky Falls,,,,
 Visit: Jofash Tunnel,FALSE,,Territory,Location,00 17 00 8e,Jofash Tunnel,,,,
 Visit: Jofash Docks,FALSE,,Territory,Location,00 17 00 8f,Jofash Docks,,,,
 Visit: Santa's Hideout,FALSE,,Territory,Location,00 17 00 90,Santa's Hideout,,,,
-Visit: Cinfras Outskirts,FALSE,,Territory,Location,00 17 00 92,Cinfras Outskirts,,,,
 Visit: Regular Island,FALSE,,Territory,Location,00 17 00 93,Regular Island,,,,
 Visit: Royal Gate,FALSE,,Territory,Location,00 17 00 97,Royal Gate,,,,
 Visit: Southern Outpost,FALSE,,Territory,Location,00 17 00 9b,Southern Outpost,,,,
@@ -1374,7 +1375,6 @@ Visit: Raiders' Airbase,FALSE,,Territory,Location,00 17 01 66,Raiders' Airbase,,
 Visit: Lighthouse Lookout,FALSE,,Territory,Location,00 17 01 67,Lighthouse Lookout,,,,
 Visit: Balloon Airbase,FALSE,,Territory,Location,00 17 01 69,Balloon Airbase,,,,
 Visit: Broken Road,FALSE,,Territory,Location,00 17 01 6a,Broken Road,,,,
-Visit: Otherworldly Monolith,FALSE,,Territory,Location,00 17 01 6b,Otherworldly Monolith,,,,
 Visit: Troll's Challenge,FALSE,,Territory,Location,00 17 01 6e,Troll's Challenge,,,,
 Visit: Harpy's Haunt South,FALSE,,Territory,Location,00 17 01 6f,Harpy's Haunt South,,,,
 Visit: Hobgoblin's Hoard,FALSE,,Territory,Location,00 17 01 70,Hobgoblin's Hoard,,,,

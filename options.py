@@ -32,7 +32,6 @@ class StartingRoute(Choice):
     How much of the route from Ragni to Detlas to start unlocked
     None: Only Ragni starts unlocked (may lead to fill errors)
     Alekin: The route from Ragni -> Alekin starts unlocked
-    Hybrid: Same as Alekin option and the rest of the route to Detlas is guaranteed to be in sphere 1
     Detlas: The route from Ragni -> Detlas starts unlocked
     """
 
@@ -40,10 +39,9 @@ class StartingRoute(Choice):
 
     option_none = 0
     option_alekin = 1
-    option_hybrid = 2
-    option_detlas = 3
+    option_detlas = 2
 
-    default = 2
+    default = 1
 
 class LevelIncrement(Range):
     """

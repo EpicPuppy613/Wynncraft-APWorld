@@ -19,12 +19,17 @@ def set_all_rules(world: WynncraftWorld) -> None:
 
 
 def set_all_entrance_rules(world: WynncraftWorld) -> None:
-    for name in loader.all_regions:
-        if loader.region_connections[name] == "":
+    for row in loader.rows:
+        if row[loader.TYPE] != "Region" or row[loader.NAME].startswith("*"):
             continue
-        for connection in loader.region_connections[name].split(", "):
-            entrance = world.get_entrance(f"{name} to {connection}")
-            if connection in loader.unlockable_regions:
+        if int(row[loader.LEVEL]) >= world.options.goal_level:
+            continue
+        if row[loader.CONNECTIONS] == "":
+            continue
+
+        for connection in row[loader.CONNECTIONS].split(", "):
+            if connection in world.unlockable_regions:
+                entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
                 world.set_rule(entrance, Has(f"Region: {connection}"))
 
 
@@ -67,9 +72,6 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 for req in gear_reqs:
                     rule = rule & gear_rule(world, req)
 
-        if row[loader.TYPE] == "Territory":
-            world.set_rule(world.get_location(row[loader.NAME]), rule)
-            continue
         levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
         world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & rule)
 

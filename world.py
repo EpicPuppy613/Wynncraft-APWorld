@@ -1,8 +1,8 @@
 from collections.abc import Mapping
 from typing import Any
 
+from BaseClasses import MultiWorld
 from rule_builder.cached_world import CachedRuleBuilderWorld
-from worlds.AutoWorld import World
 
 from . import items, locations, regions, rules, web_world
 from . import options as wynncraft_options  # rename due to a name conflict with World.options
@@ -23,6 +23,11 @@ class WynncraftWorld(CachedRuleBuilderWorld):
     item_name_to_id = items.item_name_to_id
 
     origin_region_name = "Menu"
+
+    def __init__(self, multiworld: MultiWorld, player: int):
+        super().__init__(multiworld, player)
+        self.all_regions = []
+        self.unlockable_regions = []
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)

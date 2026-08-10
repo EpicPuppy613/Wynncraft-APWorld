@@ -87,7 +87,7 @@ def get_trap_weight(world: WynncraftWorld, trap: str):
 def create_all_items(world: WynncraftWorld) -> None:
     starting_route = world.options.starting_route
     starting_items = []
-    if starting_route in [starting_route.option_alekin, starting_route.option_hybrid, starting_route.option_detlas]:
+    if starting_route in [starting_route.option_alekin, starting_route.option_detlas]:
         starting_items += ALEKIN_ROUTE
     if starting_route == starting_route.option_detlas:
         starting_items += DETLAS_ROUTE
@@ -161,8 +161,3 @@ def create_all_items(world: WynncraftWorld) -> None:
 
     itempool += [world.create_filler() for _ in range(needed_number_of_filler_items)]
     world.multiworld.itempool += itempool
-
-    # Early region hints
-    if starting_route == starting_route.option_hybrid:
-        for item in DETLAS_ROUTE:
-            world.multiworld.local_early_items[world.player][item] = 1
