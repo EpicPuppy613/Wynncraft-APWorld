@@ -524,445 +524,445 @@ Complete: Overture to Despair,FALSE,116,Quest,Location,00 11 00 9b,"Hyloch, Feud
 Complete: The Strong Survive,FALSE,117,Quest,Location,00 11 00 9c,"Hyloch, Fort Tericen",Complete: Revelations in Fall,,,
 Complete: Ensemble of Hope,FALSE,118,Quest,Location,00 11 00 9d,"Hyloch, Citadel's Shadow, Royal Dam, Deforested Ecotone, Gates to Aelumia, Contested District",Complete: Overture to Despair,,,
 Complete: Apotheosis,FALSE,119,Quest,Location,00 11 00 9e,"Hyloch, Lake Gitephe, Contested District, Gates to Aelumia, Royal Barracks",Complete: Ensemble of Hope,,,
-Ragni Main Entrance,TRUE,1,Region,Item,00 01 00 00,"Ragni, Ragni Countryside South, Emerald Trail",,,1,Visit: Ragni Main Entrance
-Emerald Trail,TRUE,1,Region,Item,00 01 00 0c,"Ragni Main Entrance, Farmers Settlement, Entrance to Nivla Woods",,,1,"Explore: Pigman Barbeque, Explore: Corrupted Passageway, Complete: Enzan's Brother, Visit: Emerald Trail"
-Ragni,TRUE,1,Region,Default,,"Ragni North Entrance, Ragni Main Entrance, Ragni South Entrance",,,1,"Complete: King's Recruit, Complete: Dearly Departed, Complete: WynnExcavation Site D, Complete: Queen's Recruit, Complete: A Hunter's Calling, Complete: A Journey Home, Visit: Ragni"
+Ragni Main Entrance,TRUE,1,Region,Item,00 01 00 00,"Emerald Trail, Ragni Countryside South, Ragni",,,1,Visit: Ragni Main Entrance
+Emerald Trail,TRUE,1,Region,Item,00 01 00 0c,"Ragni Main Entrance, Entrance to Nivla Woods, Farmers Settlement",,,1,"Explore: Pigman Barbeque, Explore: Corrupted Passageway, Complete: Enzan's Brother, Visit: Emerald Trail"
+Ragni,TRUE,1,Region,Default,,"Ragni Main Entrance, Ragni North Entrance, Ragni South Entrance",,,1,"Complete: King's Recruit, Complete: Dearly Departed, Complete: WynnExcavation Site D, Complete: Queen's Recruit, Complete: A Hunter's Calling, Complete: A Journey Home, Visit: Ragni"
 Ragni Countryside South,TRUE,2,Region,Item,00 01 00 04,"Ragni Main Entrance, Ragni Countryside North, Farmers Settlement",,,2,"Explore: Derelict Mine, Visit: Ragni Countryside South"
-Ragni Countryside North,TRUE,2,Region,Item,00 01 00 05,"Riverbank Knoll, Coastal Trail, Maltic, Ragni Countryside South",,,2,"Explore: Ancestor Grotto, Explore: Derelict Mine, Visit: Ragni Countryside North"
+Ragni Countryside North,TRUE,2,Region,Item,00 01 00 05,"Riverbank Knoll, Ragni Countryside South, Coastal Trail, Maltic",,,2,"Explore: Ancestor Grotto, Explore: Derelict Mine, Visit: Ragni Countryside North"
 Coastal Trail,TRUE,2,Region,Item,00 01 00 1a,"Ragni Countryside North, Maltic Coast, Maltic",,,2,"Explore: Ancestor Grotto, Visit: Coastal Trail"
 Ragni North Entrance,TRUE,3,Region,Item,00 01 00 01,"Katoa Ranch, Riverbank Knoll, Ragni",,,3,"Complete: Cook Assistant, Visit: Ragni North Entrance"
 Katoa Ranch,TRUE,3,Region,Item,00 01 00 02,"Ragni North Entrance, Riverbank Knoll",,,3,"Explore: Crab Fighters, Complete: Decrepit Sewers, Complete: Cook Assistant, Complete: The Sewers of Ragni, Complete: Tunnel Trouble, Visit: Katoa Ranch"
 Riverbank Knoll,TRUE,3,Region,Item,00 01 00 03,"Ragni North Entrance, Katoa Ranch, Ragni Countryside North",,,3,Visit: Riverbank Knoll
-Farmers Settlement,TRUE,4,Region,Item,00 01 00 06,"Ragni Countryside South, Maltic, Ancient Waterworks, Nomads' Refuge, Emerald Trail",,,4,"Explore: Fire & Water, Visit: Farmers Settlement"
-Nivla Woods,TRUE,4,Region,Item,00 01 00 0d,"Entrance to Nivla Woods, Alekin, Blooming Boulders, Road to Time Valley",,,4,"Explore: Spider Mother Grove, Explore: Roots of Infestation, Explore: Old Growth Rot, Complete: Slay Spiders, Complete: Potion Making, Visit: Nivla Woods"
-Entrance to Nivla Woods,TRUE,4,Region,Item,00 01 00 0e,"Emerald Trail, Nomads' Refuge, Nivla Woods, Road to Time Valley",,,4,"Complete: Infested Plants, Visit: Entrance to Nivla Woods"
-Maltic Coast,TRUE,4,Region,Item,00 01 00 13,"Coastal Trail, Jagged Foothills, Ancient Waterworks, Maltic",,,4,"Explore: Tidepool Terrace, Complete: Underwater, Visit: Maltic Coast"
-Road to Time Valley,TRUE,4,Region,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders",,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Complete: Infested Plants, Visit: Road to Time Valley"
-Alekin,TRUE,4,Region,Default,,"Nivla Woods, Arachnid Woods, Nivla Woods Exit, Blooming Boulders",,,4,"Complete: Infested Plants, Complete: Mushroom Man, Complete: Supply and Delivery, Visit: Alekin"
+Farmers Settlement,TRUE,4,Region,Item,00 01 00 06,"Emerald Trail, Maltic, Nomads' Refuge, Ragni Countryside South, Ancient Waterworks",,,4,"Explore: Fire & Water, Visit: Farmers Settlement"
+Nivla Woods,TRUE,4,Region,Item,00 01 00 0d,"Entrance to Nivla Woods, Road to Time Valley, Alekin, Blooming Boulders",,,4,"Explore: Spider Mother Grove, Explore: Roots of Infestation, Explore: Old Growth Rot, Complete: Slay Spiders, Complete: Potion Making, Visit: Nivla Woods"
+Entrance to Nivla Woods,TRUE,4,Region,Item,00 01 00 0e,"Emerald Trail, Nomads' Refuge, Road to Time Valley, Nivla Woods",,,4,"Complete: Infested Plants, Visit: Entrance to Nivla Woods"
+Maltic Coast,TRUE,4,Region,Item,00 01 00 13,"Coastal Trail, Maltic, Jagged Foothills, Ancient Waterworks",,,4,"Explore: Tidepool Terrace, Complete: Underwater, Visit: Maltic Coast"
+Road to Time Valley,TRUE,4,Region,Item,00 01 00 14,"Entrance to Nivla Woods, Nivla Woods, Blooming Boulders, Abandoned Farm",,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Complete: Infested Plants, Visit: Road to Time Valley"
+Alekin,TRUE,4,Region,Default,,"Nivla Woods, Blooming Boulders, Arachnid Woods, Nivla Woods Exit",,,4,"Complete: Infested Plants, Complete: Mushroom Man, Complete: Supply and Delivery, Visit: Alekin"
 Maltic,TRUE,4,Region,Default,,"Ragni Countryside North, Coastal Trail, Maltic Coast, Ancient Waterworks, Farmers Settlement",,,4,"Complete: Maltic's Well, Visit: Maltic"
-Nomads' Refuge,TRUE,5,Region,Item,00 01 00 07,"Farmers Settlement, Ancient Waterworks, Webbed Fracture, Arachnid Woods, Entrance to Nivla Woods",,,5,Visit: Nomads' Refuge
-Arachnid Woods,TRUE,5,Region,Item,00 01 00 09,"Nomads' Refuge, Webbed Fracture, Nivla Woods Exit, Alekin",,,5,"Explore: Fungas Log, Complete: Mushroom Man, Complete: Arachnids' Ascent, Visit: Arachnid Woods"
-Ancient Waterworks,TRUE,5,Region,Item,00 01 00 15,"Maltic, Maltic Coast, Jagged Foothills, Nomads' Refuge, Farmers Settlement",,,5,Visit: Ancient Waterworks
-Road to Elkurn,TRUE,6,Region,Item,00 01 00 0a,"Blooming Boulders, Nivla Woods Exit, Elkurn, Tempo Town",,,6,"Explore: Crypt Excavation, Visit: Road to Elkurn"
-Nivla Woods Exit,TRUE,6,Region,Item,00 01 00 0f,"Alekin, Arachnid Woods, Nested Cliffside, Akias Ruins, Road to Elkurn",,,6,Visit: Nivla Woods Exit
-Akias Ruins,TRUE,6,Region,Item,00 01 00 10,"Nivla Woods Exit, Corrupted Tower, Corrupted Orchard, Corrupted Warfront, Corrupted Road",,,6,"Complete: Temple of the Legends, Visit: Akias Ruins"
-Detlas Suburbs,TRUE,6,Region,Item,00 01 00 11,"Corrupted Orchard, Scorched Trail, Detlas, Corrupted Warfront",,,6,"Complete: Tunnel Trouble, Visit: Detlas Suburbs"
-Corrupted Orchard,TRUE,6,Region,Item,00 01 00 12,"Akias Ruins, Corrupted Tower, Scorched Trail, Detlas Suburbs, Corrupted Warfront",,,6,"Explore: Hex Keep Gateway, Explore: Hill Hovel, Complete: Tunnel Trouble, Complete: Taking the Tower, Complete: Temple of the Legends, Visit: Corrupted Orchard"
-Scorched Trail,TRUE,6,Region,Item,00 01 00 16,"Ancient Nemract, Cathedral Harbour, Detlas, Detlas Suburbs, Corrupted Orchard, Corrupted Tower, Lava Springs, Savannah Plains",,,6,"Explore: Hex Keep Gateway, Explore: Cave Springs, Complete: Slay Skeletons, Complete: Tunnel Trouble, Complete: Elemental Exercise, Visit: Scorched Trail"
-Corrupted Tower,TRUE,6,Region,Item,00 01 00 17,"Razed Inn, Ancient Nemract, Corrupted Orchard, Akias Ruins, Scorched Trail",,,6,"Explore: Detlas Salt Mine, Explore: Raging Tower, Complete: Tunnel Trouble, Complete: Taking the Tower, Visit: Corrupted Tower"
-Detlas,TRUE,6,Region,Default,,"Detlas Suburbs, Scorched Trail, Essren's Hut, Plains Lake",,,6,"Complete: Mushroom Man, Complete: Taking the Tower, Complete: Elemental Exercise, Complete: Potion Making, Complete: Arachnids' Ascent, Complete: Supply and Delivery, Complete: Brothers Return, Complete: The Mercenary, Complete: Jungle Fever, Complete: Flight in Distress, Complete: A Journey Beyond, Complete: Queen's Recruit, Visit: Detlas"
-Corrupted Warfront,TRUE,11,Region,Item,00 01 00 2c,"Corrupted Road, Akias Ruins, Corrupted Orchard, Detlas Suburbs, Plains Lake, Roots of Corruption",,,11,"Explore: Winery Infestation, Complete: Temple of the Legends, Visit: Corrupted Warfront"
-Black Road,TRUE,12,Region,Item,00 01 00 1f,"Essren's Hut, Lava Springs, Ternaves, Abandoned Mines Entrance",,,12,"Explore: Spore Spiral, Complete: Meaningful Holiday, Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Black Road"
-Essren's Hut,TRUE,12,Region,Item,00 01 00 23,"Detlas, Lava Springs, Black Road, Mine Base Plains",,,12,"Complete: Slay Mooshrooms, Complete: Potion Making, Complete: Stable Story, Visit: Essren's Hut"
-Owl Tribe,TRUE,13,Region,Item,00 01 00 46,"Almuj Slums, Ancient Excavation, Eagle Tribe, Sunset Plateau, Ternaves",,,13,"Complete: Stable Story, Complete: Canyon Condor, Complete: Tribal Aggression, Visit: Owl Tribe"
-Ternaves,TRUE,13,Region,Default,,"Black Road, Ternaves Tunnel, Abandoned Mines Entrance, Owl Tribe",,,13,"Complete: Stable Story, Complete: Meaningful Holiday, Visit: Ternaves"
-Webbed Fracture,TRUE,14,Region,Item,00 01 00 19,"Nomads' Refuge, Nested Cliffside, Arachnid Woods",,,14,"Complete: Infested Pit, Complete: Arachnids' Ascent, Visit: Webbed Fracture"
-Lava Springs,TRUE,14,Region,Item,00 01 00 3a,"Essren's Hut, Savannah Plains, Ternaves Tunnel, Black Road, Scorched Trail",,,14,"Explore: Termite Mounds, Complete: Arachnids' Ascent, Complete: Lava Springs, Visit: Lava Springs"
-Abandoned Farm,TRUE,16,Region,Item,00 01 00 1e,"Pigmen Ravines, Time Valley",,,16,Visit: Abandoned Farm
-Savannah Plains,TRUE,16,Region,Item,00 01 00 35,"Cathedral Harbour, Bremminglar, Entrance to Almuj, Lava Springs, Scorched Trail",,,16,"Explore: Willow Crypt, Explore: Captain's Quarters, Complete: Bob's Lost Soul, Visit: Savannah Plains"
-*Abandoned Farm,TRUE,16,Region,Item,,,,,16,"Explore: Mossy Grotto, Visit: Abandoned Farm"
+Nomads' Refuge,TRUE,5,Region,Item,00 01 00 07,"Entrance to Nivla Woods, Farmers Settlement, Arachnid Woods, Ancient Waterworks, Webbed Fracture",,,5,Visit: Nomads' Refuge
+Arachnid Woods,TRUE,5,Region,Item,00 01 00 09,"Alekin, Nivla Woods Exit, Nomads' Refuge, Webbed Fracture",,,5,"Explore: Fungas Log, Complete: Mushroom Man, Complete: Arachnids' Ascent, Visit: Arachnid Woods"
+Ancient Waterworks,TRUE,5,Region,Item,00 01 00 15,"Maltic Coast, Maltic, Farmers Settlement, Nomads' Refuge, Jagged Foothills",,,5,Visit: Ancient Waterworks
+Road to Elkurn,TRUE,6,Region,Item,00 01 00 0a,"Blooming Boulders, Elkurn, Tempo Town, Nivla Woods Exit",,,6,"Explore: Crypt Excavation, Visit: Road to Elkurn"
+Nivla Woods Exit,TRUE,6,Region,Item,00 01 00 0f,"Alekin, Arachnid Woods, Road to Elkurn, Akias Ruins, Nested Cliffside",,,6,Visit: Nivla Woods Exit
+Akias Ruins,TRUE,6,Region,Item,00 01 00 10,"Corrupted Orchard, Nivla Woods Exit, Corrupted Warfront, Corrupted Tower, Corrupted Road",,,6,"Complete: Temple of the Legends, Visit: Akias Ruins"
+Detlas Suburbs,TRUE,6,Region,Item,00 01 00 11,"Corrupted Orchard, Detlas, Corrupted Warfront, Scorched Trail",,,6,"Complete: Tunnel Trouble, Visit: Detlas Suburbs"
+Corrupted Orchard,TRUE,6,Region,Item,00 01 00 12,"Akias Ruins, Detlas Suburbs, Corrupted Warfront, Scorched Trail, Corrupted Tower",,,6,"Explore: Hex Keep Gateway, Explore: Hill Hovel, Complete: Tunnel Trouble, Complete: Taking the Tower, Complete: Temple of the Legends, Visit: Corrupted Orchard"
+Scorched Trail,TRUE,6,Region,Item,00 01 00 16,"Corrupted Orchard, Detlas Suburbs, Detlas, Ancient Nemract, Cathedral Harbour, Corrupted Tower, Lava Springs, Savannah Plains",,,6,"Explore: Hex Keep Gateway, Explore: Cave Springs, Complete: Slay Skeletons, Complete: Tunnel Trouble, Complete: Elemental Exercise, Visit: Scorched Trail"
+Corrupted Tower,TRUE,6,Region,Item,00 01 00 17,"Akias Ruins, Corrupted Orchard, Razed Inn, Ancient Nemract, Scorched Trail",,,6,"Explore: Detlas Salt Mine, Explore: Raging Tower, Complete: Tunnel Trouble, Complete: Taking the Tower, Visit: Corrupted Tower"
+Detlas,TRUE,6,Region,Default,,"Detlas Suburbs, Essren's Hut, Scorched Trail, Plains Lake",,,6,"Complete: Mushroom Man, Complete: Taking the Tower, Complete: Elemental Exercise, Complete: Potion Making, Complete: Arachnids' Ascent, Complete: Supply and Delivery, Complete: Brothers Return, Complete: The Mercenary, Complete: Jungle Fever, Complete: Flight in Distress, Complete: A Journey Beyond, Complete: Queen's Recruit, Visit: Detlas"
+Corrupted Warfront,TRUE,11,Region,Item,00 01 00 2c,"Corrupted Road, Roots of Corruption, Corrupted Orchard, Detlas Suburbs, Akias Ruins, Plains Lake",,,11,"Explore: Winery Infestation, Complete: Temple of the Legends, Visit: Corrupted Warfront"
+Black Road,TRUE,12,Region,Item,00 01 00 1f,"Lava Springs, Ternaves, Abandoned Mines Entrance, Essren's Hut",,,12,"Explore: Spore Spiral, Complete: Meaningful Holiday, Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Black Road"
+Essren's Hut,TRUE,12,Region,Item,00 01 00 23,"Detlas, Lava Springs, Mine Base Plains, Black Road",,,12,"Complete: Slay Mooshrooms, Complete: Potion Making, Complete: Stable Story, Visit: Essren's Hut"
+Owl Tribe,TRUE,13,Region,Item,00 01 00 46,"Sunset Plateau, Ancient Excavation, Almuj Slums, Eagle Tribe, Ternaves",,,13,"Complete: Stable Story, Complete: Canyon Condor, Complete: Tribal Aggression, Visit: Owl Tribe"
+Ternaves,TRUE,13,Region,Default,,"Ternaves Tunnel, Black Road, Abandoned Mines Entrance, Owl Tribe",,,13,"Complete: Stable Story, Complete: Meaningful Holiday, Visit: Ternaves"
+Webbed Fracture,TRUE,14,Region,Item,00 01 00 19,"Nomads' Refuge, Arachnid Woods, Nested Cliffside",,,14,"Complete: Infested Pit, Complete: Arachnids' Ascent, Visit: Webbed Fracture"
+Lava Springs,TRUE,14,Region,Item,00 01 00 3a,"Ternaves Tunnel, Black Road, Savannah Plains, Essren's Hut, Scorched Trail",,,14,"Explore: Termite Mounds, Complete: Arachnids' Ascent, Complete: Lava Springs, Visit: Lava Springs"
+Abandoned Farm,TRUE,16,Region,Item,00 01 00 1e,"Pigmen Ravines, Time Valley, Road to Time Valley",,,16,Visit: Abandoned Farm
+Savannah Plains,TRUE,16,Region,Item,00 01 00 35,"Entrance to Almuj, Lava Springs, Bremminglar, Cathedral Harbour, Scorched Trail",,,16,"Explore: Willow Crypt, Explore: Captain's Quarters, Complete: Bob's Lost Soul, Visit: Savannah Plains"
+*Abandoned Farm,TRUE,16,Region,Item,,"Pigmen Ravines, Time Valley, Road to Time Valley",,,16,"Explore: Mossy Grotto, Visit: Abandoned Farm"
 Bremminglar,TRUE,16,Region,Default,,"Savannah Plains, Lion Lair",,,16,"Complete: Lava Springs, Visit: Bremminglar"
-Cathedral Harbour,TRUE,18,Region,Item,00 01 00 25,"Ancient Nemract, Nemract Cathedral, Savannah Plains, Scorched Trail",,,18,"Explore: Pirate Hold, Explore: Captain's Quarters, Explore: Lovers' Cavern, Visit: Cathedral Harbour"
-Nemract Cathedral,TRUE,18,Region,Item,00 01 00 26,"Mount Wynn Inn, Nemract, Cathedral Harbour, Ancient Nemract",,,18,"Complete: Brothers Return, Visit: Nemract Cathedral"
-Mount Wynn Inn,TRUE,18,Region,Item,00 01 00 28,"Nested Cliffside, Blackstring Den, Nemract, Nemract Cathedral, Ancient Nemract, Razed Inn",,,18,"Explore: Muddy Cavern, Visit: Mount Wynn Inn"
-Nested Cliffside,TRUE,18,Region,Item,00 01 00 2a,"Webbed Fracture, Blackstring Den, Mount Wynn Inn, Nivla Woods Exit",,,18,Visit: Nested Cliffside
+Cathedral Harbour,TRUE,18,Region,Item,00 01 00 25,"Savannah Plains, Ancient Nemract, Nemract Cathedral, Scorched Trail",,,18,"Explore: Pirate Hold, Explore: Captain's Quarters, Explore: Lovers' Cavern, Visit: Cathedral Harbour"
+Nemract Cathedral,TRUE,18,Region,Item,00 01 00 26,"Nemract, Mount Wynn Inn, Ancient Nemract, Cathedral Harbour",,,18,"Complete: Brothers Return, Visit: Nemract Cathedral"
+Mount Wynn Inn,TRUE,18,Region,Item,00 01 00 28,"Nemract, Nested Cliffside, Razed Inn, Ancient Nemract, Blackstring Den, Nemract Cathedral",,,18,"Explore: Muddy Cavern, Visit: Mount Wynn Inn"
+Nested Cliffside,TRUE,18,Region,Item,00 01 00 2a,"Nivla Woods Exit, Mount Wynn Inn, Blackstring Den, Webbed Fracture",,,18,Visit: Nested Cliffside
 Razed Inn,TRUE,18,Region,Item,00 01 00 2b,"Mount Wynn Inn, Corrupted Tower",,,18,Visit: Razed Inn
-Ancient Nemract,TRUE,18,Region,Item,00 01 00 33,"Mount Wynn Inn, Nemract Cathedral, Cathedral Harbour, Scorched Trail, Corrupted Tower",,,18,"Complete: Underworld Crypt, Complete: The Dark Descent, Complete: Lost Tower, Visit: Ancient Nemract"
-Nemract,TRUE,18,Region,Default,,"Rocky Shore, Rooster Island, Nemract Cathedral, Mount Wynn Inn, Selchar",,,18,"Explore: Sunken Ship, Complete: Pit of the Dead, Complete: Brothers Return, Complete: Dwelling Walls, Complete: Lost Tower, Complete: Tempo Town Trouble, Complete: Misadventure on the Sea, Visit: Nemract"
-Blooming Boulders,TRUE,22,Region,Item,00 01 00 08,"Road to Time Valley, Nivla Woods, Alekin, Road to Elkurn, Tempo Town",,,22,Visit: Blooming Boulders
-Abandoned Mines Entrance,TRUE,22,Region,Item,00 01 00 20,"Mine Base Plains, Black Road, Ternaves, Abandoned Pass, Mining Base Camp",,,22,Visit: Abandoned Mines Entrance
-Mining Base Camp,TRUE,22,Region,Item,00 01 00 37,"Mine Base Plains, Abandoned Mines Entrance, Abandoned Pass, Abandoned Mines",,,22,"Explore: Lower Abandoned Mines, Visit: Mining Base Camp"
-Abandoned Mines,TRUE,22,Region,Item,00 01 00 3b,"Mine Base Plains, Mining Base Camp",,,22,"Explore: Lower Abandoned Mines, Visit: Abandoned Mines"
+Ancient Nemract,TRUE,18,Region,Item,00 01 00 33,"Mount Wynn Inn, Scorched Trail, Corrupted Tower, Nemract Cathedral, Cathedral Harbour",,,18,"Complete: Underworld Crypt, Complete: The Dark Descent, Complete: Lost Tower, Visit: Ancient Nemract"
+Nemract,TRUE,18,Region,Default,,"Mount Wynn Inn, Nemract Cathedral, Rocky Shore, Selchar",,,18,"Explore: Sunken Ship, Complete: Pit of the Dead, Complete: Brothers Return, Complete: Dwelling Walls, Complete: Lost Tower, Complete: Tempo Town Trouble, Complete: Misadventure on the Sea, Visit: Nemract"
+Blooming Boulders,TRUE,22,Region,Item,00 01 00 08,"Road to Time Valley, Tempo Town, Nivla Woods, Road to Elkurn, Alekin",,,22,Visit: Blooming Boulders
+Corrupted Road,TRUE,22,Region,Item,00 01 00 0b,"Roots of Corruption, Akias Ruins, Corrupted Warfront, Elkurn",,,22,"Complete: Recover the Past, Visit: Corrupted Road"
+Abandoned Mines Entrance,TRUE,22,Region,Item,00 01 00 20,"Black Road, Mining Base Camp, Mine Base Plains, Abandoned Pass, Ternaves",,,22,Visit: Abandoned Mines Entrance
+Mine Base Plains,TRUE,22,Region,Item,00 01 00 36,"Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines, Plains Lake, Silent Road, Essren's Hut",,,22,"Explore: Lake Pit, Complete: Fantastic Voyage, Complete: A Journey Beyond, Visit: Mine Base Plains"
+Mining Base Camp,TRUE,22,Region,Item,00 01 00 37,"Abandoned Mines Entrance, Abandoned Mines, Abandoned Pass, Mine Base Plains",,,22,"Explore: Lower Abandoned Mines, Visit: Mining Base Camp"
+Abandoned Mines,TRUE,22,Region,Item,00 01 00 3b,"Mining Base Camp, Mine Base Plains",,,22,"Explore: Lower Abandoned Mines, Visit: Abandoned Mines"
 Sanctuary Bridge,TRUE,22,Region,Item,00 01 00 3f,"Time Valley, Frosty Spikes",,,22,"Explore: The Sacrificial Altar, Complete: Timelost Sanctum, Visit: Sanctuary Bridge"
-Tempo Town,TRUE,22,Region,Default,,"Time Valley, Blooming Boulders, Road to Elkurn, Elkurn",,,22,"Explore: Corrupt Time Warp, Explore: Vortex Complex, Explore: Time Valley Aquifer, Complete: Tempo Town Trouble, Complete: Creeper Infiltration, Visit: Tempo Town"
-Elkurn,TRUE,22,Region,Default,,"Tempo Town, Road to Elkurn, Corrupted Road, Corrupted River, Nesaak Transition, Frosty Spikes",,,22,"Explore: Vortex Complex, Complete: Recover the Past, Complete: Temple of the Legends, Visit: Elkurn"
-Mine Base Plains,TRUE,22,Region,Item,00 01 00 36,"Plains Lake, Essren's Hut, Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines",,,22,"Explore: Lake Pit, Complete: Fantastic Voyage, Complete: A Journey Beyond, Visit: Mine Base Plains"
-Corrupted Road,TRUE,22,Region,Item,00 01 00 0b,"Akias Ruins, Corrupted Warfront, Roots of Corruption, Elkurn",,,22,"Complete: Recover the Past, Visit: Corrupted Road"
-Jagged Foothills,TRUE,23,Region,Item,00 01 00 18,"Maltic Coast, Rocky Shore, Ancient Waterworks",,,23,Visit: Jagged Foothills
-Rocky Shore,TRUE,23,Region,Item,00 01 00 27,"Jagged Foothills, Nemract, Blackstring Den",,,23,"Explore: Boar Burrow, Visit: Rocky Shore"
+Tempo Town,TRUE,22,Region,Default,,"Blooming Boulders, Elkurn, Time Valley, Road to Elkurn",,,22,"Explore: Corrupt Time Warp, Explore: Vortex Complex, Explore: Time Valley Aquifer, Complete: Tempo Town Trouble, Complete: Creeper Infiltration, Visit: Tempo Town"
+Elkurn,TRUE,22,Region,Default,,"Road to Elkurn, Corrupted Road, Frosty Spikes, Tempo Town, Nesaak Transition, Corrupted River",,,22,"Explore: Vortex Complex, Complete: Recover the Past, Complete: Temple of the Legends, Visit: Elkurn"
+Jagged Foothills,TRUE,23,Region,Item,00 01 00 18,"Maltic Coast, Ancient Waterworks, Rocky Shore",,,23,Visit: Jagged Foothills
+Rocky Shore,TRUE,23,Region,Item,00 01 00 27,"Blackstring Den, Nemract, Jagged Foothills",,,23,"Explore: Boar Burrow, Visit: Rocky Shore"
 Blackstring Den,TRUE,23,Region,Item,00 01 00 29,"Rocky Shore, Mount Wynn Inn, Nested Cliffside",,,23,Visit: Blackstring Den
-Rooster Island,TRUE,23,Region,Item,00 01 00 32,"Bear Zoo, Selchar, Nemract",,,23,"Complete: Cluck Cluck, Visit: Rooster Island"
-Ternaves Tunnel,TRUE,24,Region,Item,00 01 00 39,"Lava Springs, Entrance to Almuj, Ternaves",,,24,"Explore: Termite Mounds, Visit: Ternaves Tunnel"
-Plains Lake,TRUE,24,Region,Item,00 01 00 3d,"Roots of Corruption, Corrupted Warfront, Mine Base Plains, Desolate Valley, Detlas",,,24,"Explore: Lake Pit, Visit: Plains Lake"
-Ragni South Entrance,TRUE,25,Region,Item,00 01 00 1b,"Ragni, Pigmen Ravines, Sulphuric Hollow",,,25,"Complete: Creeper Infiltration, Visit: Ragni South Entrance"
+Rooster Island,TRUE,23,Region,Item,00 01 00 32,Selchar,,,23,"Complete: Cluck Cluck, Visit: Rooster Island"
+Ternaves Tunnel,TRUE,24,Region,Item,00 01 00 39,"Entrance to Almuj, Lava Springs, Ternaves",,,24,"Explore: Termite Mounds, Visit: Ternaves Tunnel"
+Plains Lake,TRUE,24,Region,Item,00 01 00 3d,"Roots of Corruption, Desolate Valley, Mine Base Plains, Corrupted Warfront, Detlas",,,24,"Explore: Lake Pit, Visit: Plains Lake"
+Ragni South Entrance,TRUE,25,Region,Item,00 01 00 1b,"Pigmen Ravines, Sulphuric Hollow, Ragni",,,25,"Complete: Creeper Infiltration, Visit: Ragni South Entrance"
 Sulphuric Hollow,TRUE,25,Region,Item,00 01 00 1c,"Ragni South Entrance, Little Wood",,,25,"Complete: Creeper Infiltration, Complete: Temple of the Legends, Visit: Sulphuric Hollow"
 Little Wood,TRUE,25,Region,Item,00 01 00 1d,"Sulphuric Hollow, Time Valley",,,25,Visit: Little Wood
+Bear Zoo,TRUE,25,Region,Item,00 01 00 21,Selchar,,,25,Visit: Bear Zoo
 Pigmen Ravines,TRUE,25,Region,Item,00 01 00 22,"Ragni South Entrance, Abandoned Farm",,,25,"Complete: Creeper Infiltration, Visit: Pigmen Ravines"
-Time Valley,TRUE,25,Region,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,25,"Explore: Time Valley Aquifer, Explore: The Alcazar, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Time Valley"
-*Time Valley,TRUE,25,Region,Item,,,,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
 Durum Oat Islet,TRUE,25,Region,Item,00 01 00 2d,Durum Isles Barn,,,25,Visit: Durum Oat Islet
 Durum Malt Islet,TRUE,25,Region,Item,00 01 00 2e,Durum Isles Barn,,,25,Visit: Durum Malt Islet
-Durum Barley Islet,TRUE,25,Region,Item,00 01 00 2f,"Durum Isles Barn, Nodguj Nation",,,25,Visit: Durum Barley Islet
-Corrupted River,TRUE,25,Region,Item,00 01 00 30,"Elkurn, Roots of Corruption, Desolate Valley, Nesaak Transition",,,25,"Explore: Corruption Mines, Complete: Recover the Past, Complete: A Journey Beyond, Visit: Corrupted River"
-Durum Isles Barn,TRUE,25,Region,Item,00 01 00 31,"Durum Malt Islet, Selchar, Durum Barley Islet, Durum Oat Islet, Mage Island",,,25,Visit: Durum Isles Barn
-Roots of Corruption,TRUE,25,Region,Item,00 01 00 40,"Corrupted Road, Corrupted Warfront, Plains Lake, Corrupted River",,,25,"Explore: Corruption Mines, Complete: Temple of the Legends, Visit: Roots of Corruption"
-Mage Island,TRUE,25,Region,Item,00 01 00 42,"Nodguj Nation, Santa's Hideout, Half Moon Island, Durum Isles Barn",,,25,"Explore: Lush Grotto, Explore: Troll Tower, Explore: Crystalline Polynya, Complete: Zhight Island, Complete: The Order of the Grook, Complete: Beneath the Depths, Complete: Temple of the Legends, Visit: Mage Island"
-Half Moon Island,TRUE,25,Region,Item,00 01 00 48,Mage Island,,,25,"Explore: Dead Man's Dugout, Explore: Half Moon Island, Visit: Half Moon Island"
-Selchar,TRUE,25,Region,Default,,"Skien's Island, Durum Isles Barn, Rooster Island, Nemract, Zhight Island, Pirate Town, Lost Atoll, Nodguj Nation",,,25,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
-Bear Zoo,TRUE,25,Region,Item,00 01 00 21,"Zhight Island, Rooster Island",,,25,Visit: Bear Zoo
-Nesaak,TRUE,27,Region,Default,,"Frigid Crossroads, Frozen Homestead, Florist's Hut, Bob's Tomb, Wolves' Den",,,27,"Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
-Nesaak Transition,TRUE,27,Region,Item,00 01 00 43,"Elkurn, Corrupted River, Desolate Valley, Florist's Hut",,,27,"Complete: The Corrupted Village, Complete: A Journey Beyond, Visit: Nesaak Transition"
-Frosty Spikes,TRUE,27,Region,Item,00 01 00 44,"Sanctuary Bridge, Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard",,,27,"Explore: Ice Doors, Visit: Frosty Spikes"
-Florist's Hut,TRUE,27,Region,Item,00 01 00 b4,"Frozen Homestead, Frosty Spikes, Nesaak Transition, Bob's Tomb, Nesaak",,,27,"Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Florist's Hut"
-Frozen Homestead,TRUE,27,Region,Item,00 01 00 b5,"Abandoned Lumberyard, Frosty Spikes, Florist's Hut, Nesaak, Frigid Crossroads",,,27,"Complete: Bob's Lost Soul, Visit: Frozen Homestead"
-Abandoned Lumberyard,TRUE,27,Region,Item,00 01 00 b7,"Frosty Spikes, Frozen Homestead",,,27,"Explore: The Alcazar, Explore: Ice Doors, Complete: Fate of the Fallen, Complete: Bob's Lost Soul, Visit: Abandoned Lumberyard"
+Durum Barley Islet,TRUE,25,Region,Item,00 01 00 2f,Durum Isles Barn,,,25,Visit: Durum Barley Islet
+Corrupted River,TRUE,25,Region,Item,00 01 00 30,"Elkurn, Roots of Corruption, Nesaak Transition, Desolate Valley",,,25,"Explore: Corruption Mines, Complete: Recover the Past, Complete: A Journey Beyond, Visit: Corrupted River"
+Durum Isles Barn,TRUE,25,Region,Item,00 01 00 31,"Durum Barley Islet, Durum Oat Islet, Durum Malt Islet, Selchar",,,25,Visit: Durum Isles Barn
+Time Valley,TRUE,25,Region,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,25,"Explore: Time Valley Aquifer, Explore: The Alcazar, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Time Valley"
+Roots of Corruption,TRUE,25,Region,Item,00 01 00 40,"Corrupted Road, Corrupted River, Corrupted Warfront, Plains Lake",,,25,"Explore: Corruption Mines, Complete: Temple of the Legends, Visit: Roots of Corruption"
+Half Moon Island,TRUE,25,Region,Item,00 01 00 48,Selchar,,,25,"Explore: Dead Man's Dugout, Explore: Half Moon Island, Visit: Half Moon Island"
+Tree Island,TRUE,25,Region,Item,00 01 00 50,Selchar,,,25,Visit: Tree Island
+*Time Valley,TRUE,25,Region,Item,,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
+Selchar,TRUE,25,Region,Default,,"Nemract, Rooster Island, Bear Zoo, Zhight Island, Corkus Castle, Pirate Town, Lost Atoll, Volcanic Excavation, Entrance to Gavel, Tree Island, Maro Peaks, Skien's Island, Nodguj Nation, Durum Isles Barn, Mage Island, Half Moon Island, Florist's Hut",,,25,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
+Nesaak Transition,TRUE,27,Region,Item,00 01 00 43,"Florist's Hut, Desolate Valley, Elkurn, Corrupted River",,,27,"Complete: The Corrupted Village, Complete: A Journey Beyond, Visit: Nesaak Transition"
+Frosty Spikes,TRUE,27,Region,Item,00 01 00 44,"Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard, Sanctuary Bridge",,,27,"Explore: Ice Doors, Visit: Frosty Spikes"
+Florist's Hut,TRUE,27,Region,Item,00 01 00 b4,"Bob's Tomb, Frosty Spikes, Frozen Homestead, Nesaak, Nesaak Transition, Selchar",,,27,"Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Florist's Hut"
+Frozen Homestead,TRUE,27,Region,Item,00 01 00 b5,"Frigid Crossroads, Frosty Spikes, Abandoned Lumberyard, Nesaak, Florist's Hut",,,27,"Complete: Bob's Lost Soul, Visit: Frozen Homestead"
+Abandoned Lumberyard,TRUE,27,Region,Item,00 01 00 b7,"Frozen Homestead, Frosty Spikes",,,27,"Explore: The Alcazar, Explore: Ice Doors, Complete: Fate of the Fallen, Complete: Bob's Lost Soul, Visit: Abandoned Lumberyard"
+Nesaak,TRUE,27,Region,Default,,"Wolves' Den, Frigid Crossroads, Florist's Hut, Frozen Homestead, Bob's Tomb",,,27,"Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
 Desolate Valley,TRUE,28,Region,Item,00 01 00 3c,"Nesaak Transition, Corrupted River, Plains Lake",,,28,"Complete: The Corrupted Village, Visit: Desolate Valley"
+Mage Island,TRUE,28,Region,Item,00 01 00 42,Selchar,,,28,"Explore: Lush Grotto, Explore: Troll Tower, Explore: Crystalline Polynya, Complete: Zhight Island, Complete: The Order of the Grook, Complete: Beneath the Depths, Complete: Temple of the Legends, Visit: Mage Island"
 Abandoned Pass,TRUE,30,Region,Item,00 01 00 24,"Abandoned Mines Entrance, Mining Base Camp",,,30,"Explore: Blazing Oasis, Visit: Abandoned Pass"
 Lion Lair,TRUE,30,Region,Item,00 01 00 34,Bremminglar,,,30,"Explore: Lion's Lair, Visit: Lion Lair"
-Entrance to Almuj,TRUE,30,Region,Item,00 01 00 38,"Savannah Plains, Almuj, Ternaves Tunnel",,,30,Visit: Entrance to Almuj
+Entrance to Almuj,TRUE,30,Region,Item,00 01 00 38,"Almuj, Ternaves Tunnel, Savannah Plains",,,30,Visit: Entrance to Almuj
 Invaded Barracks,TRUE,30,Region,Item,00 01 00 c0,Barren Sands,,,30,"Explore: Fallen Passage, Complete: The Mercenary, Visit: Invaded Barracks"
-Barren Sands,TRUE,30,Region,Item,00 01 00 c1,"Gloopy Cave, Invaded Barracks, Accursed Dunes",,,30,"Explore: Fallen Passage, Complete: The Mercenary, Visit: Barren Sands"
-Cascading Oasis,TRUE,30,Region,Item,00 01 00 c3,"Dusty Pit, Mummy's Tomb, Gloopy Cave",,,30,"Explore: Treasure Tomb, Explore: Crystal Caverns, Complete: A Sandy Scandal, Visit: Cascading Oasis"
-Gloopy Cave,TRUE,30,Region,Item,00 01 00 c4,"Almuj, Cascading Oasis, Barren Sands, Ruined Villa",,,30,"Explore: Crystal Caverns, Complete: Green Gloop, Visit: Gloopy Cave"
-Almuj Slums,TRUE,30,Region,Item,00 01 00 c8,"Almuj, Ruined Villa, Ancient Excavation, Owl Tribe",,,30,"Explore: Dust Bowl, Explore: Sundial Sanctum, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Visit: Almuj Slums"
-Almuj,TRUE,30,Region,Default,,"Entrance to Almuj, Dusty Pit, Gloopy Cave, Ruined Villa, Almuj Slums",,,30,"Explore: Crystal Caverns, Explore: Quicksand Carvers' Den, Complete: Slay Scarabs, Complete: The Mercenary, Complete: Green Gloop, Complete: A Sandy Scandal, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Complete: Jungle Fever, Complete: A Hunter's Calling, Visit: Almuj"
+Barren Sands,TRUE,30,Region,Item,00 01 00 c1,"Invaded Barracks, Accursed Dunes, Gloopy Cave",,,30,"Explore: Fallen Passage, Complete: The Mercenary, Visit: Barren Sands"
+Cascading Oasis,TRUE,30,Region,Item,00 01 00 c3,"Gloopy Cave, Mummy's Tomb, Dusty Pit",,,30,"Explore: Treasure Tomb, Explore: Crystal Caverns, Complete: A Sandy Scandal, Visit: Cascading Oasis"
+Gloopy Cave,TRUE,30,Region,Item,00 01 00 c4,"Barren Sands, Cascading Oasis, Ruined Villa, Almuj",,,30,"Explore: Crystal Caverns, Complete: Green Gloop, Visit: Gloopy Cave"
 Dusty Pit,TRUE,30,Region,Item,00 01 00 c7,"Cascading Oasis, Almuj",,,30,Visit: Dusty Pit
-Ruined Villa,TRUE,31,Region,Item,00 01 00 c5,"Almuj Slums, Almuj, Gloopy Cave, Accursed Dunes, Ancient Excavation",,,31,"Complete: Green Gloop, Complete: Kingdom of Sand, Complete: A Hunter's Calling, Visit: Ruined Villa"
-Eagle Tribe,TRUE,33,Region,Item,00 01 00 bd,"Owl Tribe, Accursed Dunes, Sunrise Plateau",,,33,"Explore: Emerald Knives Hideout, Complete: Kingdom of Sand, Complete: WynnExcavation Site A, Complete: Tribal Aggression, Visit: Eagle Tribe"
-Ruined Prospect,TRUE,33,Region,Item,00 01 00 be,"Sunset Plateau, Rymek",,,33,"Complete: Slay Coyotes, Complete: Kingdom of Sand, Visit: Ruined Prospect"
-Sunset Plateau,TRUE,33,Region,Item,00 01 00 bf,"Owl Tribe, Sunrise Plateau, Ruined Prospect",,,33,"Explore: Gator Range, Visit: Sunset Plateau"
-Accursed Dunes,TRUE,33,Region,Item,00 01 00 c2,"Ruined Villa, Barren Sands, Eagle Tribe",,,33,"Complete: Sand-Swept Tomb, Complete: Kingdom of Sand, Visit: Accursed Dunes"
-Ancient Excavation,TRUE,33,Region,Item,00 01 00 c6,"Almuj Slums, Ruined Villa, Owl Tribe",,,33,"Explore: Sundial Sanctum, Complete: Canyon Condor, Complete: WynnExcavation Site A, Complete: A Hunter's Calling, Visit: Ancient Excavation"
-Sunrise Plateau,TRUE,34,Region,Item,00 01 00 bc,"Sunset Plateau, Eagle Tribe, Rymek",,,34,"Explore: Shadow Spears Refuge, Explore: Gator Range, Explore: Gold Rush, Visit: Sunrise Plateau"
-Rymek,TRUE,34,Region,Default,,"Ruined Prospect, Sunrise Plateau",,,34,"Complete: Canyon Condor, Complete: Wrath of the Mummy, Complete: Temple of the Legends, Visit: Rymek"
+Almuj Slums,TRUE,30,Region,Item,00 01 00 c8,"Ruined Villa, Ancient Excavation, Almuj, Owl Tribe",,,30,"Explore: Dust Bowl, Explore: Sundial Sanctum, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Visit: Almuj Slums"
+Almuj,TRUE,30,Region,Default,,"Gloopy Cave, Ruined Villa, Almuj Slums, Entrance to Almuj, Dusty Pit",,,30,"Explore: Crystal Caverns, Explore: Quicksand Carvers' Den, Complete: Slay Scarabs, Complete: The Mercenary, Complete: Green Gloop, Complete: A Sandy Scandal, Complete: Meaningful Holiday, Complete: Wrath of the Mummy, Complete: Jungle Fever, Complete: A Hunter's Calling, Visit: Almuj"
+Ruined Villa,TRUE,31,Region,Item,00 01 00 c5,"Gloopy Cave, Ancient Excavation, Almuj, Almuj Slums, Accursed Dunes",,,31,"Complete: Green Gloop, Complete: Kingdom of Sand, Complete: A Hunter's Calling, Visit: Ruined Villa"
+Eagle Tribe,TRUE,33,Region,Item,00 01 00 bd,"Sunrise Plateau, Owl Tribe, Accursed Dunes",,,33,"Explore: Emerald Knives Hideout, Complete: Kingdom of Sand, Complete: WynnExcavation Site A, Complete: Tribal Aggression, Visit: Eagle Tribe"
+Ruined Prospect,TRUE,33,Region,Item,00 01 00 be,"Rymek, Sunset Plateau",,,33,"Complete: Slay Coyotes, Complete: Kingdom of Sand, Visit: Ruined Prospect"
+Sunset Plateau,TRUE,33,Region,Item,00 01 00 bf,"Sunrise Plateau, Ruined Prospect, Owl Tribe",,,33,"Explore: Gator Range, Visit: Sunset Plateau"
+Accursed Dunes,TRUE,33,Region,Item,00 01 00 c2,"Eagle Tribe, Barren Sands, Ruined Villa",,,33,"Complete: Sand-Swept Tomb, Complete: Kingdom of Sand, Visit: Accursed Dunes"
+Ancient Excavation,TRUE,33,Region,Item,00 01 00 c6,"Owl Tribe, Ruined Villa, Almuj Slums",,,33,"Explore: Sundial Sanctum, Complete: Canyon Condor, Complete: WynnExcavation Site A, Complete: A Hunter's Calling, Visit: Ancient Excavation"
+Sunrise Plateau,TRUE,34,Region,Item,00 01 00 bc,"Rymek, Eagle Tribe, Sunset Plateau",,,34,"Explore: Shadow Spears Refuge, Explore: Gator Range, Explore: Gold Rush, Visit: Sunrise Plateau"
+Rymek,TRUE,34,Region,Default,,"Sunrise Plateau, Ruined Prospect",,,34,"Complete: Canyon Condor, Complete: Wrath of the Mummy, Complete: Temple of the Legends, Visit: Rymek"
 Mummy's Tomb,TRUE,36,Region,Item,00 01 00 4d,Cascading Oasis,,,36,"Complete: Wrath of the Mummy, Visit: Mummy's Tomb"
-Orc Road,TRUE,39,Region,Item,00 01 00 53,"Llevigar Gate, Llevigar Stables, Orc Lake, Loamsprout Orc Camp",,,39,"Complete: Clearing the Camps, Complete: Star Thief, Visit: Orc Road"
-Volcanic Excavation,TRUE,39,Region,Item,00 01 00 cd,"Entrance to Gavel, Light Peninsula, Volcanic Isles, Bloody Beach",,,39,"Complete: WynnExcavation Site C, Visit: Volcanic Excavation"
-Entrance to Gavel,TRUE,39,Region,Item,00 01 00 ce,"Llevigar, Volcanic Excavation",,,39,"Explore: Gargoyle Fortress, Complete: Pirate's Trove, Visit: Entrance to Gavel"
+Orc Road,TRUE,39,Region,Item,00 01 00 53,"Llevigar Stables, Orc Lake, Loamsprout Orc Camp, Llevigar Gate",,,39,"Complete: Clearing the Camps, Complete: Star Thief, Visit: Orc Road"
+Entrance to Gavel,TRUE,39,Region,Item,00 01 00 ce,"Llevigar, Selchar",,,39,"Explore: Gargoyle Fortress, Complete: Pirate's Trove, Visit: Entrance to Gavel"
 Llevigar Gate,TRUE,39,Region,Item,00 01 00 cf,"Sanguine Spider Den, Llevigar Stables, Orc Road, Llevigar",,,39,"Complete: Slay Orcs, Complete: Clearing the Camps, Visit: Llevigar Gate"
-Sanguine Spider Den,TRUE,39,Region,Item,00 01 00 d0,"Cliffhearth Orc Camp, Llevigar Gate",,,39,Visit: Sanguine Spider Den
-Llevigar Stables,TRUE,39,Region,Item,00 01 00 d1,"Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road, Llevigar Gate",,,39,Visit: Llevigar Stables
-Cliffhearth Orc Camp,TRUE,39,Region,Item,00 01 00 d2,"Meteor Trail, Llevigar Stables, Sanguine Spider Den",,,39,"Complete: Clearing the Camps, Visit: Cliffhearth Orc Camp"
-Trunkstump Goblin Camp,TRUE,39,Region,Item,00 01 00 d4,"Meteor Trail, Stonecave Orc Camp, Orc Lake, Llevigar Stables",,,39,"Complete: Clearing the Camps, Complete: Star Thief, Visit: Trunkstump Goblin Camp"
-Volcanic Isles,TRUE,39,Region,Item,00 01 01 6d,"Volcanic Excavation, Light Peninsula, Tree Island, Lost Atoll, Pirate Town",,,39,"Explore: Volcanus Pit, Visit: Volcanic Isles"
-Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Karoc Quarry, Llevigar Gate",,,39,"Complete: Pirate's Trove, Complete: Heart of Llevigar, Complete: The Hero of Gavel, Visit: Llevigar"
-Lost Atoll,TRUE,39,Region,Item,00 01 00 9a,"Pirate Town, Volcanic Isles, Tree Island",,,39,"Complete: Galleon's Graveyard, Complete: Redbeard's Booty, Visit: Lost Atoll"
-Wolves' Den,TRUE,40,Region,Item,00 01 00 b2,"Frigid Crossroads, Nesaak, Bob's Tomb",,,40,"Explore: Wolf Den, Complete: Ice Barrows, Complete: Slay Creatures of Nesaak Forest, Complete: Underice, Complete: Fate of the Fallen, Complete: A Hunter's Calling, Visit: Wolves' Den"
-Nodguj Nation,TRUE,40,Region,Default,,"Skien's Island, Dujgon Nation, Icy Island, Santa's Hideout, Mage Island, Durum Barley Islet, Selchar",,,40,"Complete: Ice Nations, Visit: Nodguj Nation"
-Dujgon Nation,TRUE,40,Region,Default,,"Nodguj Nation, Dreary Docks, Disturbed Crypt, Regular Island, Icy Island",,,40,"Complete: Ice Nations, Visit: Dujgon Nation"
-Icy Island,TRUE,40,Region,Item,00 01 00 96,"Regular Island, Dujgon Nation, Nodguj Nation, Santa's Hideout",,,40,Visit: Icy Island
+Sanguine Spider Den,TRUE,39,Region,Item,00 01 00 d0,"Llevigar Gate, Cliffhearth Orc Camp",,,39,Visit: Sanguine Spider Den
+Llevigar Stables,TRUE,39,Region,Item,00 01 00 d1,"Llevigar Gate, Cliffhearth Orc Camp, Trunkstump Goblin Camp, Orc Road",,,39,Visit: Llevigar Stables
+Cliffhearth Orc Camp,TRUE,39,Region,Item,00 01 00 d2,"Sanguine Spider Den, Llevigar Stables, Meteor Trail",,,39,"Complete: Clearing the Camps, Visit: Cliffhearth Orc Camp"
+Trunkstump Goblin Camp,TRUE,39,Region,Item,00 01 00 d4,"Llevigar Stables, Meteor Trail, Stonecave Orc Camp, Orc Lake",,,39,"Complete: Clearing the Camps, Complete: Star Thief, Visit: Trunkstump Goblin Camp"
+Volcanic Isles,TRUE,39,Region,Item,00 01 01 6d,Volcanic Excavation,,,39,"Explore: Volcanus Pit, Visit: Volcanic Isles"
+Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Llevigar Gate, Karoc Quarry",,,39,"Complete: Pirate's Trove, Complete: Heart of Llevigar, Complete: The Hero of Gavel, Visit: Llevigar"
+Icy Island,TRUE,40,Region,Item,00 01 00 96,"Dujgon Nation, Nodguj Nation, Santa's Hideout",,,40,Visit: Icy Island
+Wolves' Den,TRUE,40,Region,Item,00 01 00 b2,"Bob's Tomb, Frigid Crossroads, Nesaak",,,40,"Explore: Wolf Den, Complete: Ice Barrows, Complete: Slay Creatures of Nesaak Forest, Complete: Underice, Complete: Fate of the Fallen, Complete: A Hunter's Calling, Visit: Wolves' Den"
+Nodguj Nation,TRUE,40,Region,Default,,"Dujgon Nation, Santa's Hideout, Icy Island, Selchar",,,40,"Complete: Ice Nations, Visit: Nodguj Nation"
+Dujgon Nation,TRUE,40,Region,Default,,"Nodguj Nation, Icy Island",,,40,"Complete: Ice Nations, Visit: Dujgon Nation"
 Orc Lake,TRUE,42,Region,Item,00 01 00 52,"Trunkstump Goblin Camp, Stonecave Orc Camp, Sunspark Orc Camp, Sablestone Orc Camp, Orc Road",,,42,"Complete: Star Thief, Complete: Blazing Retribution, Visit: Orc Lake"
-Meteor Trail,TRUE,42,Region,Item,00 01 00 d5,"Brigand Outpost, Trunkstump Goblin Camp, Cliffhearth Orc Camp",,,42,"Complete: Star Thief, Visit: Meteor Trail"
-Frigid Crossroads,TRUE,43,Region,Item,00 01 00 b3,"Icy Vigil, Frozen Homestead, Nesaak, Wolves' Den, Twain Lake, Icy Descent",,,43,"Complete: Underice, Complete: Bob's Lost Soul, Visit: Frigid Crossroads"
-Icy Descent,TRUE,44,Region,Item,00 01 00 91,"Tower of Ascension, Frigid Crossroads, Lusuco",,,44,"Explore: Raging Survivor, Complete: Frost Bite, Visit: Icy Descent"
-Sablestone Orc Camp,TRUE,44,Region,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Goblin Plains West, Loamsprout Orc Camp",,,44,"Complete: Blazing Retribution, Visit: Sablestone Orc Camp"
+Meteor Trail,TRUE,42,Region,Item,00 01 00 d5,"Cliffhearth Orc Camp, Trunkstump Goblin Camp, Brigand Outpost",,,42,"Complete: Star Thief, Visit: Meteor Trail"
+Frigid Crossroads,TRUE,43,Region,Item,00 01 00 b3,"Wolves' Den, Frozen Homestead, Nesaak, Twain Lake, Icy Vigil, Icy Descent",,,43,"Complete: Underice, Complete: Bob's Lost Soul, Visit: Frigid Crossroads"
+Icy Descent,TRUE,44,Region,Item,00 01 00 91,"Tower of Ascension, Lusuco, Frigid Crossroads",,,44,"Explore: Raging Survivor, Complete: Frost Bite, Visit: Icy Descent"
+Sablestone Orc Camp,TRUE,44,Region,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Loamsprout Orc Camp, Goblin Plains West",,,44,"Complete: Blazing Retribution, Visit: Sablestone Orc Camp"
 Loamsprout Orc Camp,TRUE,44,Region,Item,00 01 00 f0,"Orc Road, Sablestone Orc Camp, Llevigar Farm, Shineridge Orc Camp",,,44,"Explore: Holehold Orc Camp, Complete: Blazing Retribution, Visit: Loamsprout Orc Camp"
 Lusuco,TRUE,44,Region,Default,,Icy Descent,,,44,"Explore: Raiders' Hideout, Explore: Submerged Coal Mine, Visit: Lusuco"
-Twain Lake,TRUE,45,Region,Item,00 01 00 49,"Frigid Crossroads, Twain Mansion",,,45,"Explore: Headless Hollow, Complete: WynnExcavation Site B, Complete: The House of Twain, Visit: Twain Lake"
-Bob's Tomb,TRUE,45,Region,Item,00 01 00 4b,"Wolves' Den, Nesaak, Florist's Hut",,,45,"Complete: Bob's Lost Soul, Complete: Reincarnation, Visit: Bob's Tomb"
-Llevigar Farm,TRUE,45,Region,Item,00 01 00 57,"Loamsprout Orc Camp, Goblin Plains West, Goblin Plains East, Entrance to Bucie, Bucie Waterfall, Shineridge Orc Camp",,,45,Visit: Llevigar Farm
-Icy Vigil,TRUE,45,Region,Item,00 01 00 b6,"Great Bridge, Frigid Crossroads",,,45,"Explore: Raging Survivor, Explore: Breaking Ice, Visit: Icy Vigil"
-Karoc Quarry,TRUE,45,Region,Item,00 01 00 ea,"Llevigar, Shineridge Orc Camp, Harnort Compound",,,45,"Complete: Rise of the Quartron, Visit: Karoc Quarry"
-Shineridge Orc Camp,TRUE,45,Region,Item,00 01 00 ec,"Loamsprout Orc Camp, Bucie Waterfall, Karoc Quarry",,,45,"Explore: Shineridge Orc Camp, Complete: Rise of the Quartron, Visit: Shineridge Orc Camp"
-Bucie Waterfall,TRUE,45,Region,Item,00 01 00 ed,"Shineridge Orc Camp, Entrance to Bucie, Harnort Compound",,,45,"Explore: Shineridge Orc Camp, Complete: From the Mountains, Visit: Bucie Waterfall"
+Twain Lake,TRUE,45,Region,Item,00 01 00 49,"Twain Mansion, Frigid Crossroads",,,45,"Explore: Headless Hollow, Complete: WynnExcavation Site B, Complete: The House of Twain, Visit: Twain Lake"
+Bob's Tomb,TRUE,45,Region,Item,00 01 00 4b,"Wolves' Den, Florist's Hut, Nesaak",,,45,"Complete: Bob's Lost Soul, Complete: Reincarnation, Visit: Bob's Tomb"
+Llevigar Farm,TRUE,45,Region,Item,00 01 00 57,"Loamsprout Orc Camp, Goblin Plains West, Goblin Plains East, Entrance to Bucie, Shineridge Orc Camp, Bucie Waterfall",,,45,Visit: Llevigar Farm
+Icy Vigil,TRUE,45,Region,Item,00 01 00 b6,"Frigid Crossroads, Great Bridge",,,45,"Explore: Raging Survivor, Explore: Breaking Ice, Visit: Icy Vigil"
+Karoc Quarry,TRUE,45,Region,Item,00 01 00 ea,"Shineridge Orc Camp, Harnort Compound, Llevigar",,,45,"Complete: Rise of the Quartron, Visit: Karoc Quarry"
+Shineridge Orc Camp,TRUE,45,Region,Item,00 01 00 ec,"Karoc Quarry, Bucie Waterfall, Loamsprout Orc Camp, Llevigar Farm",,,45,"Explore: Shineridge Orc Camp, Complete: Rise of the Quartron, Visit: Shineridge Orc Camp"
+Bucie Waterfall,TRUE,45,Region,Item,00 01 00 ed,"Harnort Compound, Shineridge Orc Camp, Entrance to Bucie, Llevigar Farm",,,45,"Explore: Shineridge Orc Camp, Complete: From the Mountains, Visit: Bucie Waterfall"
 Entrance to Bucie,TRUE,45,Region,Default,,"Llevigar Farm, Goblin Plains East, Centerworld Fortress, Bucie Waterfall",,,45,Visit: Entrance to Bucie
-Goblin Plains West,TRUE,46,Region,Item,00 01 00 56,"Sablestone Orc Camp, Iron Road, Goblin Plains East, Llevigar Farm",,,46,"Complete: An Iron Heart Part I, Visit: Goblin Plains West"
-Goblin Plains East,TRUE,46,Region,Item,00 01 00 59,"Goblin Plains West, Forgotten Path, Entrance to Bucie, Llevigar Farm",,,46,"Explore: Secret Mine, Visit: Goblin Plains East"
-Brigand Outpost,TRUE,46,Region,Item,00 01 00 d6,"Collapsed Emerald Mine, Stonecave Orc Camp, Meteor Trail",,,46,"Explore: Sol Hive, Visit: Brigand Outpost"
+Goblin Plains West,TRUE,46,Region,Item,00 01 00 56,"Sablestone Orc Camp, Iron Road, Llevigar Farm, Goblin Plains East",,,46,"Complete: An Iron Heart Part I, Visit: Goblin Plains West"
+Goblin Plains East,TRUE,46,Region,Item,00 01 00 59,"Goblin Plains West, Llevigar Farm, Forgotten Path, Entrance to Bucie",,,46,"Explore: Secret Mine, Visit: Goblin Plains East"
+Brigand Outpost,TRUE,46,Region,Item,00 01 00 d6,"Meteor Trail, Stonecave Orc Camp, Collapsed Emerald Mine",,,46,"Explore: Sol Hive, Visit: Brigand Outpost"
 Twain Mansion,TRUE,49,Region,Item,00 01 00 4a,Twain Lake,,,49,"Complete: The House of Twain, Complete: A Grave Mistake, Visit: Twain Mansion"
-Iron Road,TRUE,49,Region,Item,00 01 00 55,"Meteor Crater, Lizardman Camp, Forgotten Path, Goblin Plains West",,,49,"Complete: An Iron Heart Part I, Visit: Iron Road"
+Meteor Crater,TRUE,49,Region,Item,00 01 00 54,"Sunspark Orc Camp, Sablestone Orc Camp, Iron Road",,,49,"Complete: An Iron Heart Part I, Complete: Master Piece, Visit: Meteor Crater"
+Iron Road,TRUE,49,Region,Item,00 01 00 55,"Meteor Crater, Goblin Plains West, Forgotten Path, Lizardman Camp",,,49,"Complete: An Iron Heart Part I, Visit: Iron Road"
 Harnort Compound,TRUE,49,Region,Item,00 01 00 eb,"Karoc Quarry, Bucie Waterfall",,,49,"Complete: Rise of the Quartron, Complete: From the Mountains, Visit: Harnort Compound"
-Meteor Crater,TRUE,49,Region,Item,00 01 00 54,"Sunspark Orc Camp, Iron Road, Sablestone Orc Camp",,,49,"Complete: An Iron Heart Part I, Complete: Master Piece, Visit: Meteor Crater"
-Sunspark Orc Camp,TRUE,49,Region,Item,00 01 00 ee,"Stonecave Orc Camp, Mudspring Orc Camp, Swamp Mountain Arch, Meteor Crater, Orc Lake",,,49,"Explore: Lily Pad Parkour, Complete: An Iron Heart Part I, Complete: Master Piece, Visit: Sunspark Orc Camp"
-Stonecave Orc Camp,TRUE,50,Region,Item,00 01 00 d7,"Brigand Outpost, Mudspring Orc Camp, Sunspark Orc Camp, Orc Lake, Trunkstump Goblin Camp",,,42,"Complete: Star Thief, Visit: Stonecave Orc Camp"
-Entrance to Olux,TRUE,50,Region,Item,00 01 00 51,"Shady Shack, Olux, Lizardman Lake, Bloody Trail, Lizardman Camp",,,50,"Complete: The Shadow of the Beast, Visit: Entrance to Olux"
-Forgotten Path,TRUE,50,Region,Item,00 01 00 58,"Iron Road, Bloody Trail, Goblin Plains East",,,50,Visit: Forgotten Path
-Great Bridge,TRUE,50,Region,Item,00 01 00 b8,"Jungle Entrance, Icy Vigil",,,50,Visit: Great Bridge
-Jungle Entrance,TRUE,50,Region,Item,00 01 00 b9,"Monte's Village, Herb Cave, Great Bridge",,,50,"Complete: Slay Slimes, Visit: Jungle Entrance"
-Collapsed Emerald Mine,TRUE,50,Region,Item,00 01 00 d8,"Ogre Den, Mudspring Orc Camp, Brigand Outpost",,,50,"Explore: Fire Swamp, Visit: Collapsed Emerald Mine"
-Mudspring Orc Camp,TRUE,50,Region,Item,00 01 00 d9,"Collapsed Emerald Mine, Floral Peaks, Sunspark Orc Camp, Stonecave Orc Camp",,,50,"Explore: Lily Pad Parkour, Explore: Fire Swamp, Visit: Mudspring Orc Camp"
-Floral Peaks,TRUE,50,Region,Item,00 01 00 da,"Ogre Den, Maiden Tower, Swamp Mountain Arch, Mudspring Orc Camp",,,50,"Explore: Lily Pad Parkour, Explore: Sewer Herps, Explore: Fire Swamp, Explore: Naga Dugout, Complete: Death Whistle, Visit: Floral Peaks"
-Ogre Den,TRUE,50,Region,Item,00 01 00 db,"Witching Road, Floral Peaks, Collapsed Emerald Mine",,,50,"Explore: Fire Swamp, Complete: The Maiden Tower, Visit: Ogre Den"
-Witching Road,TRUE,50,Region,Item,00 01 00 dc,"Infested Sinkhole, Maiden Tower, Ogre Den",,,50,"Explore: Swamp Hill, Complete: Death Whistle, Complete: The Worm Holes, Visit: Witching Road"
-Maiden Tower,TRUE,50,Region,Item,00 01 00 dd,"Witching Road, Forgotten Burrows, Shady Shack, Floral Peaks",,,50,"Explore: Swamp Hill, Explore: Sewer Herps, Complete: The Maiden Tower, Complete: Death Whistle, Visit: Maiden Tower"
-Bloody Trail,TRUE,50,Region,Item,00 01 00 e0,"Lizardman Camp, Entrance to Olux, Lizardman Lake, Overtaken Outpost, Mangled Lake, Forgotten Path",,,50,"Explore: Toads in a Hole, Explore: Sink Hole, Complete: Master Piece, Complete: The Shadow of the Beast, Complete: Reclaiming the House, Visit: Bloody Trail"
-Lizardman Camp,TRUE,50,Region,Item,00 01 00 e3,"Swamp Mountain Arch, Entrance to Olux, Bloody Trail, Iron Road",,,50,"Explore: Toads in a Hole, Complete: Master Piece, Visit: Lizardman Camp"
-Swamp Mountain Arch,TRUE,50,Region,Item,00 01 00 e4,"Floral Peaks, Shady Shack, Lizardman Camp, Sunspark Orc Camp",,,50,"Explore: Lily Pad Parkour, Complete: Master Piece, Visit: Swamp Mountain Arch"
+Sunspark Orc Camp,TRUE,49,Region,Item,00 01 00 ee,"Stonecave Orc Camp, Mudspring Orc Camp, Orc Lake, Meteor Crater, Swamp Mountain Arch",,,49,"Explore: Lily Pad Parkour, Complete: An Iron Heart Part I, Complete: Master Piece, Visit: Sunspark Orc Camp"
+Entrance to Olux,TRUE,50,Region,Item,00 01 00 51,"Bloody Trail, Lizardman Lake, Lizardman Camp, Shady Shack, Olux",,,50,"Complete: The Shadow of the Beast, Visit: Entrance to Olux"
+Forgotten Path,TRUE,50,Region,Item,00 01 00 58,"Bloody Trail, Iron Road, Goblin Plains East",,,50,Visit: Forgotten Path
+Great Bridge,TRUE,50,Region,Item,00 01 00 b8,"Icy Vigil, Jungle Entrance",,,50,Visit: Great Bridge
+Jungle Entrance,TRUE,50,Region,Item,00 01 00 b9,"Great Bridge, Monte's Village, Herb Cave",,,50,"Complete: Slay Slimes, Visit: Jungle Entrance"
+Stonecave Orc Camp,TRUE,50,Region,Item,00 01 00 d7,"Trunkstump Goblin Camp, Brigand Outpost, Mudspring Orc Camp, Orc Lake, Sunspark Orc Camp",,,42,"Complete: Star Thief, Visit: Stonecave Orc Camp"
+Collapsed Emerald Mine,TRUE,50,Region,Item,00 01 00 d8,"Brigand Outpost, Mudspring Orc Camp, Ogre Den",,,50,"Explore: Fire Swamp, Visit: Collapsed Emerald Mine"
+Mudspring Orc Camp,TRUE,50,Region,Item,00 01 00 d9,"Stonecave Orc Camp, Collapsed Emerald Mine, Floral Peaks, Sunspark Orc Camp",,,50,"Explore: Lily Pad Parkour, Explore: Fire Swamp, Visit: Mudspring Orc Camp"
+Floral Peaks,TRUE,50,Region,Item,00 01 00 da,"Mudspring Orc Camp, Ogre Den, Maiden Tower, Swamp Mountain Arch",,,50,"Explore: Lily Pad Parkour, Explore: Sewer Herps, Explore: Fire Swamp, Explore: Naga Dugout, Complete: Death Whistle, Visit: Floral Peaks"
+Ogre Den,TRUE,50,Region,Item,00 01 00 db,"Collapsed Emerald Mine, Floral Peaks, Witching Road",,,50,"Explore: Fire Swamp, Complete: The Maiden Tower, Visit: Ogre Den"
+Witching Road,TRUE,50,Region,Item,00 01 00 dc,"Ogre Den, Maiden Tower, Infested Sinkhole",,,50,"Explore: Swamp Hill, Complete: Death Whistle, Complete: The Worm Holes, Visit: Witching Road"
+Maiden Tower,TRUE,50,Region,Item,00 01 00 dd,"Floral Peaks, Witching Road, Forgotten Burrows, Shady Shack",,,50,"Explore: Swamp Hill, Explore: Sewer Herps, Complete: The Maiden Tower, Complete: Death Whistle, Visit: Maiden Tower"
+Bloody Trail,TRUE,50,Region,Item,00 01 00 e0,"Lizardman Lake, Lizardman Camp, Entrance to Olux, Forgotten Path, Overtaken Outpost, Mangled Lake",,,50,"Explore: Toads in a Hole, Explore: Sink Hole, Complete: Master Piece, Complete: The Shadow of the Beast, Complete: Reclaiming the House, Visit: Bloody Trail"
+Lizardman Camp,TRUE,50,Region,Item,00 01 00 e3,"Bloody Trail, Entrance to Olux, Swamp Mountain Arch, Iron Road",,,50,"Explore: Toads in a Hole, Complete: Master Piece, Visit: Lizardman Camp"
+Swamp Mountain Arch,TRUE,50,Region,Item,00 01 00 e4,"Floral Peaks, Lizardman Camp, Shady Shack, Sunspark Orc Camp",,,50,"Explore: Lily Pad Parkour, Complete: Master Piece, Visit: Swamp Mountain Arch"
 Shady Shack,TRUE,50,Region,Item,00 01 00 e5,"Maiden Tower, Forgotten Burrows, Entrance to Olux, Swamp Mountain Arch",,,50,"Complete: Slay Lizardmen, Visit: Shady Shack"
-Olux,TRUE,50,Region,Default,,"Path to the Grootslangs, Entrance to Olux, Lizardman Lake, Olux Lumberyard",,,50,"Explore: Maddening Mud, Complete: The Maiden Tower, Complete: Crop Failure, Complete: The Shadow of the Beast, Complete: An Iron Heart Part II, Visit: Olux"
-Apprentice Huts,TRUE,52,Region,Item,00 01 00 ba,"Iboju Village, Troms Lake, Monte's Village",,,52,"Explore: Thunder Grub Nest, Complete: Corrupted Betrayal, Visit: Apprentice Huts"
-Troms Lake,TRUE,52,Region,Item,00 01 00 bb,"Troms, Temple of Legends, Herb Cave, Apprentice Huts",,,52,"Explore: Trunk Garrison, Explore: Jungle Labyrinth, Complete: Undergrowth Ruins, Complete: Corrupted Betrayal, Visit: Troms Lake"
-Monte's Village,TRUE,52,Region,Item,00 01 01 6c,"Apprentice Huts, Jungle Entrance",,,52,"Explore: Thunder Grub Nest, Explore: Jungle Horrors, Explore: Rotten Altar, Complete: Corrupted Betrayal, Complete: Grand Youth, Visit: Monte's Village"
-Troms,TRUE,52,Region,Default,,"Temple of Legends, Troms Lake",,,52,"Complete: Corrupted Betrayal, Complete: The Passage, Complete: Out of my Mind, Complete: Lost Royalty, Complete: Grand Youth, Complete: WynnExcavation Site D, Complete: A Hunter's Calling, Visit: Troms"
-Iboju Village,TRUE,52,Region,Default,,"Fountain of Youth, Apprentice Huts",,,52,"Explore: Carnadile Den, Explore: Jade Well, Explore: Jungle Fetish Camp, Complete: Corrupted Betrayal, Complete: Jungle Fever, Complete: The Passage, Complete: Lost in the Jungle, Complete: Lost Royalty, Complete: Temple of the Legends, Visit: Iboju Village"
+Olux,TRUE,50,Region,Default,,"Lizardman Lake, Olux Lumberyard, Entrance to Olux, Path to the Grootslangs",,,50,"Explore: Maddening Mud, Complete: The Maiden Tower, Complete: Crop Failure, Complete: The Shadow of the Beast, Complete: An Iron Heart Part II, Visit: Olux"
 Temple of Legends,TRUE,52,Region,Item,00 01 00 4c,"Troms Lake, Troms",,,52,"Complete: Corrupted Betrayal, Complete: Temple of the Legends, Complete: A Hunter's Calling, Visit: Temple of Legends"
 Herb Cave,TRUE,52,Region,Item,00 01 00 94,"Jungle Entrance, Troms Lake",,,52,Visit: Herb Cave
-Infested Sinkhole,TRUE,53,Region,Item,00 01 00 de,"Secluded Workshop, Forgotten Burrows, Witching Road",,,53,"Complete: Death Whistle, Complete: The Worm Holes, Visit: Infested Sinkhole"
-Forgotten Burrows,TRUE,53,Region,Item,00 01 00 df,"Infested Sinkhole, Naga Lake, Path to the Grootslangs, Shady Shack, Maiden Tower",,,53,"Complete: The Worm Holes, Visit: Forgotten Burrows"
-Lizardman Lake,TRUE,53,Region,Item,00 01 00 e1,"Entrance to Olux, Olux, Olux Lumberyard, Fading Forest, Bloody Trail",,,53,"Explore: Maddening Mud, Complete: The Shadow of the Beast, Visit: Lizardman Lake"
-Olux Lumberyard,TRUE,53,Region,Item,00 01 00 e2,"Olux, Fading Forest, Lizardman Lake",,,53,Visit: Olux Lumberyard
-Path to the Grootslangs,TRUE,54,Region,Item,00 01 00 e9,"Naga Lake, Olux, Forgotten Burrows",,,54,"Complete: The Worm Holes, Visit: Path to the Grootslangs"
-Fading Forest,TRUE,54,Region,Item,00 01 01 07,"Lizardman Lake, Olux Lumberyard, Castle Dullahan, Gelibord Watermill, Overtaken Outpost",,,54,"Complete: Slay Wraiths & Phantasms, Complete: The Shadow of the Beast, Complete: Taproot, Visit: Fading Forest"
-Naga Lake,TRUE,54,Region,Item,00 01 00 e8,"Secluded Workshop, Path to the Grootslangs, Forgotten Burrows, Infested Sinkhole",,,54,Visit: Naga Lake
-Skien's Island,TRUE,55,Region,Item,00 01 00 41,"Maro Peaks, Dreary Docks, Nodguj Nation, Selchar",,,55,"Explore: Skien's Prison Block, Complete: Reincarnation, Visit: Skien's Island"
-Zhight Island,TRUE,55,Region,Item,00 01 00 4e,"Legendary Island, Pirate Town, Bear Zoo, Selchar",,,55,"Complete: Zhight Island, Visit: Zhight Island"
+Apprentice Huts,TRUE,52,Region,Item,00 01 00 ba,"Monte's Village, Iboju Village, Troms Lake",,,52,"Explore: Thunder Grub Nest, Complete: Corrupted Betrayal, Visit: Apprentice Huts"
+Troms Lake,TRUE,52,Region,Item,00 01 00 bb,"Apprentice Huts, Temple of Legends, Troms, Herb Cave",,,52,"Explore: Trunk Garrison, Explore: Jungle Labyrinth, Complete: Undergrowth Ruins, Complete: Corrupted Betrayal, Visit: Troms Lake"
+Monte's Village,TRUE,52,Region,Item,00 01 01 6c,"Jungle Entrance, Apprentice Huts",,,52,"Explore: Thunder Grub Nest, Explore: Jungle Horrors, Explore: Rotten Altar, Complete: Corrupted Betrayal, Complete: Grand Youth, Visit: Monte's Village"
+Troms,TRUE,52,Region,Default,,"Troms Lake, Temple of Legends",,,52,"Complete: Corrupted Betrayal, Complete: The Passage, Complete: Out of my Mind, Complete: Lost Royalty, Complete: Grand Youth, Complete: WynnExcavation Site D, Complete: A Hunter's Calling, Visit: Troms"
+Iboju Village,TRUE,52,Region,Default,,"Apprentice Huts, Fountain of Youth",,,52,"Explore: Carnadile Den, Explore: Jade Well, Explore: Jungle Fetish Camp, Complete: Corrupted Betrayal, Complete: Jungle Fever, Complete: The Passage, Complete: Lost in the Jungle, Complete: Lost Royalty, Complete: Temple of the Legends, Visit: Iboju Village"
+Infested Sinkhole,TRUE,53,Region,Item,00 01 00 de,"Witching Road, Forgotten Burrows, Secluded Workshop, Naga Lake",,,53,"Complete: Death Whistle, Complete: The Worm Holes, Visit: Infested Sinkhole"
+Forgotten Burrows,TRUE,53,Region,Item,00 01 00 df,"Maiden Tower, Infested Sinkhole, Shady Shack, Naga Lake, Path to the Grootslangs",,,53,"Complete: The Worm Holes, Visit: Forgotten Burrows"
+Lizardman Lake,TRUE,53,Region,Item,00 01 00 e1,"Bloody Trail, Olux Lumberyard, Entrance to Olux, Olux, Fading Forest",,,53,"Explore: Maddening Mud, Complete: The Shadow of the Beast, Visit: Lizardman Lake"
+Olux Lumberyard,TRUE,53,Region,Item,00 01 00 e2,"Lizardman Lake, Olux, Fading Forest",,,53,Visit: Olux Lumberyard
+Naga Lake,TRUE,54,Region,Item,00 01 00 e8,"Forgotten Burrows, Secluded Workshop, Path to the Grootslangs, Infested Sinkhole",,,54,Visit: Naga Lake
+Path to the Grootslangs,TRUE,54,Region,Item,00 01 00 e9,"Forgotten Burrows, Olux, Naga Lake",,,54,"Complete: The Worm Holes, Visit: Path to the Grootslangs"
+Fading Forest,TRUE,54,Region,Item,00 01 01 07,"Olux Lumberyard, Lizardman Lake, Gelibord Watermill, Castle Dullahan, Overtaken Outpost",,,54,"Complete: Slay Wraiths & Phantasms, Complete: The Shadow of the Beast, Complete: Taproot, Visit: Fading Forest"
+Skien's Island,TRUE,55,Region,Item,00 01 00 41,Selchar,,,55,"Explore: Skien's Prison Block, Complete: Reincarnation, Visit: Skien's Island"
+Zhight Island,TRUE,55,Region,Item,00 01 00 4e,Selchar,,,55,"Complete: Zhight Island, Visit: Zhight Island"
+Volcanic Excavation,TRUE,55,Region,Item,00 01 00 cd,"Volcanic Isles, Selchar",,,55,"Complete: WynnExcavation Site C, Visit: Volcanic Excavation"
 Scorpion Nest,TRUE,58,Region,Item,00 01 00 e6,Secluded Workshop,,,58,Visit: Scorpion Nest
-Secluded Workshop,TRUE,58,Region,Item,00 01 00 e7,"Scorpion Nest, Naga Lake, Infested Sinkhole",,,58,"Complete: An Iron Heart Part II, Complete: A Hunter's Calling, Visit: Secluded Workshop"
-Pirate Town,TRUE,60,Region,Default,,"Bloody Beach, Volcanic Isles, Lost Atoll, Zhight Island, Selchar",,,60,"Complete: Beneath the Depths, Complete: Redbeard's Booty, Visit: Pirate Town"
-Fountain of Youth,TRUE,60,Region,Item,00 01 01 58,"Delnar Manor, Iboju Village, Entamis Village",,,60,"Explore: Subterranean Mine, Explore: Bird Sanctuary, Explore: Fallen Salient, Complete: WynnExcavation Site D, Visit: Fountain of Youth"
-Tree Island,TRUE,61,Region,Item,00 01 00 50,"Volcanic Isles, Light Peninsula, Maro Peaks, Lost Atoll",,,61,Visit: Tree Island
-Overtaken Outpost,TRUE,61,Region,Item,00 01 01 08,"Fading Forest, Caritat Mansion, Mangled Lake, Bloody Trail",,,61,"Complete: Reclaiming the House, Visit: Overtaken Outpost"
+Secluded Workshop,TRUE,58,Region,Item,00 01 00 e7,"Infested Sinkhole, Scorpion Nest, Naga Lake",,,58,"Complete: An Iron Heart Part II, Complete: A Hunter's Calling, Visit: Secluded Workshop"
+Fountain of Youth,TRUE,60,Region,Item,00 01 01 58,"Entamis Village, Delnar Manor, Iboju Village",,,60,"Explore: Subterranean Mine, Explore: Bird Sanctuary, Explore: Fallen Salient, Complete: WynnExcavation Site D, Visit: Fountain of Youth"
+Pirate Town,TRUE,60,Region,Default,,Selchar,,,60,"Complete: Beneath the Depths, Complete: Redbeard's Booty, Visit: Pirate Town"
+Lost Atoll,TRUE,61,Region,Item,00 01 00 9a,Selchar,,,61,"Complete: Galleon's Graveyard, Complete: Redbeard's Booty, Visit: Lost Atoll"
+Overtaken Outpost,TRUE,61,Region,Item,00 01 01 08,"Fading Forest, Mangled Lake, Caritat Mansion, Bloody Trail",,,61,"Complete: Reclaiming the House, Visit: Overtaken Outpost"
 Mangled Lake,TRUE,61,Region,Item,00 01 01 09,"Bloody Trail, Overtaken Outpost, Caritat Mansion, Orc Battlegrounds",,,61,"Explore: Fortress Catacombs, Explore: Earth Eaters, Complete: Reclaiming the House, Visit: Mangled Lake"
 Entamis Village,TRUE,62,Region,Item,00 01 01 57,Fountain of Youth,,,62,"Explore: Temple Entrance, Explore: The Heartwood, Explore: Basalt Basin, Complete: Slay Idols, Complete: Lost in the Jungle, Complete: WynnExcavation Site D, Complete: Troubled Tribesmen, Visit: Entamis Village"
 Fleris Trail,TRUE,63,Region,Item,00 01 00 98,Road to Light Forest,,,63,"Explore: Cultists Passage, Complete: From the Mountains, Visit: Fleris Trail"
-Centerworld Fortress,TRUE,63,Region,Item,00 01 00 f1,"Orc Battlegrounds, Entrance to Bucie, Road to Light Forest",,,63,"Complete: All Roads To Peace, Visit: Centerworld Fortress"
-Road to Light Forest,TRUE,63,Region,Item,00 01 00 f2,"Centerworld Fortress, Fleris Trail, Wood Sprite Hideaway",,,63,"Complete: From the Mountains, Visit: Road to Light Forest"
-Orc Battlegrounds,TRUE,64,Region,Item,00 01 00 99,"Mangled Lake, Centerworld Fortress",,,64,"Explore: Earth Eaters, Explore: Ledant Hill, Complete: All Roads To Peace, Visit: Orc Battlegrounds"
-Gelibord Watermill,TRUE,64,Region,Item,00 01 01 05,"Fading Forest, Castle Dullahan, Gelibord, Twisted Housing",,,64,"Complete: A Headless History, Complete: Lazarus Pit, Visit: Gelibord Watermill"
-Castle Dullahan,TRUE,64,Region,Item,00 01 01 06,"Fading Forest, Gelibord Watermill",,,64,"Explore: Dullahan Gardens, Complete: A Headless History, Complete: Lazarus Pit, Visit: Castle Dullahan"
-Gelibord,TRUE,64,Region,Default,,"Gelibord Watermill, Entrance to Kander, Enchanted River, Twisted Housing",,,64,"Explore: Elemental Hollow, Complete: Lazarus Pit, Complete: Forbidden Prison, Visit: Gelibord"
-Twisted Housing,TRUE,66,Region,Item,00 01 00 5c,"Gelibord Watermill, Gelibord, Enchanted River, Efilim, Caritat Mansion",,,66,"Explore: Elemental Hollow, Visit: Twisted Housing"
+Centerworld Fortress,TRUE,63,Region,Item,00 01 00 f1,"Entrance to Bucie, Road to Light Forest, Orc Battlegrounds",,,63,"Complete: All Roads To Peace, Visit: Centerworld Fortress"
+Road to Light Forest,TRUE,63,Region,Item,00 01 00 f2,"Centerworld Fortress, Wood Sprite Hideaway, Fleris Trail",,,63,"Complete: From the Mountains, Visit: Road to Light Forest"
+Orc Battlegrounds,TRUE,64,Region,Item,00 01 00 99,"Centerworld Fortress, Mangled Lake",,,64,"Explore: Earth Eaters, Explore: Ledant Hill, Complete: All Roads To Peace, Visit: Orc Battlegrounds"
+Gelibord Watermill,TRUE,64,Region,Item,00 01 01 05,"Gelibord, Castle Dullahan, Twisted Housing, Fading Forest",,,64,"Complete: A Headless History, Complete: Lazarus Pit, Visit: Gelibord Watermill"
+Castle Dullahan,TRUE,64,Region,Item,00 01 01 06,"Gelibord Watermill, Fading Forest",,,64,"Explore: Dullahan Gardens, Complete: A Headless History, Complete: Lazarus Pit, Visit: Castle Dullahan"
+Gelibord,TRUE,64,Region,Default,,"Enchanted River, Gelibord Watermill, Twisted Housing, Entrance to Kander",,,64,"Explore: Elemental Hollow, Complete: Lazarus Pit, Complete: Forbidden Prison, Visit: Gelibord"
+Twisted Housing,TRUE,66,Region,Item,00 01 00 5c,"Efilim, Enchanted River, Gelibord, Caritat Mansion, Gelibord Watermill",,,66,"Explore: Elemental Hollow, Visit: Twisted Housing"
 Caritat Mansion,TRUE,66,Region,Item,00 01 01 0a,"Overtaken Outpost, Mangled Lake, Twisted Housing",,,66,"Complete: Memory Paranoia, Visit: Caritat Mansion"
 Delnar Manor,TRUE,66,Region,Item,00 01 01 59,Fountain of Youth,,,66,"Complete: Lost Soles, Visit: Delnar Manor"
-Maro Peaks,TRUE,68,Region,Item,00 01 00 4f,"Tree Island, Skien's Island",,,68,"Complete: Temple of the Legends, Complete: Reincarnation, Visit: Maro Peaks"
-Twisted Ridge,TRUE,69,Region,Item,00 01 00 95,"Lexdale Penitentiary, Path to the Penitentiary, Entrance to Kander",,,69,"Explore: Visceral Remant, Complete: Lazarus Pit, Visit: Twisted Ridge"
-Guardian of the Forest,TRUE,69,Region,Item,00 01 00 f6,"Efilim Crossroads, Unicorn Trail, Wood Sprite Hideaway",,,69,"Explore: Nymph Towers, Complete: Finding the Light, Visit: Guardian of the Forest"
-Wood Sprite Hideaway,TRUE,69,Region,Item,00 01 00 f7,"Guardian of the Forest, Dodegar's Forge, Path to Light's Secret, Road to Light Forest",,,69,"Complete: The Ultimate Weapon, Visit: Wood Sprite Hideaway"
-Entrance to Kander,TRUE,69,Region,Item,00 01 00 5d,"Path to the Penitentiary, Twisted Ridge, Gelibord, Faltach Manor, Path to Talor",,,69,Visit: Entrance to Kander
-Mantis Nest,TRUE,70,Region,Item,00 01 00 5a,"Mycelial Expanse, Chasm Overlook, Myconid Descent, Aldorei Valley Outskirts, Aldorei Springs",,,70,"Complete: Finding the Light, Visit: Mantis Nest"
-Path to Cinfras,TRUE,70,Region,Item,00 01 00 5b,"Mesquis Tower, The Forgery, Entrance to Cinfras",,,70,"Explore: Recluse Nest, Visit: Path to Cinfras"
-Lifeless Forest,TRUE,70,Region,Item,00 01 00 c9,"Derelict Mansion, Disturbed Crypt, Jofash Docks",,,70,"Complete: Haven Antiquity, Visit: Lifeless Forest"
-Disturbed Crypt,TRUE,70,Region,Item,00 01 00 ca,"Lifeless Forest, Dreary Docks, Dujgon Nation, Regular Island",,,70,"Complete: Haven Antiquity, Visit: Disturbed Crypt"
+Maro Peaks,TRUE,68,Region,Item,00 01 00 4f,Selchar,,,68,"Complete: Temple of the Legends, Complete: Reincarnation, Visit: Maro Peaks"
+Entrance to Kander,TRUE,69,Region,Item,00 01 00 5d,"Gelibord, Path to the Penitentiary, Faltach Manor, Path to Talor, Twisted Ridge",,,69,Visit: Entrance to Kander
+Twisted Ridge,TRUE,69,Region,Item,00 01 00 95,"Path to the Penitentiary, Entrance to Kander, Lexdale Penitentiary",,,69,"Explore: Visceral Remant, Complete: Lazarus Pit, Visit: Twisted Ridge"
+Guardian of the Forest,TRUE,69,Region,Item,00 01 00 f6,"Efilim Crossroads, Wood Sprite Hideaway, Unicorn Trail",,,69,"Explore: Nymph Towers, Complete: Finding the Light, Visit: Guardian of the Forest"
+Wood Sprite Hideaway,TRUE,69,Region,Item,00 01 00 f7,"Guardian of the Forest, Path to Light's Secret, Dodegar's Forge, Road to Light Forest",,,69,"Complete: The Ultimate Weapon, Visit: Wood Sprite Hideaway"
+Mantis Nest,TRUE,70,Region,Item,00 01 00 5a,"Aldorei Valley Outskirts, Myconid Descent, Mycelial Expanse, Chasm Overlook, Aldorei Springs",,,70,"Complete: Finding the Light, Visit: Mantis Nest"
+Path to Cinfras,TRUE,70,Region,Item,00 01 00 5b,"The Forgery, Entrance to Cinfras, Mesquis Tower",,,70,"Explore: Recluse Nest, Visit: Path to Cinfras"
+Lifeless Forest,TRUE,70,Region,Item,00 01 00 c9,"Disturbed Crypt, Derelict Mansion",,,70,"Complete: Haven Antiquity, Visit: Lifeless Forest"
+Disturbed Crypt,TRUE,70,Region,Item,00 01 00 ca,"Lifeless Forest, Dreary Docks",,,70,"Complete: Haven Antiquity, Visit: Disturbed Crypt"
 Derelict Mansion,TRUE,70,Region,Item,00 01 00 cb,"Lifeless Forest, Dreary Docks",,,70,"Complete: Haven Antiquity, Visit: Derelict Mansion"
-Dreary Docks,TRUE,70,Region,Item,00 01 00 cc,"Derelict Mansion, Disturbed Crypt, Dujgon Nation, Skien's Island",,,70,"Complete: Slay Dead Villagers, Complete: Haven Antiquity, Visit: Dreary Docks"
+Dreary Docks,TRUE,70,Region,Item,00 01 00 cc,"Disturbed Crypt, Derelict Mansion",,,70,"Complete: Slay Dead Villagers, Complete: Haven Antiquity, Visit: Dreary Docks"
 Efilim Crossroads,TRUE,70,Region,Item,00 01 00 f3,"Efilim, Path to the Forgery, Guardian of the Forest",,,70,Visit: Efilim Crossroads
 Minotaur Barbecue,TRUE,70,Region,Item,00 01 00 f4,"Efilim, Path to the Forgery",,,70,Visit: Minotaur Barbecue
-Path to the Forgery,TRUE,70,Region,Item,00 01 00 f5,"Minotaur Barbecue, Efilim Crossroads, Unicorn Trail, The Forgery",,,70,Visit: Path to the Forgery
+Path to the Forgery,TRUE,70,Region,Item,00 01 00 f5,"Efilim Crossroads, Minotaur Barbecue, Unicorn Trail, The Forgery",,,70,Visit: Path to the Forgery
 Myconid Descent,TRUE,70,Region,Item,00 01 00 fa,"Chasm Chokepoint, Mantis Nest",,,70,Visit: Myconid Descent
-Chasm Chokepoint,TRUE,70,Region,Item,00 01 00 fb,"Entrance to Cinfras, Chasm Overlook, Myconid Descent",,,70,"Explore: Recluse Nest, Visit: Chasm Chokepoint"
-Dodegar's Forge,TRUE,70,Region,Item,00 01 00 fd,"Unicorn Trail, Wood Sprite Hideaway, Luxuriant Pond, Mycelial Expanse",,,70,"Complete: Slay Myconids, Complete: The Ultimate Weapon, Visit: Dodegar's Forge"
+Chasm Chokepoint,TRUE,70,Region,Item,00 01 00 fb,"Myconid Descent, Chasm Overlook, Entrance to Cinfras",,,70,"Explore: Recluse Nest, Visit: Chasm Chokepoint"
+Dodegar's Forge,TRUE,70,Region,Item,00 01 00 fd,"Wood Sprite Hideaway, Luxuriant Pond, Unicorn Trail, Mycelial Expanse",,,70,"Complete: Slay Myconids, Complete: The Ultimate Weapon, Visit: Dodegar's Forge"
 Unicorn Trail,TRUE,70,Region,Item,00 01 00 fe,"Path to the Forgery, Guardian of the Forest, Dodegar's Forge, Collapsed Bridge",,,70,Visit: Unicorn Trail
 The Forgery,TRUE,70,Region,Item,00 01 00 ff,"Path to the Forgery, Path to Cinfras",,,70,"Complete: Corrupted Decrepit Sewers, Complete: Corrupted Infested Pit, Complete: Corrupted Lost Sanctuary, Complete: Corrupted Underworld Crypt, Complete: Corrupted Sand-Swept Tomb, Complete: Corrupted Ice Barrows, Complete: Corrupted Undergrowth Ruins, Complete: Corrupted Galleon's Graveyard, Visit: The Forgery"
 Collapsed Bridge,TRUE,70,Region,Item,00 01 01 00,"Unicorn Trail, Mycelial Expanse, Chasm Overlook",,,70,Visit: Collapsed Bridge
-Mycelial Expanse,TRUE,70,Region,Item,00 01 01 01,"Collapsed Bridge, Dodegar's Forge, The Shiar, Mantis Nest",,,70,"Complete: The Ultimate Weapon, Visit: Mycelial Expanse"
-Chasm Overlook,TRUE,70,Region,Item,00 01 01 03,"Collapsed Bridge, Mantis Nest, Chasm Chokepoint",,,70,"Explore: Recluse Nest, Visit: Chasm Overlook"
+Mycelial Expanse,TRUE,70,Region,Item,00 01 01 01,"Dodegar's Forge, Collapsed Bridge, The Shiar, Mantis Nest",,,70,"Complete: The Ultimate Weapon, Visit: Mycelial Expanse"
+Chasm Overlook,TRUE,70,Region,Item,00 01 01 03,"Chasm Chokepoint, Collapsed Bridge, Mantis Nest",,,70,"Explore: Recluse Nest, Visit: Chasm Overlook"
 Enchanted River,TRUE,70,Region,Item,00 01 01 04,"Gelibord, Twisted Housing, Faltach Manor",,,70,Visit: Enchanted River
-Entrance to Cinfras,TRUE,70,Region,Item,00 01 01 11,"Mesquis Tower, Path to Cinfras, Chasm Chokepoint, Cinfras",,,70,"Explore: Recluse Nest, Explore: Bovine Bedrock, Complete: Slay Weirds, Complete: Murder Mystery, Visit: Entrance to Cinfras"
-Cinfras,TRUE,70,Region,Default,,"Cinfras Outskirts, Entrance to Cinfras, Aldorei River, Guild Hall",,,70,"Complete: Finding the Light, Complete: Murder Mystery, Complete: Fallen Delivery, Complete: The Hero of Gavel, Visit: Cinfras"
-Efilim,TRUE,70,Region,Default,,"Twisted Housing, Minotaur Barbecue, Efilim Crossroads",,,70,"Complete: Shattered Minds, Visit: Efilim"
+Entrance to Cinfras,TRUE,70,Region,Item,00 01 01 11,"Cinfras, Chasm Chokepoint, Path to Cinfras, Mesquis Tower",,,70,"Explore: Recluse Nest, Explore: Bovine Bedrock, Complete: Slay Weirds, Complete: Murder Mystery, Visit: Entrance to Cinfras"
+Cinfras,TRUE,70,Region,Default,,"Entrance to Cinfras, Guild Hall, Cinfras Outskirts, Aldorei River",,,70,"Complete: Finding the Light, Complete: Murder Mystery, Complete: Fallen Delivery, Complete: The Hero of Gavel, Visit: Cinfras"
+Efilim,TRUE,70,Region,Default,,"Efilim Crossroads, Minotaur Barbecue, Twisted Housing",,,70,"Complete: Shattered Minds, Visit: Efilim"
 Path to Light's Secret,TRUE,71,Region,Item,00 01 00 f8,"Wood Sprite Hideaway, Luxuriant Pond, Heavenly Ingress",,,71,Visit: Path to Light's Secret
-Aldorei Valley Outskirts,TRUE,71,Region,Item,00 01 00 f9,"Mantis Nest, The Shiar, Aldorei Springs",,,71,"Complete: Finding the Light, Visit: Aldorei Valley Outskirts"
+Aldorei Valley Outskirts,TRUE,71,Region,Item,00 01 00 f9,"The Shiar, Mantis Nest, Aldorei Springs",,,71,"Complete: Finding the Light, Visit: Aldorei Valley Outskirts"
 Luxuriant Pond,TRUE,71,Region,Item,00 01 00 fc,"Path to Light's Secret, Dodegar's Forge, The Shiar",,,71,"Complete: The Ultimate Weapon, Visit: Luxuriant Pond"
-The Shiar,TRUE,71,Region,Item,00 01 01 02,"Luxuriant Pond, Mycelial Expanse, Aldorei Valley Outskirts",,,71,"Complete: Finding the Light, Complete: The Ultimate Weapon, Visit: The Shiar"
-Aldorei Valley,TRUE,71,Region,Item,00 01 01 1e,"Aldorei Cliffside Waterfalls, Outer Aldorei Town",,,71,"Explore: Shroom Sleeper Dugout, Complete: Aldorei's Secret Part I, Complete: Aldorei's Secret Part II, Visit: Aldorei Valley"
-Aldorei River,TRUE,71,Region,Item,00 01 01 1f,"Cinfras, Felroc Fields",,,71,Visit: Aldorei River
-Aldorei Cliffside Waterfalls,TRUE,71,Region,Item,00 01 01 20,"Felroc Fields, Aldorei Valley, Big Mushroom Cave",,,71,"Complete: Aldorei's Secret Part II, Visit: Aldorei Cliffside Waterfalls"
-Felroc Fields,TRUE,71,Region,Item,00 01 01 68,"Aldorei River, Cinfras's Small Farm, Aldorei Cliffside Waterfalls",,,71,Visit: Felroc Fields
-Mesquis Tower,TRUE,72,Region,Item,00 01 00 5e,"Kander Mines, Faltach Manor, Path to Cinfras, Entrance to Cinfras",,,72,"Explore: Mesquis Tower, Visit: Mesquis Tower"
-Kander Mines,TRUE,72,Region,Item,00 01 00 5f,"Path to Talor, Faltach Manor, Mesquis Tower, Dark Forest Village",,,72,Visit: Kander Mines
-Path to Talor,TRUE,72,Region,Item,00 01 00 60,"Viscera Pits, Entrance to Kander, Kander Mines, Dark Forest Village, Talor Cemetery, Old Crossroads",,,72,"Explore: Mystifying Stump, Visit: Path to Talor"
-Dark Forest Village,TRUE,72,Region,Item,00 01 00 61,"Talor Cemetery, Path to Talor, Kander Mines, Cinfras Outskirts",,,72,"Complete: Hollow Serenity, Visit: Dark Forest Village"
-Fungal Grove,TRUE,72,Region,Item,00 01 00 62,"Decayed Basin, Old Crossroads, Talor Cemetery, Cinfras Outskirts, Weird Clearing",,,72,"Explore: Weirding Ring, Visit: Fungal Grove"
-Decayed Basin,TRUE,72,Region,Item,00 01 00 63,"Heart of Decay, Lexdale, Fungal Grove, Mushroom Hill",,,72,"Complete: Lexdale Witch Trials, Visit: Decayed Basin"
-Heart of Decay,TRUE,72,Region,Item,00 01 00 64,"Mushroom Hill, Lexdale, Decayed Basin",,,72,"Complete: Lexdale Witch Trials, Visit: Heart of Decay"
-Mushroom Hill,TRUE,72,Region,Item,00 01 00 65,"Heart of Decay, Decayed Basin, Weird Clearing, Jitak's Farm",,,72,"Explore: Kander Crypt, Explore: Bandit Groundbreaking, Complete: Hollow Serenity, Complete: Hunger of the Gerts Part I, Visit: Mushroom Hill"
-Fallen Village,TRUE,72,Region,Item,00 01 00 66,"Weird Clearing, Cinfras Outskirts, Gylia Research Cabin",,,72,"Complete: Purple and Blue, Visit: Fallen Village"
-Light Peninsula,TRUE,72,Region,Item,00 01 00 b0,"The Shiar, Tree Island, Volcanic Isles, Volcanic Excavation",,,72,"Explore: Weird Wilds, Visit: Light Peninsula"
-Lexdale Penitentiary,TRUE,72,Region,Item,00 01 01 0b,"Twisted Ridge, Path to the Penitentiary",,,72,"Complete: Forbidden Prison, Visit: Lexdale Penitentiary"
-Path to the Penitentiary,TRUE,72,Region,Item,00 01 01 0c,"Lexdale Penitentiary, Twisted Ridge, Entrance to Kander, Viscera Pits",,,72,Visit: Path to the Penitentiary
-Faltach Manor,TRUE,72,Region,Item,00 01 01 0d,"Entrance to Kander, Enchanted River, Mesquis Tower, Kander Mines",,,72,"Complete: Hollow Serenity, Visit: Faltach Manor"
+The Shiar,TRUE,71,Region,Item,00 01 01 02,"Aldorei Valley Outskirts, Luxuriant Pond, Mycelial Expanse, Light Peninsula",,,71,"Complete: Finding the Light, Complete: The Ultimate Weapon, Visit: The Shiar"
+Aldorei Valley,TRUE,71,Region,Item,00 01 01 1e,"Outer Aldorei Town, Aldorei Cliffside Waterfalls",,,71,"Explore: Shroom Sleeper Dugout, Complete: Aldorei's Secret Part I, Complete: Aldorei's Secret Part II, Visit: Aldorei Valley"
+Aldorei River,TRUE,71,Region,Item,00 01 01 1f,"Felroc Fields, Cinfras",,,71,Visit: Aldorei River
+Aldorei Cliffside Waterfalls,TRUE,71,Region,Item,00 01 01 20,"Big Mushroom Cave, Aldorei Valley, Felroc Fields",,,71,"Complete: Aldorei's Secret Part II, Visit: Aldorei Cliffside Waterfalls"
+Felroc Fields,TRUE,71,Region,Item,00 01 01 68,"Cinfras's Small Farm, Aldorei River, Aldorei Cliffside Waterfalls",,,71,Visit: Felroc Fields
+Mesquis Tower,TRUE,72,Region,Item,00 01 00 5e,"Path to Cinfras, Faltach Manor, Kander Mines, Entrance to Cinfras",,,72,"Explore: Mesquis Tower, Visit: Mesquis Tower"
+Kander Mines,TRUE,72,Region,Item,00 01 00 5f,"Faltach Manor, Mesquis Tower, Path to Talor, Dark Forest Village",,,72,Visit: Kander Mines
+Path to Talor,TRUE,72,Region,Item,00 01 00 60,"Entrance to Kander, Dark Forest Village, Talor Cemetery, Old Crossroads, Kander Mines, Viscera Pits",,,72,"Explore: Mystifying Stump, Visit: Path to Talor"
+Dark Forest Village,TRUE,72,Region,Item,00 01 00 61,"Kander Mines, Path to Talor, Talor Cemetery, Cinfras Outskirts",,,72,"Complete: Hollow Serenity, Visit: Dark Forest Village"
+Fungal Grove,TRUE,72,Region,Item,00 01 00 62,"Talor Cemetery, Old Crossroads, Decayed Basin, Weird Clearing, Cinfras Outskirts",,,72,"Explore: Weirding Ring, Visit: Fungal Grove"
+Decayed Basin,TRUE,72,Region,Item,00 01 00 63,"Lexdale, Fungal Grove, Heart of Decay, Mushroom Hill",,,72,"Complete: Lexdale Witch Trials, Visit: Decayed Basin"
+Heart of Decay,TRUE,72,Region,Item,00 01 00 64,"Lexdale, Decayed Basin, Mushroom Hill",,,72,"Complete: Lexdale Witch Trials, Visit: Heart of Decay"
+Mushroom Hill,TRUE,72,Region,Item,00 01 00 65,"Decayed Basin, Heart of Decay, Weird Clearing, Jitak's Farm",,,72,"Explore: Kander Crypt, Explore: Bandit Groundbreaking, Complete: Hollow Serenity, Complete: Hunger of the Gerts Part I, Visit: Mushroom Hill"
+Fallen Village,TRUE,72,Region,Item,00 01 00 66,"Weird Clearing, Gylia Research Cabin, Cinfras Outskirts",,,72,"Complete: Purple and Blue, Visit: Fallen Village"
+Light Peninsula,TRUE,72,Region,Item,00 01 00 b0,The Shiar,,,72,"Explore: Weird Wilds, Visit: Light Peninsula"
+Lexdale Penitentiary,TRUE,72,Region,Item,00 01 01 0b,"Path to the Penitentiary, Twisted Ridge",,,72,"Complete: Forbidden Prison, Visit: Lexdale Penitentiary"
+Path to the Penitentiary,TRUE,72,Region,Item,00 01 01 0c,"Lexdale Penitentiary, Entrance to Kander, Viscera Pits, Twisted Ridge",,,72,Visit: Path to the Penitentiary
+Faltach Manor,TRUE,72,Region,Item,00 01 01 0d,"Enchanted River, Entrance to Kander, Mesquis Tower, Kander Mines",,,72,"Complete: Hollow Serenity, Visit: Faltach Manor"
 Viscera Pits,TRUE,72,Region,Item,00 01 01 0e,"Path to the Penitentiary, Path to Talor, Lexdale",,,72,"Explore: Flesh Mesh, Visit: Viscera Pits"
-Talor Cemetery,TRUE,72,Region,Item,00 01 01 0f,"Old Crossroads, Path to Talor, Dark Forest Village, Cinfras Outskirts, Fungal Grove",,,72,"Explore: Mystifying Stump, Visit: Talor Cemetery"
-Old Crossroads,TRUE,72,Region,Item,00 01 01 10,"Lexdale, Path to Talor, Talor Cemetery, Fungal Grove",,,72,"Explore: Mystifying Stump, Complete: Lexdale Witch Trials, Visit: Old Crossroads"
-Weird Clearing,TRUE,72,Region,Item,00 01 01 12,"Mushroom Hill, Fungal Grove, Fallen Village, Gylia Lakehouse",,,72,"Complete: Purple and Blue, Visit: Weird Clearing"
+Talor Cemetery,TRUE,72,Region,Item,00 01 01 0f,"Path to Talor, Dark Forest Village, Old Crossroads, Fungal Grove, Cinfras Outskirts",,,72,"Explore: Mystifying Stump, Visit: Talor Cemetery"
+Old Crossroads,TRUE,72,Region,Item,00 01 01 10,"Path to Talor, Talor Cemetery, Lexdale, Fungal Grove",,,72,"Explore: Mystifying Stump, Complete: Lexdale Witch Trials, Visit: Old Crossroads"
+Weird Clearing,TRUE,72,Region,Item,00 01 01 12,"Fungal Grove, Mushroom Hill, Fallen Village, Gylia Lakehouse",,,72,"Complete: Purple and Blue, Visit: Weird Clearing"
 Lexdale,TRUE,72,Region,Default,,"Viscera Pits, Old Crossroads, Decayed Basin, Heart of Decay",,,72,"Complete: Lexdale Witch Trials, Visit: Lexdale"
-Cinfras's Small Farm,TRUE,73,Region,Item,00 01 00 68,"Silverbull Headquarters, Felroc Fields, Big Mushroom Cave, Paper Trail",,,73,"Explore: Raiders' Rockhill, Complete: Fallen Delivery, Visit: Cinfras's Small Farm"
+Cinfras's Small Farm,TRUE,73,Region,Item,00 01 00 68,"Big Mushroom Cave, Paper Trail, Silverbull Headquarters, Felroc Fields",,,73,"Explore: Raiders' Rockhill, Complete: Fallen Delivery, Visit: Cinfras's Small Farm"
 Big Mushroom Cave,TRUE,73,Region,Item,00 01 01 13,"Cinfras's Small Farm, Aldorei Cliffside Waterfalls, Waterfall Cave",,,73,"Explore: Raiders' Rockhill, Complete: The Bigger Picture, Visit: Big Mushroom Cave"
-Paper Trail,TRUE,73,Region,Item,00 01 01 14,"Silverbull Headquarters, Cinfras's Small Farm, Waterfall Cave",,,73,Visit: Paper Trail
-Waterfall Cave,TRUE,73,Region,Item,00 01 01 21,"Paper Trail, Big Mushroom Cave, Pine Pillar Forest",,,73,"Explore: Raiders' Rockhill, Visit: Waterfall Cave"
+Paper Trail,TRUE,73,Region,Item,00 01 01 14,"Cinfras's Small Farm, Silverbull Headquarters, Waterfall Cave",,,73,Visit: Paper Trail
+Waterfall Cave,TRUE,73,Region,Item,00 01 01 21,"Big Mushroom Cave, Paper Trail, Pine Pillar Forest",,,73,"Explore: Raiders' Rockhill, Visit: Waterfall Cave"
 Guild Hall,TRUE,74,Region,Item,00 01 00 67,Cinfras,,,74,"Explore: Root Slingers' Rut, Complete: Slay Felrocs, Complete: Acquiring Credentials, Complete: Flight in Distress, Complete: Fallen Delivery, Visit: Guild Hall"
-Aldorei Springs,TRUE,74,Region,Item,00 01 01 1c,"Outer Aldorei Town, Mantis Nest, Aldorei Valley Outskirts",,,74,"Explore: Shock Shrine, Complete: Aldorei's Secret Part I, Visit: Aldorei Springs"
-Outer Aldorei Town,TRUE,74,Region,Item,00 01 01 1d,"Aldorei Valley, Aldorei Springs",,,74,"Complete: Aldorei's Secret Part I, Complete: Aldorei's Secret Part II, Visit: Outer Aldorei Town"
+Aldorei Springs,TRUE,74,Region,Item,00 01 01 1c,"Aldorei Valley Outskirts, Outer Aldorei Town, Mantis Nest",,,74,"Explore: Shock Shrine, Complete: Aldorei's Secret Part I, Visit: Aldorei Springs"
+Outer Aldorei Town,TRUE,74,Region,Item,00 01 01 1d,"Aldorei Springs, Aldorei Valley",,,74,"Complete: Aldorei's Secret Part I, Complete: Aldorei's Secret Part II, Visit: Outer Aldorei Town"
 Tower of Ascension,TRUE,75,Region,Item,00 01 00 47,Icy Descent,,,75,"Complete: Tower of Ascension, Visit: Tower of Ascension"
-Gert Camp,TRUE,77,Region,Item,00 01 00 69,"Jitak's Farm, Gylia Watchtower",,,77,"Complete: Hunger of the Gerts Part I, Complete: Hunger of the Gerts Part II, Visit: Gert Camp"
-Jitak's Farm,TRUE,77,Region,Item,00 01 00 6a,"Mushroom Hill, Gert Camp, Gylia Lakehouse",,,77,"Complete: Hunger of the Gerts Part I, Visit: Jitak's Farm"
-Cosmic Fissures,TRUE,77,Region,Item,00 01 01 18,"Gylia Watchtower, Gylia Research Cabin, Gylia Fisherman Camp, Thanos",,,77,"Complete: Purple and Blue, Visit: Cosmic Fissures"
-Gylia Research Cabin,TRUE,77,Region,Item,00 01 01 19,"Fallen Village, Gylia Lakehouse, Cosmic Fissures",,,77,"Complete: Purple and Blue, Visit: Gylia Research Cabin"
-Gylia Lakehouse,TRUE,77,Region,Item,00 01 01 1a,"Jitak's Farm, Weird Clearing, Gylia Research Cabin, Gylia Watchtower",,,77,"Complete: Purple and Blue, Visit: Gylia Lakehouse"
-Gylia Watchtower,TRUE,77,Region,Item,00 01 01 1b,"Gert Camp, Gylia Lakehouse, Cosmic Fissures, Kitrios Barracks",,,77,"Complete: Hunger of the Gerts Part I, Complete: Hunger of the Gerts Part II, Visit: Gylia Watchtower"
-Burning Farm,TRUE,79,Region,Item,00 01 00 6b,"Burning Airship, Evergreen Outbreak",,,79,"Complete: Fallen Delivery, Visit: Burning Farm"
-Burning Airship,TRUE,79,Region,Item,00 01 00 6c,"Secluded Ponds, Bandit Cave, Burning Farm",,,79,"Complete: Fallen Delivery, Visit: Burning Airship"
-Heavenly Ingress,TRUE,79,Region,Item,00 01 00 aa,"Path to Light's Secret, Field of Life",Complete: Finding the Light,,79,"Complete: The Realm of Light, Visit: Heavenly Ingress"
+Gert Camp,TRUE,77,Region,Item,00 01 00 69,"Gylia Watchtower, Jitak's Farm",,,77,"Complete: Hunger of the Gerts Part I, Complete: Hunger of the Gerts Part II, Visit: Gert Camp"
+Jitak's Farm,TRUE,77,Region,Item,00 01 00 6a,"Mushroom Hill, Gylia Lakehouse, Gert Camp",,,77,"Complete: Hunger of the Gerts Part I, Visit: Jitak's Farm"
+Cosmic Fissures,TRUE,77,Region,Item,00 01 01 18,"Gylia Fisherman Camp, Gylia Research Cabin, Gylia Watchtower, Thanos",,,77,"Complete: Purple and Blue, Visit: Cosmic Fissures"
+Gylia Research Cabin,TRUE,77,Region,Item,00 01 01 19,"Fallen Village, Cosmic Fissures, Gylia Lakehouse",,,77,"Complete: Purple and Blue, Visit: Gylia Research Cabin"
+Gylia Lakehouse,TRUE,77,Region,Item,00 01 01 1a,"Weird Clearing, Gylia Research Cabin, Gylia Watchtower, Jitak's Farm",,,77,"Complete: Purple and Blue, Visit: Gylia Lakehouse"
+Gylia Watchtower,TRUE,77,Region,Item,00 01 01 1b,"Cosmic Fissures, Gylia Lakehouse, Kitrios Barracks, Gert Camp",,,77,"Complete: Hunger of the Gerts Part I, Complete: Hunger of the Gerts Part II, Visit: Gylia Watchtower"
+Burning Farm,TRUE,79,Region,Item,00 01 00 6b,"Evergreen Outbreak, Burning Airship",,,79,"Complete: Fallen Delivery, Visit: Burning Farm"
+Burning Airship,TRUE,79,Region,Item,00 01 00 6c,"Burning Farm, Secluded Ponds, Bandit Cave",,,79,"Complete: Fallen Delivery, Visit: Burning Airship"
+Heavenly Ingress,TRUE,79,Region,Item,00 01 00 aa,"Field of Life, Path to Light's Secret",Complete: Finding the Light,,79,"Complete: The Realm of Light, Visit: Heavenly Ingress"
 Luminous Plateau,TRUE,79,Region,Item,00 01 00 ab,Field of Life,,,79,"Complete: The Realm of Light, Visit: Luminous Plateau"
 Primal Fen,TRUE,79,Region,Item,00 01 00 ac,Field of Life,,,79,"Complete: The Realm of Light, Visit: Primal Fen"
-Azure Frontier,TRUE,79,Region,Item,00 01 00 ad,"Nexus of Light, Field of Life, Path to Light, Otherworldly Monolith",,,79,"Explore: Tree of Light, Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Azure Frontier"
+Azure Frontier,TRUE,79,Region,Item,00 01 00 ad,"Field of Life, Path to Light, Otherworldly Monolith, Nexus of Light",,,79,"Explore: Tree of Light, Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Azure Frontier"
 Path to Light,TRUE,79,Region,Item,00 01 00 ae,"Azure Frontier, Otherworldly Monolith",,,79,"Complete: The Realm of Light, Visit: Path to Light"
 Nexus of Light,TRUE,79,Region,Item,00 01 00 af,Azure Frontier,,,79,"Complete: The Realm of Light, Visit: Nexus of Light"
-Field of Life,TRUE,79,Region,Item,00 01 00 b1,"Azure Frontier, Primal Fen, Luminous Plateau, Heavenly Ingress",,,79,"Explore: Cave of the Seasons, Visit: Field of Life"
-Silverbull Headquarters,TRUE,79,Region,Item,00 01 01 15,"Celestial Impact, Paper Trail, Cinfras's Small Farm",,,79,"Complete: Fallen Delivery, Visit: Silverbull Headquarters"
-Celestial Impact,TRUE,79,Region,Item,00 01 01 16,"Gylia Fisherman Camp, Secluded Ponds, Silverbull Headquarters",,,79,Visit: Celestial Impact
-Gylia Fisherman Camp,TRUE,79,Region,Item,00 01 01 17,"Cosmic Fissures, Path to Thanos, Celestial Impact",,,79,Visit: Gylia Fisherman Camp
-Pine Pillar Forest,TRUE,79,Region,Item,00 01 01 23,"Evergreen Outbreak, Timeworn Arch, Waterfall Cave",,,79,Visit: Pine Pillar Forest
-Evergreen Outbreak,TRUE,79,Region,Item,00 01 01 24,"Burning Farm, Pine Pillar Forest",,,79,Visit: Evergreen Outbreak
-Silent Road,FALSE,,Region,Item,00 01 00 45,,,,100,"Complete: A Journey Beyond, Visit: Silent Road"
-Thanos Exit,FALSE,,Region,Item,00 01 00 6d,,,,97,"Complete: The Breaking Point, Visit: Thanos Exit"
-Canyon Dropoff,FALSE,,Region,Item,00 01 00 6e,,,,85,"Complete: The Lost, Visit: Canyon Dropoff"
-Krolton's Cave,FALSE,,Region,Item,00 01 00 6f,,,,84,"Complete: The Canyon Guides, Complete: Beyond the Grave, Visit: Krolton's Cave"
-Canyon High Path,FALSE,,Region,Item,00 01 00 70,,,,85,"Explore: Deserter's Camp, Explore: Watery Waterfall, Visit: Canyon High Path"
-Kandon Farm,FALSE,,Region,Item,00 01 00 72,,,,85,"Explore: Demolition Derby, Explore: Chiseler's Cavern, Complete: Recipe For Disaster, Visit: Kandon Farm"
-Cliffside Passage North,FALSE,,Region,Item,00 01 00 73,,,,0,Visit: Cliffside Passage North
-Ranol's Farm,FALSE,,Region,Item,00 01 00 74,,,,80,"Explore: Gorgon Gorge, Explore: Blaze Springs, Complete: Cowfusion, Visit: Ranol's Farm"
-Thesead Suburbs,FALSE,,Region,Item,00 01 00 75,,,,85,"Explore: Blaze Springs, Visit: Thesead Suburbs"
-Crater Descent,FALSE,,Region,Item,00 01 00 76,,,,92,"Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Visit: Crater Descent"
-Temple Island,FALSE,,Region,Item,00 01 00 77,,,,97,"Explore: Angel Falls, Visit: Temple Island"
-Snail Island,FALSE,,Region,Item,00 01 00 78,,,,94,"Explore: Azurite Island, Complete: Slay Angels, Complete: Recipe For Disaster, Visit: Snail Island"
-Corkus Castle,FALSE,,Region,Item,00 01 00 79,,,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Complete: A Hunter's Calling, Visit: Corkus Castle"
-Fallen Factory,FALSE,,Region,Item,00 01 00 7a,,,,90,"Complete: Fallen Factory, Visit: Fallen Factory"
-Corkus City Mine,FALSE,,Region,Item,00 01 00 7b,,,,0,Visit: Corkus City Mine
-Ruined Houses,FALSE,,Region,Item,00 01 00 7c,,,,0,Visit: Ruined Houses
-Avos Temple,FALSE,,Region,Item,00 01 00 7d,,,,89,"Complete: The Envoy Part II, Visit: Avos Temple"
-Bloody Beach,FALSE,,Region,Item,00 01 00 7e,,,,0,Visit: Bloody Beach
-Corkus Outskirts,FALSE,,Region,Item,00 01 00 7f,,,,91,"Complete: Slay Astrochelys Manis, Complete: The Feathers Fly Part I, Visit: Corkus Outskirts"
-Frozen Fort,FALSE,,Region,Item,00 01 00 80,,,,0,Visit: Frozen Fort
-Sky Castle,FALSE,,Region,Item,00 01 00 81,,,,95,"Explore: The Donjon, Visit: Sky Castle"
-Kandon Ridge,FALSE,,Region,Item,00 01 00 82,,,,89,"Explore: Chiseler's Cavern, Explore: Ovine Spire, Visit: Kandon Ridge"
-Old Coal Mine,FALSE,,Region,Item,00 01 00 83,,,,89,"Explore: Chiseler's Cavern, Explore: Overgrown Rubble, Visit: Old Coal Mine"
-Dragonling Nests,FALSE,,Region,Item,00 01 00 84,,,,95,"Explore: Lamprophis Lair, Explore: Forgotten Excavation, Visit: Dragonling Nests"
-Astraulus' Tower,FALSE,,Region,Item,00 01 00 85,,,,96,"Complete: Recipe For Disaster, Visit: Astraulus' Tower"
-Molten Reach,FALSE,,Region,Item,00 01 00 86,,,,0,Visit: Molten Reach
-Ahmsord Outskirts,FALSE,,Region,Item,00 01 00 87,,,,0,Visit: Ahmsord Outskirts
-Swamp Island,FALSE,,Region,Item,00 01 00 88,,,,96,"Complete: Recipe For Disaster, Visit: Swamp Island"
-Angel Refuge,FALSE,,Region,Item,00 01 00 89,,,,96,"Explore: Windwalker Temple, Complete: The Hero of Gavel, Visit: Angel Refuge"
-Wybel Island,FALSE,,Region,Item,00 01 00 8a,,,,93,"Explore: Scarred Ingress, Visit: Wybel Island"
-Central Islands,FALSE,,Region,Item,00 01 00 8b,,,,93,"Explore: Scarred Ingress, Visit: Central Islands"
-Sky Island Ascent,FALSE,,Region,Item,00 01 00 8c,,,,99,"Complete: Slay Dragonlings, Visit: Sky Island Ascent"
-Sky Falls,FALSE,,Region,Item,00 01 00 8d,,,,0,Visit: Sky Falls
-Jofash Tunnel,FALSE,,Region,Item,00 01 00 8e,,,,95,"Explore: Sky Shroom, Visit: Jofash Tunnel"
-Jofash Docks,FALSE,,Region,Item,00 01 00 8f,,,,90,"Complete: Fantastic Voyage, Complete: Recipe For Disaster, Visit: Jofash Docks"
-Santa's Hideout,FALSE,,Region,Item,00 01 00 90,,,,0,Visit: Santa's Hideout
-Cinfras Outskirts,FALSE,,Region,Item,00 01 00 92,,,,75,"Explore: Weirding Ring, Explore: Burning Bog, Visit: Cinfras Outskirts"
-Regular Island,FALSE,,Region,Item,00 01 00 93,,,,0,Visit: Regular Island
-Royal Gate,FALSE,,Region,Item,00 01 00 97,,,,103,"Complete: Queen's Recruit, Complete: A Journey Home, Visit: Royal Gate"
-Southern Outpost,FALSE,,Region,Item,00 01 00 9b,,,,0,Visit: Southern Outpost
-Corkus Sea Cove,FALSE,,Region,Item,00 01 00 9c,,,,89,"Complete: The Envoy Part II, Visit: Corkus Sea Cove"
-Worm Tunnel,FALSE,,Region,Item,00 01 00 9d,,,,100,"Complete: A Journey Beyond, Visit: Worm Tunnel"
-Grey Ruins,FALSE,,Region,Item,00 01 00 9e,,,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond, Visit: Grey Ruins"
-Forgotten Town,FALSE,,Region,Item,00 01 00 9f,,,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond, Visit: Forgotten Town"
-Forest of Eyes,FALSE,,Region,Item,00 01 00 a0,,,,0,Visit: Forest of Eyes
-Sinister Forest,FALSE,,Region,Item,00 01 00 a1,,,,0,Visit: Sinister Forest
-Paths of Sludge,FALSE,,Region,Item,00 01 00 a2,,,,101,"Complete: A Journey Further, Visit: Paths of Sludge"
-Toxic Drip,FALSE,,Region,Item,00 01 00 a3,,,,101,"Complete: A Journey Further, Visit: Toxic Drip"
-Toxic Caves,FALSE,,Region,Item,00 01 00 a4,,,,0,Visit: Toxic Caves
-Gateway to Nothing,FALSE,,Region,Item,00 01 00 a5,,,,101,"Complete: A Journey Further, Visit: Gateway to Nothing"
-Void Valley,FALSE,,Region,Item,00 01 00 a6,,,,0,Visit: Void Valley
-Final Step,FALSE,,Region,Item,00 01 00 a7,,,,101,"Complete: Eldrich Outlook, Complete: A Journey Further, Visit: Final Step"
-Bizarre Passage,FALSE,,Region,Item,00 01 00 a8,,Complete: Eldrich Outlook,,103,"Complete: A Hunter's Calling, Visit: Bizarre Passage"
-The Gate,FALSE,,Region,Item,00 01 00 a9,,,,103,"Complete: A Hunter's Calling, Visit: The Gate"
-The Hive,FALSE,,Region,Item,00 01 00 d3,,,,100,"Complete: The Qira Hive, Visit: The Hive"
-Timeworn Arch,FALSE,,Region,Item,00 01 01 22,,,,88,"Explore: Cyclopes' Shrine, Visit: Timeworn Arch"
-Secluded Ponds,FALSE,,Region,Item,00 01 01 25,,,,0,Visit: Secluded Ponds
-Path to Thanos,FALSE,,Region,Item,00 01 01 26,,,,0,Visit: Path to Thanos
-Kitrios Armory,FALSE,,Region,Item,00 01 01 27,,,,80,"Complete: General's Orders, Visit: Kitrios Armory"
-Kitrios Barracks,FALSE,,Region,Item,00 01 01 28,,,,80,"Complete: General's Orders, Visit: Kitrios Barracks"
-Colourful Mountaintop,FALSE,,Region,Item,00 01 01 29,,,,80,"Explore: Drone's Retreat, Complete: General's Orders, Visit: Colourful Mountaintop"
-Upper Thanos,FALSE,,Region,Item,00 01 01 2a,,,,97,"Complete: The Breaking Point, Visit: Upper Thanos"
-Molten Passage,FALSE,,Region,Item,00 01 01 2b,,,,97,"Complete: The Breaking Point, Visit: Molten Passage"
-Path to Ozoth's Spire,FALSE,,Region,Item,00 01 01 2c,,,,81,"Complete: The Thanos Depository, Complete: The Breaking Point, Visit: Path to Ozoth's Spire"
-Inhospitable Mountain,FALSE,,Region,Item,00 01 01 2d,,,,81,"Complete: The Thanos Depository, Visit: Inhospitable Mountain"
-Bandit Cave,FALSE,,Region,Item,00 01 01 2e,,,,0,Visit: Bandit Cave
-Cascading Basins,FALSE,,Region,Item,00 01 01 2f,,,,0,Visit: Cascading Basins
-Cyclospordial Hazard,FALSE,,Region,Item,00 01 01 30,,,,0,Visit: Cyclospordial Hazard
-Winding Waters,FALSE,,Region,Item,00 01 01 31,,,,0,Visit: Winding Waters
-Panda Path,FALSE,,Region,Item,00 01 01 32,,,,88,"Complete: Slay Ailuropodas, Visit: Panda Path"
-Panda Kingdom,FALSE,,Region,Item,00 01 01 33,,,,0,Visit: Panda Kingdom
-Parasitic Slime Mine,FALSE,,Region,Item,00 01 01 34,,,,87,"Explore: Natural Sanctuary, Visit: Parasitic Slime Mine"
-Turncoat Turnabout,FALSE,,Region,Item,00 01 01 35,,,,87,"Explore: Natural Sanctuary, Visit: Turncoat Turnabout"
-Wayward Split,FALSE,,Region,Item,00 01 01 36,,,,85,"Explore: Rocky Peril, Explore: Natural Sanctuary, Visit: Wayward Split"
-Perilous Passage,FALSE,,Region,Item,00 01 01 37,,,,83,"Explore: Rocky Peril, Complete: A Marauder's Dues, Visit: Perilous Passage"
-Perilous Grotto,FALSE,,Region,Item,00 01 01 38,,,,0,Visit: Perilous Grotto
-Thanos Underpass,FALSE,,Region,Item,00 01 01 39,,,,0,Visit: Thanos Underpass
-Canyon Walkway,FALSE,,Region,Item,00 01 01 3a,,,,83,"Complete: A Marauder's Dues, Visit: Canyon Walkway"
-Wizard's Warning,FALSE,,Region,Item,00 01 01 3b,,,,83,"Complete: A Marauder's Dues, Complete: Beyond the Grave, Visit: Wizard's Warning"
-Harpy's Haunt North,FALSE,,Region,Item,00 01 01 3c,,,,83,"Explore: Rocky Peril, Complete: A Marauder's Dues, Complete: Beyond the Grave, Visit: Harpy's Haunt North"
-Fleris Cranny,FALSE,,Region,Item,00 01 01 3d,,,,88,"Explore: Colossi Infection, Visit: Fleris Cranny"
-Troll Tower,FALSE,,Region,Item,00 01 01 3e,,,,87,"Explore: Natural Sanctuary, Explore: Colossi Infection, Visit: Troll Tower"
-Illuminant Path,FALSE,,Region,Item,00 01 01 3f,,,,0,Visit: Illuminant Path
-Bandit's Toll,FALSE,,Region,Item,00 01 01 40,,,,83,"Explore: Plasmatic Gouge, Complete: A Marauder's Dues, Visit: Bandit's Toll"
-Wizard Tower,FALSE,,Region,Item,00 01 01 41,,,,0,Visit: Wizard Tower
-Rocky Bend,FALSE,,Region,Item,00 01 01 42,,,,85,"Complete: The Lost, Visit: Rocky Bend"
-Housing Crisis,FALSE,,Region,Item,00 01 01 43,,,,85,"Complete: The Lost, Visit: Housing Crisis"
-Featherfall Cliffs,FALSE,,Region,Item,00 01 01 44,,,,85,"Complete: The Lost, Visit: Featherfall Cliffs"
-Elefolk Stomping Grounds,FALSE,,Region,Item,00 01 01 45,,,,0,Visit: Elefolk Stomping Grounds
-Path to the Dojo,FALSE,,Region,Item,00 01 01 46,,,,80,"Explore: Deserter's Camp, Explore: Watery Waterfall, Complete: Slay Hobgoblins, Visit: Path to the Dojo"
-Wanderer's Way,FALSE,,Region,Item,00 01 01 47,,,,0,Visit: Wanderer's Way
-Workshop Glade,FALSE,,Region,Item,00 01 01 48,,,,83,"Complete: Slay Jinkos, Complete: The Canyon Guides, Visit: Workshop Glade"
-Bantisu Approach,FALSE,,Region,Item,00 01 01 49,,,,84,"Complete: The Canyon Guides, Visit: Bantisu Approach"
-Bantisu Air Temple,FALSE,,Region,Item,00 01 01 4a,,,,87,"Complete: Beyond the Grave, Visit: Bantisu Air Temple"
-Elephelk Trail,FALSE,,Region,Item,00 01 01 4b,,,,85,"Explore: Demolition Derby, Visit: Elephelk Trail"
-Protector's Pathway,FALSE,,Region,Item,00 01 01 4c,,,,85,"Explore: Demolition Derby, Complete: The Lost, Visit: Protector's Pathway"
-Cliffside Passage South,FALSE,,Region,Item,00 01 01 4d,,,,85,"Explore: Seismic Bore Hole, Explore: Chiseler's Cavern, Visit: Cliffside Passage South"
-Thesead Underpass,FALSE,,Region,Item,00 01 01 4e,,,,81,"Explore: Voltaic Crag, Explore: Abyssal Shine, Complete: The Canary Calls, Visit: Thesead Underpass"
-Entrance to Thesead,FALSE,,Region,Item,00 01 01 4f,,,,87,"Explore: Abyssal Shine, Complete: The Hidden City, Visit: Entrance to Thesead"
-Displaced Housing,FALSE,,Region,Item,00 01 01 50,,,,83,"Explore: Cyclonic Spirit Trap, Explore: Broodmother's Bestiary, Visit: Displaced Housing"
-Cherry Blossom Grove,FALSE,,Region,Item,00 01 01 51,,,,80,"Explore: Gorgon Gorge, Explore: Broodmother's Bestiary, Visit: Cherry Blossom Grove"
-Entrance to Molten Heights,FALSE,,Region,Item,00 01 01 52,,,,0,Visit: Entrance to Molten Heights
-Freezing Heights,FALSE,,Region,Item,00 01 01 54,,,,91,"Explore: Dragonkin Nest, Complete: Slay Frosted Guards & Gryostone Golems, Complete: Slay Ifrits, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part III, Complete: The Breaking Point, Visit: Freezing Heights"
-Lava Lakes,FALSE,,Region,Item,00 01 01 55,,,,91,"Complete: Slay Magma Entities, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Visit: Lava Lakes"
-Dragonbone Graveyard,FALSE,,Region,Item,00 01 01 56,,,,95,"Explore: Dragonkin Nest, Visit: Dragonbone Graveyard"
-Corkus City Crossroads,FALSE,,Region,Item,00 01 01 5a,,,,93,"Complete: The Feathers Fly Part II, Visit: Corkus City Crossroads"
-Road to Mine,FALSE,,Region,Item,00 01 01 5b,,,,89,"Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Visit: Road to Mine"
-Industrial Clearing,FALSE,,Region,Item,00 01 01 5c,,,,85,"Complete: Slay Robots, Complete: The Envoy Part II, Visit: Industrial Clearing"
-Corkus Forest,FALSE,,Region,Item,00 01 01 5d,,,,0,Visit: Corkus Forest
-Picnic Pond,FALSE,,Region,Item,00 01 01 5e,,,,0,Visit: Picnic Pond
-Avos Territory,FALSE,,Region,Item,00 01 01 5f,,,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part I, Visit: Avos Territory"
-Overrun Docks,FALSE,,Region,Item,00 01 01 60,,,,83,"Complete: The Envoy Part I, Visit: Overrun Docks"
-Retrofitted Manufactory,FALSE,,Region,Item,00 01 01 61,,,,97,"Complete: The Breaking Point, Visit: Retrofitted Manufactory"
-Founder's Statue,FALSE,,Region,Item,00 01 01 62,,,,87,"Complete: Mixed Feelings, Visit: Founder's Statue"
-Path to Ahmsord,FALSE,,Region,Item,00 01 01 63,,,,0,Visit: Path to Ahmsord
-Aerial Descent,FALSE,,Region,Item,00 01 01 64,,,,0,Visit: Aerial Descent
-Raiders' Stronghold,FALSE,,Region,Item,00 01 01 65,,,,98,"Complete: Royal Trials, Visit: Raiders' Stronghold"
-Raiders' Airbase,FALSE,,Region,Item,00 01 01 66,,,,98,"Complete: Royal Trials, Visit: Raiders' Airbase"
-Lighthouse Lookout,FALSE,,Region,Item,00 01 01 67,,,,86,"Complete: Desperate Metal, Visit: Lighthouse Lookout"
-Balloon Airbase,FALSE,,Region,Item,00 01 01 69,,,,86,"Complete: Slay Pernix Monkeys, Complete: Desperate Metal, Visit: Balloon Airbase"
-Broken Road,FALSE,,Region,Item,00 01 01 6a,,,,100,"Complete: A Journey Beyond, Visit: Broken Road"
-Otherworldly Monolith,FALSE,,Region,Item,00 01 01 6b,,,,79,"Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Otherworldly Monolith"
-Troll's Challenge,FALSE,,Region,Item,00 01 01 6e,,,,0,Visit: Troll's Challenge
-Harpy's Haunt South,FALSE,,Region,Item,00 01 01 6f,,,,0,Visit: Harpy's Haunt South
-Hobgoblin's Hoard,FALSE,,Region,Item,00 01 01 70,,,,84,"Complete: The Canyon Guides, Visit: Hobgoblin's Hoard"
-Pyroclastic Flow,FALSE,,Region,Item,00 01 01 71,,,,91,"Complete: Dwarves and Doguns Part I, Visit: Pyroclastic Flow"
-Ava's Workshop,FALSE,,Region,Item,00 01 01 72,,,,91,"Complete: The Feathers Fly Part I, Complete: The Feathers Fly Part II, Visit: Ava's Workshop"
-Wellspring of Eternity,FALSE,,Region,Item,00 01 01 73,,,,104,"Explore: Ancient Arthropods, Visit: Wellspring of Eternity"
-Fort Torann,FALSE,,Region,Item,00 01 01 74,,,,104,"Complete: A Journey Home, Visit: Fort Torann"
-Xima Valley,FALSE,,Region,Item,00 01 01 75,,,,0,Visit: Xima Valley
-The Frog Bog,FALSE,,Region,Item,00 01 01 76,,,,104,"Explore: Ancient Arthropods, Explore: Siltswimmer Den, Complete: A New Beginning, Visit: The Frog Bog"
-Forts in Fall,FALSE,,Region,Item,00 01 01 77,,,,104,"Explore: Electrifying Outpost, Complete: A New Beginning, Complete: Undersupply, Visit: Forts in Fall"
-Royal Dam,FALSE,,Region,Item,00 01 01 78,,,,107,"Complete: Undersupply, Complete: Ensemble of Hope, Visit: Royal Dam"
-Festival Grounds,FALSE,,Region,Item,00 01 01 79,,,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: Revelations in Fall, Visit: Festival Grounds"
-The Lumbermill,FALSE,,Region,Item,00 01 01 7a,,,,107,"Explore: Auburn Lumbermill, Complete: The Scarred Springs, Visit: The Lumbermill"
-Residence Sector,FALSE,,Region,Item,00 01 01 7b,,,,110,"Explore: Abandoned Steelworks, Complete: The Missing Piece, Visit: Residence Sector"
-Agricultural Sector,FALSE,,Region,Item,00 01 01 7c,,,,108,"Explore: Water Tower, Complete: Revelations in Fall, Complete: Through the Pipes, Complete: The Missing Piece, Visit: Agricultural Sector"
-Water Processing Sector,FALSE,,Region,Item,00 01 01 7d,,,,109,"Explore: Weapons Factory, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Visit: Water Processing Sector"
-Industrial Sector,FALSE,,Region,Item,00 01 01 7e,,,,109,"Complete: Slay Hedoro, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Visit: Industrial Sector"
-Highlands Gate,FALSE,,Region,Item,00 01 01 7f,,,,113,"Explore: Estalis Gallery, Complete: Shrouded in Mist, Visit: Highlands Gate"
-Alder Understory,FALSE,,Region,Item,00 01 01 80,,,,0,Visit: Alder Understory
-Verdant Grove,FALSE,,Region,Item,00 01 01 81,,,,113,"Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours, Visit: Verdant Grove"
-Fort Hegea,FALSE,,Region,Item,00 01 01 82,,,,114,"Explore: Entozoon Takeover, Complete: Burning Bonds, Complete: True Colours, Complete: Celebrations in Smoke, Visit: Fort Hegea"
-Deforested Ecotone,FALSE,,Region,Item,00 01 01 83,,,,112,"Explore: Nesting Place, Complete: Echoes of Change, Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours, Complete: Ensemble of Hope, Visit: Deforested Ecotone"
-Citadel's Shadow,FALSE,,Region,Item,00 01 01 84,,,,117,"Explore: Krisa Manor, Explore: Liftal Castle, Complete: Hunt Wolly Rhinos, Complete: Ensemble of Hope, Visit: Citadel's Shadow"
-Lake Gitephe,FALSE,,Region,Item,00 01 01 85,,,,107,"Complete: Undersupply, Complete: Overture to Despair, Complete: Apotheosis, Visit: Lake Gitephe"
-Fort Tericen,FALSE,,Region,Item,00 01 01 86,,,,116,"Explore: Tericen Stables, Explore: Krisa Manor, Complete: The Strong Survive, Visit: Fort Tericen"
-Lake Rieke,FALSE,,Region,Item,00 01 01 87,,,,0,Visit: Lake Rieke
-Frosty Outpost,FALSE,,Region,Item,00 01 01 88,,,,119,"Explore: Glacier Tunnels, Explore: Northern Outpost, Visit: Frosty Outpost"
-Feuding Houses,FALSE,,Region,Item,00 01 01 89,,,,116,"Explore: Tericen Stables, Complete: Overture to Despair, Visit: Feuding Houses"
-Royal Barracks,FALSE,,Region,Item,00 01 01 8a,,,,108,"Explore: The Barracks, Complete: The Scarred Springs, Complete: The Missing Piece, Complete: Apotheosis, Visit: Royal Barracks"
-Gates to Aelumia,FALSE,,Region,Item,00 01 01 8b,,,,118,"Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Gates to Aelumia"
-University Campus,FALSE,,Region,Item,00 01 01 8c,,,,111,"Explore: Theatre Royal, Complete: The Missing Piece, Complete: Echoes of Change, Visit: University Campus"
-Thanos,FALSE,,Region,Default,,,,,81,"Complete: From the Bottom, Complete: The Thanos Depository, Complete: The Breaking Point, Visit: Thanos"
-Thesead,FALSE,,Region,Default,,,,,80,"Explore: Troll Burrows, Complete: The Canary Calls, Complete: The Hidden City, Visit: Thesead"
-Eltom,FALSE,,Region,Default,,,,,88,"Complete: The Hidden City, Visit: Eltom"
-Ahmsord,FALSE,,Region,Default,,,,,95,"Explore: Mycolite Mountain, Complete: Slay Creatures of the Void, Complete: Slay Conures, Complete: One Thousand Meters Under, Complete: Recipe For Disaster, Complete: The Hero of Gavel, Visit: Ahmsord"
-Corkus City,FALSE,,Region,Default,,,,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Visit: Corkus City"
-Legendary Island,FALSE,,Region,Default,,,,,0,Visit: Legendary Island
-Rodoroc,FALSE,,Region,Default,,,,,91,"Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Complete: A Hunter's Calling, Visit: Rodoroc"
-Lutho,FALSE,,Region,Default,,,,,100,"Complete: A Journey Beyond, Complete: A Journey Further, Complete: Point of No Return, Visit: Lutho"
-Relos,FALSE,,Region,Default,,,,,89,"Complete: The Envoy Part II, Visit: Relos"
-Espren,FALSE,,Region,Default,,,,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: The Scarred Springs, Complete: Revelations in Fall, Complete: Off the Rails, Complete: The Missing Piece, Visit: Espren"
-Timasca,FALSE,,Region,Default,,,,,109,"Explore: The Flush, Explore: Freight Interchange, Complete: Solidarity of Steel, Complete: Off the Rails, Complete: The Price of Ingenuity, Complete: Through the Pipes, Complete: Echoes of Change, Visit: Timasca"
-Aldwell,FALSE,,Region,Default,,,,,112,"Explore: Entozoon Takeover, Complete: Hunt Banshee Stags, Complete: Shrouded in Mist, Complete: Celebrations in Smoke, Visit: Aldwell"
-Hyloch,FALSE,,Region,Default,,,,,116,"Explore: Saltpetre Mine, Complete: Overture to Despair, Complete: The Strong Survive, Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Hyloch"
-Contested District,FALSE,,Region,Default,,,,,115,"Explore: Citadel Catacombs, Explore: Aelumia Weaveworks, Explore: Aelumia Metalmill, Explore: Aelumia Chemical Plant, Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Contested District"
-Kandon-Beda,FALSE,,Region,Default,,,,,85,"Explore: Demolition Derby, Complete: The Breaking Point, Visit: Kandon-Beda"
-Dogun Ritual Site,FALSE,,Region,Default,,,,,91,"Explore: Scorched Earth, Complete: Slay Azers, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part III, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Visit: Dogun Ritual Site"
+Field of Life,TRUE,79,Region,Item,00 01 00 b1,"Luminous Plateau, Heavenly Ingress, Primal Fen, Azure Frontier",,,79,"Explore: Cave of the Seasons, Visit: Field of Life"
+Silverbull Headquarters,TRUE,79,Region,Item,00 01 01 15,"Paper Trail, Celestial Impact, Cinfras's Small Farm",,,79,"Complete: Fallen Delivery, Visit: Silverbull Headquarters"
+Celestial Impact,TRUE,79,Region,Item,00 01 01 16,"Silverbull Headquarters, Gylia Fisherman Camp, Secluded Ponds",,,79,Visit: Celestial Impact
+Gylia Fisherman Camp,TRUE,79,Region,Item,00 01 01 17,"Celestial Impact, Cosmic Fissures, Path to Thanos",,,79,Visit: Gylia Fisherman Camp
+Pine Pillar Forest,TRUE,79,Region,Item,00 01 01 23,"Waterfall Cave, Timeworn Arch, Evergreen Outbreak",,,79,Visit: Pine Pillar Forest
+Evergreen Outbreak,TRUE,79,Region,Item,00 01 01 24,"Pine Pillar Forest, Burning Farm",,,79,Visit: Evergreen Outbreak
+Silent Road,FALSE,,Region,Item,00 01 00 45,"Mine Base Plains, Broken Road",,,100,"Complete: A Journey Beyond, Visit: Silent Road"
+Thanos Exit,FALSE,,Region,Item,00 01 00 6d,"Illuminant Path, Thanos Underpass",,,97,"Complete: The Breaking Point, Visit: Thanos Exit"
+Canyon Dropoff,FALSE,,Region,Item,00 01 00 6e,"Rocky Bend, Featherfall Cliffs",,,85,"Complete: The Lost, Visit: Canyon Dropoff"
+Krolton's Cave,FALSE,,Region,Item,00 01 00 6f,"Harpy's Haunt North, Wizard Tower, Bantisu Approach, Hobgoblin's Hoard",,,84,"Complete: The Canyon Guides, Complete: Beyond the Grave, Visit: Krolton's Cave"
+Canyon High Path,FALSE,,Region,Item,00 01 00 70,"Illuminant Path, Path to the Dojo, Wanderer's Way",,,85,"Explore: Deserter's Camp, Explore: Watery Waterfall, Visit: Canyon High Path"
+Kandon Farm,FALSE,,Region,Item,00 01 00 72,Kandon Ridge,,,85,"Explore: Demolition Derby, Explore: Chiseler's Cavern, Complete: Recipe For Disaster, Visit: Kandon Farm"
+Cliffside Passage North,FALSE,,Region,Item,00 01 00 73,"Cliffside Passage South, Thesead Underpass",,,0,Visit: Cliffside Passage North
+Ranol's Farm,FALSE,,Region,Item,00 01 00 74,"Cherry Blossom Grove, Thesead Suburbs, Eltom",,,80,"Explore: Gorgon Gorge, Explore: Blaze Springs, Complete: Cowfusion, Visit: Ranol's Farm"
+Thesead Suburbs,FALSE,,Region,Item,00 01 00 75,"Displaced Housing, Ranol's Farm, Entrance to Molten Heights, Thesead",,,85,"Explore: Blaze Springs, Visit: Thesead Suburbs"
+Crater Descent,FALSE,,Region,Item,00 01 00 76,"Dogun Ritual Site, Lava Lakes, Rodoroc",,,92,"Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Visit: Crater Descent"
+Temple Island,FALSE,,Region,Item,00 01 00 77,"Ahmsord, Swamp Island, Snail Island, Kandon Ridge, Central Islands",,,97,"Explore: Angel Falls, Visit: Temple Island"
+Snail Island,FALSE,,Region,Item,00 01 00 78,"Temple Island, Dragonling Nests",,,94,"Explore: Azurite Island, Complete: Slay Angels, Complete: Recipe For Disaster, Visit: Snail Island"
+Corkus Castle,FALSE,,Region,Item,00 01 00 79,"Corkus City, Selchar",,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Complete: A Hunter's Calling, Visit: Corkus Castle"
+Fallen Factory,FALSE,,Region,Item,00 01 00 7a,"Corkus City Crossroads, Industrial Clearing, Ruined Houses, Relos, Corkus Sea Cove",,,90,"Complete: Fallen Factory, Visit: Fallen Factory"
+Corkus City Mine,FALSE,,Region,Item,00 01 00 7b,"Road to Mine, Founder's Statue, Corkus Sea Cove",,,0,Visit: Corkus City Mine
+Ruined Houses,FALSE,,Region,Item,00 01 00 7c,"Fallen Factory, Industrial Clearing, Relos",,,0,Visit: Ruined Houses
+Avos Temple,FALSE,,Region,Item,00 01 00 7d,"Ava's Workshop, Bloody Beach, Retrofitted Manufactory",,,89,"Complete: The Envoy Part II, Visit: Avos Temple"
+Bloody Beach,FALSE,,Region,Item,00 01 00 7e,"Avos Temple, Corkus Outskirts",,,0,Visit: Bloody Beach
+Corkus Outskirts,FALSE,,Region,Item,00 01 00 7f,"Retrofitted Manufactory, Founder's Statue, Bloody Beach",,,91,"Complete: Slay Astrochelys Manis, Complete: The Feathers Fly Part I, Visit: Corkus Outskirts"
+Frozen Fort,FALSE,,Region,Item,00 01 00 80,Sky Falls,,,0,Visit: Frozen Fort
+Sky Castle,FALSE,,Region,Item,00 01 00 81,Path to Ahmsord,,,95,"Explore: The Donjon, Visit: Sky Castle"
+Kandon Ridge,FALSE,,Region,Item,00 01 00 82,"Kandon Farm, Aerial Descent, Old Coal Mine, Temple Island",,,89,"Explore: Chiseler's Cavern, Explore: Ovine Spire, Visit: Kandon Ridge"
+Old Coal Mine,FALSE,,Region,Item,00 01 00 83,Kandon Ridge,,,89,"Explore: Chiseler's Cavern, Explore: Overgrown Rubble, Visit: Old Coal Mine"
+Dragonling Nests,FALSE,,Region,Item,00 01 00 84,"Snail Island, Astraulus' Tower",,,95,"Explore: Lamprophis Lair, Explore: Forgotten Excavation, Visit: Dragonling Nests"
+Astraulus' Tower,FALSE,,Region,Item,00 01 00 85,"Dragonling Nests, Swamp Island",,,96,"Complete: Recipe For Disaster, Visit: Astraulus' Tower"
+Molten Reach,FALSE,,Region,Item,00 01 00 86,"Dogun Ritual Site, Angel Refuge",,,0,Visit: Molten Reach
+Ahmsord Outskirts,FALSE,,Region,Item,00 01 00 87,"Swamp Island, Angel Refuge, Wybel Island, Central Islands",,,0,Visit: Ahmsord Outskirts
+Swamp Island,FALSE,,Region,Item,00 01 00 88,"Temple Island, Astraulus' Tower, Ahmsord Outskirts",,,96,"Complete: Recipe For Disaster, Visit: Swamp Island"
+Angel Refuge,FALSE,,Region,Item,00 01 00 89,"Molten Reach, Ahmsord Outskirts",,,96,"Explore: Windwalker Temple, Complete: The Hero of Gavel, Visit: Angel Refuge"
+Wybel Island,FALSE,,Region,Item,00 01 00 8a,"Ahmsord Outskirts, Central Islands, Sky Falls",,,93,"Explore: Scarred Ingress, Visit: Wybel Island"
+Central Islands,FALSE,,Region,Item,00 01 00 8b,"Ahmsord, Temple Island, Ahmsord Outskirts, Wybel Island, Sky Island Ascent",,,93,"Explore: Scarred Ingress, Visit: Central Islands"
+Sky Island Ascent,FALSE,,Region,Item,00 01 00 8c,"Central Islands, Sky Falls, Raiders' Stronghold, Jofash Tunnel, Ahmsord",,,99,"Complete: Slay Dragonlings, Visit: Sky Island Ascent"
+Sky Falls,FALSE,,Region,Item,00 01 00 8d,"Frozen Fort, Wybel Island, Sky Island Ascent",,,0,Visit: Sky Falls
+Jofash Tunnel,FALSE,,Region,Item,00 01 00 8e,"Sky Island Ascent, Jofash Docks",,,95,"Explore: Sky Shroom, Visit: Jofash Tunnel"
+Jofash Docks,FALSE,,Region,Item,00 01 00 8f,"Jofash Tunnel, Regular Island",,,90,"Complete: Fantastic Voyage, Complete: Recipe For Disaster, Visit: Jofash Docks"
+Santa's Hideout,FALSE,,Region,Item,00 01 00 90,"Icy Island, Nodguj Nation",,,0,Visit: Santa's Hideout
+Cinfras Outskirts,FALSE,,Region,Item,00 01 00 92,"Dark Forest Village, Talor Cemetery, Fungal Grove, Fallen Village, Cinfras",,,75,"Explore: Weirding Ring, Explore: Burning Bog, Visit: Cinfras Outskirts"
+Regular Island,FALSE,,Region,Item,00 01 00 93,Jofash Docks,,,0,Visit: Regular Island
+Royal Gate,FALSE,,Region,Item,00 01 00 97,"Lighthouse Lookout, Fort Torann",,,103,"Complete: Queen's Recruit, Complete: A Journey Home, Visit: Royal Gate"
+Southern Outpost,FALSE,,Region,Item,00 01 00 9b,"Legendary Island, Balloon Airbase",,,0,Visit: Southern Outpost
+Corkus Sea Cove,FALSE,,Region,Item,00 01 00 9c,"Fallen Factory, Road to Mine, Corkus City Mine, Relos",,,89,"Complete: The Envoy Part II, Visit: Corkus Sea Cove"
+Worm Tunnel,FALSE,,Region,Item,00 01 00 9d,"Broken Road, Grey Ruins",,,100,"Complete: A Journey Beyond, Visit: Worm Tunnel"
+Grey Ruins,FALSE,,Region,Item,00 01 00 9e,"Worm Tunnel, Forgotten Town",,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond, Visit: Grey Ruins"
+Forgotten Town,FALSE,,Region,Item,00 01 00 9f,"Grey Ruins, Forest of Eyes",,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond, Visit: Forgotten Town"
+Forest of Eyes,FALSE,,Region,Item,00 01 00 a0,"Forgotten Town, Sinister Forest",,,0,Visit: Forest of Eyes
+Sinister Forest,FALSE,,Region,Item,00 01 00 a1,"Forest of Eyes, Lutho",,,0,Visit: Sinister Forest
+Paths of Sludge,FALSE,,Region,Item,00 01 00 a2,"Lutho, Toxic Drip",,,101,"Complete: A Journey Further, Visit: Paths of Sludge"
+Toxic Drip,FALSE,,Region,Item,00 01 00 a3,"Paths of Sludge, Toxic Caves, Gateway to Nothing",,,101,"Complete: A Journey Further, Visit: Toxic Drip"
+Toxic Caves,FALSE,,Region,Item,00 01 00 a4,Toxic Drip,,,0,Visit: Toxic Caves
+Gateway to Nothing,FALSE,,Region,Item,00 01 00 a5,"Toxic Drip, Void Valley, Final Step",,,101,"Complete: A Journey Further, Visit: Gateway to Nothing"
+Void Valley,FALSE,,Region,Item,00 01 00 a6,Gateway to Nothing,,,0,Visit: Void Valley
+Final Step,FALSE,,Region,Item,00 01 00 a7,"Gateway to Nothing, Bizarre Passage",,,101,"Complete: Eldrich Outlook, Complete: A Journey Further, Visit: Final Step"
+Bizarre Passage,FALSE,,Region,Item,00 01 00 a8,"Final Step, The Gate",Complete: Eldrich Outlook,,103,"Complete: A Hunter's Calling, Visit: Bizarre Passage"
+The Gate,FALSE,,Region,Item,00 01 00 a9,Bizarre Passage,,,103,"Complete: A Hunter's Calling, Visit: The Gate"
+The Hive,FALSE,,Region,Item,00 01 00 d3,"Path to the Dojo, Illuminant Path",,,100,"Complete: The Qira Hive, Visit: The Hive"
+Timeworn Arch,FALSE,,Region,Item,00 01 01 22,"Pine Pillar Forest, Panda Path",,,88,"Explore: Cyclopes' Shrine, Visit: Timeworn Arch"
+Secluded Ponds,FALSE,,Region,Item,00 01 01 25,"Burning Airship, Path to Thanos, Celestial Impact, Path to Ozoth's Spire",,,0,Visit: Secluded Ponds
+Path to Thanos,FALSE,,Region,Item,00 01 01 26,"Secluded Ponds, Thanos, Gylia Fisherman Camp, Path to Ozoth's Spire",,,0,Visit: Path to Thanos
+Kitrios Armory,FALSE,,Region,Item,00 01 01 27,"Thanos, Kitrios Barracks",,,80,"Complete: General's Orders, Visit: Kitrios Armory"
+Kitrios Barracks,FALSE,,Region,Item,00 01 01 28,"Kitrios Armory, Colourful Mountaintop, Gylia Watchtower",,,80,"Complete: General's Orders, Visit: Kitrios Barracks"
+Colourful Mountaintop,FALSE,,Region,Item,00 01 01 29,"Kitrios Barracks, Troll's Challenge",,,80,"Explore: Drone's Retreat, Complete: General's Orders, Visit: Colourful Mountaintop"
+Upper Thanos,FALSE,,Region,Item,00 01 01 2a,"Thanos, Troll's Challenge",,,97,"Complete: The Breaking Point, Visit: Upper Thanos"
+Molten Passage,FALSE,,Region,Item,00 01 01 2b,"Path to Ozoth's Spire, Canyon Walkway",,,97,"Complete: The Breaking Point, Visit: Molten Passage"
+Path to Ozoth's Spire,FALSE,,Region,Item,00 01 01 2c,"Path to Thanos, Molten Passage, Inhospitable Mountain, Secluded Ponds",,,81,"Complete: The Thanos Depository, Complete: The Breaking Point, Visit: Path to Ozoth's Spire"
+Inhospitable Mountain,FALSE,,Region,Item,00 01 01 2d,"Path to Ozoth's Spire, Perilous Grotto",,,81,"Complete: The Thanos Depository, Visit: Inhospitable Mountain"
+Bandit Cave,FALSE,,Region,Item,00 01 01 2e,Burning Airship,,,0,Visit: Bandit Cave
+Cascading Basins,FALSE,,Region,Item,00 01 01 2f,"Cyclospordial Hazard, Wayward Split",,,0,Visit: Cascading Basins
+Cyclospordial Hazard,FALSE,,Region,Item,00 01 01 30,"Cascading Basins, Winding Waters, Turncoat Turnabout",,,0,Visit: Cyclospordial Hazard
+Winding Waters,FALSE,,Region,Item,00 01 01 31,"Cyclospordial Hazard, Parasitic Slime Mine",,,0,Visit: Winding Waters
+Panda Path,FALSE,,Region,Item,00 01 01 32,"Panda Kingdom, Timeworn Arch",,,88,"Complete: Slay Ailuropodas, Visit: Panda Path"
+Panda Kingdom,FALSE,,Region,Item,00 01 01 33,"Panda Path, Parasitic Slime Mine",,,0,Visit: Panda Kingdom
+Parasitic Slime Mine,FALSE,,Region,Item,00 01 01 34,"Troll Tower, Panda Kingdom, Turncoat Turnabout, Winding Waters",,,87,"Explore: Natural Sanctuary, Visit: Parasitic Slime Mine"
+Turncoat Turnabout,FALSE,,Region,Item,00 01 01 35,"Cyclospordial Hazard, Parasitic Slime Mine, Wayward Split",,,87,"Explore: Natural Sanctuary, Visit: Turncoat Turnabout"
+Wayward Split,FALSE,,Region,Item,00 01 01 36,"Cascading Basins, Turncoat Turnabout, Perilous Passage, Harpy's Haunt South",,,85,"Explore: Rocky Peril, Explore: Natural Sanctuary, Visit: Wayward Split"
+Perilous Passage,FALSE,,Region,Item,00 01 01 37,"Perilous Grotto, Wayward Split",,,83,"Explore: Rocky Peril, Complete: A Marauder's Dues, Visit: Perilous Passage"
+Perilous Grotto,FALSE,,Region,Item,00 01 01 38,"Inhospitable Mountain, Perilous Passage, Wizard's Warning",,,0,Visit: Perilous Grotto
+Thanos Underpass,FALSE,,Region,Item,00 01 01 39,"Troll's Challenge, Thanos Exit",,,0,Visit: Thanos Underpass
+Canyon Walkway,FALSE,,Region,Item,00 01 01 3a,"Molten Passage, Wizard's Warning, Bandit's Toll",,,83,"Complete: A Marauder's Dues, Visit: Canyon Walkway"
+Wizard's Warning,FALSE,,Region,Item,00 01 01 3b,"Canyon Walkway, Perilous Grotto",,,83,"Complete: A Marauder's Dues, Complete: Beyond the Grave, Visit: Wizard's Warning"
+Harpy's Haunt North,FALSE,,Region,Item,00 01 01 3c,"Harpy's Haunt South, Krolton's Cave",,,83,"Explore: Rocky Peril, Complete: A Marauder's Dues, Complete: Beyond the Grave, Visit: Harpy's Haunt North"
+Fleris Cranny,FALSE,,Region,Item,00 01 01 3d,"Harpy's Haunt South, Elefolk Stomping Grounds",,,88,"Explore: Colossi Infection, Visit: Fleris Cranny"
+Troll Tower,FALSE,,Region,Item,00 01 01 3e,"Parasitic Slime Mine, Featherfall Cliffs",,,87,"Explore: Natural Sanctuary, Explore: Colossi Infection, Visit: Troll Tower"
+Illuminant Path,FALSE,,Region,Item,00 01 01 3f,"Thanos Exit, Bandit's Toll, Canyon High Path, The Hive, Path to the Dojo",,,0,Visit: Illuminant Path
+Bandit's Toll,FALSE,,Region,Item,00 01 01 40,"Canyon Walkway, Wizard Tower, Workshop Glade, Illuminant Path",,,83,"Explore: Plasmatic Gouge, Complete: A Marauder's Dues, Visit: Bandit's Toll"
+Wizard Tower,FALSE,,Region,Item,00 01 01 41,"Bandit's Toll, Krolton's Cave",,,0,Visit: Wizard Tower
+Rocky Bend,FALSE,,Region,Item,00 01 01 42,Canyon Dropoff,,,85,"Complete: The Lost, Visit: Rocky Bend"
+Housing Crisis,FALSE,,Region,Item,00 01 01 43,Featherfall Cliffs,,,85,"Complete: The Lost, Visit: Housing Crisis"
+Featherfall Cliffs,FALSE,,Region,Item,00 01 01 44,"Canyon Dropoff, Housing Crisis, Protector's Pathway, Elefolk Stomping Grounds, Troll Tower",,,85,"Complete: The Lost, Visit: Featherfall Cliffs"
+Elefolk Stomping Grounds,FALSE,,Region,Item,00 01 01 45,"Fleris Cranny, Hobgoblin's Hoard, Protector's Pathway, Featherfall Cliffs",,,0,Visit: Elefolk Stomping Grounds
+Path to the Dojo,FALSE,,Region,Item,00 01 01 46,"Illuminant Path, The Hive, Displaced Housing, Canyon High Path, Cherry Blossom Grove",,,80,"Explore: Deserter's Camp, Explore: Watery Waterfall, Complete: Slay Hobgoblins, Visit: Path to the Dojo"
+Wanderer's Way,FALSE,,Region,Item,00 01 01 47,Canyon High Path,,,0,Visit: Wanderer's Way
+Workshop Glade,FALSE,,Region,Item,00 01 01 48,"Bandit's Toll, Bantisu Approach, Thesead Underpass, Entrance to Thesead",,,83,"Complete: Slay Jinkos, Complete: The Canyon Guides, Visit: Workshop Glade"
+Bantisu Approach,FALSE,,Region,Item,00 01 01 49,"Krolton's Cave, Workshop Glade, Bantisu Air Temple",,,84,"Complete: The Canyon Guides, Visit: Bantisu Approach"
+Bantisu Air Temple,FALSE,,Region,Item,00 01 01 4a,Bantisu Approach,,,87,"Complete: Beyond the Grave, Visit: Bantisu Air Temple"
+Elephelk Trail,FALSE,,Region,Item,00 01 01 4b,"Cliffside Passage South, Protector's Pathway",,,85,"Explore: Demolition Derby, Visit: Elephelk Trail"
+Protector's Pathway,FALSE,,Region,Item,00 01 01 4c,"Featherfall Cliffs, Elefolk Stomping Grounds, Elephelk Trail, Kandon-Beda",,,85,"Explore: Demolition Derby, Complete: The Lost, Visit: Protector's Pathway"
+Cliffside Passage South,FALSE,,Region,Item,00 01 01 4d,"Elephelk Trail, Cliffside Passage North",,,85,"Explore: Seismic Bore Hole, Explore: Chiseler's Cavern, Visit: Cliffside Passage South"
+Thesead Underpass,FALSE,,Region,Item,00 01 01 4e,"Cliffside Passage North, Entrance to Thesead, Workshop Glade",,,81,"Explore: Voltaic Crag, Explore: Abyssal Shine, Complete: The Canary Calls, Visit: Thesead Underpass"
+Entrance to Thesead,FALSE,,Region,Item,00 01 01 4f,"Displaced Housing, Workshop Glade, Thesead Underpass, Thesead",,,87,"Explore: Abyssal Shine, Complete: The Hidden City, Visit: Entrance to Thesead"
+Displaced Housing,FALSE,,Region,Item,00 01 01 50,"Path to the Dojo, Cherry Blossom Grove, Entrance to Thesead, Thesead Suburbs",,,83,"Explore: Cyclonic Spirit Trap, Explore: Broodmother's Bestiary, Visit: Displaced Housing"
+Cherry Blossom Grove,FALSE,,Region,Item,00 01 01 51,"Path to the Dojo, Displaced Housing, Ranol's Farm",,,80,"Explore: Gorgon Gorge, Explore: Broodmother's Bestiary, Visit: Cherry Blossom Grove"
+Entrance to Molten Heights,FALSE,,Region,Item,00 01 01 52,"Thesead Suburbs, Eltom, Rodoroc",,,0,Visit: Entrance to Molten Heights
+Freezing Heights,FALSE,,Region,Item,00 01 01 54,"Dogun Ritual Site, Pyroclastic Flow, Dragonbone Graveyard",,,91,"Explore: Dragonkin Nest, Complete: Slay Frosted Guards & Gryostone Golems, Complete: Slay Ifrits, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part III, Complete: The Breaking Point, Visit: Freezing Heights"
+Lava Lakes,FALSE,,Region,Item,00 01 01 55,"Dogun Ritual Site, Crater Descent, Pyroclastic Flow",,,91,"Complete: Slay Magma Entities, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Visit: Lava Lakes"
+Dragonbone Graveyard,FALSE,,Region,Item,00 01 01 56,"Freezing Heights, Pyroclastic Flow",,,95,"Explore: Dragonkin Nest, Visit: Dragonbone Graveyard"
+Corkus City Crossroads,FALSE,,Region,Item,00 01 01 5a,"Fallen Factory, Road to Mine, Industrial Clearing, Corkus Forest, Corkus City",,,93,"Complete: The Feathers Fly Part II, Visit: Corkus City Crossroads"
+Road to Mine,FALSE,,Region,Item,00 01 01 5b,"Corkus City Crossroads, Corkus City Mine, Corkus Sea Cove",,,89,"Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Visit: Road to Mine"
+Industrial Clearing,FALSE,,Region,Item,00 01 01 5c,"Corkus City Crossroads, Fallen Factory, Corkus Forest, Ruined Houses",,,85,"Complete: Slay Robots, Complete: The Envoy Part II, Visit: Industrial Clearing"
+Corkus Forest,FALSE,,Region,Item,00 01 01 5d,"Corkus City, Corkus City Crossroads, Industrial Clearing, Picnic Pond",,,0,Visit: Corkus Forest
+Picnic Pond,FALSE,,Region,Item,00 01 01 5e,"Corkus City, Corkus Forest, Avos Territory",,,0,Visit: Picnic Pond
+Avos Territory,FALSE,,Region,Item,00 01 01 5f,"Picnic Pond, Overrun Docks, Retrofitted Manufactory",,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part I, Visit: Avos Territory"
+Overrun Docks,FALSE,,Region,Item,00 01 01 60,"Avos Territory, Ava's Workshop",,,83,"Complete: The Envoy Part I, Visit: Overrun Docks"
+Retrofitted Manufactory,FALSE,,Region,Item,00 01 01 61,"Corkus City, Avos Territory, Corkus Outskirts, Avos Temple",,,97,"Complete: The Breaking Point, Visit: Retrofitted Manufactory"
+Founder's Statue,FALSE,,Region,Item,00 01 01 62,"Corkus City Mine, Corkus Outskirts",,,87,"Complete: Mixed Feelings, Visit: Founder's Statue"
+Path to Ahmsord,FALSE,,Region,Item,00 01 01 63,"Sky Castle, Aerial Descent, Ahmsord",,,0,Visit: Path to Ahmsord
+Aerial Descent,FALSE,,Region,Item,00 01 01 64,"Path to Ahmsord, Kandon Ridge, Ahmsord",,,0,Visit: Aerial Descent
+Raiders' Stronghold,FALSE,,Region,Item,00 01 01 65,"Sky Island Ascent, Raiders' Airbase",,,98,"Complete: Royal Trials, Visit: Raiders' Stronghold"
+Raiders' Airbase,FALSE,,Region,Item,00 01 01 66,Raiders' Stronghold,,,98,"Complete: Royal Trials, Visit: Raiders' Airbase"
+Lighthouse Lookout,FALSE,,Region,Item,00 01 01 67,"Royal Gate, Balloon Airbase",,,86,"Complete: Desperate Metal, Visit: Lighthouse Lookout"
+Balloon Airbase,FALSE,,Region,Item,00 01 01 69,"Relos, Lighthouse Lookout, Southern Outpost",,,86,"Complete: Slay Pernix Monkeys, Complete: Desperate Metal, Visit: Balloon Airbase"
+Broken Road,FALSE,,Region,Item,00 01 01 6a,"Silent Road, Worm Tunnel",,,100,"Complete: A Journey Beyond, Visit: Broken Road"
+Otherworldly Monolith,FALSE,,Region,Item,00 01 01 6b,"Azure Frontier, Path to Light",,,79,"Explore: Cave of the Seasons, Complete: The Realm of Light, Visit: Otherworldly Monolith"
+Troll's Challenge,FALSE,,Region,Item,00 01 01 6e,"Colourful Mountaintop, Thanos Underpass, Upper Thanos",,,0,Visit: Troll's Challenge
+Harpy's Haunt South,FALSE,,Region,Item,00 01 01 6f,"Wayward Split, Harpy's Haunt North, Fleris Cranny",,,0,Visit: Harpy's Haunt South
+Hobgoblin's Hoard,FALSE,,Region,Item,00 01 01 70,"Elefolk Stomping Grounds, Krolton's Cave",,,84,"Complete: The Canyon Guides, Visit: Hobgoblin's Hoard"
+Pyroclastic Flow,FALSE,,Region,Item,00 01 01 71,"Freezing Heights, Lava Lakes, Dragonbone Graveyard",,,91,"Complete: Dwarves and Doguns Part I, Visit: Pyroclastic Flow"
+Ava's Workshop,FALSE,,Region,Item,00 01 01 72,"Avos Temple, Overrun Docks",,,91,"Complete: The Feathers Fly Part I, Complete: The Feathers Fly Part II, Visit: Ava's Workshop"
+Wellspring of Eternity,FALSE,,Region,Item,00 01 01 73,"Fort Torann, The Frog Bog",,,104,"Explore: Ancient Arthropods, Visit: Wellspring of Eternity"
+Fort Torann,FALSE,,Region,Item,00 01 01 74,"Royal Gate, Wellspring of Eternity, Xima Valley, Forts in Fall",,,104,"Complete: A Journey Home, Visit: Fort Torann"
+Xima Valley,FALSE,,Region,Item,00 01 01 75,Fort Torann,,,0,Visit: Xima Valley
+The Frog Bog,FALSE,,Region,Item,00 01 01 76,"Wellspring of Eternity, Forts in Fall, Festival Grounds",,,104,"Explore: Ancient Arthropods, Explore: Siltswimmer Den, Complete: A New Beginning, Visit: The Frog Bog"
+Forts in Fall,FALSE,,Region,Item,00 01 01 77,"Fort Torann, Royal Dam, The Frog Bog, Espren, The Lumbermill",,,104,"Explore: Electrifying Outpost, Complete: A New Beginning, Complete: Undersupply, Visit: Forts in Fall"
+Royal Dam,FALSE,,Region,Item,00 01 01 78,"Forts in Fall, Lake Gitephe",,,107,"Complete: Undersupply, Complete: Ensemble of Hope, Visit: Royal Dam"
+Festival Grounds,FALSE,,Region,Item,00 01 01 79,"The Frog Bog, Espren",,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: Revelations in Fall, Visit: Festival Grounds"
+The Lumbermill,FALSE,,Region,Item,00 01 01 7a,"Forts in Fall, Espren, Royal Barracks",,,107,"Explore: Auburn Lumbermill, Complete: The Scarred Springs, Visit: The Lumbermill"
+Residence Sector,FALSE,,Region,Item,00 01 01 7b,"Timasca, Agricultural Sector",,,110,"Explore: Abandoned Steelworks, Complete: The Missing Piece, Visit: Residence Sector"
+Agricultural Sector,FALSE,,Region,Item,00 01 01 7c,"Espren, Residence Sector, Water Processing Sector, Industrial Sector",,,108,"Explore: Water Tower, Complete: Revelations in Fall, Complete: Through the Pipes, Complete: The Missing Piece, Visit: Agricultural Sector"
+Water Processing Sector,FALSE,,Region,Item,00 01 01 7d,"Industrial Sector, Agricultural Sector",,,109,"Explore: Weapons Factory, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Visit: Water Processing Sector"
+Industrial Sector,FALSE,,Region,Item,00 01 01 7e,"Timasca, Agricultural Sector, Water Processing Sector",,,109,"Complete: Slay Hedoro, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Visit: Industrial Sector"
+Highlands Gate,FALSE,,Region,Item,00 01 01 7f,"Verdant Grove, Alder Understory",,,113,"Explore: Estalis Gallery, Complete: Shrouded in Mist, Visit: Highlands Gate"
+Alder Understory,FALSE,,Region,Item,00 01 01 80,"Fort Tericen, Aldwell, Highlands Gate, Fort Hegea",,,0,Visit: Alder Understory
+Verdant Grove,FALSE,,Region,Item,00 01 01 81,"Contested District, Aldwell, Deforested Ecotone, Highlands Gate",,,113,"Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours, Visit: Verdant Grove"
+Fort Hegea,FALSE,,Region,Item,00 01 01 82,"Alder Understory, Aldwell",,,114,"Explore: Entozoon Takeover, Complete: Burning Bonds, Complete: True Colours, Complete: Celebrations in Smoke, Visit: Fort Hegea"
+Deforested Ecotone,FALSE,,Region,Item,00 01 01 83,"Timasca, Verdant Grove, Aldwell",,,112,"Explore: Nesting Place, Complete: Echoes of Change, Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours, Complete: Ensemble of Hope, Visit: Deforested Ecotone"
+Citadel's Shadow,FALSE,,Region,Item,00 01 01 84,"Lake Gitephe, Gates to Aelumia, Fort Tericen",,,117,"Explore: Krisa Manor, Explore: Liftal Castle, Complete: Hunt Wolly Rhinos, Complete: Ensemble of Hope, Visit: Citadel's Shadow"
+Lake Gitephe,FALSE,,Region,Item,00 01 01 85,"Royal Dam, Citadel's Shadow, Hyloch",,,107,"Complete: Undersupply, Complete: Overture to Despair, Complete: Apotheosis, Visit: Lake Gitephe"
+Fort Tericen,FALSE,,Region,Item,00 01 01 86,"Alder Understory, Citadel's Shadow, Hyloch, Lake Rieke, Feuding Houses",,,116,"Explore: Tericen Stables, Explore: Krisa Manor, Complete: The Strong Survive, Visit: Fort Tericen"
+Lake Rieke,FALSE,,Region,Item,00 01 01 87,"Hyloch, Frosty Outpost, Fort Tericen",,,0,Visit: Lake Rieke
+Frosty Outpost,FALSE,,Region,Item,00 01 01 88,"Lake Rieke, Feuding Houses",,,119,"Explore: Glacier Tunnels, Explore: Northern Outpost, Visit: Frosty Outpost"
+Feuding Houses,FALSE,,Region,Item,00 01 01 89,"Frosty Outpost, Fort Tericen",,,116,"Explore: Tericen Stables, Complete: Overture to Despair, Visit: Feuding Houses"
+Royal Barracks,FALSE,,Region,Item,00 01 01 8a,"The Lumbermill, Gates to Aelumia, University Campus",,,108,"Explore: The Barracks, Complete: The Scarred Springs, Complete: The Missing Piece, Complete: Apotheosis, Visit: Royal Barracks"
+Gates to Aelumia,FALSE,,Region,Item,00 01 01 8b,"Royal Barracks, Citadel's Shadow, Contested District",,,118,"Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Gates to Aelumia"
+University Campus,FALSE,,Region,Item,00 01 01 8c,"Timasca, Contested District, Royal Barracks",,,111,"Explore: Theatre Royal, Complete: The Missing Piece, Complete: Echoes of Change, Visit: University Campus"
+Thanos,FALSE,,Region,Default,,"Kitrios Armory, Cosmic Fissures, Upper Thanos, Path to Thanos",,,81,"Complete: From the Bottom, Complete: The Thanos Depository, Complete: The Breaking Point, Visit: Thanos"
+Thesead,FALSE,,Region,Default,,"Entrance to Thesead, Thesead Suburbs",,,80,"Explore: Troll Burrows, Complete: The Canary Calls, Complete: The Hidden City, Visit: Thesead"
+Eltom,FALSE,,Region,Default,,"Ranol's Farm, Entrance to Molten Heights",,,88,"Complete: The Hidden City, Visit: Eltom"
+Ahmsord,FALSE,,Region,Default,,"Temple Island, Path to Ahmsord, Aerial Descent, Sky Island Ascent, Central Islands",,,95,"Explore: Mycolite Mountain, Complete: Slay Creatures of the Void, Complete: Slay Conures, Complete: One Thousand Meters Under, Complete: Recipe For Disaster, Complete: The Hero of Gavel, Visit: Ahmsord"
+Corkus City,FALSE,,Region,Default,,"Corkus Castle, Corkus City Crossroads, Picnic Pond, Retrofitted Manufactory, Corkus Forest",,,83,"Complete: The Envoy Part I, Complete: The Envoy Part II, Complete: The Feathers Fly Part II, Visit: Corkus City"
+Legendary Island,FALSE,,Region,Default,,Southern Outpost,,,0,Visit: Legendary Island
+Rodoroc,FALSE,,Region,Default,,"Crater Descent, Entrance to Molten Heights",,,91,"Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part II, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Complete: A Hunter's Calling, Visit: Rodoroc"
+Lutho,FALSE,,Region,Default,,"Sinister Forest, Paths of Sludge",,,100,"Complete: A Journey Beyond, Complete: A Journey Further, Complete: Point of No Return, Visit: Lutho"
+Relos,FALSE,,Region,Default,,"Fallen Factory, Ruined Houses, Balloon Airbase, Corkus Sea Cove",,,89,"Complete: The Envoy Part II, Visit: Relos"
+Espren,FALSE,,Region,Default,,"Forts in Fall, Festival Grounds, Agricultural Sector, The Lumbermill",,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: The Scarred Springs, Complete: Revelations in Fall, Complete: Off the Rails, Complete: The Missing Piece, Visit: Espren"
+Timasca,FALSE,,Region,Default,,"University Campus, Residence Sector, Industrial Sector, Deforested Ecotone",,,109,"Explore: The Flush, Explore: Freight Interchange, Complete: Solidarity of Steel, Complete: Off the Rails, Complete: The Price of Ingenuity, Complete: Through the Pipes, Complete: Echoes of Change, Visit: Timasca"
+Aldwell,FALSE,,Region,Default,,"Deforested Ecotone, Fort Hegea, Alder Understory, Verdant Grove",,,112,"Explore: Entozoon Takeover, Complete: Hunt Banshee Stags, Complete: Shrouded in Mist, Complete: Celebrations in Smoke, Visit: Aldwell"
+Hyloch,FALSE,,Region,Default,,"Lake Gitephe, Fort Tericen, Lake Rieke",,,116,"Explore: Saltpetre Mine, Complete: Overture to Despair, Complete: The Strong Survive, Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Hyloch"
+Contested District,FALSE,,Region,Default,,"Verdant Grove, University Campus, Gates to Aelumia",,,115,"Explore: Citadel Catacombs, Explore: Aelumia Weaveworks, Explore: Aelumia Metalmill, Explore: Aelumia Chemical Plant, Complete: Ensemble of Hope, Complete: Apotheosis, Visit: Contested District"
+Kandon-Beda,FALSE,,Region,Default,,Protector's Pathway,,,85,"Explore: Demolition Derby, Complete: The Breaking Point, Visit: Kandon-Beda"
+Dogun Ritual Site,FALSE,,Region,Default,,"Freezing Heights, Lava Lakes, Crater Descent, Molten Reach",,,91,"Explore: Scorched Earth, Complete: Slay Azers, Complete: Dwarves and Doguns Part I, Complete: Dwarves and Doguns Part III, Complete: Dwarves and Doguns Part IV, Complete: The Breaking Point, Visit: Dogun Ritual Site"
 Progressive Max Level,TRUE,,Special,Item,00 00 00 01,,,,,
 Progressive Gear,TRUE,,Special,Item,00 02 00 00,,,,,
 Progressive Unique Gear,TRUE,,Special,Item,00 02 01 00,,,,,
@@ -1030,14 +1030,14 @@ Visit: Razed Inn,TRUE,18,Territory,Location,00 17 00 2b,Razed Inn,,,,
 Visit: Ancient Nemract,TRUE,18,Territory,Location,00 17 00 33,Ancient Nemract,,,,
 Visit: Nemract,TRUE,18,Territory,Location,00 17 01 92,Nemract,,,,
 Visit: Blooming Boulders,TRUE,22,Territory,Location,00 17 00 08,Blooming Boulders,,,,
+Visit: Corrupted Road,TRUE,22,Territory,Location,00 17 00 0b,Corrupted Road,,,,
 Visit: Abandoned Mines Entrance,TRUE,22,Territory,Location,00 17 00 20,Abandoned Mines Entrance,,,,
+Visit: Mine Base Plains,TRUE,22,Territory,Location,00 17 00 36,Mine Base Plains,,,,
 Visit: Mining Base Camp,TRUE,22,Territory,Location,00 17 00 37,Mining Base Camp,,,,
 Visit: Abandoned Mines,TRUE,22,Territory,Location,00 17 00 3b,Abandoned Mines,,,,
 Visit: Sanctuary Bridge,TRUE,22,Territory,Location,00 17 00 3f,Sanctuary Bridge,,,,
 Visit: Tempo Town,TRUE,22,Territory,Location,00 17 01 93,Tempo Town,,,,
 Visit: Elkurn,TRUE,22,Territory,Location,00 17 01 94,Elkurn,,,,
-Visit: Mine Base Plains,TRUE,22,Territory,Location,00 17 00 36,Mine Base Plains,,,,
-Visit: Corrupted Road,TRUE,22,Territory,Location,00 17 00 0b,Corrupted Road,,,,
 Visit: Jagged Foothills,TRUE,23,Territory,Location,00 17 00 18,Jagged Foothills,,,,
 Visit: Rocky Shore,TRUE,23,Territory,Location,00 17 00 27,Rocky Shore,,,,
 Visit: Blackstring Den,TRUE,23,Territory,Location,00 17 00 29,Blackstring Den,,,,
@@ -1047,25 +1047,26 @@ Visit: Plains Lake,TRUE,24,Territory,Location,00 17 00 3d,Plains Lake,,,,
 Visit: Ragni South Entrance,TRUE,25,Territory,Location,00 17 00 1b,Ragni South Entrance,,,,
 Visit: Sulphuric Hollow,TRUE,25,Territory,Location,00 17 00 1c,Sulphuric Hollow,,,,
 Visit: Little Wood,TRUE,25,Territory,Location,00 17 00 1d,Little Wood,,,,
+Visit: Bear Zoo,TRUE,25,Territory,Location,00 17 00 21,Bear Zoo,,,,
 Visit: Pigmen Ravines,TRUE,25,Territory,Location,00 17 00 22,Pigmen Ravines,,,,
-Visit: Time Valley,TRUE,25,Territory,Location,00 17 00 3e,Time Valley,,,,
 Visit: Durum Oat Islet,TRUE,25,Territory,Location,00 17 00 2d,Durum Oat Islet,,,,
 Visit: Durum Malt Islet,TRUE,25,Territory,Location,00 17 00 2e,Durum Malt Islet,,,,
 Visit: Durum Barley Islet,TRUE,25,Territory,Location,00 17 00 2f,Durum Barley Islet,,,,
 Visit: Corrupted River,TRUE,25,Territory,Location,00 17 00 30,Corrupted River,,,,
 Visit: Durum Isles Barn,TRUE,25,Territory,Location,00 17 00 31,Durum Isles Barn,,,,
+Visit: Time Valley,TRUE,25,Territory,Location,00 17 00 3e,Time Valley,,,,
 Visit: Roots of Corruption,TRUE,25,Territory,Location,00 17 00 40,Roots of Corruption,,,,
-Visit: Mage Island,TRUE,25,Territory,Location,00 17 00 42,Mage Island,,,,
 Visit: Half Moon Island,TRUE,25,Territory,Location,00 17 00 48,Half Moon Island,,,,
+Visit: Tree Island,TRUE,25,Territory,Location,00 17 00 50,Tree Island,,,,
 Visit: Selchar,TRUE,25,Territory,Location,00 17 01 96,Selchar,,,,
-Visit: Bear Zoo,TRUE,25,Territory,Location,00 17 00 21,Bear Zoo,,,,
-Visit: Nesaak,TRUE,27,Territory,Location,00 17 01 95,Nesaak,,,,
 Visit: Nesaak Transition,TRUE,27,Territory,Location,00 17 00 43,Nesaak Transition,,,,
 Visit: Frosty Spikes,TRUE,27,Territory,Location,00 17 00 44,Frosty Spikes,,,,
 Visit: Florist's Hut,TRUE,27,Territory,Location,00 17 00 b4,Florist's Hut,,,,
 Visit: Frozen Homestead,TRUE,27,Territory,Location,00 17 00 b5,Frozen Homestead,,,,
 Visit: Abandoned Lumberyard,TRUE,27,Territory,Location,00 17 00 b7,Abandoned Lumberyard,,,,
+Visit: Nesaak,TRUE,27,Territory,Location,00 17 01 95,Nesaak,,,,
 Visit: Desolate Valley,TRUE,28,Territory,Location,00 17 00 3c,Desolate Valley,,,,
+Visit: Mage Island,TRUE,28,Territory,Location,00 17 00 42,Mage Island,,,,
 Visit: Abandoned Pass,TRUE,30,Territory,Location,00 17 00 24,Abandoned Pass,,,,
 Visit: Lion Lair,TRUE,30,Territory,Location,00 17 00 34,Lion Lair,,,,
 Visit: Entrance to Almuj,TRUE,30,Territory,Location,00 17 00 38,Entrance to Almuj,,,,
@@ -1073,9 +1074,9 @@ Visit: Invaded Barracks,TRUE,30,Territory,Location,00 17 00 c0,Invaded Barracks,
 Visit: Barren Sands,TRUE,30,Territory,Location,00 17 00 c1,Barren Sands,,,,
 Visit: Cascading Oasis,TRUE,30,Territory,Location,00 17 00 c3,Cascading Oasis,,,,
 Visit: Gloopy Cave,TRUE,30,Territory,Location,00 17 00 c4,Gloopy Cave,,,,
+Visit: Dusty Pit,TRUE,30,Territory,Location,00 17 00 c7,Dusty Pit,,,,
 Visit: Almuj Slums,TRUE,30,Territory,Location,00 17 00 c8,Almuj Slums,,,,
 Visit: Almuj,TRUE,30,Territory,Location,00 17 01 97,Almuj,,,,
-Visit: Dusty Pit,TRUE,30,Territory,Location,00 17 00 c7,Dusty Pit,,,,
 Visit: Ruined Villa,TRUE,31,Territory,Location,00 17 00 c5,Ruined Villa,,,,
 Visit: Eagle Tribe,TRUE,33,Territory,Location,00 17 00 bd,Eagle Tribe,,,,
 Visit: Ruined Prospect,TRUE,33,Territory,Location,00 17 00 be,Ruined Prospect,,,,
@@ -1086,7 +1087,6 @@ Visit: Sunrise Plateau,TRUE,34,Territory,Location,00 17 00 bc,Sunrise Plateau,,,
 Visit: Rymek,TRUE,34,Territory,Location,00 17 01 99,Rymek,,,,
 Visit: Mummy's Tomb,TRUE,36,Territory,Location,00 17 00 4d,Mummy's Tomb,,,,
 Visit: Orc Road,TRUE,39,Territory,Location,00 17 00 53,Orc Road,,,,
-Visit: Volcanic Excavation,TRUE,39,Territory,Location,00 17 00 cd,Volcanic Excavation,,,,
 Visit: Entrance to Gavel,TRUE,39,Territory,Location,00 17 00 ce,Entrance to Gavel,,,,
 Visit: Llevigar Gate,TRUE,39,Territory,Location,00 17 00 cf,Llevigar Gate,,,,
 Visit: Sanguine Spider Den,TRUE,39,Territory,Location,00 17 00 d0,Sanguine Spider Den,,,,
@@ -1095,11 +1095,10 @@ Visit: Cliffhearth Orc Camp,TRUE,39,Territory,Location,00 17 00 d2,Cliffhearth O
 Visit: Trunkstump Goblin Camp,TRUE,39,Territory,Location,00 17 00 d4,Trunkstump Goblin Camp,,,,
 Visit: Volcanic Isles,TRUE,39,Territory,Location,00 17 01 6d,Volcanic Isles,,,,
 Visit: Llevigar,TRUE,39,Territory,Location,00 17 01 9b,Llevigar,,,,
-Visit: Lost Atoll,TRUE,39,Territory,Location,00 17 00 9a,Lost Atoll,,,,
+Visit: Icy Island,TRUE,40,Territory,Location,00 17 00 96,Icy Island,,,,
 Visit: Wolves' Den,TRUE,40,Territory,Location,00 17 00 b2,Wolves' Den,,,,
 Visit: Nodguj Nation,TRUE,40,Territory,Location,00 17 01 9c,Nodguj Nation,,,,
 Visit: Dujgon Nation,TRUE,40,Territory,Location,00 17 01 9d,Dujgon Nation,,,,
-Visit: Icy Island,TRUE,40,Territory,Location,00 17 00 96,Icy Island,,,,
 Visit: Orc Lake,TRUE,42,Territory,Location,00 17 00 52,Orc Lake,,,,
 Visit: Meteor Trail,TRUE,42,Territory,Location,00 17 00 d5,Meteor Trail,,,,
 Visit: Frigid Crossroads,TRUE,43,Territory,Location,00 17 00 b3,Frigid Crossroads,,,,
@@ -1119,15 +1118,15 @@ Visit: Goblin Plains West,TRUE,46,Territory,Location,00 17 00 56,Goblin Plains W
 Visit: Goblin Plains East,TRUE,46,Territory,Location,00 17 00 59,Goblin Plains East,,,,
 Visit: Brigand Outpost,TRUE,46,Territory,Location,00 17 00 d6,Brigand Outpost,,,,
 Visit: Twain Mansion,TRUE,49,Territory,Location,00 17 00 4a,Twain Mansion,,,,
+Visit: Meteor Crater,TRUE,49,Territory,Location,00 17 00 54,Meteor Crater,,,,
 Visit: Iron Road,TRUE,49,Territory,Location,00 17 00 55,Iron Road,,,,
 Visit: Harnort Compound,TRUE,49,Territory,Location,00 17 00 eb,Harnort Compound,,,,
-Visit: Meteor Crater,TRUE,49,Territory,Location,00 17 00 54,Meteor Crater,,,,
 Visit: Sunspark Orc Camp,TRUE,49,Territory,Location,00 17 00 ee,Sunspark Orc Camp,,,,
-Visit: Stonecave Orc Camp,TRUE,50,Territory,Location,00 17 00 d7,Stonecave Orc Camp,,,,
 Visit: Entrance to Olux,TRUE,50,Territory,Location,00 17 00 51,Entrance to Olux,,,,
 Visit: Forgotten Path,TRUE,50,Territory,Location,00 17 00 58,Forgotten Path,,,,
 Visit: Great Bridge,TRUE,50,Territory,Location,00 17 00 b8,Great Bridge,,,,
 Visit: Jungle Entrance,TRUE,50,Territory,Location,00 17 00 b9,Jungle Entrance,,,,
+Visit: Stonecave Orc Camp,TRUE,50,Territory,Location,00 17 00 d7,Stonecave Orc Camp,,,,
 Visit: Collapsed Emerald Mine,TRUE,50,Territory,Location,00 17 00 d8,Collapsed Emerald Mine,,,,
 Visit: Mudspring Orc Camp,TRUE,50,Territory,Location,00 17 00 d9,Mudspring Orc Camp,,,,
 Visit: Floral Peaks,TRUE,50,Territory,Location,00 17 00 da,Floral Peaks,,,,
@@ -1139,27 +1138,28 @@ Visit: Lizardman Camp,TRUE,50,Territory,Location,00 17 00 e3,Lizardman Camp,,,,
 Visit: Swamp Mountain Arch,TRUE,50,Territory,Location,00 17 00 e4,Swamp Mountain Arch,,,,
 Visit: Shady Shack,TRUE,50,Territory,Location,00 17 00 e5,Shady Shack,,,,
 Visit: Olux,TRUE,50,Territory,Location,00 17 01 a1,Olux,,,,
+Visit: Temple of Legends,TRUE,52,Territory,Location,00 17 00 4c,Temple of Legends,,,,
+Visit: Herb Cave,TRUE,52,Territory,Location,00 17 00 94,Herb Cave,,,,
 Visit: Apprentice Huts,TRUE,52,Territory,Location,00 17 00 ba,Apprentice Huts,,,,
 Visit: Troms Lake,TRUE,52,Territory,Location,00 17 00 bb,Troms Lake,,,,
 Visit: Monte's Village,TRUE,52,Territory,Location,00 17 01 6c,Monte's Village,,,,
 Visit: Troms,TRUE,52,Territory,Location,00 17 01 a0,Troms,,,,
 Visit: Iboju Village,TRUE,52,Territory,Location,00 17 01 a2,Iboju Village,,,,
-Visit: Temple of Legends,TRUE,52,Territory,Location,00 17 00 4c,Temple of Legends,,,,
-Visit: Herb Cave,TRUE,52,Territory,Location,00 17 00 94,Herb Cave,,,,
 Visit: Infested Sinkhole,TRUE,53,Territory,Location,00 17 00 de,Infested Sinkhole,,,,
 Visit: Forgotten Burrows,TRUE,53,Territory,Location,00 17 00 df,Forgotten Burrows,,,,
 Visit: Lizardman Lake,TRUE,53,Territory,Location,00 17 00 e1,Lizardman Lake,,,,
 Visit: Olux Lumberyard,TRUE,53,Territory,Location,00 17 00 e2,Olux Lumberyard,,,,
+Visit: Naga Lake,TRUE,54,Territory,Location,00 17 00 e8,Naga Lake,,,,
 Visit: Path to the Grootslangs,TRUE,54,Territory,Location,00 17 00 e9,Path to the Grootslangs,,,,
 Visit: Fading Forest,TRUE,54,Territory,Location,00 17 01 07,Fading Forest,,,,
-Visit: Naga Lake,TRUE,54,Territory,Location,00 17 00 e8,Naga Lake,,,,
 Visit: Skien's Island,TRUE,55,Territory,Location,00 17 00 41,Skien's Island,,,,
 Visit: Zhight Island,TRUE,55,Territory,Location,00 17 00 4e,Zhight Island,,,,
+Visit: Volcanic Excavation,TRUE,55,Territory,Location,00 17 00 cd,Volcanic Excavation,,,,
 Visit: Scorpion Nest,TRUE,58,Territory,Location,00 17 00 e6,Scorpion Nest,,,,
 Visit: Secluded Workshop,TRUE,58,Territory,Location,00 17 00 e7,Secluded Workshop,,,,
-Visit: Pirate Town,TRUE,60,Territory,Location,00 17 01 9a,Pirate Town,,,,
 Visit: Fountain of Youth,TRUE,60,Territory,Location,00 17 01 58,Fountain of Youth,,,,
-Visit: Tree Island,TRUE,61,Territory,Location,00 17 00 50,Tree Island,,,,
+Visit: Pirate Town,TRUE,60,Territory,Location,00 17 01 9a,Pirate Town,,,,
+Visit: Lost Atoll,TRUE,61,Territory,Location,00 17 00 9a,Lost Atoll,,,,
 Visit: Overtaken Outpost,TRUE,61,Territory,Location,00 17 01 08,Overtaken Outpost,,,,
 Visit: Mangled Lake,TRUE,61,Territory,Location,00 17 01 09,Mangled Lake,,,,
 Visit: Entamis Village,TRUE,62,Territory,Location,00 17 01 57,Entamis Village,,,,
