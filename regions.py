@@ -30,6 +30,9 @@ def create_all_regions(world: WynncraftWorld) -> None:
         if row[loader.AP] == "Item":
             world.unlockable_regions.append(row[loader.NAME])
 
+    for i in range(1, world.options.goal_level + 1):
+        regions.append(Region("Level " + str(i), world.player, world.multiworld))
+
     world.multiworld.regions += regions
 
 
@@ -47,5 +50,12 @@ def connect_regions(world: WynncraftWorld) -> None:
             if connection in world.all_regions:
                 region.connect(world.get_region(connection), f"{row[loader.NAME]} to {connection}")
 
+    for i in range(2, world.options.goal_level + 1):
+        curr_level = world.get_region("Level " + str(i))
+        prev_level = world.get_region("Level " + str(i - 1))
+        prev_level.connect(curr_level, f"Level Up: " + str(i))
+
     # Connection from default region to starting region in game (Ragni)
     world.get_region("Menu").connect(world.get_region("Ragni"), "Menu to Ragni")
+
+    world.get_region("Menu").connect(world.get_region("Level 1"), "Level Up: 1")

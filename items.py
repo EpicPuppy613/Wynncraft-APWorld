@@ -4,6 +4,7 @@ from math import ceil
 from typing import TYPE_CHECKING
 
 from BaseClasses import Item, ItemClassification
+from Options import OptionError
 
 from .data import loader
 
@@ -42,9 +43,9 @@ for row in loader.rows:
         name = "Region: " + name
         item_class |= ItemClassification.progression | ItemClassification.useful
     if name == "Progressive Max Level":
-        item_class |= ItemClassification.progression | ItemClassification.useful
+        item_class |= ItemClassification.progression
     elif name.startswith("Progressive"):
-        item_class |= ItemClassification.progression | ItemClassification.deprioritized
+        item_class |= ItemClassification.progression
     match row[loader.AP]:
         case "Item":
             item_names.append(name)
@@ -131,6 +132,10 @@ def create_all_items(world: WynncraftWorld) -> None:
     number_of_items = len(itempool)
     number_of_unfilled_locations = len(world.multiworld.get_unfilled_locations(world.player))
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
+
+    if needed_number_of_filler_items < 0:
+        print("PANIC")
+        raise OptionError("Too many items")
 
     extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
     itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]

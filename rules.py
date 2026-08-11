@@ -32,6 +32,17 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
                 world.set_rule(entrance, Has(f"Region: {connection}"))
 
+    for i in range(2, world.options.goal_level + 1):
+        entrance = world.get_entrance(f"Level Up: " + str(i))
+        if str(i) in loader.level_map:
+            rule = False_()
+            for region in loader.level_map[str(i)].split(", "):
+                rule = rule | CanReachRegion(region)
+                
+        else:
+            rule = True_()
+        world.set_rule(entrance, rule & Has("Progressive Max Level", count=max_levels_needed(i, world)))
+
 
 def set_all_location_rules(world: WynncraftWorld) -> None:
     for row in loader.rows:
@@ -44,14 +55,8 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
         regions = row[loader.REGION].split(", ")
 
         if row[loader.TYPE] == "Level":
-            rule = True_()
-            try:
-                prev_level = int(row[loader.NAME].replace("Level Up: ", "")) - 1
-                if prev_level > 1:
-                    rule &= CanReachLocation("Level Up: " + str(prev_level))
-            except ValueError:
-                pass
             world.get_location(row[loader.NAME]).item_rule = lambda item: item.name != "Progressive Max Level"
+            continue
         else:
             rule = True_()
             if len(regions) > 1:
@@ -72,18 +77,15 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 for req in gear_reqs:
                     rule = rule & gear_rule(world, req)
 
-        levels_needed = max_levels_needed(int(row[loader.LEVEL]), world)
-        world.set_rule(world.get_location(row[loader.NAME]), Has("Progressive Max Level", count=levels_needed) & rule)
-
-    # Victory condition
-    world.set_rule(world.get_location("Level Up: " + str(world.options.goal_level)),
-                   Has("Progressive Max Level", count=max_levels_needed(world.options.goal_level.value, world)))
+        world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
 
 
 def set_completion_condition(world: WynncraftWorld) -> None:
     world.set_completion_rule(Has("Victory"))
 
 def max_levels_needed(level: int, world: WynncraftWorld):
+    if level <= 0:
+        return 0
     return ceil((level - 1) / world.options.level_increment)
 
 def gear_levels_needed(level: int, world: WynncraftWorld):
