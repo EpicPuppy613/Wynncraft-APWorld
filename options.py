@@ -30,14 +30,14 @@ class ExtraMaxLevels(Range):
 class StartingRoute(Choice):
     """
     How much of the route from Ragni to Detlas to start unlocked
-    None: Only Ragni starts unlocked (may lead to fill errors)
-    Alekin: The route from Ragni -> Alekin starts unlocked
-    Detlas: The route from Ragni -> Detlas starts unlocked
+    Emerald Trail: Ragni, Ragni Main Entrance, and Emerald Trail
+    Alekin: Ragni -> Alekin
+    Detlas: Ragni -> Detlas
     """
 
     display_name = "Starting Route"
 
-    option_none = 0
+    option_emerald_trail = 0
     option_alekin = 1
     option_detlas = 2
 

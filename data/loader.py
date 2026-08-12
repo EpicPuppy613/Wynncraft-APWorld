@@ -21,6 +21,7 @@ ID = "ID (Hex)"
 REGION = "Region/Connections"
 CONNECTIONS = REGION
 PREREQUISITES = "Prerequisites"
+IS_PREREQ = "Is Prereq"
 GEAR_REQ = "Gear Req"
 
 # run some preprocessing for future use

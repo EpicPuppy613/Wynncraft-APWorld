@@ -18,9 +18,12 @@ item_name_to_id = {}
 default_item_classifications = {}
 item_levels = {}
 
-ALEKIN_ROUTE = [
+TRAIL_ROUTE = [
     "Region: Ragni Main Entrance",
-    "Region: Emerald Trail",
+    "Region: Emerald Trail"
+]
+
+ALEKIN_ROUTE = [
     "Region: Entrance to Nivla Woods",
     "Region: Nivla Woods"
 ]
@@ -41,7 +44,7 @@ for row in loader.rows:
     item_class = ItemClassification.filler
     if row[loader.TYPE] == "Region":
         name = "Region: " + name
-        item_class |= ItemClassification.progression | ItemClassification.useful
+        item_class |= ItemClassification.progression
     if name == "Progressive Max Level":
         item_class |= ItemClassification.progression
     elif name.startswith("Progressive"):
@@ -88,6 +91,7 @@ def get_trap_weight(world: WynncraftWorld, trap: str):
 def create_all_items(world: WynncraftWorld) -> None:
     starting_route = world.options.starting_route
     starting_items = []
+    starting_items += TRAIL_ROUTE
     if starting_route in [starting_route.option_alekin, starting_route.option_detlas]:
         starting_items += ALEKIN_ROUTE
     if starting_route == starting_route.option_detlas:
@@ -134,8 +138,7 @@ def create_all_items(world: WynncraftWorld) -> None:
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
 
     if needed_number_of_filler_items < 0:
-        print("PANIC")
-        raise OptionError("Too many items")
+        raise OptionError("Not enough checks. Please enabled additional sanities or increase level increments.")
 
     extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
     itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]

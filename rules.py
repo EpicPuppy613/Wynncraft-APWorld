@@ -49,7 +49,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
         if row[loader.AP] != "Location" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
             continue
 
-        if not world.location_enabled(row[loader.TYPE]):
+        if not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "FALSE":
             continue
 
         regions = row[loader.REGION].split(", ")
@@ -77,7 +77,10 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                 for req in gear_reqs:
                     rule = rule & gear_rule(world, req)
 
-        world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
+        if row[loader.TYPE] == "Territory":
+            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + str(max(1,int(row[loader.LEVEL]) - 5))) & rule)
+        else:
+            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
 
 
 def set_completion_condition(world: WynncraftWorld) -> None:
