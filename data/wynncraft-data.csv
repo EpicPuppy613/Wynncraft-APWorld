@@ -575,6 +575,7 @@ Abandoned Mines Entrance,TRUE,22,Region,Item,00 01 00 20,"Black Road, Mining Bas
 Mine Base Plains,TRUE,22,Region,Item,00 01 00 36,"Abandoned Mines Entrance, Mining Base Camp, Abandoned Mines, Plains Lake, Silent Road, Essren's Hut",,,FALSE,22,"Explore: Lake Pit, Complete: Fantastic Voyage, Complete: A Journey Beyond, Visit: Mine Base Plains"
 Mining Base Camp,TRUE,22,Region,Item,00 01 00 37,"Abandoned Mines Entrance, Abandoned Mines, Abandoned Pass, Mine Base Plains",,,FALSE,22,"Explore: Lower Abandoned Mines, Visit: Mining Base Camp"
 Abandoned Mines,TRUE,22,Region,Item,00 01 00 3b,"Mining Base Camp, Mine Base Plains",,,FALSE,22,"Explore: Lower Abandoned Mines, Visit: Abandoned Mines"
+Time Valley,TRUE,22,Region,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,FALSE,22,"Explore: Time Valley Aquifer, Explore: The Alcazar, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Time Valley"
 Sanctuary Bridge,TRUE,22,Region,Item,00 01 00 3f,"Time Valley, Frosty Spikes",,,FALSE,22,"Explore: The Sacrificial Altar, Complete: Timelost Sanctum, Visit: Sanctuary Bridge"
 Tempo Town,TRUE,22,Region,Default,,"Blooming Boulders, Elkurn, Time Valley, Road to Elkurn",,,FALSE,22,"Explore: Corrupt Time Warp, Explore: Vortex Complex, Explore: Time Valley Aquifer, Complete: Tempo Town Trouble, Complete: Creeper Infiltration, Visit: Tempo Town"
 Elkurn,TRUE,22,Region,Default,,"Road to Elkurn, Corrupted Road, Frosty Spikes, Tempo Town, Nesaak Transition, Corrupted River",,,FALSE,22,"Explore: Vortex Complex, Complete: Recover the Past, Complete: Temple of the Legends, Visit: Elkurn"
@@ -582,6 +583,7 @@ Jagged Foothills,TRUE,23,Region,Item,00 01 00 18,"Maltic Coast, Ancient Waterwor
 Rocky Shore,TRUE,23,Region,Item,00 01 00 27,"Blackstring Den, Nemract, Jagged Foothills",,,FALSE,23,"Explore: Boar Burrow, Visit: Rocky Shore"
 Blackstring Den,TRUE,23,Region,Item,00 01 00 29,"Rocky Shore, Mount Wynn Inn, Nested Cliffside",,,FALSE,23,Visit: Blackstring Den
 Rooster Island,TRUE,23,Region,Item,00 01 00 32,Selchar,,,FALSE,23,"Complete: Cluck Cluck, Visit: Rooster Island"
+Selchar,TRUE,23,Region,Default,,"Nemract, Rooster Island, Bear Zoo, Zhight Island, Corkus Castle, Pirate Town, Lost Atoll, Volcanic Excavation, Entrance to Gavel, Tree Island, Maro Peaks, Skien's Island, Dreary Docks, Nodguj Nation, Durum Isles Barn, Mage Island, Half Moon Island, Florist's Hut",,,FALSE,23,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
 Ternaves Tunnel,TRUE,24,Region,Item,00 01 00 39,"Entrance to Almuj, Lava Springs, Ternaves",,,FALSE,24,"Explore: Termite Mounds, Visit: Ternaves Tunnel"
 Plains Lake,TRUE,24,Region,Item,00 01 00 3d,"Roots of Corruption, Desolate Valley, Mine Base Plains, Corrupted Warfront, Detlas",,,FALSE,24,"Explore: Lake Pit, Visit: Plains Lake"
 Ragni South Entrance,TRUE,25,Region,Item,00 01 00 1b,"Pigmen Ravines, Sulphuric Hollow, Ragni",,,FALSE,25,"Complete: Creeper Infiltration, Visit: Ragni South Entrance"
@@ -594,11 +596,9 @@ Durum Malt Islet,TRUE,25,Region,Item,00 01 00 2e,Durum Isles Barn,,,FALSE,25,Vis
 Durum Barley Islet,TRUE,25,Region,Item,00 01 00 2f,Durum Isles Barn,,,FALSE,25,Visit: Durum Barley Islet
 Corrupted River,TRUE,25,Region,Item,00 01 00 30,"Elkurn, Roots of Corruption, Nesaak Transition, Desolate Valley",,,FALSE,25,"Explore: Corruption Mines, Complete: Recover the Past, Complete: A Journey Beyond, Visit: Corrupted River"
 Durum Isles Barn,TRUE,25,Region,Item,00 01 00 31,"Durum Barley Islet, Durum Oat Islet, Durum Malt Islet, Selchar",,,FALSE,25,Visit: Durum Isles Barn
-Time Valley,TRUE,25,Region,Item,00 01 00 3e,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,FALSE,25,"Explore: Time Valley Aquifer, Explore: The Alcazar, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Time Valley"
 Roots of Corruption,TRUE,25,Region,Item,00 01 00 40,"Corrupted Road, Corrupted River, Corrupted Warfront, Plains Lake",,,FALSE,25,"Explore: Corruption Mines, Complete: Temple of the Legends, Visit: Roots of Corruption"
 Half Moon Island,TRUE,25,Region,Item,00 01 00 48,Selchar,,,FALSE,25,"Explore: Dead Man's Dugout, Explore: Half Moon Island, Visit: Half Moon Island"
 Tree Island,TRUE,25,Region,Item,00 01 00 50,Selchar,,,FALSE,25,Visit: Tree Island
-Selchar,TRUE,25,Region,Default,,"Nemract, Rooster Island, Bear Zoo, Zhight Island, Corkus Castle, Pirate Town, Lost Atoll, Volcanic Excavation, Entrance to Gavel, Tree Island, Maro Peaks, Skien's Island, Dreary Docks, Nodguj Nation, Durum Isles Barn, Mage Island, Half Moon Island, Florist's Hut",,,FALSE,25,"Explore: Wave Cult Temple, Complete: Misadventure on the Sea, Complete: The Envoy Part I, Visit: Selchar"
 *Time Valley,TRUE,25,Region,Item,,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,FALSE,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
 Nesaak Transition,TRUE,27,Region,Item,00 01 00 43,"Florist's Hut, Desolate Valley, Elkurn, Corrupted River",,,FALSE,27,"Complete: The Corrupted Village, Complete: A Journey Beyond, Visit: Nesaak Transition"
 Frosty Spikes,TRUE,27,Region,Item,00 01 00 44,"Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard, Sanctuary Bridge",,,FALSE,27,"Explore: Ice Doors, Visit: Frosty Spikes"
@@ -1035,6 +1035,7 @@ Visit: Abandoned Mines Entrance,TRUE,22,Territory,Location,00 17 00 20,Abandoned
 Visit: Mine Base Plains,TRUE,22,Territory,Location,00 17 00 36,Mine Base Plains,,,FALSE,,
 Visit: Mining Base Camp,TRUE,22,Territory,Location,00 17 00 37,Mining Base Camp,,,FALSE,,
 Visit: Abandoned Mines,TRUE,22,Territory,Location,00 17 00 3b,Abandoned Mines,,,FALSE,,
+Visit: Time Valley,TRUE,22,Territory,Location,00 17 00 3e,Time Valley,,,FALSE,,
 Visit: Sanctuary Bridge,TRUE,22,Territory,Location,00 17 00 3f,Sanctuary Bridge,,,FALSE,,
 Visit: Tempo Town,TRUE,22,Territory,Location,00 17 01 93,Tempo Town,,,FALSE,,
 Visit: Elkurn,TRUE,22,Territory,Location,00 17 01 94,Elkurn,,,FALSE,,
@@ -1042,6 +1043,7 @@ Visit: Jagged Foothills,TRUE,23,Territory,Location,00 17 00 18,Jagged Foothills,
 Visit: Rocky Shore,TRUE,23,Territory,Location,00 17 00 27,Rocky Shore,,,FALSE,,
 Visit: Blackstring Den,TRUE,23,Territory,Location,00 17 00 29,Blackstring Den,,,FALSE,,
 Visit: Rooster Island,TRUE,23,Territory,Location,00 17 00 32,Rooster Island,,,FALSE,,
+Visit: Selchar,TRUE,23,Territory,Location,00 17 01 96,Selchar,,,FALSE,,
 Visit: Ternaves Tunnel,TRUE,24,Territory,Location,00 17 00 39,Ternaves Tunnel,,,FALSE,,
 Visit: Plains Lake,TRUE,24,Territory,Location,00 17 00 3d,Plains Lake,,,FALSE,,
 Visit: Ragni South Entrance,TRUE,25,Territory,Location,00 17 00 1b,Ragni South Entrance,,,FALSE,,
@@ -1054,11 +1056,9 @@ Visit: Durum Malt Islet,TRUE,25,Territory,Location,00 17 00 2e,Durum Malt Islet,
 Visit: Durum Barley Islet,TRUE,25,Territory,Location,00 17 00 2f,Durum Barley Islet,,,FALSE,,
 Visit: Corrupted River,TRUE,25,Territory,Location,00 17 00 30,Corrupted River,,,FALSE,,
 Visit: Durum Isles Barn,TRUE,25,Territory,Location,00 17 00 31,Durum Isles Barn,,,FALSE,,
-Visit: Time Valley,TRUE,25,Territory,Location,00 17 00 3e,Time Valley,,,FALSE,,
 Visit: Roots of Corruption,TRUE,25,Territory,Location,00 17 00 40,Roots of Corruption,,,FALSE,,
 Visit: Half Moon Island,TRUE,25,Territory,Location,00 17 00 48,Half Moon Island,,,FALSE,,
 Visit: Tree Island,TRUE,25,Territory,Location,00 17 00 50,Tree Island,,,FALSE,,
-Visit: Selchar,TRUE,25,Territory,Location,00 17 01 96,Selchar,,,FALSE,,
 Visit: Nesaak Transition,TRUE,27,Territory,Location,00 17 00 43,Nesaak Transition,,,FALSE,,
 Visit: Frosty Spikes,TRUE,27,Territory,Location,00 17 00 44,Frosty Spikes,,,FALSE,,
 Visit: Florist's Hut,TRUE,27,Territory,Location,00 17 00 b4,Florist's Hut,,,FALSE,,
