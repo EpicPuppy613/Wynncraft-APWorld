@@ -2,12 +2,13 @@ from collections.abc import Mapping
 from typing import Any
 
 from BaseClasses import MultiWorld
-from rule_builder.cached_world import CachedRuleBuilderWorld
+from worlds.AutoWorld import World
 
 from . import items, locations, regions, rules, web_world
 from . import options as wynncraft_options  # rename due to a name conflict with World.options
 
-class WynncraftWorld(CachedRuleBuilderWorld):
+
+class WynncraftWorld(World):
     """
     Wynncraft is a Minecraft MMORPG with completely custom abilities and combat.
     """

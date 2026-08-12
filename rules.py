@@ -34,11 +34,10 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
 
     for i in range(2, world.options.goal_level + 1):
         entrance = world.get_entrance(f"Level Up: " + str(i))
-        if str(i) in loader.level_map:
+        if str(i) in loader.level_map and world.options.logical_levels:
             rule = False_()
             for region in loader.level_map[str(i)].split(", "):
                 rule = rule | CanReachRegion(region)
-                
         else:
             rule = True_()
         world.set_rule(entrance, rule & Has("Progressive Max Level", count=max_levels_needed(i, world)))
@@ -78,7 +77,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     rule = rule & gear_rule(world, req)
 
         if row[loader.TYPE] == "Territory":
-            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + str(max(1,int(row[loader.LEVEL]) - 5))) & rule)
+            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + str(max(1,int(row[loader.LEVEL]) - world.options.early_territory_levels))) & rule)
         else:
             world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
 

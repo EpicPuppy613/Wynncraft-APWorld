@@ -18,12 +18,9 @@ item_name_to_id = {}
 default_item_classifications = {}
 item_levels = {}
 
-TRAIL_ROUTE = [
-    "Region: Ragni Main Entrance",
-    "Region: Emerald Trail"
-]
-
 ALEKIN_ROUTE = [
+    "Region: Ragni Main Entrance",
+    "Region: Emerald Trail",
     "Region: Entrance to Nivla Woods",
     "Region: Nivla Woods"
 ]
@@ -91,7 +88,6 @@ def get_trap_weight(world: WynncraftWorld, trap: str):
 def create_all_items(world: WynncraftWorld) -> None:
     starting_route = world.options.starting_route
     starting_items = []
-    starting_items += TRAIL_ROUTE
     if starting_route in [starting_route.option_alekin, starting_route.option_detlas]:
         starting_items += ALEKIN_ROUTE
     if starting_route == starting_route.option_detlas:

@@ -30,14 +30,14 @@ class ExtraMaxLevels(Range):
 class StartingRoute(Choice):
     """
     How much of the route from Ragni to Detlas to start unlocked
-    Emerald Trail: Ragni, Ragni Main Entrance, and Emerald Trail
+    None: WARNING - May cause generation errors
     Alekin: Ragni -> Alekin
     Detlas: Ragni -> Detlas
     """
 
     display_name = "Starting Route"
 
-    option_emerald_trail = 0
+    option_none = 0
     option_alekin = 1
     option_detlas = 2
 
@@ -248,6 +248,16 @@ class LevelChecks(Toggle):
 
     default = True
 
+class LogicalLevels(Toggle):
+    """
+    Whether level-based checks should require having access to later-game areas.
+    Disabling this could lead to a very grindy early game.
+    """
+
+    display_name = "Logical Levels"
+
+    default = True
+
 class TerritoryChecks(Toggle):
     """
     Earn checks for entering territories for the first time.
@@ -257,6 +267,17 @@ class TerritoryChecks(Toggle):
     display_name = "Territorysanity"
 
     default = True
+
+class EarlyTerritoryLevels(Range):
+    """
+    How many levels below the territory's recommended level needed for Territorysanity checks to be considered in-logic.
+    """
+
+    display_name = "Early Territory Access"
+
+    range_start = 0
+    range_end = 20
+    default = 5
 
 @dataclass
 class WynncraftOptions(PerGameCommonOptions):
@@ -277,7 +298,9 @@ class WynncraftOptions(PerGameCommonOptions):
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
     level_checks: LevelChecks
+    logical_levels: LogicalLevels
     territory_checks: TerritoryChecks
+    early_territory_levels: EarlyTerritoryLevels
 
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
@@ -298,7 +321,7 @@ option_groups = [
     ),
     OptionGroup(
         "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, LogicalLevels, TerritoryChecks, EarlyTerritoryLevels]
     ),
     OptionGroup(
         "Trap Options",
