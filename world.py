@@ -120,8 +120,14 @@ class WynncraftWorld(World):
             "trap_duration",
         )
 
-        slot_data["goal_dungeon"] = self.goal_dungeon
-        slot_data["goal_quest"] = self.goal_quest
+        if hasattr(self, "goal_dungeon"):
+            slot_data["goal_dungeon"] = self.goal_dungeon
+        else:
+            slot_data["goal_dungeon"] = ""
+        if hasattr(self, "goal_quest"):
+            slot_data["goal_quest"] = self.goal_quest
+        else:
+            slot_data["goal_quest"] = ""
 
         return slot_data
 
