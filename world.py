@@ -97,12 +97,31 @@ class WynncraftWorld(World):
 
     def fill_slot_data(self) -> Mapping[str, Any]:
         slot_data = self.options.as_dict(
-            "goal_level", "level_increment", "trap_duration",
-            "gear_lock_mode", "single_gear_rarity", "gear_level_increment",
-            "locked_region_enforcement", "locked_region_countdown",
-            "quest_checks", "mini_quest_checks", "cave_checks", "dungeon_checks",
-            "level_checks", "logical_levels", "territory_checks", "early_territory_levels"
+            "goal_type",
+            "goal_level",
+
+            "locked_region_enforcement",
+            "locked_region_countdown",
+
+            "level_increment",
+            "gear_lock_mode",
+            "single_gear_rarity",
+            "gear_level_increment",
+
+            "quest_checks",
+            "mini_quest_checks",
+            "cave_checks",
+            "dungeon_checks",
+            "level_checks",
+            "logical_levels",
+            "territory_checks",
+            "early_territory_levels",
+
+            "trap_duration",
         )
+
+        slot_data["goal_dungeon"] = self.goal_dungeon
+        slot_data["goal_quest"] = self.goal_quest
 
         return slot_data
 
