@@ -118,6 +118,8 @@ class WynncraftWorld(World):
             "early_territory_levels",
 
             "trap_duration",
+
+            "death_link"
         )
 
         if hasattr(self, "goal_dungeon"):

@@ -381,6 +381,15 @@ class EarlyTerritoryLevels(Range):
     range_end = 20
     default = 5
 
+class DeathLink(Toggle):
+    """
+    Enable death link.
+    """
+
+    display_name = "Death Link"
+
+    default = False
+
 @dataclass
 class WynncraftOptions(PerGameCommonOptions):
     goal_type: GoalType
@@ -415,6 +424,8 @@ class WynncraftOptions(PerGameCommonOptions):
     kill_trap_weight: KillTrapWeight
     trap_duration: TrapDuration
 
+    death_link: DeathLink
+
 
 option_groups = [
     OptionGroup(
@@ -436,6 +447,10 @@ option_groups = [
     OptionGroup(
         "Trap Options",
         [TrapChance, FreezeTrapWeight, DazeTrapWeight, BlindTrapWeight, KillTrapWeight, TrapDuration]
+    ),
+    OptionGroup(
+        "Miscellaneous Options",
+        [DeathLink]
     )
 ]
 
