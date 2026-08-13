@@ -96,7 +96,7 @@ def create_all_items(world: WynncraftWorld) -> None:
     itempool: list[Item] = []
 
     for item, level in item_levels.items():
-        if level >= world.options.goal_level:
+        if level > world.max_level:
             continue
 
         ap_item = world.create_item(item)
@@ -105,7 +105,7 @@ def create_all_items(world: WynncraftWorld) -> None:
         else:
             itempool.append(ap_item)
 
-    level_items = ceil((world.options.goal_level - 1) / world.options.level_increment)
+    level_items = ceil(world.max_level / world.options.level_increment)
     itempool += [world.create_item("Progressive Max Level") for _ in range(level_items)]
 
     gear_types = []
@@ -117,7 +117,7 @@ def create_all_items(world: WynncraftWorld) -> None:
         gear_types += ["Gear"]
 
     if len(gear_types) > 0:
-        gear_item_count = ceil((world.options.goal_level - 1) / world.options.gear_level_increment)
+        gear_item_count = ceil(world.max_level / world.options.gear_level_increment)
         if not world.options.single_gear_rarity:
             for gear in gear_types:
                 itempool += [world.create_item("Progressive Unique " + gear) for _ in range(gear_item_count)]

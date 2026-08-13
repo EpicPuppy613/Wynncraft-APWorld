@@ -33,6 +33,10 @@ class WynncraftWorld(World):
     goal_dungeon: str
     goal_quest: str
 
+    is_level_goal: bool
+    is_dungeon_goal: bool
+    is_quest_goal: bool
+
     def generate_early(self) -> None:
         self.all_regions = []
         self.unlockable_regions = []
@@ -70,6 +74,10 @@ class WynncraftWorld(World):
 
         else:
             raise OptionError("Invalid objective")
+
+        self.is_level_goal = self.options.goal_type == self.options.goal_type.option_level
+        self.is_dungeon_goal = self.options.goal_type == self.options.goal_type.option_dungeon
+        self.is_quest_goal = self.options.goal_type == self.options.goal_type.option_quest
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)

@@ -26,7 +26,7 @@ class WynncraftLocation(Location):
 
 def create_all_locations(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.AP] != "Location" or row[loader.ID] == "" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) >= world.options.goal_level:
+        if row[loader.AP] != "Location" or row[loader.ID] == "" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) > world.max_level:
             continue
 
         if not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "FALSE":
@@ -39,12 +39,16 @@ def create_all_locations(world: WynncraftWorld) -> None:
         else:
             region = world.get_region("Menu")
 
-        if not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "TRUE":
+        if ((world.is_dungeon_goal and row[loader.NAME] == world.goal_dungeon) or
+                (world.is_quest_goal and row[loader.NAME] == world.goal_quest)):
+            region.add_event(row[loader.NAME], "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem)
+        elif not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "TRUE":
             region.add_event(row[loader.NAME], "-", location_type=WynncraftLocation, item_type=items.WynncraftItem, show_in_spoiler=False)
         else:
             location = WynncraftLocation(world.player, row[loader.NAME], world.location_name_to_id[row[loader.NAME]], region)
             region.locations.append(location)
 
-    world.get_region("Level " + str(world.options.goal_level)).add_event(
-        "Level Up: " + str(world.options.goal_level), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
-    )
+    if world.is_level_goal:
+        world.get_region("Level " + str(world.options.goal_level)).add_event(
+            "Level Up: " + str(world.options.goal_level), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
+        )

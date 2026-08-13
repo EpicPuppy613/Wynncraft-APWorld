@@ -23,5 +23,5 @@ class TestGoalQuestName(WynncraftTestBase):
     def test_goal_quest_name_matches(self):
         self.assertEqual(self.world.goal_quest, "Complete: An Iron Heart Part I", "Goal quest must be 'Complete: An Iron Heart Part I'")
 
-    def ccctest_goal_quest_name_level(self):
+    def test_goal_quest_name_level(self):
         self.assertEqual(self.world.max_level, 49, "Goal level must be 49")
