@@ -602,10 +602,7 @@ Tree Island,TRUE,25,Region,Item,00 01 00 50,Selchar,,,FALSE,25,Visit: Tree Islan
 *Time Valley,TRUE,25,Region,Item,,"Little Wood, Abandoned Farm, Tempo Town, Sanctuary Bridge",,,FALSE,4,"Explore: Spider Mother Grove, Explore: Mossy Grotto, Explore: Corrupt Time Warp, Explore: Time Valley Aquifer, Explore: The Alcazar, Explore: Trunk Garrison, Complete: Infested Plants, Complete: Tempo Town Trouble, Complete: Deja Vu, Visit: Road to Time Valley, Visit: Time Valley"
 Nesaak Transition,TRUE,27,Region,Item,00 01 00 43,"Florist's Hut, Desolate Valley, Elkurn, Corrupted River",,,FALSE,27,"Complete: The Corrupted Village, Complete: A Journey Beyond, Visit: Nesaak Transition"
 Frosty Spikes,TRUE,27,Region,Item,00 01 00 44,"Elkurn, Florist's Hut, Frozen Homestead, Abandoned Lumberyard, Sanctuary Bridge",,,FALSE,27,"Explore: Ice Doors, Visit: Frosty Spikes"
-Florist's Hut,TRUE,27,Region,Item,00 01 00 b4,"Bob's Tomb, Frosty Spikes, Frozen Homestead, Nesaak, Nesaak Transition, Selchar",,,FALSE,27,"Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Florist's Hut"
-Frozen Homestead,TRUE,27,Region,Item,00 01 00 b5,"Frigid Crossroads, Frosty Spikes, Abandoned Lumberyard, Nesaak, Florist's Hut",,,FALSE,27,"Complete: Bob's Lost Soul, Visit: Frozen Homestead"
 Abandoned Lumberyard,TRUE,27,Region,Item,00 01 00 b7,"Frozen Homestead, Frosty Spikes",,,FALSE,27,"Explore: The Alcazar, Explore: Ice Doors, Complete: Fate of the Fallen, Complete: Bob's Lost Soul, Visit: Abandoned Lumberyard"
-Nesaak,TRUE,27,Region,Default,,"Wolves' Den, Frigid Crossroads, Florist's Hut, Frozen Homestead, Bob's Tomb",,,FALSE,27,"Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
 Desolate Valley,TRUE,28,Region,Item,00 01 00 3c,"Nesaak Transition, Corrupted River, Plains Lake",,,FALSE,28,"Complete: The Corrupted Village, Visit: Desolate Valley"
 Mage Island,TRUE,28,Region,Item,00 01 00 42,Selchar,,,FALSE,28,"Explore: Lush Grotto, Explore: Troll Tower, Explore: Crystalline Polynya, Complete: Zhight Island, Complete: The Order of the Grook, Complete: Beneath the Depths, Complete: Temple of the Legends, Visit: Mage Island"
 Abandoned Pass,TRUE,30,Region,Item,00 01 00 24,"Abandoned Mines Entrance, Mining Base Camp",,,FALSE,30,"Explore: Blazing Oasis, Visit: Abandoned Pass"
@@ -637,6 +634,9 @@ Trunkstump Goblin Camp,TRUE,39,Region,Item,00 01 00 d4,"Llevigar Stables, Meteor
 Llevigar,TRUE,39,Region,Default,,"Entrance to Gavel, Llevigar Gate, Karoc Quarry",,,FALSE,39,"Complete: Pirate's Trove, Complete: Heart of Llevigar, Complete: The Hero of Gavel, Visit: Llevigar"
 Icy Island,TRUE,40,Region,Item,00 01 00 96,"Dujgon Nation, Nodguj Nation, Santa's Hideout",,,FALSE,40,Visit: Icy Island
 Wolves' Den,TRUE,40,Region,Item,00 01 00 b2,"Bob's Tomb, Frigid Crossroads, Nesaak",,,FALSE,40,"Explore: Wolf Den, Complete: Ice Barrows, Complete: Slay Creatures of Nesaak Forest, Complete: Underice, Complete: Fate of the Fallen, Complete: A Hunter's Calling, Visit: Wolves' Den"
+Florist's Hut,TRUE,40,Region,Item,00 01 00 b4,"Bob's Tomb, Frosty Spikes, Frozen Homestead, Nesaak, Nesaak Transition, Selchar",,,FALSE,40,"Complete: Bob's Lost Soul, Complete: A Journey Beyond, Visit: Florist's Hut"
+Frozen Homestead,TRUE,40,Region,Item,00 01 00 b5,"Frigid Crossroads, Frosty Spikes, Abandoned Lumberyard, Nesaak, Florist's Hut",,,FALSE,40,"Complete: Bob's Lost Soul, Visit: Frozen Homestead"
+Nesaak,TRUE,40,Region,Default,,"Wolves' Den, Frigid Crossroads, Florist's Hut, Frozen Homestead, Bob's Tomb",,,FALSE,40,"Complete: Underice, Complete: Fate of the Fallen, Visit: Nesaak"
 Nodguj Nation,TRUE,40,Region,Default,,"Dujgon Nation, Santa's Hideout, Icy Island, Selchar",,,FALSE,40,"Complete: Ice Nations, Visit: Nodguj Nation"
 Dujgon Nation,TRUE,40,Region,Default,,"Nodguj Nation, Icy Island",,,FALSE,40,"Complete: Ice Nations, Visit: Dujgon Nation"
 Orc Lake,TRUE,42,Region,Item,00 01 00 52,"Trunkstump Goblin Camp, Stonecave Orc Camp, Sunspark Orc Camp, Sablestone Orc Camp, Orc Road",,,FALSE,42,"Complete: Star Thief, Complete: Blazing Retribution, Visit: Orc Lake"
@@ -1061,10 +1061,7 @@ Visit: Half Moon Island,TRUE,25,Territory,Location,00 17 00 48,Half Moon Island,
 Visit: Tree Island,TRUE,25,Territory,Location,00 17 00 50,Tree Island,,,FALSE,,
 Visit: Nesaak Transition,TRUE,27,Territory,Location,00 17 00 43,Nesaak Transition,,,FALSE,,
 Visit: Frosty Spikes,TRUE,27,Territory,Location,00 17 00 44,Frosty Spikes,,,FALSE,,
-Visit: Florist's Hut,TRUE,27,Territory,Location,00 17 00 b4,Florist's Hut,,,FALSE,,
-Visit: Frozen Homestead,TRUE,27,Territory,Location,00 17 00 b5,Frozen Homestead,,,FALSE,,
 Visit: Abandoned Lumberyard,TRUE,27,Territory,Location,00 17 00 b7,Abandoned Lumberyard,,,FALSE,,
-Visit: Nesaak,TRUE,27,Territory,Location,00 17 01 95,Nesaak,,,FALSE,,
 Visit: Desolate Valley,TRUE,28,Territory,Location,00 17 00 3c,Desolate Valley,,,FALSE,,
 Visit: Mage Island,TRUE,28,Territory,Location,00 17 00 42,Mage Island,,,FALSE,,
 Visit: Abandoned Pass,TRUE,30,Territory,Location,00 17 00 24,Abandoned Pass,,,FALSE,,
@@ -1096,6 +1093,9 @@ Visit: Trunkstump Goblin Camp,TRUE,39,Territory,Location,00 17 00 d4,Trunkstump 
 Visit: Llevigar,TRUE,39,Territory,Location,00 17 01 9b,Llevigar,,,FALSE,,
 Visit: Icy Island,TRUE,40,Territory,Location,00 17 00 96,Icy Island,,,FALSE,,
 Visit: Wolves' Den,TRUE,40,Territory,Location,00 17 00 b2,Wolves' Den,,,FALSE,,
+Visit: Florist's Hut,TRUE,40,Territory,Location,00 17 00 b4,Florist's Hut,,,FALSE,,
+Visit: Frozen Homestead,TRUE,40,Territory,Location,00 17 00 b5,Frozen Homestead,,,FALSE,,
+Visit: Nesaak,TRUE,40,Territory,Location,00 17 01 95,Nesaak,,,FALSE,,
 Visit: Nodguj Nation,TRUE,40,Territory,Location,00 17 01 9c,Nodguj Nation,,,FALSE,,
 Visit: Dujgon Nation,TRUE,40,Territory,Location,00 17 01 9d,Dujgon Nation,,,FALSE,,
 Visit: Orc Lake,TRUE,42,Territory,Location,00 17 00 52,Orc Lake,,,FALSE,,
