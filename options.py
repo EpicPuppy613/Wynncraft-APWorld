@@ -1,11 +1,27 @@
 from dataclasses import dataclass
 
-from Options import OptionGroup, PerGameCommonOptions, Range, Choice, Toggle
+from Options import OptionGroup, PerGameCommonOptions, Range, Choice, Toggle, TextChoice
 
+
+class GoalType(Choice):
+    """
+    Level: Reach the target level
+    Dungeon: Complete the specified dungeon
+    Quest: Complete the specified quest
+    """
+
+    display_name = "Objective"
+
+    option_level = 0
+    option_dungeon = 1
+    option_quest = 2
+
+    default = 0
 
 class GoalLevel(Range):
     """
-    Level to reach to win the game.
+    'Level' objective only:
+    The level to reach to win the game.
     """
 
     display_name = "Goal Level"
@@ -13,6 +29,90 @@ class GoalLevel(Range):
     range_start = 10
     range_end = 80
     default = 40
+
+default_dungeon_map = {
+    0: "Infested Pit",
+    1: "Underworld Crypt",
+    2: "Timelost Sanctum",
+    3: "Sand-Swept Tomb",
+    4: "Ice Barrows",
+    5: "Undergrowth Ruins",
+    6: "Galleon's Graveyard",
+    7: "Corrupted Lost Sanctuary"
+}
+
+class GoalDungeon(TextChoice):
+    """
+    'Dungeon' objective only:
+    The dungeon to beat to win the game.
+    Can be set to any dungeon in the game. (Up to recommended level 79)
+    """
+
+    display_name = "Goal Dungeon"
+
+    option_pit = 0
+    option_crypt = 1
+    option_sanctum = 2
+    option_tomb = 3
+    option_barrows = 4
+    option_ruins = 5
+    option_graveyard = 6
+    option_corrupt_sanctuary = 7
+
+    default = option_tomb
+
+    @classmethod
+    def get_option_name(cls, value: str | int) -> str:
+        if isinstance(value, str):
+            return value
+        if value in default_dungeon_map:
+            return default_dungeon_map[value]
+        else:
+            return ""
+
+default_quest_map = {
+    0: "Arachnid's Ascent",
+    1: "Kingdom of Sand",
+    2: "Heart of Llevigar",
+    3: "Jungle Fever",
+    4: "The Worm Holes",
+    5: "Redbeard's Booty",
+    6: "WynnExcavation Site D",
+    7: "Reincarnation",
+    8: "Tower of Ascension",
+    9: "The Realm of Light"
+}
+
+class GoalQuest(TextChoice):
+    """
+    'Quest' objective only:
+    The quest to complete to win the game.
+    Can be set to any quest in the game. (Up to level 79)
+    """
+
+    display_name = "Goal Quest"
+
+    option_arachnid = 0
+    option_sand = 1
+    option_llevigar = 2
+    option_jungle = 3
+    option_worm = 4
+    option_redbeard = 5
+    option_excavation = 6
+    option_reincarnation = 7
+    option_ascension = 8
+    option_light = 9
+
+    default = option_llevigar
+
+    @classmethod
+    def get_option_name(cls, value: str | int) -> str:
+        if isinstance(value, str):
+            return value
+        if value in default_quest_map:
+            return default_quest_map[value]
+        else:
+            return ""
 
 class ExtraMaxLevels(Range):
     """
@@ -170,7 +270,7 @@ class TrapDuration(Range):
 
     range_start = 1
     range_end = 120
-    default = 10
+    default = 15
 
 class LockedRegionEnforcement(Choice):
     """
@@ -250,7 +350,8 @@ class LevelChecks(Toggle):
 
 class LogicalLevels(Toggle):
     """
-    Whether level-based checks should require having access to later-game areas.
+    Whether level-based checks should require
+    having access to later-game areas.
     Disabling this could lead to a very grindy early game.
     """
 
@@ -260,7 +361,7 @@ class LogicalLevels(Toggle):
 
 class TerritoryChecks(Toggle):
     """
-    Earn checks for entering territories for the first time.
+    Earn checks for visiting territories for the first time.
     Disabling this removes a lot of checks.
     """
 
@@ -270,7 +371,8 @@ class TerritoryChecks(Toggle):
 
 class EarlyTerritoryLevels(Range):
     """
-    How many levels below the territory's recommended level needed for Territorysanity checks to be considered in-logic.
+    How many levels below the territory's recommended level
+    needed for Territorysanity checks to be considered in-logic.
     """
 
     display_name = "Early Territory Access"
@@ -281,11 +383,15 @@ class EarlyTerritoryLevels(Range):
 
 @dataclass
 class WynncraftOptions(PerGameCommonOptions):
+    goal_type: GoalType
     goal_level: GoalLevel
+    goal_dungeon: GoalDungeon
+    goal_quest: GoalQuest
+
+    starting_route: StartingRoute
     locked_region_enforcement: LockedRegionEnforcement
     locked_region_countdown: LockedRegionCountdown
 
-    starting_route: StartingRoute
     level_increment: LevelIncrement
     extra_max_levels: ExtraMaxLevels
     gear_lock_mode: GearLockMode
@@ -312,12 +418,16 @@ class WynncraftOptions(PerGameCommonOptions):
 
 option_groups = [
     OptionGroup(
-        "Gameplay Options",
-        [GoalLevel, LockedRegionEnforcement, LockedRegionCountdown],
+        "Goal Options",
+        [GoalType, GoalLevel, GoalDungeon, GoalQuest]
+    ),
+    OptionGroup(
+        "Region Lock Options",
+        [StartingRoute, LockedRegionEnforcement, LockedRegionCountdown],
     ),
     OptionGroup(
         "Item Options",
-        [StartingRoute, LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
+        [LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
         "Location Options",

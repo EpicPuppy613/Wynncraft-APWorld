@@ -1,5 +1,4 @@
 import csv
-import os
 from pkgutil import get_data
 
 data = get_data(__name__, "wynncraft-data.csv")
@@ -25,9 +24,15 @@ IS_PREREQ = "Is Prereq"
 GEAR_REQ = "Gear Req"
 
 # run some preprocessing for future use
+all_dungeons = {}
+all_quests = {}
 for row in reader:
     if row[READY] != "TRUE":
         continue
+    elif row[TYPE] == "Dungeon":
+        all_dungeons[row[NAME].split(": ")[1]] = int(row[LEVEL])
+    elif row[TYPE] == "Quest":
+        all_quests[row[NAME].split(": ")[1]] = int(row[LEVEL])
     rows.append(row)
 
 for level_row in level_reader:
