@@ -33,7 +33,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 world.set_rule(entrance, Has(f"Region: {connection}"))
 
     def set_level_logic(level: int) -> None:
-        level_entrance = world.get_entrance(f"Level Up: " + str(level))
+        level_entrance = world.get_entrance("Level Up: " + str(level))
         if str(level) in loader.level_map and world.options.logical_levels:
             rule = False_()
             for region in loader.level_map[str(level)].split(", "):
@@ -44,6 +44,9 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
 
     for i in range(2, world.max_level + 1):
         set_level_logic(i)
+        if world.options.logical_gear_levels:
+            gear_level_entrance = world.get_entrance("Gear Level Cap: " + str(i))
+            world.set_rule(gear_level_entrance, any_gear_rule(world, i))
 
     if world.is_level_goal:
         set_level_logic(int(world.options.goal_level))
@@ -115,3 +118,26 @@ def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
         return Has("Progressive " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
     else:
         return Has("Progressive " + parts[0] + " " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
+
+def any_gear_rule(world: WynncraftWorld, level: int) -> Rule:
+    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
+        return True_()
+
+    gear_types = []
+    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_full:
+        gear_types += ["Armor", "Accessories", "Weapons"]
+    elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+        gear_types += ["Gear"]
+
+    rule = False_()
+    levels_needed = gear_levels_needed(level, world)
+    if not world.options.single_gear_rarity:
+        for gear in gear_types:
+            rule = rule | Has("Progressive Unique " + gear, count=levels_needed)
+            rule = rule | Has("Progressive Rare " + gear, count=levels_needed)
+            rule = rule | Has("Progressive Legendary+ " + gear, count=levels_needed)
+    else:
+        for gear in gear_types:
+            rule = rule | Has("Progressive " + gear, count=levels_needed)
+
+    return rule

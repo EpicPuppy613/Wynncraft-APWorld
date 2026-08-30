@@ -348,17 +348,6 @@ class LevelChecks(Toggle):
 
     default = True
 
-class LogicalLevels(Toggle):
-    """
-    Whether level-based checks should require
-    having access to later-game areas.
-    Disabling this could lead to a very grindy early game.
-    """
-
-    display_name = "Logical Levels"
-
-    default = True
-
 class TerritoryChecks(Toggle):
     """
     Earn checks for visiting territories for the first time.
@@ -380,6 +369,29 @@ class EarlyTerritoryLevels(Range):
     range_start = 0
     range_end = 20
     default = 5
+
+
+class LogicalLevels(Toggle):
+    """
+    Whether level-based checks should require
+    having access to later-game areas.
+    Disabling this could lead to a very grindy early game.
+    """
+
+    display_name = "Logical Levels"
+
+    default = True
+
+class LogicalGearLevels(Toggle):
+    """
+    Whether level-based checks should require
+    a minimum level of gear.
+    Disabling this could lead to being underpowered throughout the game.
+    """
+
+    display_name = "Logical Gear Levels"
+
+    default = True
 
 class DeathLink(Toggle):
     """
@@ -413,9 +425,10 @@ class WynncraftOptions(PerGameCommonOptions):
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
     level_checks: LevelChecks
-    logical_levels: LogicalLevels
     territory_checks: TerritoryChecks
     early_territory_levels: EarlyTerritoryLevels
+    logical_levels: LogicalLevels
+    logical_gear_levels: LogicalGearLevels
 
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
@@ -442,7 +455,7 @@ option_groups = [
     ),
     OptionGroup(
         "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, LogicalLevels, TerritoryChecks, EarlyTerritoryLevels]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks, EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels]
     ),
     OptionGroup(
         "Trap Options",
