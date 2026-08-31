@@ -642,9 +642,9 @@ Dujgon Nation,TRUE,40,Region,Default,,"Nodguj Nation, Icy Island",,,FALSE,40,"Co
 Orc Lake,TRUE,42,Region,Item,00 01 00 52,"Trunkstump Goblin Camp, Stonecave Orc Camp, Sunspark Orc Camp, Sablestone Orc Camp, Orc Road",,,FALSE,42,"Complete: Star Thief, Complete: Blazing Retribution, Visit: Orc Lake"
 Meteor Trail,TRUE,42,Region,Item,00 01 00 d5,"Cliffhearth Orc Camp, Trunkstump Goblin Camp, Brigand Outpost",,,FALSE,42,"Complete: Star Thief, Visit: Meteor Trail"
 Stonecave Orc Camp,TRUE,42,Region,Item,00 01 00 d7,"Trunkstump Goblin Camp, Brigand Outpost, Mudspring Orc Camp, Orc Lake, Sunspark Orc Camp",,,FALSE,42,"Complete: Star Thief, Visit: Stonecave Orc Camp"
+Sablestone Orc Camp,TRUE,42,Region,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Loamsprout Orc Camp, Goblin Plains West",,,FALSE,42,"Complete: Star Thief, Complete: Blazing Retribution, Visit: Sablestone Orc Camp"
 Frigid Crossroads,TRUE,43,Region,Item,00 01 00 b3,"Wolves' Den, Frozen Homestead, Nesaak, Twain Lake, Icy Vigil, Icy Descent",,,FALSE,43,"Complete: Underice, Complete: Bob's Lost Soul, Visit: Frigid Crossroads"
 Icy Descent,TRUE,44,Region,Item,00 01 00 91,"Tower of Ascension, Lusuco, Frigid Crossroads",,,FALSE,44,"Explore: Raging Survivor, Complete: Frost Bite, Visit: Icy Descent"
-Sablestone Orc Camp,TRUE,44,Region,Item,00 01 00 ef,"Orc Lake, Meteor Crater, Loamsprout Orc Camp, Goblin Plains West",,,FALSE,42,"Complete: Star Thief, Complete: Blazing Retribution, Visit: Sablestone Orc Camp"
 Loamsprout Orc Camp,TRUE,44,Region,Item,00 01 00 f0,"Orc Road, Sablestone Orc Camp, Llevigar Farm, Shineridge Orc Camp",,,FALSE,44,"Explore: Holehold Orc Camp, Complete: Blazing Retribution, Visit: Loamsprout Orc Camp"
 Lusuco,TRUE,44,Region,Default,,Icy Descent,,,FALSE,44,"Explore: Raiders' Hideout, Explore: Submerged Coal Mine, Visit: Lusuco"
 Twain Lake,TRUE,45,Region,Item,00 01 00 49,"Twain Mansion, Frigid Crossroads",,,FALSE,45,"Explore: Headless Hollow, Complete: WynnExcavation Site B, Complete: The House of Twain, Visit: Twain Lake"
@@ -1101,9 +1101,9 @@ Visit: Dujgon Nation,TRUE,40,Territory,Location,00 17 01 9d,Dujgon Nation,,,FALS
 Visit: Orc Lake,TRUE,42,Territory,Location,00 17 00 52,Orc Lake,,,FALSE,,
 Visit: Meteor Trail,TRUE,42,Territory,Location,00 17 00 d5,Meteor Trail,,,FALSE,,
 Visit: Stonecave Orc Camp,TRUE,42,Territory,Location,00 17 00 d7,Stonecave Orc Camp,,,FALSE,,
+Visit: Sablestone Orc Camp,TRUE,42,Territory,Location,00 17 00 ef,Sablestone Orc Camp,,,FALSE,,
 Visit: Frigid Crossroads,TRUE,43,Territory,Location,00 17 00 b3,Frigid Crossroads,,,FALSE,,
 Visit: Icy Descent,TRUE,44,Territory,Location,00 17 00 91,Icy Descent,,,FALSE,,
-Visit: Sablestone Orc Camp,TRUE,44,Territory,Location,00 17 00 ef,Sablestone Orc Camp,,,FALSE,,
 Visit: Loamsprout Orc Camp,TRUE,44,Territory,Location,00 17 00 f0,Loamsprout Orc Camp,,,FALSE,,
 Visit: Lusuco,TRUE,44,Territory,Location,00 17 01 9e,Lusuco,,,FALSE,,
 Visit: Twain Lake,TRUE,45,Territory,Location,00 17 00 49,Twain Lake,,,FALSE,,
