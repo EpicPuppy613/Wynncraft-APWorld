@@ -131,6 +131,8 @@ class WynncraftWorld(World):
         else:
             slot_data["goal_quest"] = ""
 
+        slot_data["world_version"] = self.world_version.as_simple_string()
+
         return slot_data
 
     def location_enabled(self, loc_type):
