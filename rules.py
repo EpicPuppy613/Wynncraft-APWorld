@@ -32,7 +32,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
                 world.set_rule(entrance, Has(f"Region: {connection}"))
 
-    def set_level_logic(level: int) -> None:
+    def set_level_logic(level: int, suppress_gear = False) -> None:
         level_entrance = world.get_entrance("Level Up: " + str(level))
         if str(level) in loader.level_map and world.options.logical_levels:
             rule = False_()
@@ -40,6 +40,8 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 rule = rule | CanReachRegion(region)
         else:
             rule = True_()
+        if world.options.logical_gear_levels and not suppress_gear:
+            rule = rule & CanReachRegion("Gear Level " + str(level) + " Access")
         world.set_rule(level_entrance, rule & Has("Progressive Max Level", count=max_levels_needed(level, world)))
 
     for i in range(2, world.max_level + 1):
@@ -49,7 +51,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
             world.set_rule(gear_level_entrance, any_gear_rule(world, i))
 
     if world.is_level_goal:
-        set_level_logic(int(world.options.goal_level))
+        set_level_logic(int(world.options.goal_level), True)
 
 
 def set_all_location_rules(world: WynncraftWorld) -> None:
@@ -105,7 +107,7 @@ def max_levels_needed(level: int, world: WynncraftWorld):
 
 
 def gear_levels_needed(level: int, world: WynncraftWorld):
-    return ceil((level - 1) / world.options.gear_level_increment)
+    return ceil(level / world.options.gear_level_increment)
 
 
 def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
@@ -130,7 +132,7 @@ def any_gear_rule(world: WynncraftWorld, level: int) -> Rule:
         gear_types += ["Gear"]
 
     rule = False_()
-    levels_needed = gear_levels_needed(level, world)
+    levels_needed = int(gear_levels_needed(level, world))
     if not world.options.single_gear_rarity:
         for gear in gear_types:
             rule = rule | Has("Progressive Unique " + gear, count=levels_needed)

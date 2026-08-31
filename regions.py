@@ -62,7 +62,7 @@ def connect_regions(world: WynncraftWorld) -> None:
         prev_level.connect(curr_level, f"Level Up: " + str(i))
 
         curr_gear_level = world.get_region("Gear Level " + str(i) + " Access")
-        prev_gear_level = world.get_region("Gear Level " + str(i) + " Access")
+        prev_gear_level = world.get_region("Gear Level " + str(i - 1) + " Access")
         prev_gear_level.connect(curr_gear_level, f"Gear Level Cap: " + str(i))
 
     if world.is_level_goal:
