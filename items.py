@@ -76,7 +76,7 @@ def get_trap_weight(world: WynncraftWorld, trap: str):
     match trap:
         case "Freeze Trap":
             return world.options.freeze_trap_weight
-        case "Silence Trap":
+        case "Daze Trap":
             return world.options.daze_trap_weight
         case "Blind Trap":
             return world.options.blind_trap_weight
