@@ -4,7 +4,6 @@ from test.param import classvar_matrix
 from worlds.wynncraft.options import GoalLevel
 from worlds.wynncraft.test.bases import WynncraftTestNoDefaultBase
 
-
 @classvar_matrix(level = range(GoalLevel.range_start, GoalLevel.range_end + 1))
 class TestGoalLevel(WynncraftTestNoDefaultBase):
     level: typing.ClassVar[int]
