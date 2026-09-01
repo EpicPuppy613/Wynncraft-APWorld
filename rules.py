@@ -127,7 +127,7 @@ def any_gear_rule(world: WynncraftWorld, level: int) -> Rule:
 
     gear_types = []
     if world.options.gear_lock_mode == world.options.gear_lock_mode.option_full:
-        gear_types += ["Armor", "Accessories", "Weapons"]
+        gear_types += ["Armor", "Weapons"]
     elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
         gear_types += ["Gear"]
 
