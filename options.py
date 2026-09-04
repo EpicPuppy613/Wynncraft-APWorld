@@ -27,7 +27,7 @@ class GoalLevel(Range):
     display_name = "Goal Level"
 
     range_start = 10
-    range_end = 80
+    range_end = 120
     default = 40
 
 default_dungeon_map = {
@@ -38,14 +38,16 @@ default_dungeon_map = {
     4: "Ice Barrows",
     5: "Undergrowth Ruins",
     6: "Galleon's Graveyard",
-    7: "Corrupted Lost Sanctuary"
+    7: "Corrupted Lost Sanctuary",
+    8: "Fallen Factory",
+    9: "Eldrich Outlook"
 }
 
 class GoalDungeon(TextChoice):
     """
     'Dungeon' objective only:
     The dungeon to beat to win the game.
-    Can be set to any dungeon in the game. (Up to recommended level 79)
+    Can be set to any dungeon in the game.
     """
 
     display_name = "Goal Dungeon"
@@ -58,6 +60,8 @@ class GoalDungeon(TextChoice):
     option_ruins = 5
     option_graveyard = 6
     option_corrupt_sanctuary = 7
+    option_factory = 8
+    option_outlook = 9
 
     default = option_tomb
 
@@ -80,14 +84,18 @@ default_quest_map = {
     6: "WynnExcavation Site D",
     7: "Reincarnation",
     8: "Tower of Ascension",
-    9: "The Realm of Light"
+    9: "The Realm of Light",
+    10: "The Feathers Fly Part II",
+    11: "The Breaking Point",
+    12: "A Hunter's Calling",
+    13: "Apotheosis"
 }
 
 class GoalQuest(TextChoice):
     """
     'Quest' objective only:
     The quest to complete to win the game.
-    Can be set to any quest in the game. (Up to level 79)
+    Can be set to any quest in the game.
     """
 
     display_name = "Goal Quest"
@@ -102,6 +110,10 @@ class GoalQuest(TextChoice):
     option_reincarnation = 7
     option_ascension = 8
     option_light = 9
+    option_feathers = 10
+    option_breaking = 11
+    option_hunters = 12
+    option_apotheosis =13
 
     default = option_llevigar
 

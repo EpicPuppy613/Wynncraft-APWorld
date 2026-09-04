@@ -60,7 +60,11 @@ for row in loader.rows:
 
     if row[loader.LEVEL] == "" or row[loader.TYPE] == "Special":
         continue
-    item_levels[name] = int(row[loader.LEVEL])
+
+    if row[loader.ALT_LEVEL] != "":
+        item_levels[name] = int(row[loader.ALT_LEVEL])
+    else:
+        item_levels[name] = int(row[loader.LEVEL])
 
 class WynncraftItem(Item):
     game = "Wynncraft"

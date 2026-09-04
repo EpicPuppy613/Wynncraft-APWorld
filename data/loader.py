@@ -22,6 +22,7 @@ CONNECTIONS = REGION
 PREREQUISITES = "Prerequisites"
 IS_PREREQ = "Is Prereq"
 GEAR_REQ = "Gear Req"
+ALT_LEVEL = "Alt Lvl."
 
 # run some preprocessing for future use
 all_dungeons = {}
