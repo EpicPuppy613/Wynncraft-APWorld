@@ -30,7 +30,8 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
         for connection in row[loader.CONNECTIONS].split(", "):
             if connection in world.unlockable_regions:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
-                world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion("Level " + row[loader.LEVEL]))
+                world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion(
+                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels))))
 
     def set_level_logic(level: int, suppress_gear = False) -> None:
         level_entrance = world.get_entrance("Level Up: " + str(level))
