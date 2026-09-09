@@ -49,7 +49,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
         set_level_logic(i)
         if world.options.logical_gear_levels:
             gear_level_entrance = world.get_entrance("Gear Level Cap: " + str(i))
-            world.set_rule(gear_level_entrance, any_gear_rule(world, i))
+            world.set_rule(gear_level_entrance, gear_access_rule(world, i))
 
     if world.is_level_goal:
         set_level_logic(int(world.options.goal_level), True)
@@ -122,7 +122,7 @@ def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
     else:
         return Has("Progressive " + parts[0] + " " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
 
-def any_gear_rule(world: WynncraftWorld, level: int) -> Rule:
+def gear_access_rule(world: WynncraftWorld, level: int) -> Rule:
     if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
         return True_()
 
@@ -132,15 +132,17 @@ def any_gear_rule(world: WynncraftWorld, level: int) -> Rule:
     elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
         gear_types += ["Gear"]
 
-    rule = False_()
+    rule = True_()
     levels_needed = int(gear_levels_needed(level, world))
     if not world.options.single_gear_rarity:
         for gear in gear_types:
-            rule = rule | Has("Progressive Unique " + gear, count=levels_needed)
-            rule = rule | Has("Progressive Rare " + gear, count=levels_needed)
-            rule = rule | Has("Progressive Legendary+ " + gear, count=levels_needed)
+            rule = rule & (
+                    Has("Progressive Unique " + gear, count=levels_needed) |
+                    Has("Progressive Rare " + gear, count=levels_needed) |
+                    Has("Progressive Legendary+ " + gear, count=levels_needed)
+            )
     else:
         for gear in gear_types:
-            rule = rule | Has("Progressive " + gear, count=levels_needed)
+            rule = rule & Has("Progressive " + gear, count=levels_needed)
 
     return rule
