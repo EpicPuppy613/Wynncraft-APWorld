@@ -362,7 +362,7 @@ class LevelChecks(Toggle):
 
 class TerritoryChecks(Toggle):
     """
-    Earn checks for visiting territories for the first time.
+    Earn checks for visiting territories (regions) for the first time.
     Disabling this removes a lot of checks.
     """
 
@@ -373,7 +373,7 @@ class TerritoryChecks(Toggle):
 class EarlyTerritoryLevels(Range):
     """
     How many levels below the territory's recommended level
-    needed for Territorysanity checks to be considered in-logic.
+    needed for territory to be considered in-logic.
     """
 
     display_name = "Early Territory Access"
@@ -467,7 +467,11 @@ option_groups = [
     ),
     OptionGroup(
         "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks, EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks]
+    ),
+    OptionGroup(
+        "QOL Options",
+        [EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels]
     ),
     OptionGroup(
         "Trap Options",

@@ -210,11 +210,11 @@ Complete: Corrupted Infested Pit,TRUE,74,Dungeon,Location,00 13 00 10,The Forger
 Complete: Corrupted Lost Sanctuary,TRUE,78,Dungeon,Location,00 13 00 11,The Forgery,,,FALSE,,,
 Complete: Corrupted Underworld Crypt,TRUE,82,Dungeon,Location,00 13 00 12,The Forgery,,,FALSE,,,
 Complete: Corrupted Sand-Swept Tomb,TRUE,86,Dungeon,Location,00 13 00 13,The Forgery,,,FALSE,,,
-Complete: Fallen Factory,TRUE,90,Dungeon,Location,00 13 00 14,Fallen Factory,,,FALSE,,,
+Complete: Fallen Factory,TRUE,90,Dungeon,Location,00 13 00 14,Fallen Factory,Complete: The Envoy Part II,,FALSE,,,
 Complete: Corrupted Ice Barrows,TRUE,90,Dungeon,Location,00 13 00 15,The Forgery,,,FALSE,,,
 Complete: Corrupted Undergrowth Ruins,TRUE,94,Dungeon,Location,00 13 00 16,The Forgery,,,FALSE,,,
 Complete: Corrupted Galleon's Graveyard,TRUE,98,Dungeon,Location,00 13 00 17,The Forgery,,,FALSE,,,
-Complete: Eldrich Outlook,TRUE,101,Dungeon,Location,00 13 00 18,Final Step,,,TRUE,,,
+Complete: Eldrich Outlook,TRUE,101,Dungeon,Location,00 13 00 18,Final Step,Complete: A Journey Further,,TRUE,,,
 Level Up: 2,TRUE,2,Level,Location,00 16 00 02,,,,FALSE,,,
 Level Up: 3,TRUE,3,Level,Location,00 16 00 03,,,,FALSE,,,
 Level Up: 4,TRUE,4,Level,Location,00 16 00 04,,,,FALSE,,,
@@ -468,7 +468,7 @@ Complete: Flight in Distress,TRUE,75,Quest,Location,00 11 00 60,"Guild Hall, Det
 Complete: The Bigger Picture,TRUE,76,Quest,Location,00 11 00 61,Big Mushroom Cave,,,FALSE,,,
 Complete: Purple and Blue,TRUE,77,Quest,Location,00 11 00 62,"Gylia Research Cabin, Gylia Lakehouse, Weird Clearing, Fallen Village, Cosmic Fissures",,,FALSE,,,
 Complete: Hunger of the Gerts Part I,TRUE,77,Quest,Location,00 11 00 63,"Gylia Watchtower, Jitak's Farm, Mushroom Hill, Gert Camp",,,TRUE,,,
-Complete: Aldorei's Secret Part II,TRUE,78,Quest,Location,00 11 00 64,"Aldorei Cliffside Waterfalls, Outer Aldorei Town, Aldorei Valley",Complete: Aldorei's Secret Part I,,FALSE,,,
+Complete: Aldorei's Secret Part II,TRUE,78,Quest,Location,00 11 00 64,"Aldorei Cliffside Waterfalls, Outer Aldorei Town, Aldorei Valley, Guild Hall",Complete: Aldorei's Secret Part I,,FALSE,,,
 Complete: Hunger of the Gerts Part II,TRUE,78,Quest,Location,00 11 00 65,"Gylia Watchtower, Gert Camp",Complete: Hunger of the Gerts Part I,,FALSE,,,
 Complete: Fallen Delivery,TRUE,79,Quest,Location,00 11 00 66,"Burning Farm, Burning Airship, Silverbull Headquarters, Cinfras's Small Farm, Cinfras, Guild Hall",,,FALSE,,,
 Complete: The Realm of Light,TRUE,79,Quest,Location,00 11 00 67,"Azure Frontier, Path to Light, Primal Fen, Nexus of Light, Heavenly Ingress, Luminous Plateau, Otherworldly Monolith",Complete: Finding the Light,,TRUE,,,
@@ -775,7 +775,7 @@ Cinfras's Small Farm,TRUE,73,Region,Item,00 01 00 68,"Big Mushroom Cave, Paper T
 Big Mushroom Cave,TRUE,73,Region,Item,00 01 01 13,"Cinfras's Small Farm, Aldorei Cliffside Waterfalls, Waterfall Cave",,,FALSE,,73,"Explore: Raiders' Rockhill, Complete: The Bigger Picture"
 Paper Trail,TRUE,73,Region,Item,00 01 01 14,"Cinfras's Small Farm, Silverbull Headquarters, Waterfall Cave",,,FALSE,,#N/A,#N/A
 Waterfall Cave,TRUE,73,Region,Item,00 01 01 21,"Big Mushroom Cave, Paper Trail, Pine Pillar Forest",,,FALSE,,73,Explore: Raiders' Rockhill
-Guild Hall,TRUE,74,Region,Item,00 01 00 67,"Cinfras, Celestial Impact",,,FALSE,,74,"Explore: Root Slingers' Rut, Complete: Slay Felrocs, Complete: Acquiring Credentials, Complete: Flight in Distress, Complete: Fallen Delivery"
+Guild Hall,TRUE,74,Region,Item,00 01 00 67,"Cinfras, Celestial Impact",,,FALSE,,74,"Explore: Root Slingers' Rut, Complete: Slay Felrocs, Complete: Acquiring Credentials, Complete: Flight in Distress, Complete: Aldorei's Secret Part II, Complete: Fallen Delivery"
 Aldorei Springs,TRUE,74,Region,Item,00 01 01 1c,"Aldorei Valley Outskirts, Outer Aldorei Town, Mantis Nest",,,FALSE,,74,"Explore: Shock Shrine, Complete: Aldorei's Secret Part I"
 Outer Aldorei Town,TRUE,74,Region,Item,00 01 01 1d,"Aldorei Springs, Aldorei Valley",,,FALSE,,74,"Complete: Aldorei's Secret Part I, Complete: Aldorei's Secret Part II"
 Tower of Ascension,TRUE,75,Region,Item,00 01 00 47,Icy Descent,,,FALSE,,75,Complete: Tower of Ascension
