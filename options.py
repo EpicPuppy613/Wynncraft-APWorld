@@ -210,7 +210,7 @@ class ExtraMaxLevels(Range):
     display_name = "Extra Level Items"
 
     range_start = 0
-    range_end = 50
+    range_end = 25
     default = 5
 
 class GearLockMode(Choice):
@@ -257,7 +257,7 @@ class ExtraGearLevels(Range):
     display_name = "Extra Gear Level Items"
 
     range_start = 0
-    range_end = 50
+    range_end = 25
     default = 3
 
 # --- Location Options ---
@@ -342,7 +342,7 @@ class EarlyTerritoryLevels(Range):
 
     display_name = "Early Territory Access"
 
-    range_start = 0
+    range_start = 1
     range_end = 20
     default = 5
 
