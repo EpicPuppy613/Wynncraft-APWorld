@@ -18,8 +18,8 @@ class TestGoalLevel(WynncraftTestNoDefaultBase):
     def test_level_all_state_can_reach_everything(self):
         with self.subTest("Game", game=self.game, seed=self.multiworld.seed):
             state = self.multiworld.get_all_state()
-            for location in self.multiworld.get_locations():
-                with self.subTest("Location should be reached", location=location.name):
+            with self.subTest("Reaches all locations"):
+                for location in self.multiworld.get_locations():
                     reachable = location.can_reach(state)
                     self.assertTrue(reachable, f"{location.name} unreachable")
             with self.subTest("Beatable"):
