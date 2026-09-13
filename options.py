@@ -2,6 +2,7 @@ from dataclasses import dataclass
 
 from Options import OptionGroup, PerGameCommonOptions, Range, Choice, Toggle, TextChoice
 
+# --- Goal Options ---
 
 class GoalType(Choice):
     """
@@ -126,18 +127,21 @@ class GoalQuest(TextChoice):
         else:
             return ""
 
-class ExtraMaxLevels(Range):
+class ExtraContentLevels(Range):
     """
-    Number of filler items to convert to extra max level items.
-    This should make it easier to get all max levels needed to win, as well as reducing how much you get stuck.
-    Not all of these are guaranteed to be added, depending on item and location counts during generation.
+    'Dungeon' or 'Quest' objective only:
+    Additional levels above the goal's level
+    to include in the randomizer.
     """
 
-    display_name = "Extra Level Items"
+    display_name = "Extra Content Levels"
 
     range_start = 0
-    range_end = 50
-    default = 5
+    range_end = 10
+
+    default = 0
+
+# --- Region Lock Options ---
 
 class StartingRoute(Choice):
     """
@@ -155,6 +159,35 @@ class StartingRoute(Choice):
 
     default = 1
 
+class LockedRegionEnforcement(Choice):
+    """
+    Kill: Run /kill upon entering any locked region.
+    Countdown: Run /kill after being in a locked region for a certain amount of time.
+    Lenient: No locked region enforcement.
+    """
+
+    display_name = "Locked Region Enforcement"
+
+    option_kill = 0
+    option_countdown = 1
+    option_lenient = 2
+
+    default = option_countdown
+
+class LockedRegionCountdown(Range):
+    """
+    'Countdown' enforcement only:
+    The number of seconds in a locked region until /kill is run.
+    """
+
+    display_name = "Locked Region Countdown"
+
+    range_start = 1
+    range_end = 60
+    default = 3
+
+# --- Item Options ---
+
 class LevelIncrement(Range):
     """
     How many levels each max level item increases by.
@@ -166,6 +199,19 @@ class LevelIncrement(Range):
     range_start = 1
     range_end = 10
     default = 1
+
+class ExtraMaxLevels(Range):
+    """
+    Number of filler items to convert to extra max level items.
+    This should make it easier to get all max levels needed to win, as well as reducing how much you get stuck.
+    Not all of these are guaranteed to be added, depending on item and location counts during generation.
+    """
+
+    display_name = "Extra Level Items"
+
+    range_start = 0
+    range_end = 50
+    default = 5
 
 class GearLockMode(Choice):
     """
@@ -213,6 +259,127 @@ class ExtraGearLevels(Range):
     range_start = 0
     range_end = 50
     default = 3
+
+# --- Location Options ---
+
+class QuestChecks(Toggle):
+    """
+    Earn checks for completing quests.
+    Disabling this removes a lot of checks.
+    """
+
+    display_name = "Questsanity"
+
+    default = True
+
+class MiniQuestChecks(Toggle):
+    """
+    Earn checks for completing mini-quests.
+    Disabling this removes some checks.
+    """
+
+    display_name = "Mini-Questsanity"
+
+    default = True
+
+class CaveChecks(Toggle):
+    """
+    Earn checks for completing caves.
+    Disabling this removes a lot of checks.
+    """
+
+    display_name = "Cavesanity"
+
+    default = True
+
+class DungeonChecks(Toggle):
+    """
+    Earn checks for completing dungeons.
+    Disabling this removes some checks.
+    """
+
+    display_name = "Dungeonsanity"
+
+    default = True
+
+class LevelChecks(Toggle):
+    """
+    Earn checks for leveling up.
+    Disabling this removes a lot of checks.
+    """
+
+    display_name = "Levelsanity"
+
+    default = True
+
+class TerritoryChecks(Toggle):
+    """
+    Earn checks for visiting territories (regions) for the first time.
+    Disabling this removes a lot of checks.
+    """
+
+    display_name = "Territorysanity"
+
+    default = True
+
+# --- QOL Options ---
+
+class EarlyTerritoryLevels(Range):
+    """
+    How many levels below the territory's recommended level
+    needed for territory to be considered in-logic.
+    """
+
+    display_name = "Early Territory Access"
+
+    range_start = 0
+    range_end = 20
+    default = 5
+
+
+class LogicalLevels(Toggle):
+    """
+    Whether certain levels should require access to later-game areas.
+    Disabling this could lead to having to grind a lot of levels.
+    """
+
+    display_name = "Logical Levels"
+
+    default = True
+
+class LogicalGearLevels(Toggle):
+    """
+    Whether certain levels should require access
+    to a minimum level of gear.
+    Disabling this could lead to being underpowered throughout the game.
+    """
+
+    display_name = "Logical Gear Levels"
+
+    default = True
+
+class LogicalGrindSpots(Toggle):
+    """
+    Whether certain levels should require
+    access to a xp grind spot.
+    Disabling this could lead to grinding xp at suboptimal locations.
+    """
+
+    display_name = "Logical Grind Spots"
+
+    default = True
+
+class LogicalMounts(Toggle):
+    """
+    Whether certain levels should require
+    access to mounts.
+    """
+
+    display_name = "Logical Mounts"
+
+    default = True
+
+# --- Trap Options ---
 
 class TrapChance(Range):
     """
@@ -284,126 +451,7 @@ class TrapDuration(Range):
     range_end = 120
     default = 15
 
-class LockedRegionEnforcement(Choice):
-    """
-    Kill: Run /kill upon entering any locked region.
-    Countdown: Run /kill after being in a locked region for a certain amount of time.
-    Lenient: No locked region enforcement.
-    """
-
-    display_name = "Locked Region Enforcement"
-
-    option_kill = 0
-    option_countdown = 1
-    option_lenient = 2
-
-    default = option_countdown
-
-class LockedRegionCountdown(Range):
-    """
-    When using 'Countdown' enforcement, the number of seconds in a locked region until /kill is run.
-    """
-
-    display_name = "Locked Region Countdown"
-
-    range_start = 1
-    range_end = 60
-    default = 3
-
-class QuestChecks(Toggle):
-    """
-    Earn checks for completing quests.
-    Disabling this removes a lot of checks.
-    """
-
-    display_name = "Questsanity"
-
-    default = True
-
-class MiniQuestChecks(Toggle):
-    """
-    Earn checks for completing mini-quests.
-    Disabling this removes some checks.
-    """
-
-    display_name = "Mini-Questsanity"
-
-    default = True
-
-class CaveChecks(Toggle):
-    """
-    Earn checks for completing caves.
-    Disabling this removes a lot of checks.
-    """
-
-    display_name = "Cavesanity"
-
-    default = True
-
-class DungeonChecks(Toggle):
-    """
-    Earn checks for completing dungeons.
-    Disabling this removes some checks.
-    """
-
-    display_name = "Dungeonsanity"
-
-    default = True
-
-class LevelChecks(Toggle):
-    """
-    Earn checks for leveling up.
-    Disabling this removes a lot of checks.
-    """
-
-    display_name = "Levelsanity"
-
-    default = True
-
-class TerritoryChecks(Toggle):
-    """
-    Earn checks for visiting territories (regions) for the first time.
-    Disabling this removes a lot of checks.
-    """
-
-    display_name = "Territorysanity"
-
-    default = True
-
-class EarlyTerritoryLevels(Range):
-    """
-    How many levels below the territory's recommended level
-    needed for territory to be considered in-logic.
-    """
-
-    display_name = "Early Territory Access"
-
-    range_start = 0
-    range_end = 20
-    default = 5
-
-
-class LogicalLevels(Toggle):
-    """
-    Whether level-based checks should require
-    having access to later-game areas.
-    Disabling this could lead to a very grindy early game.
-    """
-
-    display_name = "Logical Levels"
-
-    default = True
-
-class LogicalGearLevels(Toggle):
-    """
-    Whether level-based checks should require
-    a minimum level of gear.
-    Disabling this could lead to being underpowered throughout the game.
-    """
-
-    display_name = "Logical Gear Levels"
-
-    default = True
+# --- Miscellaneous Options ---
 
 class DeathLink(Toggle):
     """
@@ -416,15 +464,19 @@ class DeathLink(Toggle):
 
 @dataclass
 class WynncraftOptions(PerGameCommonOptions):
+    # Goal Options
     goal_type: GoalType
     goal_level: GoalLevel
     goal_dungeon: GoalDungeon
     goal_quest: GoalQuest
+    extra_content_levels: ExtraContentLevels
 
+    # Region Lock Options
     starting_route: StartingRoute
     locked_region_enforcement: LockedRegionEnforcement
     locked_region_countdown: LockedRegionCountdown
 
+    # Item Options
     level_increment: LevelIncrement
     extra_max_levels: ExtraMaxLevels
     gear_lock_mode: GearLockMode
@@ -432,16 +484,22 @@ class WynncraftOptions(PerGameCommonOptions):
     gear_level_increment: GearLevelIncrement
     extra_gear_levels: ExtraGearLevels
 
+    # Location Options
     quest_checks: QuestChecks
     mini_quest_checks: MiniQuestChecks
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
+
+    # QOL Options
     early_territory_levels: EarlyTerritoryLevels
     logical_levels: LogicalLevels
     logical_gear_levels: LogicalGearLevels
+    logical_grind_spots: LogicalGrindSpots
+    logical_mounts: LogicalMounts
 
+    # Trap Options
     trap_chance: TrapChance
     freeze_trap_weight: FreezeTrapWeight
     daze_trap_weight: DazeTrapWeight
@@ -449,13 +507,14 @@ class WynncraftOptions(PerGameCommonOptions):
     kill_trap_weight: KillTrapWeight
     trap_duration: TrapDuration
 
+    # Misc Options
     death_link: DeathLink
 
 
 option_groups = [
     OptionGroup(
         "Goal Options",
-        [GoalType, GoalLevel, GoalDungeon, GoalQuest]
+        [GoalType, GoalLevel, GoalDungeon, GoalQuest, ExtraContentLevels]
     ),
     OptionGroup(
         "Region Lock Options",
@@ -471,7 +530,7 @@ option_groups = [
     ),
     OptionGroup(
         "QOL Options",
-        [EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels]
+        [EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels, LogicalGrindSpots, LogicalMounts]
     ),
     OptionGroup(
         "Trap Options",
