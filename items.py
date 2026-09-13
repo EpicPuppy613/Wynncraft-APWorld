@@ -138,7 +138,7 @@ def create_all_items(world: WynncraftWorld) -> None:
     needed_number_of_filler_items = number_of_unfilled_locations - number_of_items
 
     if needed_number_of_filler_items < 0:
-        raise OptionError("Not enough checks. Please enabled additional sanities or increase level increments.")
+        raise OptionError("Not enough checks. Please enable additional sanities or increase level increments.")
 
     extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
     itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]
