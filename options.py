@@ -29,7 +29,7 @@ class GoalLevel(Range):
 
     range_start = 10
     range_end = 120
-    default = 40
+    default = 30
 
 default_dungeon_map = {
     0: "Infested Pit",
