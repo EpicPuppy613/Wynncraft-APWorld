@@ -1,4 +1,12 @@
 Content,Ready,Level,Type,AP,ID (Hex),Region/Connections,Prerequisites,Gear Req,Is Prereq,Alt Lvl.,Dep. Lvl.,Dependents
+Complete: Corrupted Decrepit Sewers,TRUE,70,C-Dungeon,Location,00 13 00 09,The Forgery,,,FALSE,,,
+Complete: Corrupted Infested Pit,TRUE,74,C-Dungeon,Location,00 13 00 10,The Forgery,,,FALSE,,,
+Complete: Corrupted Lost Sanctuary,TRUE,78,C-Dungeon,Location,00 13 00 11,The Forgery,,,FALSE,,,
+Complete: Corrupted Underworld Crypt,TRUE,82,C-Dungeon,Location,00 13 00 12,The Forgery,,,FALSE,,,
+Complete: Corrupted Sand-Swept Tomb,TRUE,86,C-Dungeon,Location,00 13 00 13,The Forgery,,,FALSE,,,
+Complete: Corrupted Ice Barrows,TRUE,90,C-Dungeon,Location,00 13 00 15,The Forgery,,,FALSE,,,
+Complete: Corrupted Undergrowth Ruins,TRUE,94,C-Dungeon,Location,00 13 00 16,The Forgery,,,FALSE,,,
+Complete: Corrupted Galleon's Graveyard,TRUE,98,C-Dungeon,Location,00 13 00 17,The Forgery,,,FALSE,,,
 Explore: Pigman Barbeque,TRUE,1,Cave,Location,00 12 00 01,Emerald Trail,,,FALSE,,,
 Explore: Ancestor Grotto,TRUE,2,Cave,Location,00 12 00 02,"Coastal Trail, Ragni Countryside North",,,FALSE,,,
 Explore: Tidepool Terrace,TRUE,4,Cave,Location,00 12 00 03,Maltic Coast,,,FALSE,,,
@@ -161,11 +169,11 @@ Explore: Ovine Spire,TRUE,96,Cave,Location,00 12 00 9e,Kandon Ridge,,,FALSE,,,
 Explore: Angel Falls,TRUE,97,Cave,Location,00 12 00 9f,Temple Island,,,FALSE,,,
 Explore: Avo Animation Totem,TRUE,98,Cave,Location,00 12 00 a0,Ruined Houses,,,FALSE,,,
 Explore: The Gwanari,TRUE,100,Cave,Location,00 12 00 a1,Forest of Eyes,Complete: A Journey Beyond,,FALSE,,,
-Explore: The Place Condensed,TRUE,100,Cave,Location,00 12 00 a2,Lutho,Complete: A Journey Further,,FALSE,,,
 Explore: Spiteful Crossing,TRUE,100,Cave,Location,00 12 00 a3,Sinister Forest,Complete: A Journey Beyond,,FALSE,,,
 Explore: Aquaculture Aquifer,TRUE,100,Cave,Location,00 12 00 a9,Ava's Workshop,,,FALSE,,,
 Explore: Eyeball Gauntlet,TRUE,100,Cave,Location,00 12 00 ab,Forest of Eyes,Complete: A Journey Beyond,,FALSE,,,
 Explore: Statue Opening,TRUE,100,Cave,Location,00 12 00 ad,Forest of Eyes,Complete: A Journey Beyond,,FALSE,,,
+Explore: The Place Condensed,TRUE,101,Cave,Location,00 12 00 a2,Lutho,Complete: A Journey Further,,FALSE,,,
 Explore: Loot Symposium,TRUE,101,Cave,Location,00 12 00 a4,Toxic Drip,Complete: A Journey Further,,FALSE,,,
 Explore: Blind Burrow,TRUE,101,Cave,Location,00 12 00 a5,Final Step,Complete: A Journey Further,,FALSE,,,
 Explore: The Place Conglomerated,TRUE,101,Cave,Location,00 12 00 a6,Gateway to Nothing,Complete: A Journey Further,,FALSE,,,
@@ -205,15 +213,7 @@ Complete: Sand-Swept Tomb,TRUE,36,Dungeon,Location,00 13 00 05,Accursed Dunes,,,
 Complete: Ice Barrows,TRUE,45,Dungeon,Location,00 13 00 06,Wolves' Den,,,FALSE,,,
 Complete: Undergrowth Ruins,TRUE,54,Dungeon,Location,00 13 00 07,Troms Lake,,,FALSE,,,
 Complete: Galleon's Graveyard,TRUE,63,Dungeon,Location,00 13 00 08,Lost Atoll,,,FALSE,,,
-Complete: Corrupted Decrepit Sewers,TRUE,70,Dungeon,Location,00 13 00 09,The Forgery,,,FALSE,,,
-Complete: Corrupted Infested Pit,TRUE,74,Dungeon,Location,00 13 00 10,The Forgery,,,FALSE,,,
-Complete: Corrupted Lost Sanctuary,TRUE,78,Dungeon,Location,00 13 00 11,The Forgery,,,FALSE,,,
-Complete: Corrupted Underworld Crypt,TRUE,82,Dungeon,Location,00 13 00 12,The Forgery,,,FALSE,,,
-Complete: Corrupted Sand-Swept Tomb,TRUE,86,Dungeon,Location,00 13 00 13,The Forgery,,,FALSE,,,
 Complete: Fallen Factory,TRUE,90,Dungeon,Location,00 13 00 14,Fallen Factory,Complete: The Envoy Part II,,FALSE,,,
-Complete: Corrupted Ice Barrows,TRUE,90,Dungeon,Location,00 13 00 15,The Forgery,,,FALSE,,,
-Complete: Corrupted Undergrowth Ruins,TRUE,94,Dungeon,Location,00 13 00 16,The Forgery,,,FALSE,,,
-Complete: Corrupted Galleon's Graveyard,TRUE,98,Dungeon,Location,00 13 00 17,The Forgery,,,FALSE,,,
 Complete: Eldrich Outlook,TRUE,101,Dungeon,Location,00 13 00 18,Final Step,Complete: A Journey Further,,TRUE,,,
 Level Up: 2,TRUE,2,Level,Location,00 16 00 02,,,,FALSE,,,
 Level Up: 3,TRUE,3,Level,Location,00 16 00 03,,,,FALSE,,,
@@ -921,8 +921,8 @@ Silent Road,TRUE,100,Region,Item,00 01 00 45,"Mine Base Plains, Broken Road",,,F
 Worm Tunnel,TRUE,100,Region,Item,00 01 00 9d,"Broken Road, Grey Ruins",,,FALSE,,100,Complete: A Journey Beyond
 Grey Ruins,TRUE,100,Region,Item,00 01 00 9e,"Worm Tunnel, Forgotten Town",,,FALSE,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond"
 Forgotten Town,TRUE,100,Region,Item,00 01 00 9f,"Grey Ruins, Forest of Eyes",,,FALSE,,100,"Complete: The Olmic Rune, Complete: A Journey Beyond, Discover: The Final Moments"
-Forest of Eyes,TRUE,100,Region,Item,00 01 00 a0,"Forgotten Town, Sinister Forest",,,FALSE,,100,"Explore: The Gwanari, Explore: Eyeball Gauntlet, Explore: Statue Opening, Discover: Fate of the Olm, Discover: Otherworldly Occurrence"
-Sinister Forest,TRUE,100,Region,Item,00 01 00 a1,"Forest of Eyes, Lutho",,,FALSE,,100,"Explore: Spiteful Crossing, Discover: Fate of the Olm, Discover: The Forest has Eyes"
+Forest of Eyes,TRUE,100,Region,Item,00 01 00 a0,"Forgotten Town, Sinister Forest",,,FALSE,,100,"Explore: The Gwanari, Explore: Eyeball Gauntlet, Explore: Statue Opening, Discover: Otherworldly Occurrence, Discover: Fate of the Olm"
+Sinister Forest,TRUE,100,Region,Item,00 01 00 a1,"Forest of Eyes, Lutho",,,FALSE,,100,"Explore: Spiteful Crossing, Discover: The Forest has Eyes, Discover: Fate of the Olm"
 The Hive,TRUE,100,Region,Item,00 01 00 d3,"Path to the Dojo, Illuminant Path",,,FALSE,,100,Complete: The Qira Hive
 Broken Road,TRUE,100,Region,Item,00 01 01 6a,"Silent Road, Worm Tunnel",,,FALSE,,100,"Complete: A Journey Beyond, Discover: Fate of the Olm"
 Lutho,TRUE,100,Region,Default,,"Sinister Forest, Paths of Sludge",,,FALSE,,100,"Explore: The Place Condensed, Complete: A Journey Beyond, Complete: A Journey Further, Complete: Point of No Return, Discover: A Monument of Hope"

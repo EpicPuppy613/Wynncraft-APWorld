@@ -29,7 +29,9 @@ def create_all_locations(world: WynncraftWorld) -> None:
         if row[loader.AP] != "Location" or row[loader.ID] == "" or row[loader.LEVEL] == "" or int(row[loader.LEVEL]) > world.max_level:
             continue
 
-        if not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "FALSE":
+        if (not world.location_enabled(row[loader.TYPE]) and row[loader.IS_PREREQ] == "FALSE" and not
+        ((world.is_dungeon_goal and row[loader.NAME] == world.goal_dungeon) or
+         (world.is_quest_goal and row[loader.NAME] == world.goal_quest))):
             continue
 
         if row[loader.REGION] != "" and row[loader.TYPE] != "Level":

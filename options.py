@@ -264,8 +264,8 @@ class ExtraGearLevels(Range):
 
 class QuestChecks(Toggle):
     """
-    Earn checks for completing quests.
-    Disabling this removes a lot of checks.
+    Earn items for completing quests.
+    Check Count: High
     """
 
     display_name = "Questsanity"
@@ -274,8 +274,8 @@ class QuestChecks(Toggle):
 
 class MiniQuestChecks(Toggle):
     """
-    Earn checks for completing mini-quests.
-    Disabling this removes some checks.
+    Earn items for completing mini-quests.
+    Check Count: Low
     """
 
     display_name = "Mini-Questsanity"
@@ -284,8 +284,8 @@ class MiniQuestChecks(Toggle):
 
 class CaveChecks(Toggle):
     """
-    Earn checks for completing caves.
-    Disabling this removes a lot of checks.
+    Earn items for completing caves.
+    Check Count: High
     """
 
     display_name = "Cavesanity"
@@ -294,18 +294,28 @@ class CaveChecks(Toggle):
 
 class DungeonChecks(Toggle):
     """
-    Earn checks for completing dungeons.
-    Disabling this removes some checks.
+    Earn items for completing dungeons.
+    Check Count: Very Low
     """
 
     display_name = "Dungeonsanity"
 
     default = True
 
+class CorruptedDungeonChecks(Toggle):
+    """
+    Earn items for completing corrupted dungeons.
+    Check Count: Very Low
+    """
+
+    display_name = "Corrupted Dungeonsanity"
+
+    default = False
+
 class LevelChecks(Toggle):
     """
-    Earn checks for leveling up.
-    Disabling this removes a lot of checks.
+    Earn items for leveling up.
+    Check Count: Medium
     """
 
     display_name = "Levelsanity"
@@ -314,8 +324,8 @@ class LevelChecks(Toggle):
 
 class TerritoryChecks(Toggle):
     """
-    Earn checks for visiting territories (regions) for the first time.
-    Disabling this removes a lot of checks.
+    Earn items for visiting territories (regions) for the first time.
+    Check Count: Very High
     """
 
     display_name = "Territorysanity"
@@ -489,6 +499,7 @@ class WynncraftOptions(PerGameCommonOptions):
     mini_quest_checks: MiniQuestChecks
     cave_checks: CaveChecks
     dungeon_checks: DungeonChecks
+    corrupted_dungeon_checks: CorruptedDungeonChecks
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
 
@@ -526,7 +537,7 @@ option_groups = [
     ),
     OptionGroup(
         "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, LevelChecks, TerritoryChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks]
     ),
     OptionGroup(
         "QOL Options",

@@ -56,7 +56,7 @@ class WynncraftWorld(World):
                 dungeon = str(self.options.goal_dungeon.value)
 
             self.goal_dungeon = "Complete: " + dungeon
-            self.max_level = all_dungeons[dungeon]
+            self.max_level = all_dungeons[dungeon] + self.options.extra_content_levels
 
         elif self.options.goal_type == self.options.goal_type.option_quest:
             if isinstance(self.options.goal_quest.value, int):
@@ -70,7 +70,7 @@ class WynncraftWorld(World):
                 quest = str(self.options.goal_quest.value)
 
             self.goal_quest = "Complete: " + quest
-            self.max_level = all_quests[quest]
+            self.max_level = all_quests[quest] + self.options.extra_content_levels
 
         else:
             raise OptionError("Invalid objective")
@@ -141,22 +141,20 @@ class WynncraftWorld(World):
         return slot_data
 
     def location_enabled(self, loc_type):
-        if loc_type == "Quest" and not self.options.quest_checks:
-            return False
-
-        if loc_type == "Mini-Quest" and not self.options.mini_quest_checks:
-            return False
-
-        if loc_type == "Dungeon" and not self.options.dungeon_checks:
-            return False
-
-        if loc_type == "Cave" and not self.options.cave_checks:
-            return False
-
-        if loc_type == "Level" and not self.options.level_checks:
-            return False
-
-        if loc_type == "Territory" and not self.options.territory_checks:
-            return False
-
-        return True
+        match loc_type:
+            case "Quest":
+                return self.options.quest_checks
+            case "Mini-Quest":
+                return self.options.mini_quest_checks
+            case "Dungeon":
+                return self.options.dungeon_checks
+            case "C-Dungeon":
+                return self.options.corrupted_dungeon_checks
+            case "Cave":
+                return self.options.cave_checks
+            case "Level":
+                return self.options.level_checks
+            case "Territory":
+                return self.options.territory_checks
+            case _:
+                return True

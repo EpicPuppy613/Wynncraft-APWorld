@@ -30,7 +30,7 @@ all_quests = {}
 for row in reader:
     if row[READY] != "TRUE":
         continue
-    elif row[TYPE] == "Dungeon":
+    elif row[TYPE] == "Dungeon" or row[TYPE] == "C-Dungeon":
         all_dungeons[row[NAME].split(": ")[1]] = int(row[LEVEL])
     elif row[TYPE] == "Quest":
         all_quests[row[NAME].split(": ")[1]] = int(row[LEVEL])
