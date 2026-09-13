@@ -99,7 +99,7 @@ class WynncraftWorld(World):
         slot_data = self.options.as_dict(
             "goal_type",
             "goal_level",
-            "extra_content_levels"
+            "extra_content_levels",
 
             "locked_region_enforcement",
             "locked_region_countdown",
@@ -120,7 +120,7 @@ class WynncraftWorld(World):
             "logical_levels",
             "logical_gear_levels",
             "logical_grind_spots",
-            "logical_mounts"
+            "logical_mounts",
 
             "trap_duration",
 
