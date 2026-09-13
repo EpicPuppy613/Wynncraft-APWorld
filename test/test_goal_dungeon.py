@@ -1,4 +1,5 @@
-from worlds.wynncraft.test.bases import WynncraftTestBase
+from Options import OptionError
+from worlds.wynncraft.test.bases import WynncraftTestBase, WynncraftTestNoDefaultBase
 
 
 class TestGoalDungeonChoice(WynncraftTestBase):
@@ -17,6 +18,7 @@ class TestGoalDungeonChoice(WynncraftTestBase):
 class TestGoalDungeonName(WynncraftTestBase):
     options = {
         "goal_type": "dungeon",
+        "corrupted_dungeon_checks": "true",
         "goal_dungeon": "Corrupted Decrepit Sewers"
     }
 
@@ -25,3 +27,15 @@ class TestGoalDungeonName(WynncraftTestBase):
 
     def test_goal_dungeon_name_level(self):
         self.assertEqual(self.world.max_level, 70, "Goal level must be 70")
+
+
+class TestGoalDungeonInvalid(WynncraftTestNoDefaultBase):
+    options = {
+        "goal_type": "dungeon",
+        "goal_dungeon": "some dungeon that i made up idk"
+    }
+
+    auto_construct = False
+
+    def test_invalid_dungeon_raises_error(self):
+        self.assertRaises(OptionError, self.world_setup)

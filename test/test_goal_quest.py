@@ -1,4 +1,5 @@
-from worlds.wynncraft.test.bases import WynncraftTestBase
+from Options import OptionError
+from worlds.wynncraft.test.bases import WynncraftTestBase, WynncraftTestNoDefaultBase
 
 
 class TestGoalQuestChoice(WynncraftTestBase):
@@ -25,3 +26,15 @@ class TestGoalQuestName(WynncraftTestBase):
 
     def test_goal_quest_name_level(self):
         self.assertEqual(self.world.max_level, 49, "Goal level must be 49")
+
+
+class TestGoalQuestInvalid(WynncraftTestNoDefaultBase):
+    options = {
+        "goal_type": "quest",
+        "goal_quest": "some quest that i made up idk"
+    }
+
+    auto_construct = False
+
+    def test_invalid_quest_raises_error(self):
+        self.assertRaises(OptionError, self.world_setup)
