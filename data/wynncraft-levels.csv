@@ -1,19 +1,29 @@
-Level,Region/Connections,Wynn,Gavel,Corkus,Fruma
-1,Ragni,Ragni,,,
-10,Detlas,Detlas,,,
-21,Nemract,Nemract,,,
-31,Almuj,Almuj,,,
-41,"Nesaak, Llevigar",Nesaak,Llevigar,,
-51,"Nesaak, Olux",Nesaak,Olux,,
-56,"Troms, Olux",Troms,Olux,,
-65,Gelibord,,Gelibord,,
-76,Cinfras,,Cinfras,,
-81,"Cinfras, Corkus City",,Cinfras,Corkus City,
-86,"Thesead, Corkus City",,Thesead,Corkus City,
-91,"Rodoroc, Corkus City",,Rodoroc,Corkus City,
-96,Ahmsord,,Ahmsord,,
-101,Lutho,,Lutho,,
-105,Espren,,,,Espren
-110,Timasca,,,,Timasca
-115,Aldwell,,,,Aldwell
-120,Hyloch,,,,Hyloch
+Level,Type,Regions,Prerequisites,Wynn,Gavel,Corkus,Fruma
+1,Region,Ragni,,Ragni,,,
+6,Region,Detlas,,Detlas,,,
+21,Region,Nemract,,Nemract,,,
+31,Region,Almuj,,Almuj,,,
+41,Region,"Nesaak, Llevigar",,Nesaak,Llevigar,,
+51,Region,"Nesaak, Olux",,Nesaak,Olux,,
+56,Region,"Troms, Olux",,Troms,Olux,,
+65,Region,Gelibord,,,Gelibord,,
+76,Region,Cinfras,,,Cinfras,,
+81,Region,"Cinfras, Corkus City",,,Cinfras,Corkus City,
+86,Region,"Thesead, Corkus City",,,Thesead,Corkus City,
+91,Region,"Rodoroc, Corkus City",,,Rodoroc,Corkus City,
+96,Region,Ahmsord,,,Ahmsord,,
+101,Region,Lutho,,,Lutho,,
+105,Region,Espren,,,,,Espren
+110,Region,Timasca,,,,,Timasca
+115,Region,Aldwell,,,,,Aldwell
+120,Region,Hyloch,,,,,Hyloch
+11,Grind Spot,Blooming Boulders,,Blooming Boulders,,,
+21,Grind Spot,Essren's Hut,Complete: Brothers Return,Essren's Hut,,,
+31,Grind Spot,Blackstring Den,Complete: Brothers Return,Blackstring Den,,,
+41,Grind Spot,Sanguine Spider Den,,,Sanguine Spider Den,,
+55,Grind Spot,"Herb Cave, Twisted Ridge",,Herb Cave,Twisted Ridge,,
+72,Grind Spot,Waterfall Cave,,,Waterfall Cave,,
+81,Grind Spot,Corkus Sea Cove,,,,Corkus Sea Cove,
+106,Grind Spot,Royal Barracks,,,,,Royal Barracks
+21,Mount,,Complete: Stable Story,,,,
+91,Mount,,Complete: The Canyon Guides,,,,

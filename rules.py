@@ -33,16 +33,32 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion(
                     "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels))))
 
-    def set_level_logic(level: int, suppress_gear = False) -> None:
+    def set_level_logic(level: int, suppress_other_logic = False) -> None:
         level_entrance = world.get_entrance("Level Up: " + str(level))
-        if str(level) in loader.level_map and world.options.logical_levels:
-            rule = False_()
-            for region in loader.level_map[str(level)].split(", "):
-                rule = rule | CanReachRegion(region)
-        else:
-            rule = True_()
-        if world.options.logical_gear_levels and not suppress_gear:
-            rule = rule & CanReachRegion("Gear Level " + str(level) + " Access")
+        rule = True_()
+
+        if not suppress_other_logic:
+            for rule_row in loader.level_rows:
+                if int(rule_row[loader.LEVEL]) != level or not world.level_rule_enabled(rule_row[loader.TYPE]):
+                    continue
+
+                sub_rule = False_()
+                for region in rule_row[loader.LVL_REGIONS].split(", "):
+                    if region == "":
+                        continue
+                    sub_rule = sub_rule | CanReachRegion(region)
+
+                for location in rule_row[loader.PREREQS].split(", "):
+                    if location == "":
+                        continue
+                    sub_rule = sub_rule | CanReachLocation(location)
+
+                rule = rule & sub_rule
+
+            if (level - 1) % 5 == 0:
+                rule = rule & CanReachRegion("Gear Level " + str(level) + " Access")
+
+
         world.set_rule(level_entrance, rule & Has("Progressive Max Level", count=max_levels_needed(level, world)))
 
     for i in range(2, world.max_level + 1):
@@ -80,8 +96,8 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     else:
                         rule = rule & CanReachRegion(region)
 
-            if row[loader.PREREQUISITES] != "":
-                prereqs = row[loader.PREREQUISITES].split(", ")
+            if row[loader.PREREQS] != "":
+                prereqs = row[loader.PREREQS].split(", ")
                 for prereq in prereqs:
                     rule = rule & CanReachLocation(prereq)
 

@@ -8,7 +8,6 @@ rows = []
 level_data = get_data(__name__, "wynncraft-levels.csv")
 level_reader = csv.DictReader(level_data.decode("utf-8").splitlines())
 level_rows = []
-level_map = {}
 
 # csv column consts
 NAME = "Content"
@@ -19,10 +18,12 @@ AP = "AP"
 ID = "ID (Hex)"
 REGION = "Region/Connections"
 CONNECTIONS = REGION
-PREREQUISITES = "Prerequisites"
+PREREQS = "Prerequisites"
 IS_PREREQ = "Is Prereq"
 GEAR_REQ = "Gear Req"
 ALT_LEVEL = "Alt Lvl."
+
+LVL_REGIONS = "Regions"
 
 # run some preprocessing for future use
 all_dungeons = {}
@@ -38,4 +39,3 @@ for row in reader:
 
 for level_row in level_reader:
     level_rows.append(level_row)
-    level_map[level_row[LEVEL]] = level_row[REGION]

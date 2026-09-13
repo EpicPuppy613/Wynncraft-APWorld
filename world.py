@@ -158,3 +158,14 @@ class WynncraftWorld(World):
                 return self.options.territory_checks
             case _:
                 return True
+
+    def level_rule_enabled(self, rule_type):
+        match rule_type:
+            case "Region":
+                return self.options.logical_levels
+            case "Grind Spot":
+                return self.options.logical_grind_spots
+            case "Mount":
+                return self.options.logical_mounts
+            case _:
+                return False

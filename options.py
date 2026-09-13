@@ -76,7 +76,7 @@ class GoalDungeon(TextChoice):
             return ""
 
 default_quest_map = {
-    0: "Arachnid's Ascent",
+    0: "Arachnids' Ascent",
     1: "Kingdom of Sand",
     2: "Heart of Llevigar",
     3: "Jungle Fever",
