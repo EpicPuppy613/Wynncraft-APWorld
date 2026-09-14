@@ -79,22 +79,22 @@ def create_item_with_correct_classification(world: WynncraftWorld, name: str) ->
 def get_trap_weight(world: WynncraftWorld, trap: str):
     match trap:
         case "Freeze Trap":
-            return world.options.freeze_trap_weight
+            return world.options.freeze_trap_weight.value
         case "Daze Trap":
-            return world.options.daze_trap_weight
+            return world.options.daze_trap_weight.value
         case "Blind Trap":
-            return world.options.blind_trap_weight
+            return world.options.blind_trap_weight.value
         case "Kill Trap":
-            return world.options.kill_trap_weight
+            return world.options.kill_trap_weight.value
     return 0
 
 
 def create_all_items(world: WynncraftWorld) -> None:
-    starting_route = world.options.starting_route
+    starting_route = world.options.starting_route.value
     starting_items = []
-    if starting_route in [starting_route.option_alekin, starting_route.option_detlas]:
+    if starting_route in [world.options.starting_route.option_alekin, world.options.starting_route.option_detlas]:
         starting_items += ALEKIN_ROUTE
-    if starting_route == starting_route.option_detlas:
+    if starting_route == world.options.starting_route.option_detlas:
         starting_items += DETLAS_ROUTE
 
     itempool: list[Item] = []
@@ -109,20 +109,20 @@ def create_all_items(world: WynncraftWorld) -> None:
         else:
             itempool.append(ap_item)
 
-    level_items = ceil(world.max_level / world.options.level_increment)
+    level_items = ceil(world.max_level / world.options.level_increment.value)
     itempool += [world.create_item("Progressive Max Level") for _ in range(level_items)]
 
     gear_types = []
     gear_items = []
 
-    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_full:
+    if world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_full:
         gear_types += ["Armor", "Accessories", "Weapons"]
-    elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+    elif world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_unified:
         gear_types += ["Gear"]
 
     if len(gear_types) > 0:
-        gear_item_count = ceil(world.max_level / world.options.gear_level_increment)
-        if not world.options.single_gear_rarity:
+        gear_item_count = ceil(world.max_level / world.options.gear_level_increment.value)
+        if not world.options.single_gear_rarity.value:
             for gear in gear_types:
                 itempool += [world.create_item("Progressive Unique " + gear) for _ in range(gear_item_count)]
                 itempool += [world.create_item("Progressive Rare " + gear) for _ in range(gear_item_count)]
@@ -140,17 +140,17 @@ def create_all_items(world: WynncraftWorld) -> None:
     if needed_number_of_filler_items < 0:
         raise OptionError("Not enough checks. Please enable additional sanities or increase level increments.")
 
-    extra_level_items = min(world.options.extra_max_levels, needed_number_of_filler_items)
+    extra_level_items = min(world.options.extra_max_levels.value, needed_number_of_filler_items)
     itempool += [world.create_item("Progressive Max Level") for _ in range(extra_level_items)]
     needed_number_of_filler_items -= extra_level_items
 
-    extra_gear_items = min(world.options.extra_gear_levels * len(gear_items), needed_number_of_filler_items)
+    extra_gear_items = min(world.options.extra_gear_levels.value * len(gear_items), needed_number_of_filler_items)
     for i in range(extra_gear_items):
         index = i % len(gear_items)
         itempool += [world.create_item(gear_items[index])]
     needed_number_of_filler_items -= extra_gear_items
 
-    trap_items = round(needed_number_of_filler_items * world.options.trap_chance / 100)
+    trap_items = round(needed_number_of_filler_items * world.options.trap_chance.value / 100)
 
     total_trap_weight = 0
     for trap in trap_names:

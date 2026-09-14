@@ -31,7 +31,7 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
             if connection in world.unlockable_regions:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
                 world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion(
-                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels))))
+                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))))
 
     def set_level_logic(level: int, suppress_other_logic = False) -> None:
         level_entrance = world.get_entrance("Level Up: " + str(level))
@@ -63,12 +63,12 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
 
     for i in range(2, world.max_level + 1):
         set_level_logic(i)
-        if world.options.logical_gear_levels:
+        if world.options.logical_gear_levels.value:
             gear_level_entrance = world.get_entrance("Gear Level Cap: " + str(i))
             world.set_rule(gear_level_entrance, gear_access_rule(world, i))
 
     if world.is_level_goal:
-        set_level_logic(int(world.options.goal_level), True)
+        set_level_logic(int(world.options.goal_level.value), True)
 
 
 def set_all_location_rules(world: WynncraftWorld) -> None:
@@ -108,7 +108,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
 
         if row[loader.TYPE] == "Territory":
             world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion(
-                "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels))) & rule)
+                "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & rule)
         else:
             world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
 
@@ -120,37 +120,37 @@ def set_completion_condition(world: WynncraftWorld) -> None:
 def max_levels_needed(level: int, world: WynncraftWorld):
     if level <= 0:
         return 0
-    return ceil((level - 1) / world.options.level_increment)
+    return ceil((level - 1) / world.options.level_increment.value)
 
 
 def gear_levels_needed(level: int, world: WynncraftWorld):
-    return ceil(level / world.options.gear_level_increment)
+    return ceil(level / world.options.gear_level_increment.value)
 
 
 def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:
-    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
+    if world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_off:
         return True_()
     parts = requirement.split(" ")
-    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+    if world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_unified:
         parts[1] = "Gear"
-    if world.options.single_gear_rarity:
+    if world.options.single_gear_rarity.value:
         return Has("Progressive " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
     else:
         return Has("Progressive " + parts[0] + " " + parts[1], count=int(gear_levels_needed(int(parts[2]), world)))
 
 def gear_access_rule(world: WynncraftWorld, level: int) -> Rule:
-    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_off:
+    if world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_off:
         return True_()
 
     gear_types = []
-    if world.options.gear_lock_mode == world.options.gear_lock_mode.option_full:
+    if world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_full:
         gear_types += ["Armor", "Weapons"]
-    elif world.options.gear_lock_mode == world.options.gear_lock_mode.option_unified:
+    elif world.options.gear_lock_mode.value == world.options.gear_lock_mode.option_unified:
         gear_types += ["Gear"]
 
     rule = True_()
     levels_needed = int(gear_levels_needed(level, world))
-    if not world.options.single_gear_rarity:
+    if not world.options.single_gear_rarity.value:
         for gear in gear_types:
             rule = rule & (
                     Has("Progressive Unique " + gear, count=levels_needed) |

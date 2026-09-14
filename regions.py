@@ -37,7 +37,7 @@ def create_all_regions(world: WynncraftWorld) -> None:
         regions.append(Region("Gear Level " + str(i) + " Access", world.player, world.multiworld))
 
     if world.is_level_goal:
-        regions.append(Region("Level " + str(world.options.goal_level), world.player, world.multiworld))
+        regions.append(Region("Level " + str(world.options.goal_level.value), world.player, world.multiworld))
 
     world.multiworld.regions += regions
 
@@ -66,9 +66,9 @@ def connect_regions(world: WynncraftWorld) -> None:
         prev_gear_level.connect(curr_gear_level, f"Gear Level Cap: " + str(i))
 
     if world.is_level_goal:
-        curr_level = world.get_region("Level " + str(world.options.goal_level))
-        prev_level = world.get_region("Level " + str(world.options.goal_level - 1))
-        prev_level.connect(curr_level, f"Level Up: " + str(world.options.goal_level))
+        curr_level = world.get_region("Level " + str(world.options.goal_level.value))
+        prev_level = world.get_region("Level " + str(world.options.goal_level.value - 1))
+        prev_level.connect(curr_level, f"Level Up: " + str(world.options.goal_level.value))
 
     # Connection from default region to starting region in game (Ragni)
     world.get_region("Menu").connect(world.get_region("Ragni"), "Menu to Ragni")

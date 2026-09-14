@@ -41,14 +41,14 @@ class WynncraftWorld(World):
         self.all_regions = []
         self.unlockable_regions = []
 
-        if self.options.goal_type == self.options.goal_type.option_level:
-            self.max_level = self.options.goal_level - 1
+        if self.options.goal_type.value == self.options.goal_type.option_level:
+            self.max_level = self.options.goal_level.value - 1
 
-        elif self.options.goal_type == self.options.goal_type.option_dungeon:
+        elif self.options.goal_type.value == self.options.goal_type.option_dungeon:
             if isinstance(self.options.goal_dungeon.value, int):
-                if not int(self.options.goal_dungeon) in default_dungeon_map:
+                if not int(self.options.goal_dungeon.value) in default_dungeon_map:
                     raise OptionError("Invalid dungeon choice")
-                dungeon = default_dungeon_map[int(self.options.goal_dungeon)]
+                dungeon = default_dungeon_map[int(self.options.goal_dungeon.value)]
 
             else:
                 if not str(self.options.goal_dungeon.value) in all_dungeons:
@@ -56,13 +56,13 @@ class WynncraftWorld(World):
                 dungeon = str(self.options.goal_dungeon.value)
 
             self.goal_dungeon = "Complete: " + dungeon
-            self.max_level = all_dungeons[dungeon] + self.options.extra_content_levels
+            self.max_level = all_dungeons[dungeon] + self.options.extra_content_levels.value
 
-        elif self.options.goal_type == self.options.goal_type.option_quest:
+        elif self.options.goal_type.value == self.options.goal_type.option_quest:
             if isinstance(self.options.goal_quest.value, int):
-                if not int(self.options.goal_quest) in default_quest_map:
+                if not int(self.options.goal_quest.value) in default_quest_map:
                     raise OptionError("Invalid quest choice")
-                quest = default_quest_map[int(self.options.goal_quest)]
+                quest = default_quest_map[int(self.options.goal_quest.value)]
 
             else:
                 if not str(self.options.goal_quest.value) in all_quests:
@@ -70,14 +70,14 @@ class WynncraftWorld(World):
                 quest = str(self.options.goal_quest.value)
 
             self.goal_quest = "Complete: " + quest
-            self.max_level = all_quests[quest] + self.options.extra_content_levels
+            self.max_level = all_quests[quest] + self.options.extra_content_levels.value
 
         else:
             raise OptionError("Invalid objective")
 
-        self.is_level_goal = self.options.goal_type == self.options.goal_type.option_level
-        self.is_dungeon_goal = self.options.goal_type == self.options.goal_type.option_dungeon
-        self.is_quest_goal = self.options.goal_type == self.options.goal_type.option_quest
+        self.is_level_goal = self.options.goal_type.value == self.options.goal_type.option_level
+        self.is_dungeon_goal = self.options.goal_type.value == self.options.goal_type.option_dungeon
+        self.is_quest_goal = self.options.goal_type.value == self.options.goal_type.option_quest
 
     def create_regions(self) -> None:
         regions.create_and_connect_regions(self)
@@ -143,29 +143,29 @@ class WynncraftWorld(World):
     def location_enabled(self, loc_type):
         match loc_type:
             case "Quest":
-                return self.options.quest_checks
+                return self.options.quest_checks.value
             case "Mini-Quest":
-                return self.options.mini_quest_checks
+                return self.options.mini_quest_checks.value
             case "Dungeon":
-                return self.options.dungeon_checks
+                return self.options.dungeon_checks.value
             case "C-Dungeon":
-                return self.options.corrupted_dungeon_checks
+                return self.options.corrupted_dungeon_checks.value
             case "Cave":
-                return self.options.cave_checks
+                return self.options.cave_checks.value
             case "Level":
-                return self.options.level_checks
+                return self.options.level_checks.value
             case "Territory":
-                return self.options.territory_checks
+                return self.options.territory_checks.value
             case _:
                 return True
 
     def level_rule_enabled(self, rule_type):
         match rule_type:
             case "Region":
-                return self.options.logical_levels
+                return self.options.logical_levels.value
             case "Grind Spot":
-                return self.options.logical_grind_spots
+                return self.options.logical_grind_spots.value
             case "Mount":
-                return self.options.logical_mounts
+                return self.options.logical_mounts.value
             case _:
                 return False

@@ -51,6 +51,6 @@ def create_all_locations(world: WynncraftWorld) -> None:
             region.locations.append(location)
 
     if world.is_level_goal:
-        world.get_region("Level " + str(world.options.goal_level)).add_event(
-            "Level Up: " + str(world.options.goal_level), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
+        world.get_region("Level " + str(world.options.goal_level.value)).add_event(
+            "Level Up: " + str(world.options.goal_level.value), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
         )
