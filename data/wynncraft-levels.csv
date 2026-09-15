@@ -24,6 +24,7 @@ Level,Type,Regions,Prerequisites,Wynn,Gavel,Corkus,Fruma
 55,Grind Spot,"Herb Cave, Twisted Ridge",,Herb Cave,Twisted Ridge,,
 72,Grind Spot,Waterfall Cave,,,Waterfall Cave,,
 81,Grind Spot,Corkus Sea Cove,,,,Corkus Sea Cove,
-106,Grind Spot,Royal Barracks,,,,,Royal Barracks
+106,Grind Spot,,Complete: A Journey Home,,,,
+107,Grind Spot,Royal Barracks,,,,,Royal Barracks
 21,Mount,,Complete: Stable Story,,,,
 91,Mount,,Complete: The Canyon Guides,,,,

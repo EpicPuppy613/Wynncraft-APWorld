@@ -214,7 +214,7 @@ Complete: Ice Barrows,TRUE,45,Dungeon,Location,00 13 00 06,Wolves' Den,,,FALSE,,
 Complete: Undergrowth Ruins,TRUE,54,Dungeon,Location,00 13 00 07,Troms Lake,,,FALSE,,,
 Complete: Galleon's Graveyard,TRUE,63,Dungeon,Location,00 13 00 08,Lost Atoll,,,FALSE,,,
 Complete: Fallen Factory,TRUE,90,Dungeon,Location,00 13 00 14,Fallen Factory,Complete: The Envoy Part II,,FALSE,,,
-Complete: Eldrich Outlook,TRUE,101,Dungeon,Location,00 13 00 18,Final Step,Complete: A Journey Further,,TRUE,,,
+Complete: Eldritch Outlook,TRUE,101,Dungeon,Location,00 13 00 18,Final Step,Complete: A Journey Further,,TRUE,,,
 Level Up: 2,TRUE,2,Level,Location,00 16 00 02,,,,FALSE,,,
 Level Up: 3,TRUE,3,Level,Location,00 16 00 03,,,,FALSE,,,
 Level Up: 4,TRUE,4,Level,Location,00 16 00 04,,,,FALSE,,,
@@ -492,7 +492,7 @@ Complete: The Feathers Fly Part I,TRUE,91,Quest,Location,00 11 00 7b,"Ava's Work
 Complete: Dwarves and Doguns Part II,TRUE,92,Quest,Location,00 11 00 7c,"Lava Lakes, Crater Descent, Rodoroc",Complete: Dwarves and Doguns Part I,,TRUE,,,
 Complete: Dwarves and Doguns Part III,TRUE,93,Quest,Location,00 11 00 7d,"Freezing Heights, Dogun Ritual Site",Complete: Dwarves and Doguns Part II,,TRUE,,,
 Complete: The Feathers Fly Part II,TRUE,93,Quest,Location,00 11 00 7e,"Corkus Castle, Corkus City Crossroads, Corkus City, Road to Mine, Ava's Workshop",Complete: The Feathers Fly Part I,,FALSE,,,
-Complete: Dwarves and Doguns Part IV,TRUE,94,Quest,Location,00 11 00 7f,"Dogun Ritual Site, Rodoroc, Crater Descent, Lava Lakes",Complete: Dwarves and Doguns Part III,,TRUE,,,
+Complete: Dwarves and Doguns Part IV,TRUE,94,Quest,Location,00 11 00 7f,"Dogun Ritual Site, Rodoroc, Crater Descent, Lava Lakes, Dragonling Nests, Astraulus' Tower",Complete: Dwarves and Doguns Part III,,TRUE,,,
 Complete: One Thousand Meters Under,TRUE,95,Quest,Location,00 11 00 80,Ahmsord,,,TRUE,,,
 Complete: Recipe For Disaster,TRUE,96,Quest,Location,00 11 00 81,"Ahmsord, Kandon Farm, Jofash Docks, Astraulus' Tower, Snail Island, Swamp Island",,,FALSE,,,
 Complete: The Breaking Point,TRUE,97,Quest,Location,00 11 00 82,"Kandon-Beda, Retrofitted Manufactory, Dogun Ritual Site, Freezing Heights, Crater Descent, Rodoroc, Upper Thanos, Thanos Exit, Molten Passage, Path to Ozoth's Spire, Thanos","Complete: The Envoy Part II, Complete: Dwarves and Doguns Part IV, Complete: The Thanos Depository",,TRUE,,,
@@ -504,7 +504,7 @@ Complete: A Journey Beyond,TRUE,100,Quest,Location,00 11 00 86,"Silent Road, Wor
 Complete: A Journey Further,TRUE,101,Quest,Location,00 11 00 87,"Lutho, Toxic Drip, Paths of Sludge, Gateway to Nothing, Final Step",Complete: A Journey Beyond,,TRUE,,,
 Complete: Point of No Return,TRUE,102,Quest,Location,00 11 00 88,Lutho,Complete: A Journey Beyond,,FALSE,,,
 Complete: Queen's Recruit,TRUE,103,Quest,Location,00 11 00 89,"Detlas, Ragni, Royal Gate, Royal Dam, Forts in Fall","Complete: Recover the Past, Complete: The Realm of Light, Complete: A Journey Further",,TRUE,,,
-Complete: A Hunter's Calling,TRUE,103,Quest,Location,00 11 00 8a,"Bizarre Passage, The Gate, Ragni, Ancient Excavation, Ruined Villa, Almuj, Wolves' Den, Troms, Temple of Legends, Secluded Workshop, Rodoroc, Corkus Castle","Complete: An Iron Heart Part II, Complete: Dwarves and Doguns Part II, Complete: A Journey Further",,FALSE,,,
+Complete: A Hunter's Calling,TRUE,103,Quest,Location,00 11 00 8a,"Bizarre Passage, The Gate, Ragni, Ancient Excavation, Ruined Villa, Almuj, Wolves' Den, Troms, Temple of Legends, Secluded Workshop, Rodoroc, Corkus Castle, Astraulus' Tower, Dragonling Nests","Complete: An Iron Heart Part II, Complete: Dwarves and Doguns Part II, Complete: A Journey Further",,FALSE,,,
 Complete: A Journey Home,TRUE,104,Quest,Location,00 11 00 8b,"Ragni, Fort Torann, Royal Gate",Complete: Queen's Recruit,,TRUE,,,
 Complete: A New Beginning,TRUE,105,Quest,Location,00 11 00 8c,"Espren, Forts in Fall, Festival Grounds, The Frog Bog",Complete: A Journey Home,,TRUE,,,
 Complete: The Cursed One,TRUE,106,Quest,Location,00 11 00 8d,"Festival Grounds, Espren",Complete: A New Beginning,,TRUE,,,
@@ -691,13 +691,12 @@ Infested Sinkhole,TRUE,53,Region,Item,00 01 00 de,"Witching Road, Forgotten Burr
 Forgotten Burrows,TRUE,53,Region,Item,00 01 00 df,"Maiden Tower, Infested Sinkhole, Shady Shack, Naga Lake, Path to the Grootslangs",,,FALSE,,50,"Complete: The Worm Holes, Clear: Rogue Wyrmling"
 Lizardman Lake,TRUE,53,Region,Item,00 01 00 e1,"Bloody Trail, Olux Lumberyard, Entrance to Olux, Olux, Fading Forest",,,FALSE,,53,"Explore: Maddening Mud, Complete: The Shadow of the Beast"
 Olux Lumberyard,TRUE,53,Region,Item,00 01 00 e2,"Lizardman Lake, Olux, Fading Forest",,,FALSE,,#N/A,#N/A
-Entrance to Kander,TRUE,54,Region,Item,00 01 00 5d,"Gelibord, Path to the Penitentiary, Faltach Manor, Path to Talor, Twisted Ridge",,,FALSE,,70,"Slay: Challenge of the Blades, Clear: Unsettling Encounters"
-Twisted Ridge,TRUE,54,Region,Item,00 01 00 95,"Path to the Penitentiary, Entrance to Kander, Lexdale Penitentiary",,,FALSE,,69,"Explore: Visceral Remnant, Complete: Lazarus Pit"
+Twisted Ridge,TRUE,54,Region,Item,00 01 00 95,"Gelibord Watermill, Gelibord",,,FALSE,,69,"Explore: Visceral Remnant, Complete: Lazarus Pit"
 Naga Lake,TRUE,54,Region,Item,00 01 00 e8,"Forgotten Burrows, Secluded Workshop, Path to the Grootslangs, Infested Sinkhole",,,FALSE,,#N/A,#N/A
 Path to the Grootslangs,TRUE,54,Region,Item,00 01 00 e9,"Forgotten Burrows, Olux, Naga Lake",,,FALSE,,54,"Complete: The Worm Holes, Complete: Nest of the Grootslangs"
-Gelibord Watermill,TRUE,54,Region,Item,00 01 01 05,"Gelibord, Castle Dullahan, Twisted Housing, Fading Forest",,,FALSE,,64,"Complete: A Headless History, Complete: Lazarus Pit"
+Gelibord Watermill,TRUE,54,Region,Item,00 01 01 05,"Gelibord, Castle Dullahan, Twisted Housing, Fading Forest, Twisted Ridge",,,FALSE,,64,"Complete: A Headless History, Complete: Lazarus Pit"
 Fading Forest,TRUE,54,Region,Item,00 01 01 07,"Olux Lumberyard, Lizardman Lake, Gelibord Watermill, Castle Dullahan, Overtaken Outpost",,,FALSE,,54,"Complete: Slay Wraiths & Phantasms, Complete: The Shadow of the Beast, Complete: Taproot"
-Gelibord,TRUE,54,Region,Default,,"Enchanted River, Gelibord Watermill, Twisted Housing, Entrance to Kander",,,FALSE,,66,"Explore: Elemental Hollow, Complete: Lazarus Pit, Complete: Forbidden Prison"
+Gelibord,TRUE,54,Region,Default,,"Enchanted River, Gelibord Watermill, Twisted Housing, Entrance to Kander, Twisted Ridge",,,FALSE,,66,"Explore: Elemental Hollow, Complete: Lazarus Pit, Complete: Forbidden Prison"
 Skien's Island,TRUE,55,Region,Item,00 01 00 41,Selchar,,,FALSE,,50,"Slay: Altar of Sanctification, Explore: Skien's Prison Block, Complete: Reincarnation, Clear: Swashbuckling Brawl"
 Zhight Island,TRUE,55,Region,Item,00 01 00 4e,Selchar,,,FALSE,,55,Complete: Zhight Island
 Maro Peaks,TRUE,55,Region,Item,00 01 00 4f,Selchar,,,FALSE,,45,"Complete: Zhight Island, Complete: Temple of the Legends, Complete: Reincarnation, Clear: Lonely Islet"
@@ -723,6 +722,7 @@ Guardian of the Forest,TRUE,69,Region,Item,00 01 00 f6,"Efilim Crossroads, Wood 
 Wood Sprite Hideaway,TRUE,69,Region,Item,00 01 00 f7,"Guardian of the Forest, Path to Light's Secret, Dodegar's Forge, Road to Light Forest",,,FALSE,,75,Complete: The Ultimate Weapon
 Mantis Nest,TRUE,70,Region,Item,00 01 00 5a,"Aldorei Valley Outskirts, Myconid Descent, Mycelial Expanse, Chasm Overlook, Aldorei Springs",,,FALSE,,71,Complete: Finding the Light
 Path to Cinfras,TRUE,70,Region,Item,00 01 00 5b,"The Forgery, Entrance to Cinfras, Mesquis Tower",,,FALSE,,70,Explore: Recluse Nest
+Entrance to Kander,TRUE,70,Region,Item,00 01 00 5d,"Gelibord, Path to the Penitentiary, Faltach Manor, Path to Talor",,,FALSE,,70,"Slay: Challenge of the Blades, Clear: Unsettling Encounters"
 Lifeless Forest,TRUE,70,Region,Item,00 01 00 c9,"Disturbed Crypt, Derelict Mansion",,,FALSE,,70,Complete: Haven Antiquity
 Disturbed Crypt,TRUE,70,Region,Item,00 01 00 ca,"Lifeless Forest, Dreary Docks",,,FALSE,,70,Complete: Haven Antiquity
 Derelict Mansion,TRUE,70,Region,Item,00 01 00 cb,"Lifeless Forest, Dreary Docks",,,FALSE,,70,Complete: Haven Antiquity
@@ -765,8 +765,8 @@ Mushroom Hill,TRUE,72,Region,Item,00 01 00 65,"Decayed Basin, Heart of Decay, We
 Fallen Village,TRUE,72,Region,Item,00 01 00 66,"Weird Clearing, Gylia Research Cabin, Cinfras Outskirts",,,FALSE,,77,Complete: Purple and Blue
 Cinfras Outskirts,TRUE,72,Region,Item,00 01 00 92,"Dark Forest Village, Talor Cemetery, Fungal Grove, Fallen Village, Cinfras",,,FALSE,,75,"Explore: Weirding Ring, Explore: Burning Bog"
 Light Peninsula,TRUE,72,Region,Item,00 01 00 b0,The Shiar,,,FALSE,,72,Explore: Weird Wilds
-Lexdale Penitentiary,TRUE,72,Region,Item,00 01 01 0b,"Path to the Penitentiary, Twisted Ridge",,,FALSE,,72,Complete: Forbidden Prison
-Path to the Penitentiary,TRUE,72,Region,Item,00 01 01 0c,"Lexdale Penitentiary, Entrance to Kander, Viscera Pits, Twisted Ridge",,,FALSE,,#N/A,#N/A
+Lexdale Penitentiary,TRUE,72,Region,Item,00 01 01 0b,Path to the Penitentiary,,,FALSE,,72,Complete: Forbidden Prison
+Path to the Penitentiary,TRUE,72,Region,Item,00 01 01 0c,"Lexdale Penitentiary, Entrance to Kander, Viscera Pits",,,FALSE,,#N/A,#N/A
 Faltach Manor,TRUE,72,Region,Item,00 01 01 0d,"Enchanted River, Entrance to Kander, Mesquis Tower, Kander Mines",,,FALSE,,73,Complete: Hollow Serenity
 Viscera Pits,TRUE,72,Region,Item,00 01 01 0e,"Path to the Penitentiary, Path to Talor, Lexdale",,,FALSE,,72,Explore: Flesh Mesh
 Talor Cemetery,TRUE,72,Region,Item,00 01 01 0f,"Path to Talor, Dark Forest Village, Old Crossroads, Fungal Grove, Cinfras Outskirts",,,FALSE,,72,Explore: Mystifying Stump
@@ -904,16 +904,16 @@ Jofash Tunnel,TRUE,93,Region,Item,00 01 00 8e,"Sky Island Ascent, Jofash Docks",
 Ahmsord,TRUE,93,Region,Default,,"Temple Island, Path to Ahmsord, Aerial Descent, Sky Island Ascent, Central Islands",,,FALSE,,95,"Explore: Mycolite Mountain, Complete: Slay Creatures of the Void, Complete: Slay Conures, Complete: One Thousand Meters Under, Complete: Recipe For Disaster, Complete: The Hero of Gavel, Clear: Shattered Roosts"
 Temple Island,TRUE,94,Region,Item,00 01 00 77,"Ahmsord, Swamp Island, Snail Island, Kandon Ridge, Central Islands",,,FALSE,,97,Explore: Angel Falls
 Snail Island,TRUE,94,Region,Item,00 01 00 78,"Temple Island, Dragonling Nests",,,FALSE,,94,"Explore: Azurite Island, Complete: Slay Angels, Complete: Recipe For Disaster"
+Dragonling Nests,TRUE,94,Region,Item,00 01 00 84,"Snail Island, Astraulus' Tower",,,FALSE,,94,"Explore: Lamprophis Lair, Explore: Forgotten Excavation, Complete: Dwarves and Doguns Part IV, Complete: A Hunter's Calling"
+Astraulus' Tower,TRUE,94,Region,Item,00 01 00 85,"Dragonling Nests, Swamp Island",,,FALSE,,94,"Complete: Dwarves and Doguns Part IV, Complete: Recipe For Disaster, Complete: A Hunter's Calling"
 Frozen Fort,TRUE,95,Region,Item,00 01 00 80,Sky Falls,,,FALSE,,#N/A,#N/A
 Sky Castle,TRUE,95,Region,Item,00 01 00 81,Path to Ahmsord,,,FALSE,,95,Explore: The Donjon
-Dragonling Nests,TRUE,95,Region,Item,00 01 00 84,"Snail Island, Astraulus' Tower",,,FALSE,,95,"Explore: Lamprophis Lair, Explore: Forgotten Excavation"
 Sky Falls,TRUE,95,Region,Item,00 01 00 8d,"Frozen Fort, Wybel Island, Sky Island Ascent",,,FALSE,,#N/A,#N/A
 Path to Ahmsord,TRUE,95,Region,Item,00 01 01 63,"Sky Castle, Aerial Descent, Ahmsord, Kandon-Beda",,,FALSE,,#N/A,#N/A
 Aerial Descent,TRUE,95,Region,Item,00 01 01 64,"Path to Ahmsord, Kandon Ridge, Ahmsord",,,FALSE,,#N/A,#N/A
 Kandon Farm,TRUE,96,Region,Item,00 01 00 72,Kandon Ridge,,,FALSE,85,96,Complete: Recipe For Disaster
 Kandon Ridge,TRUE,96,Region,Item,00 01 00 82,"Kandon Farm, Aerial Descent, Old Coal Mine, Temple Island",,,FALSE,89,96,Explore: Ovine Spire
 Old Coal Mine,TRUE,96,Region,Item,00 01 00 83,Kandon Ridge,,,FALSE,89,96,Explore: Overgrown Rubble
-Astraulus' Tower,TRUE,96,Region,Item,00 01 00 85,"Dragonling Nests, Swamp Island",,,FALSE,,96,Complete: Recipe For Disaster
 Swamp Island,TRUE,96,Region,Item,00 01 00 88,"Temple Island, Astraulus' Tower, Ahmsord Outskirts",,,FALSE,,96,Complete: Recipe For Disaster
 Raiders' Stronghold,TRUE,98,Region,Item,00 01 01 65,"Sky Island Ascent, Raiders' Airbase",,,FALSE,,98,Complete: Royal Trials
 Raiders' Airbase,TRUE,98,Region,Item,00 01 01 66,Raiders' Stronghold,,,FALSE,,98,Complete: Royal Trials
@@ -931,7 +931,7 @@ Toxic Drip,TRUE,101,Region,Item,00 01 00 a3,"Paths of Sludge, Toxic Caves, Gatew
 Toxic Caves,TRUE,101,Region,Item,00 01 00 a4,Toxic Drip,,,FALSE,,101,"Explore: Haze Cave, Discover: Fate of the Olm, Clear: Pestilential Downpour"
 Gateway to Nothing,TRUE,101,Region,Item,00 01 00 a5,"Toxic Drip, Void Valley, Final Step",,,FALSE,,101,"Explore: The Place Conglomerated, Explore: The Lantern Keeper's Abode, Complete: A Journey Further, Clear: Monument to Loss"
 Void Valley,TRUE,101,Region,Item,00 01 00 a6,Gateway to Nothing,,,FALSE,,101,Explore: Caged Creatures
-Final Step,TRUE,101,Region,Item,00 01 00 a7,"Gateway to Nothing, Bizarre Passage",,,FALSE,,101,"Explore: Blind Burrow, Complete: Eldrich Outlook, Complete: A Journey Further, Clear: Otherworldly Exhibition"
+Final Step,TRUE,101,Region,Item,00 01 00 a7,"Gateway to Nothing, Bizarre Passage",,,FALSE,,101,"Explore: Blind Burrow, Complete: Eldritch Outlook, Complete: A Journey Further, Clear: Otherworldly Exhibition"
 Royal Gate,TRUE,103,Region,Item,00 01 00 97,"Fort Torann, Selchar",,,FALSE,,103,"Complete: Queen's Recruit, Complete: A Journey Home"
 Bizarre Passage,TRUE,103,Region,Item,00 01 00 a8,"Final Step, The Gate",,,FALSE,,101,"Slay: Bottomless Pit, Complete: A Hunter's Calling"
 The Gate,TRUE,103,Region,Item,00 01 00 a9,Bizarre Passage,,,FALSE,,103,Complete: A Hunter's Calling
@@ -943,28 +943,28 @@ Xima Valley,TRUE,104,Region,Item,00 01 01 75,Fort Torann,,,FALSE,,104,"Complete:
 The Frog Bog,TRUE,104,Region,Item,00 01 01 76,"Wellspring of Eternity, Forts in Fall, Festival Grounds",,,FALSE,,104,"Explore: Ancient Arthropods, Explore: Siltswimmer Den, Complete: A New Beginning, Clear: Swampland Squabble"
 Espren,TRUE,104,Region,Default,,"Forts in Fall, Festival Grounds, Agricultural Sector, The Lumbermill",,,FALSE,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: The Scarred Springs, Complete: Revelations in Fall, Complete: Off the Rails, Complete: The Missing Piece"
 Festival Grounds,TRUE,105,Region,Item,00 01 01 79,"The Frog Bog, Espren",,,FALSE,,105,"Complete: A New Beginning, Complete: The Cursed One, Complete: Revelations in Fall"
-The Lumbermill,TRUE,105,Region,Item,00 01 01 7a,"Forts in Fall, Espren, Royal Barracks",,,FALSE,,107,"Explore: Auburn Lumbermill, Complete: The Scarred Springs"
-Royal Barracks,TRUE,105,Region,Item,00 01 01 8a,"The Lumbermill, Gates to Aelumia, University Campus",,,FALSE,,108,"Slay: Deserter's Refuge, Explore: The Barracks, Complete: The Scarred Springs, Complete: The Missing Piece, Complete: Apotheosis, Clear: Citadel Barracks"
-Lake Gitephe,TRUE,107,Region,Item,00 01 01 85,"Royal Dam, Citadel's Shadow, Hyloch",,,FALSE,,107,"Complete: Undersupply, Complete: Overture to Despair, Complete: Apotheosis"
+The Lumbermill,TRUE,106,Region,Item,00 01 01 7a,"Forts in Fall, Espren, Royal Barracks",,,FALSE,,107,"Explore: Auburn Lumbermill, Complete: The Scarred Springs"
+Royal Barracks,TRUE,106,Region,Item,00 01 01 8a,The Lumbermill,,,FALSE,,108,"Slay: Deserter's Refuge, Explore: The Barracks, Complete: The Scarred Springs, Complete: The Missing Piece, Complete: Apotheosis, Clear: Citadel Barracks"
+Lake Gitephe,TRUE,107,Region,Item,00 01 01 85,Royal Dam,,,FALSE,,107,"Complete: Undersupply, Complete: Overture to Despair, Complete: Apotheosis"
 Agricultural Sector,TRUE,108,Region,Item,00 01 01 7c,"Espren, Residence Sector, Water Processing Sector, Industrial Sector",,,FALSE,,108,"Explore: Water Tower, Complete: Revelations in Fall, Complete: Through the Pipes, Complete: The Missing Piece, Clear: Karoshi Union"
 Water Processing Sector,TRUE,109,Region,Item,00 01 01 7d,"Industrial Sector, Agricultural Sector",,,FALSE,,109,"Explore: Weapons Factory, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Clear: Biohazardous Bloom"
 Industrial Sector,TRUE,109,Region,Item,00 01 01 7e,"Timasca, Agricultural Sector, Water Processing Sector",,,FALSE,,109,"Complete: Slay Hedoro, Complete: Solidarity of Steel, Complete: The Price of Ingenuity, Complete: Echoes of Change, Clear: Steel Skirmish"
 Timasca,TRUE,109,Region,Default,,"University Campus, Residence Sector, Industrial Sector, Deforested Ecotone",,,FALSE,,109,"Explore: The Flush, Explore: Freight Interchange, Complete: Solidarity of Steel, Complete: Off the Rails, Complete: The Price of Ingenuity, Complete: Through the Pipes, Complete: Echoes of Change"
 Residence Sector,TRUE,110,Region,Item,00 01 01 7b,"Timasca, Agricultural Sector",,,FALSE,,110,"Explore: Abandoned Steelworks, Complete: The Missing Piece"
-University Campus,TRUE,111,Region,Item,00 01 01 8c,"Timasca, Contested District, Royal Barracks",,,FALSE,,111,"Explore: Theatre Royal, Complete: The Missing Piece, Complete: Echoes of Change, Complete: The Wartorn Palace, Clear: Royal Alchemists, Clear: Palace Guards"
+University Campus,TRUE,111,Region,Item,00 01 01 8c,Timasca,,,FALSE,,111,"Explore: Theatre Royal, Complete: The Missing Piece, Complete: Echoes of Change, Complete: The Wartorn Palace, Clear: Royal Alchemists, Clear: Palace Guards"
 Deforested Ecotone,TRUE,112,Region,Item,00 01 01 83,"Timasca, Verdant Grove, Aldwell",,,FALSE,,112,"Explore: Nesting Place, Complete: Echoes of Change, Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours, Complete: Ensemble of Hope, Clear: Apiary Hive"
 Aldwell,TRUE,112,Region,Default,,"Deforested Ecotone, Fort Hegea, Alder Understory, Verdant Grove",,,FALSE,,112,"Explore: Entozoon Takeover, Complete: Hunt Banshee Stags, Complete: Shrouded in Mist, Complete: Celebrations in Smoke, Clear: Tree-Top Cradle"
 Highlands Gate,TRUE,113,Region,Item,00 01 01 7f,"Verdant Grove, Alder Understory",,,FALSE,,113,"Explore: Estalis Gallery, Complete: Shrouded in Mist"
 Verdant Grove,TRUE,113,Region,Item,00 01 01 81,"Contested District, Aldwell, Deforested Ecotone, Highlands Gate",,,FALSE,,113,"Complete: Shrouded in Mist, Complete: Burning Bonds, Complete: True Colours"
 Alder Understory,TRUE,114,Region,Item,00 01 01 80,"Fort Tericen, Aldwell, Highlands Gate, Fort Hegea",,,FALSE,,115,Clear: Fossil Fighters
 Fort Hegea,TRUE,114,Region,Item,00 01 01 82,"Alder Understory, Aldwell",,,FALSE,,114,"Explore: Entozoon Takeover, Complete: Burning Bonds, Complete: True Colours, Complete: Celebrations in Smoke"
-Contested District,TRUE,115,Region,Default,,"Verdant Grove, University Campus, Gates to Aelumia",,,FALSE,,115,"Explore: Citadel Catacombs, Explore: Aelumia Weaveworks, Explore: Aelumia Metalmill, Explore: Aelumia Chemical Plant, Complete: Ensemble of Hope, Complete: Apotheosis, Complete: The Wartorn Palace, Clear: Palace Guards"
+Contested District,TRUE,115,Region,Default,,Verdant Grove,,,FALSE,,115,"Explore: Citadel Catacombs, Explore: Aelumia Weaveworks, Explore: Aelumia Metalmill, Explore: Aelumia Chemical Plant, Complete: Ensemble of Hope, Complete: Apotheosis, Complete: The Wartorn Palace, Clear: Palace Guards"
 Fort Tericen,TRUE,116,Region,Item,00 01 01 86,"Alder Understory, Citadel's Shadow, Hyloch, Lake Rieke, Feuding Houses",,,FALSE,,116,"Explore: Tericen Stables, Explore: Krisa Manor, Complete: Collect White Lilies, Complete: The Strong Survive"
 Lake Rieke,TRUE,116,Region,Item,00 01 01 87,"Hyloch, Frosty Outpost, Fort Tericen",,,FALSE,,118,Clear: Patrolling Soldiers
 Feuding Houses,TRUE,116,Region,Item,00 01 01 89,"Frosty Outpost, Fort Tericen",,,FALSE,,116,"Explore: Tericen Stables, Complete: Overture to Despair, Clear: Patrolling Soldiers, Clear: Mole Meet-Up"
-Hyloch,TRUE,116,Region,Default,,"Lake Gitephe, Fort Tericen, Lake Rieke",,,FALSE,,116,"Explore: Saltpetre Mine, Complete: Collect White Lilies, Complete: Overture to Despair, Complete: The Strong Survive, Complete: Ensemble of Hope, Complete: Apotheosis"
-Citadel's Shadow,TRUE,117,Region,Item,00 01 01 84,"Lake Gitephe, Gates to Aelumia, Fort Tericen",,,FALSE,,117,"Explore: Krisa Manor, Explore: Liftal Castle, Complete: Hunt Woolly Rhinos, Complete: Ensemble of Hope"
-Gates to Aelumia,TRUE,118,Region,Item,00 01 01 8b,"Royal Barracks, Citadel's Shadow, Contested District",,,FALSE,,118,"Complete: Ensemble of Hope, Complete: Apotheosis"
+Hyloch,TRUE,116,Region,Default,,"Fort Tericen, Lake Rieke",,,FALSE,,116,"Explore: Saltpetre Mine, Complete: Collect White Lilies, Complete: Overture to Despair, Complete: The Strong Survive, Complete: Ensemble of Hope, Complete: Apotheosis"
+Citadel's Shadow,TRUE,117,Region,Item,00 01 01 84,"Gates to Aelumia, Fort Tericen",,,FALSE,,117,"Explore: Krisa Manor, Explore: Liftal Castle, Complete: Hunt Woolly Rhinos, Complete: Ensemble of Hope"
+Gates to Aelumia,TRUE,118,Region,Item,00 01 01 8b,Citadel's Shadow,,,FALSE,,118,"Complete: Ensemble of Hope, Complete: Apotheosis"
 Frosty Outpost,TRUE,119,Region,Item,00 01 01 88,"Lake Rieke, Feuding Houses",,,FALSE,,118,"Explore: Glacier Tunnels, Explore: Northern Outpost, Clear: Glacial Training"
 Progressive Max Level,TRUE,,Special,Item,00 00 00 01,,,,FALSE,,,
 Progressive Gear,TRUE,,Special,Item,00 02 00 00,,,,FALSE,,,
@@ -1152,7 +1152,6 @@ Visit: Infested Sinkhole,TRUE,53,Territory,Location,00 17 00 de,Infested Sinkhol
 Visit: Forgotten Burrows,TRUE,53,Territory,Location,00 17 00 df,Forgotten Burrows,,,FALSE,,,
 Visit: Lizardman Lake,TRUE,53,Territory,Location,00 17 00 e1,Lizardman Lake,,,FALSE,,,
 Visit: Olux Lumberyard,TRUE,53,Territory,Location,00 17 00 e2,Olux Lumberyard,,,FALSE,,,
-Visit: Entrance to Kander,TRUE,54,Territory,Location,00 17 00 5d,Entrance to Kander,,,FALSE,,,
 Visit: Twisted Ridge,TRUE,54,Territory,Location,00 17 00 95,Twisted Ridge,,,FALSE,,,
 Visit: Naga Lake,TRUE,54,Territory,Location,00 17 00 e8,Naga Lake,,,FALSE,,,
 Visit: Path to the Grootslangs,TRUE,54,Territory,Location,00 17 00 e9,Path to the Grootslangs,,,FALSE,,,
@@ -1184,6 +1183,7 @@ Visit: Guardian of the Forest,TRUE,69,Territory,Location,00 17 00 f6,Guardian of
 Visit: Wood Sprite Hideaway,TRUE,69,Territory,Location,00 17 00 f7,Wood Sprite Hideaway,,,FALSE,,,
 Visit: Mantis Nest,TRUE,70,Territory,Location,00 17 00 5a,Mantis Nest,,,FALSE,,,
 Visit: Path to Cinfras,TRUE,70,Territory,Location,00 17 00 5b,Path to Cinfras,,,FALSE,,,
+Visit: Entrance to Kander,TRUE,70,Territory,Location,00 17 00 5d,Entrance to Kander,,,FALSE,,,
 Visit: Lifeless Forest,TRUE,70,Territory,Location,00 17 00 c9,Lifeless Forest,,,FALSE,,,
 Visit: Disturbed Crypt,TRUE,70,Territory,Location,00 17 00 ca,Disturbed Crypt,,,FALSE,,,
 Visit: Derelict Mansion,TRUE,70,Territory,Location,00 17 00 cb,Derelict Mansion,,,FALSE,,,
@@ -1363,16 +1363,16 @@ Visit: Jofash Tunnel,TRUE,93,Territory,Location,00 17 00 8e,Jofash Tunnel,,,FALS
 Visit: Ahmsord,TRUE,93,Territory,Location,00 17 01 a9,Ahmsord,,,FALSE,,,
 Visit: Temple Island,TRUE,94,Territory,Location,00 17 00 77,Temple Island,,,FALSE,,,
 Visit: Snail Island,TRUE,94,Territory,Location,00 17 00 78,Snail Island,,,FALSE,,,
+Visit: Dragonling Nests,TRUE,94,Territory,Location,00 17 00 84,Dragonling Nests,,,FALSE,,,
+Visit: Astraulus' Tower,TRUE,94,Territory,Location,00 17 00 85,Astraulus' Tower,,,FALSE,,,
 Visit: Frozen Fort,TRUE,95,Territory,Location,00 17 00 80,Frozen Fort,,,FALSE,,,
 Visit: Sky Castle,TRUE,95,Territory,Location,00 17 00 81,Sky Castle,,,FALSE,,,
-Visit: Dragonling Nests,TRUE,95,Territory,Location,00 17 00 84,Dragonling Nests,,,FALSE,,,
 Visit: Sky Falls,TRUE,95,Territory,Location,00 17 00 8d,Sky Falls,,,FALSE,,,
 Visit: Path to Ahmsord,TRUE,95,Territory,Location,00 17 01 63,Path to Ahmsord,,,FALSE,,,
 Visit: Aerial Descent,TRUE,95,Territory,Location,00 17 01 64,Aerial Descent,,,FALSE,,,
 Visit: Kandon Farm,TRUE,96,Territory,Location,00 17 00 72,Kandon Farm,,,FALSE,,,
 Visit: Kandon Ridge,TRUE,96,Territory,Location,00 17 00 82,Kandon Ridge,,,FALSE,,,
 Visit: Old Coal Mine,TRUE,96,Territory,Location,00 17 00 83,Old Coal Mine,,,FALSE,,,
-Visit: Astraulus' Tower,TRUE,96,Territory,Location,00 17 00 85,Astraulus' Tower,,,FALSE,,,
 Visit: Swamp Island,TRUE,96,Territory,Location,00 17 00 88,Swamp Island,,,FALSE,,,
 Visit: Raiders' Stronghold,TRUE,98,Territory,Location,00 17 01 65,Raiders' Stronghold,,,FALSE,,,
 Visit: Raiders' Airbase,TRUE,98,Territory,Location,00 17 01 66,Raiders' Airbase,,,FALSE,,,
@@ -1392,8 +1392,8 @@ Visit: Gateway to Nothing,TRUE,101,Territory,Location,00 17 00 a5,Gateway to Not
 Visit: Void Valley,TRUE,101,Territory,Location,00 17 00 a6,Void Valley,Complete: A Journey Further,,FALSE,,,
 Visit: Final Step,TRUE,101,Territory,Location,00 17 00 a7,Final Step,Complete: A Journey Further,,FALSE,,,
 Visit: Royal Gate,TRUE,103,Territory,Location,00 17 00 97,Royal Gate,,,FALSE,,,
-Visit: Bizarre Passage,TRUE,103,Territory,Location,00 17 00 a8,Bizarre Passage,Complete: Eldrich Outlook,,FALSE,,,
-Visit: The Gate,TRUE,103,Territory,Location,00 17 00 a9,The Gate,Complete: Eldrich Outlook,,FALSE,,,
+Visit: Bizarre Passage,TRUE,103,Territory,Location,00 17 00 a8,Bizarre Passage,Complete: Eldritch Outlook,,FALSE,,,
+Visit: The Gate,TRUE,103,Territory,Location,00 17 00 a9,The Gate,Complete: Eldritch Outlook,,FALSE,,,
 Visit: Wellspring of Eternity,TRUE,104,Territory,Location,00 17 01 73,Wellspring of Eternity,Complete: A Journey Home,,FALSE,,,
 Visit: Fort Torann,TRUE,104,Territory,Location,00 17 01 74,Fort Torann,Complete: A Journey Home,,FALSE,,,
 Visit: Xima Valley,TRUE,104,Territory,Location,00 17 01 75,Xima Valley,Complete: A Journey Home,,FALSE,,,
@@ -1402,8 +1402,8 @@ Visit: Forts in Fall,TRUE,104,Territory,Location,00 17 01 77,Forts in Fall,Compl
 Visit: Royal Dam,TRUE,104,Territory,Location,00 17 01 78,Royal Dam,Complete: A Journey Home,,FALSE,,,
 Visit: Espren,TRUE,104,Territory,Location,00 17 01 b0,Espren,Complete: A Journey Home,,FALSE,,,
 Visit: Festival Grounds,TRUE,105,Territory,Location,00 17 01 79,Festival Grounds,Complete: A Journey Home,,FALSE,,,
-Visit: The Lumbermill,TRUE,105,Territory,Location,00 17 01 7a,The Lumbermill,Complete: A Journey Home,,FALSE,,,
-Visit: Royal Barracks,TRUE,105,Territory,Location,00 17 01 8a,Royal Barracks,Complete: A Journey Home,,FALSE,,,
+Visit: The Lumbermill,TRUE,106,Territory,Location,00 17 01 7a,The Lumbermill,Complete: A Journey Home,,FALSE,,,
+Visit: Royal Barracks,TRUE,106,Territory,Location,00 17 01 8a,Royal Barracks,Complete: A Journey Home,,FALSE,,,
 Visit: Lake Gitephe,TRUE,107,Territory,Location,00 17 01 85,Lake Gitephe,Complete: A Journey Home,,FALSE,,,
 Visit: Agricultural Sector,TRUE,108,Territory,Location,00 17 01 7c,Agricultural Sector,Complete: Revelations in Fall,,FALSE,,,
 Visit: Water Processing Sector,TRUE,109,Territory,Location,00 17 01 7d,Water Processing Sector,Complete: Revelations in Fall,,FALSE,,,

@@ -32,8 +32,6 @@ def create_all_regions(world: WynncraftWorld) -> None:
 
     for i in range(1, world.max_level + 1):
         regions.append(Region("Level " + str(i), world.player, world.multiworld))
-
-    for i in range(1, world.max_level + 1):
         regions.append(Region("Gear Level " + str(i) + " Access", world.player, world.multiworld))
 
     if world.is_level_goal:
