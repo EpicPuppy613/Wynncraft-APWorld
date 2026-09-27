@@ -24,10 +24,10 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
             continue
         if int(row[loader.LEVEL]) > world.max_level:
             continue
-        if row[loader.CONNECTIONS] == "":
+        if len(row[loader.CONNECTIONS]) == 0:
             continue
 
-        for connection in row[loader.CONNECTIONS].split(", "):
+        for connection in row[loader.CONNECTIONS]:
             if connection in world.unlockable_regions:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
                 world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion(
@@ -43,14 +43,10 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                     continue
 
                 sub_rule = False_()
-                for region in rule_row[loader.LVL_REGIONS].split(", "):
-                    if region == "":
-                        continue
+                for region in rule_row[loader.LVL_REGIONS]:
                     sub_rule = sub_rule | CanReachRegion(region)
 
-                for location in rule_row[loader.PREREQS].split(", "):
-                    if location == "":
-                        continue
+                for location in rule_row[loader.PREREQS]:
                     sub_rule = sub_rule | CanReachLocation(location)
 
                 rule = rule & sub_rule
@@ -81,7 +77,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
          (world.is_quest_goal and row[loader.NAME] == world.goal_quest))):
             continue
 
-        regions = row[loader.REGION].split(", ")
+        regions = row[loader.REGION]
 
         if row[loader.TYPE] == "Level":
             world.get_location(row[loader.NAME]).item_rule = lambda item: item.name != "Progressive Max Level"
@@ -97,8 +93,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                         rule = rule & CanReachRegion(region)
 
             if row[loader.PREREQS] != "":
-                prereqs = row[loader.PREREQS].split(", ")
-                for prereq in prereqs:
+                for prereq in row[loader.PREREQS]:
                     rule = rule & CanReachLocation(prereq)
 
             if row[loader.GEAR_REQ] != "":

@@ -17,6 +17,7 @@ TYPE = "Type"
 AP = "AP"
 ID = "ID (Hex)"
 REGION = "Region/Connections"
+ALT_REGIONS = "Alt Regions"
 CONNECTIONS = REGION
 PREREQS = "Prerequisites"
 IS_PREREQ = "Is Prereq"
@@ -24,6 +25,21 @@ GEAR_REQ = "Gear Req"
 ALT_LEVEL = "Alt Lvl."
 
 LVL_REGIONS = "Regions"
+
+LIST_COLUMNS = [REGION, ALT_REGIONS, PREREQS, LVL_REGIONS]
+
+def build_row(in_row: dict[str, str]) -> dict[str, str]:
+    built_row = {}
+    for entry in in_row:
+        if entry in LIST_COLUMNS:
+            split = in_row[entry].split(", ")
+            if split[0] == "":
+                built_row[entry] = []
+            else:
+                built_row[entry] = list(map(lambda e: e.replace(";", ","), split))
+        else:
+            built_row[entry] = in_row[entry]
+    return built_row
 
 # run some preprocessing for future use
 all_dungeons = {}
@@ -35,7 +51,8 @@ for row in reader:
         all_dungeons[row[NAME].split(": ")[1]] = int(row[LEVEL])
     elif row[TYPE] == "Quest":
         all_quests[row[NAME].split(": ")[1]] = int(row[LEVEL])
-    rows.append(row)
+
+    rows.append(build_row(row))
 
 for level_row in level_reader:
-    level_rows.append(level_row)
+    level_rows.append(build_row(level_row))

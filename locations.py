@@ -34,8 +34,8 @@ def create_all_locations(world: WynncraftWorld) -> None:
          (world.is_quest_goal and row[loader.NAME] == world.goal_quest))):
             continue
 
-        if row[loader.REGION] != "" and row[loader.TYPE] != "Level":
-            region = world.get_region(row[loader.REGION].split(", ")[0])
+        if len(row[loader.REGION]) > 0 and row[loader.TYPE] != "Level":
+            region = world.get_region(row[loader.REGION][0])
         elif row[loader.TYPE] == "Level":
             region = world.get_region("Level " + row[loader.LEVEL])
         else:

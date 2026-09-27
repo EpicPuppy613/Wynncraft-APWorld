@@ -46,11 +46,11 @@ def connect_regions(world: WynncraftWorld) -> None:
             continue
         if int(row[loader.LEVEL]) > world.max_level:
             continue
-        if row[loader.CONNECTIONS] == "":
+        if len(row[loader.CONNECTIONS]) == 0:
             continue
 
         region = world.get_region(row[loader.NAME])
-        for connection in row[loader.CONNECTIONS].split(", "):
+        for connection in row[loader.CONNECTIONS]:
             if connection in world.all_regions:
                 region.connect(world.get_region(connection), f"{row[loader.NAME]} to {connection}")
 
