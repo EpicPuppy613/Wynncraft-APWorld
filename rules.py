@@ -20,7 +20,7 @@ def set_all_rules(world: WynncraftWorld) -> None:
 
 def set_all_entrance_rules(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.TYPE] != "Region" or row[loader.NAME].startswith("*"):
+        if row[loader.TYPE] != "Region":
             continue
         if int(row[loader.LEVEL]) > world.max_level:
             continue
@@ -87,10 +87,10 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
             if len(regions) > 1:
                 del regions[0]
                 for region in regions:
-                    if region.startswith("*"):
-                        rule = rule & Has(f"Region: {region[1:]}")
-                    else:
-                        rule = rule & CanReachRegion(region)
+                    rule = rule & CanReachRegion(region)
+
+            for alt_region in row[loader.ALT_REGIONS]:
+                rule = rule & Has("Region: " + alt_region)
 
             if row[loader.PREREQS] != "":
                 for prereq in row[loader.PREREQS]:

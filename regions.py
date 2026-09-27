@@ -18,7 +18,7 @@ def create_all_regions(world: WynncraftWorld) -> None:
     regions = [Region("Menu", world.player, world.multiworld)]
 
     for row in loader.rows:
-        if row[loader.TYPE] != "Region" or row[loader.NAME].startswith("*"):
+        if row[loader.TYPE] != "Region":
             continue
 
         if int(row[loader.LEVEL]) > world.max_level:
@@ -42,7 +42,7 @@ def create_all_regions(world: WynncraftWorld) -> None:
 
 def connect_regions(world: WynncraftWorld) -> None:
     for row in loader.rows:
-        if row[loader.TYPE] != "Region" or row[loader.NAME].startswith("*"):
+        if row[loader.TYPE] != "Region":
             continue
         if int(row[loader.LEVEL]) > world.max_level:
             continue
