@@ -96,7 +96,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
          (world.is_quest_goal and row[loader.NAME] == world.goal_quest))):
             continue
 
-        regions = row[loader.REGION]
+        regions = row[loader.REGION].copy()
 
         if row[loader.TYPE] == "Level":
             world.get_location(row[loader.NAME]).item_rule = lambda item: item.name != "Progressive Max Level"
