@@ -14,6 +14,7 @@ if TYPE_CHECKING:
 
 def set_all_rules(world: WynncraftWorld) -> None:
     set_all_entrance_rules(world)
+    set_all_level_rules(world)
     set_all_location_rules(world)
     set_completion_condition(world)
 
@@ -46,41 +47,42 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                         print(" - " + location)
                         conn_rule = conn_rule & CanReachLocation(location)
 
-                world.set_rule(entrance, Has(f"Region: {connection}") & CanReachRegion(
+                world.set_rule(entrance, Has(f"Region: {connection}") & Has(
                     "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & conn_rule)
 
-    def set_level_logic(level: int, suppress_other_logic = False) -> None:
-        level_entrance = world.get_entrance("Level Up: " + str(level))
-        rule = True_()
 
-        if not suppress_other_logic:
-            for rule_row in loader.level_rows:
-                if int(rule_row[loader.LEVEL]) != level or not world.level_rule_enabled(rule_row[loader.TYPE]):
-                    continue
+def set_all_level_rules(world: WynncraftWorld) -> None:
+    def set_level_logic(level: int) -> None:
+        rule = Has("Level " + str(level - 1))
 
-                sub_rule = False_()
-                for region in rule_row[loader.LVL_REGIONS]:
-                    sub_rule = sub_rule | CanReachRegion(region)
+        for rule_row in loader.level_rows:
+            if int(rule_row[loader.LEVEL]) != level or not world.level_rule_enabled(rule_row[loader.TYPE]):
+                continue
 
-                for location in rule_row[loader.PREREQS]:
-                    sub_rule = sub_rule | CanReachLocation(location)
+            sub_rule = False_()
+            for region in rule_row[loader.LVL_REGIONS]:
+                sub_rule = sub_rule | CanReachRegion(region)
 
-                rule = rule & sub_rule
+            for location in rule_row[loader.PREREQS]:
+                sub_rule = sub_rule | CanReachLocation(location)
 
-            if (level - 1) % 5 == 0:
-                rule = rule & CanReachRegion("Gear Level " + str(level) + " Access")
+            rule = rule & sub_rule
 
+        if (level - 1) % 5 == 0:
+            rule = rule & Has("Gear Level " + str(level) + " Access")
 
-        world.set_rule(level_entrance, rule & Has("Progressive Max Level", count=max_levels_needed(level, world)))
+        world.set_rule(world.get_location("Level Cap: " + str(level)), rule & Has("Progressive Max Level", count=max_levels_needed(level, world)))
 
     for i in range(2, world.max_level + 1):
         set_level_logic(i)
         if world.options.logical_gear_levels.value:
-            gear_level_entrance = world.get_entrance("Gear Level Cap: " + str(i))
+            gear_level_entrance = world.get_location("Gear Level Cap: " + str(i))
             world.set_rule(gear_level_entrance, gear_access_rule(world, i))
 
     if world.is_level_goal:
-        set_level_logic(int(world.options.goal_level.value), True)
+        world.set_rule(world.get_location("Level Up: " + str(world.options.goal_level.value)),
+                       Has("Progressive Max Level", count=max_levels_needed(int(world.options.goal_level.value), world)) &
+                       Has("Level " + str(int(world.options.goal_level.value) - 1)))
 
 
 def set_all_location_rules(world: WynncraftWorld) -> None:
@@ -97,6 +99,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
 
         if row[loader.TYPE] == "Level":
             world.get_location(row[loader.NAME]).item_rule = lambda item: item.name != "Progressive Max Level"
+            world.set_rule(world.get_location(row[loader.NAME]), Has("Level " + row[loader.LEVEL]))
             continue
         else:
             rule = True_()
@@ -118,10 +121,10 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     rule = rule & gear_rule(world, req)
 
         if row[loader.TYPE] == "Territory":
-            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion(
+            world.set_rule(world.get_location(row[loader.NAME]), Has(
                 "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & rule)
         else:
-            world.set_rule(world.get_location(row[loader.NAME]), CanReachRegion("Level " + row[loader.LEVEL]) & rule)
+            world.set_rule(world.get_location(row[loader.NAME]), Has("Level " + row[loader.LEVEL]) & rule)
 
 
 def set_completion_condition(world: WynncraftWorld) -> None:

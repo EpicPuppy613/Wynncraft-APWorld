@@ -36,8 +36,6 @@ def create_all_locations(world: WynncraftWorld) -> None:
 
         if len(row[loader.REGION]) > 0 and row[loader.TYPE] != "Level":
             region = world.get_region(row[loader.REGION][0])
-        elif row[loader.TYPE] == "Level":
-            region = world.get_region("Level " + row[loader.LEVEL])
         else:
             region = world.get_region("Menu")
 
@@ -50,7 +48,11 @@ def create_all_locations(world: WynncraftWorld) -> None:
             location = WynncraftLocation(world.player, row[loader.NAME], world.location_name_to_id[row[loader.NAME]], region)
             region.locations.append(location)
 
+    for i in range(1, world.max_level + 1):
+        world.get_region("Levels").add_event("Level Cap: " + str(i), "Level " + str(i), location_type=WynncraftLocation, item_type=items.WynncraftItem, show_in_spoiler=False)
+        world.get_region("Gear Levels").add_event("Gear Level Cap: " + str(i), "Gear Level " + str(i) + " Access", location_type=WynncraftLocation, item_type=items.WynncraftItem, show_in_spoiler=False)
+
     if world.is_level_goal:
-        world.get_region("Level " + str(world.options.goal_level.value)).add_event(
+        world.get_region("Levels").add_event(
             "Level Up: " + str(world.options.goal_level.value), "Victory", location_type=WynncraftLocation, item_type=items.WynncraftItem
         )
