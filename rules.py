@@ -49,6 +49,11 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 for location in rule_row[loader.PREREQS]:
                     sub_rule = sub_rule | CanReachLocation(location)
 
+                    for row in loader.rows:
+                        if row[loader.NAME] == location:
+                            for location_region in row[loader.REGION].split(", "):
+                                world.multiworld.register_indirect_condition(world.get_region(location_region), level_entrance)
+
                 rule = rule & sub_rule
 
             if (level - 1) % 5 == 0:

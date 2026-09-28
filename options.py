@@ -41,7 +41,7 @@ default_dungeon_map = {
     6: "Galleon's Graveyard",
     7: "Corrupted Lost Sanctuary",
     8: "Fallen Factory",
-    9: "Eldrich Outlook"
+    9: "Eldritch Outlook"
 }
 
 class GoalDungeon(TextChoice):
@@ -114,7 +114,7 @@ class GoalQuest(TextChoice):
     option_feathers = 10
     option_breaking = 11
     option_hunters = 12
-    option_apotheosis =13
+    option_apotheosis = 13
 
     default = option_llevigar
 
