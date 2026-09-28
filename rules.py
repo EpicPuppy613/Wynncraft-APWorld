@@ -23,6 +23,8 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
     conn_rules = {}
 
     for conn_row in loader.conn_rows:
+        if int(conn_row[loader.LEVEL]) > world.max_level:
+            continue
         conn_from = conn_row[loader.CONN_FROM]
         if not conn_from in conn_rules:
             conn_rules[conn_from] = {}
@@ -44,7 +46,6 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                 if row[loader.NAME] in conn_rules and connection in conn_rules[row[loader.NAME]]:
                     conn_rule = True_()
                     for location in conn_rules[row[loader.NAME]][connection]:
-                        print(" - " + location)
                         conn_rule = conn_rule & CanReachLocation(location)
 
                 world.set_rule(entrance, Has(f"Region: {connection}") & Has(
