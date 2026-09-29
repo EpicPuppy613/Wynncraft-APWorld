@@ -20,15 +20,12 @@ def set_all_rules(world: WynncraftWorld) -> None:
 
 
 def set_all_entrance_rules(world: WynncraftWorld) -> None:
-    conn_rules = {}
+    access_rules = {}
 
-    for conn_row in loader.conn_rows:
-        if int(conn_row[loader.LEVEL]) > world.max_level:
+    for access_row in loader.access_rows:
+        if int(access_row[loader.LEVEL]) > world.max_level:
             continue
-        conn_from = conn_row[loader.CONN_FROM]
-        if not conn_from in conn_rules:
-            conn_rules[conn_from] = {}
-        conn_rules[conn_from][conn_row[loader.CONN_TO]] = conn_row[loader.PREREQS]
+        access_rules[access_row[loader.ACCESS_REGION]] = access_row[loader.PREREQS]
 
     for row in loader.rows:
         if row[loader.TYPE] != "Region":
@@ -42,14 +39,13 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
             if connection in world.unlockable_regions:
                 entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
 
-                conn_rule = True_()
-                if row[loader.NAME] in conn_rules and connection in conn_rules[row[loader.NAME]]:
-                    conn_rule = True_()
-                    for location in conn_rules[row[loader.NAME]][connection]:
-                        conn_rule = conn_rule & CanReachLocation(location)
+                access_rule = True_()
+                if connection in access_rules:
+                    for location in access_rules[connection]:
+                        access_rule = access_rule & CanReachLocation(location)
 
                 world.set_rule(entrance, Has(f"Region: {connection}") & Has(
-                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & conn_rule)
+                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & access_rule)
 
 
 def set_all_level_rules(world: WynncraftWorld) -> None:

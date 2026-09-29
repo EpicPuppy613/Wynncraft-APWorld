@@ -9,9 +9,9 @@ level_data = get_data(__name__, "wynncraft-levels.csv")
 level_reader = csv.DictReader(level_data.decode("utf-8").splitlines())
 level_rows = []
 
-conn_data = get_data(__name__, "wynncraft-conns.csv")
-conn_reader = csv.DictReader(conn_data.decode("utf-8").splitlines())
-conn_rows = []
+access_data = get_data(__name__, "wynncraft-access.csv")
+access_reader = csv.DictReader(access_data.decode("utf-8").splitlines())
+access_rows = []
 
 # csv column consts
 NAME = "Content"
@@ -29,8 +29,7 @@ GEAR_REQ = "Gear Req"
 ALT_LEVEL = "Alt Lvl."
 
 LVL_REGIONS = "Regions"
-CONN_FROM = "From"
-CONN_TO = "To"
+ACCESS_REGION = "Region"
 
 LIST_COLUMNS = [REGION, ALT_REGIONS, PREREQS, LVL_REGIONS]
 
@@ -63,5 +62,5 @@ for row in reader:
 for level_row in level_reader:
     level_rows.append(build_row(level_row))
 
-for conn_row in conn_reader:
-    conn_rows.append(build_row(conn_row))
+for access_row in access_reader:
+    access_rows.append(build_row(access_row))
