@@ -4,6 +4,7 @@ from pkgutil import get_data
 data = get_data(__name__, "wynncraft-data.csv")
 reader = csv.DictReader(data.decode("utf-8").splitlines())
 rows = []
+prereqs = {}
 
 level_data = get_data(__name__, "wynncraft-levels.csv")
 level_reader = csv.DictReader(level_data.decode("utf-8").splitlines())
@@ -56,6 +57,9 @@ for row in reader:
         all_dungeons[row[NAME].split(": ")[1]] = int(row[LEVEL])
     elif row[TYPE] == "Quest":
         all_quests[row[NAME].split(": ")[1]] = int(row[LEVEL])
+
+    if row[IS_PREREQ] == "TRUE":
+        prereqs[row[NAME]] = build_row(row)
 
     rows.append(build_row(row))
 

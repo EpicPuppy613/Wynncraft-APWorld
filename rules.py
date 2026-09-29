@@ -44,6 +44,16 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
                     for location in access_rules[connection]:
                         access_rule = access_rule & CanReachLocation(location)
 
+                        indirect_locations = [location]
+
+                        while len(indirect_locations) > 0:
+                            next_location = indirect_locations[0]
+                            for region in loader.prereqs[next_location][loader.REGION]:
+                                world.multiworld.register_indirect_condition(world.get_region(region), entrance)
+                            for prereq in loader.prereqs[next_location][loader.PREREQS]:
+                                indirect_locations.append(prereq)
+                            indirect_locations.pop(0)
+
                 world.set_rule(entrance, Has(f"Region: {connection}") & Has(
                     "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & access_rule)
 
