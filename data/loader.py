@@ -44,7 +44,7 @@ def build_row(in_row: dict[str, str]) -> dict[str, str]:
             else:
                 built_row[entry] = list(map(lambda e: e.replace(";", ","), split))
         else:
-            built_row[entry] = in_row[entry]
+            built_row[entry] = in_row[entry].replace(";", ",")
     return built_row
 
 # run some preprocessing for future use

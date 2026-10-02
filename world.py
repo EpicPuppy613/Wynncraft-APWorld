@@ -115,6 +115,7 @@ class WynncraftWorld(World):
             "dungeon_checks",
             "level_checks",
             "territory_checks",
+            "secret_checks",
 
             "early_territory_levels",
             "logical_levels",
@@ -140,7 +141,7 @@ class WynncraftWorld(World):
 
         return slot_data
 
-    def location_enabled(self, loc_type):
+    def location_enabled(self, loc_type: str):
         match loc_type:
             case "Quest":
                 return self.options.quest_checks.value
@@ -156,10 +157,12 @@ class WynncraftWorld(World):
                 return self.options.level_checks.value
             case "Territory":
                 return self.options.territory_checks.value
+            case "Secret":
+                return self.options.secret_checks.value
             case _:
                 return True
 
-    def level_rule_enabled(self, rule_type):
+    def level_rule_enabled(self, rule_type: str):
         match rule_type:
             case "Region":
                 return self.options.logical_levels.value

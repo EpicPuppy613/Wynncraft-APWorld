@@ -332,6 +332,16 @@ class TerritoryChecks(Toggle):
 
     default = True
 
+class SecretChecks(Toggle):
+    """
+    Earn items for discovering secret discoveries.
+    Check Count: Medium
+    """
+
+    display_name = "Secretsanity"
+
+    default = True
+
 # --- QOL Options ---
 
 class EarlyTerritoryLevels(Range):
@@ -502,6 +512,7 @@ class WynncraftOptions(PerGameCommonOptions):
     corrupted_dungeon_checks: CorruptedDungeonChecks
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
+    secret_checks: SecretChecks
 
     # QOL Options
     early_territory_levels: EarlyTerritoryLevels
@@ -532,12 +543,12 @@ option_groups = [
         [StartingRoute, LockedRegionEnforcement, LockedRegionCountdown],
     ),
     OptionGroup(
-        "Item Options",
+        "Progressive Item Options",
         [LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
-        "Location Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks]
+        "Check Options",
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks]
     ),
     OptionGroup(
         "QOL Options",
