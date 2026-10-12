@@ -137,7 +137,7 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     case RegionLockMode.option_areas:
                         rule = rule & Has(loader.region_area[alt_region])
 
-            if row[loader.PREREQS] != "":
+            if row[loader.PREREQS] != "" and not (row[loader.TYPE] == "Dungeon" and not world.options.dungeon_quests.value):
                 for prereq in row[loader.PREREQS]:
                     rule = rule & CanReachLocation(prereq)
 

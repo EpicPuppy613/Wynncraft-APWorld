@@ -311,7 +311,7 @@ class CaveChecks(Toggle):
 class DungeonChecks(Toggle):
     """
     Earn items for completing dungeons.
-    Check Count: Very Low
+    Check Count: Low
     """
 
     display_name = "Dungeonsanity"
@@ -357,6 +357,26 @@ class SecretChecks(Toggle):
     display_name = "Secretsanity"
 
     default = True
+
+class BossChecks(Toggle):
+    """
+    Earn items for defeating unique bosses.
+    Check Count: Low
+    """
+
+    display_name = "Bosssanity"
+
+    default = True
+
+class RaidChecks(Toggle):
+    """
+    Earn items for completing unique raids.
+    Check Count: Very Low
+    """
+
+    display_name = "Raidsanity"
+
+    default = False
 
 # --- QOL Options ---
 
@@ -412,6 +432,15 @@ class LogicalMounts(Toggle):
     """
 
     display_name = "Logical Mounts"
+
+    default = True
+
+class DungeonQuests(Toggle):
+    """
+    Whether dungeons require their respective quests to be completed.
+    """
+
+    display_name = "Dungeon Quests"
 
     default = True
 
@@ -530,6 +559,8 @@ class WynncraftOptions(PerGameCommonOptions):
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
     secret_checks: SecretChecks
+    boss_checks: BossChecks
+    raid_checks: RaidChecks
 
     # QOL Options
     early_territory_levels: EarlyTerritoryLevels
@@ -537,6 +568,7 @@ class WynncraftOptions(PerGameCommonOptions):
     logical_gear_levels: LogicalGearLevels
     logical_grind_spots: LogicalGrindSpots
     logical_mounts: LogicalMounts
+    dungeon_quests: DungeonQuests
 
     # Trap Options
     trap_chance: TrapChance
@@ -565,11 +597,11 @@ option_groups = [
     ),
     OptionGroup(
         "Check Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks]
     ),
     OptionGroup(
         "QOL Options",
-        [EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels, LogicalGrindSpots, LogicalMounts]
+        [EarlyTerritoryLevels, LogicalLevels, LogicalGearLevels, LogicalGrindSpots, LogicalMounts, DungeonQuests]
     ),
     OptionGroup(
         "Trap Options",
