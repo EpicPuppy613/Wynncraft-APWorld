@@ -380,6 +380,13 @@ Level Up: 117,TRUE,117,Level,Location,00 16 00 75,,,,,FALSE,,
 Level Up: 118,TRUE,118,Level,Location,00 16 00 76,,,,,FALSE,,
 Level Up: 119,TRUE,119,Level,Location,00 16 00 77,,,,,FALSE,,
 Level Up: 120,TRUE,120,Level,Location,00 16 00 78,,,,,FALSE,,
+Run: Canyon of the Lost Excursion (South),TRUE,89,Lootrun,Location,00 19 00 01,"Thesead Underpass, Workshop Glade, Krolton's Cave, Wizard's Warning, Fleris Cranny, Housing Crisis, Featherfall Cliffs, Protector's Pathway, Elefolk Stomping Grounds, Canyon Dropoff, Bantisu Air Temple, Bantisu Approach",,"Complete: A Marauder's Dues, Complete: The Canyon Guides, Complete: The Lost, Complete: Beyond the Grave, Explore: Voltaic Crag, Explore: Rocky Peril, Explore: Seismic Bore Hole, Explore: Chiseler's Cavern, Explore: Demolition Derby, Explore: Natural Sanctuary, Explore: Colossi Infection",,FALSE,,
+Run: Molten Heights Hike,TRUE,95,Lootrun,Location,00 19 00 03,"Crater Descent, Lava Lakes, Entrance to Molten Heights, Pyroclastic Flow, Freezing Heights, Dogun Ritual Site",,"Complete: Dwarves and Doguns Part IV, Explore: Azer Athenaeum, Explore: Cryovern Covert, Explore: Cave of Doom, Explore: Dragon Delta, Explore: Nest & Bones, Explore: Shadow Altar",,FALSE,,
+Run: Sky Islands Exploration,TRUE,97,Lootrun,Location,00 19 00 04,"Ahmsord, Kandon-Beda, Kandon Ridge, Dragonling Nests, Astraulus' Tower, Angel Refuge, Wybel Island, Sky Falls, Raiders' Stronghold, Sky Island Ascent, Temple Island",,"Complete: One Thousand Meters Under, Complete: Recipe For Disaster, Explore: Angel Falls, Explore: Lamprophis Lair, Explore: Forgotten Excavation, Explore: Mycolite Mountain, Explore: Overgrown Rubble, Explore: The Donjon, Explore: Sky Shroom, Explore: Windwalker Temple, Explore: Scarred Ingress, Explore: Azurite Island, Explore: Ovine Spire",,FALSE,,
+Run: The Corkus Traversal,TRUE,100,Lootrun,Location,00 19 00 02,"Industrial Clearing, Ruined Houses, Balloon Airbase, Southern Outpost, Relos, Corkus Forest, Ava's Workshop, Avos Territory, Corkus Outskirts",,"Complete: The Envoy Part II, Complete: The Envoy Part I, Explore: Builder-Bot Central, Explore: Corkus Quarry, Explore: The Warehouse, Explore: Avos Animation Totem, Explore: Junk Pit, Explore: Pirate Lattice, Explore: Aquaculture Aquifer, Explore: Steamworks",,FALSE,,
+Run: Silent Expanse Expedition,TRUE,101,Lootrun,Location,00 19 00 05,"Paths of Sludge, Toxic Drip, Gateway to Nothing, Void Valley, Toxic Caves, Sinister Forest, Forest of Eyes, Forgotten Town",,"Complete: A Journey Further, Explore: Eyeball Gauntlet, Explore: The Gwanari, Explore: Statue Opening, Explore: Spiteful Crossing, Explore: The Place Condensed, Explore: The Place Conglomerated, Explore: The Place Coalesced, Explore: Haze Cave, Explore: Loot Symposium, Explore: Caged Creatures, Explore: The Lantern Keeper's Abode, Explore: Blind Burrow",,FALSE,,
+Run: The Fruma Foray (West),TRUE,112,Lootrun,Location,00 19 00 06,"Agricultural Sector, Industrial Sector, Water Processing Sector, Forts in Fall, Royal Dam, The Frog Bog",,"Complete: Revelations in Fall, Explore: Siltswimmer Den, Explore: Water Tower, Explore: The Flush, Explore: Electrifying Outpost, Explore: Freight Interchange, Explore: Abandoned Steelworks, Explore: Weapons Factory, Explore: Auburn Lumbermill, Explore: Ancient Arthropods",,FALSE,,
+Run: The Fruma Foray (East),TRUE,120,Lootrun,Location,00 19 00 07,"Fort Tericen, Hyloch, Citadel's Shadow, Gates to Aelumia, Lake Rieke, Alder Understory, Aldwell, Deforested Ecotone, Fort Hegea",,"Complete: True Colours, Explore: Nesting Place, Explore: Entozoon Takeover, Explore: Citadel Catacombs, Explore: Saltpetre Mine, Explore: Northern Outpost, Explore: Tericen Stables, Explore: Glacier Tunnels, Explore: Estalis Gallery, Explore: Krisa Manor, Explore: Liftal Castle",,FALSE,,
 Complete: Slay Spiders,TRUE,4,Mini-Quest,Location,00 14 00 01,Nivla Woods,,,,FALSE,,
 Complete: Slay Mooshrooms,TRUE,15,Mini-Quest,Location,00 14 00 02,Essren's Hut,,,,FALSE,,
 Complete: Slay Skeletons,TRUE,25,Mini-Quest,Location,00 14 00 03,"Scorched Trail, Corrupted Tower",,,,FALSE,,
@@ -906,7 +913,7 @@ Troll Tower,TRUE,85,Region,Item,00 01 01 3e,"Parasitic Slime Mine, Featherfall C
 Rocky Bend,TRUE,85,Region,Item,00 01 01 42,Canyon Dropoff,,,,FALSE,,85
 Housing Crisis,TRUE,85,Region,Item,00 01 01 43,Featherfall Cliffs,,,,FALSE,,85
 Featherfall Cliffs,TRUE,85,Region,Item,00 01 01 44,"Canyon Dropoff, Housing Crisis, Protector's Pathway, Elefolk Stomping Grounds, Troll Tower",,,,FALSE,,85
-Elefolk Stomping Grounds,TRUE,85,Region,Item,00 01 01 45,"Fleris Cranny, Hobgoblin's Hoard, Protector's Pathway, Featherfall Cliffs",,,,FALSE,,#N/A
+Elefolk Stomping Grounds,TRUE,85,Region,Item,00 01 01 45,"Fleris Cranny, Hobgoblin's Hoard, Protector's Pathway, Featherfall Cliffs",,,,FALSE,,89
 Elephelk Trail,TRUE,85,Region,Item,00 01 01 4b,"Cliffside Passage South, Protector's Pathway",,,,FALSE,,85
 Protector's Pathway,TRUE,85,Region,Item,00 01 01 4c,"Featherfall Cliffs, Elefolk Stomping Grounds, Elephelk Trail, Kandon-Beda",,,,FALSE,,85
 Cliffside Passage South,TRUE,85,Region,Item,00 01 01 4d,"Elephelk Trail, Cliffside Passage North",,,,FALSE,,85
@@ -946,7 +953,7 @@ Ahmsord Outskirts,TRUE,93,Region,Item,00 01 00 87,"Swamp Island, Angel Refuge, W
 Angel Refuge,TRUE,93,Region,Item,00 01 00 89,"Molten Reach, Ahmsord Outskirts",,,,FALSE,,96
 Wybel Island,TRUE,93,Region,Item,00 01 00 8a,"Ahmsord Outskirts, Central Islands, Sky Falls",,,,FALSE,,93
 Central Islands,TRUE,93,Region,Item,00 01 00 8b,"Ahmsord, Temple Island, Ahmsord Outskirts, Wybel Island, Sky Island Ascent",,,,FALSE,,93
-Sky Island Ascent,TRUE,93,Region,Item,00 01 00 8c,"Central Islands, Sky Falls, Raiders' Stronghold, Jofash Tunnel, Ahmsord",,,,FALSE,,99
+Sky Island Ascent,TRUE,93,Region,Item,00 01 00 8c,"Central Islands, Sky Falls, Raiders' Stronghold, Jofash Tunnel, Ahmsord",,,,FALSE,,97
 Jofash Tunnel,TRUE,93,Region,Item,00 01 00 8e,"Sky Island Ascent, Jofash Docks",,,,FALSE,,95
 Ahmsord,TRUE,93,Region,Default,,"Temple Island, Path to Ahmsord, Aerial Descent, Sky Island Ascent, Central Islands",,,,TRUE,,93
 Temple Island,TRUE,94,Region,Item,00 01 00 77,"Ahmsord, Swamp Island, Snail Island, Kandon Ridge, Central Islands",,,,FALSE,,97
@@ -955,14 +962,14 @@ Dragonling Nests,TRUE,94,Region,Item,00 01 00 84,"Snail Island, Astraulus' Tower
 Astraulus' Tower,TRUE,94,Region,Item,00 01 00 85,"Dragonling Nests, Swamp Island",,,,FALSE,92,96
 Frozen Fort,TRUE,95,Region,Item,00 01 00 80,Sky Falls,,,,FALSE,,#N/A
 Sky Castle,TRUE,95,Region,Item,00 01 00 81,Path to Ahmsord,,,,FALSE,,95
-Sky Falls,TRUE,95,Region,Item,00 01 00 8d,"Frozen Fort, Wybel Island, Sky Island Ascent",,,,FALSE,,#N/A
+Sky Falls,TRUE,95,Region,Item,00 01 00 8d,"Frozen Fort, Wybel Island, Sky Island Ascent",,,,FALSE,,97
 Path to Ahmsord,TRUE,95,Region,Item,00 01 01 63,"Sky Castle, Aerial Descent, Ahmsord, Kandon-Beda",,,,FALSE,,#N/A
 Aerial Descent,TRUE,95,Region,Item,00 01 01 64,"Path to Ahmsord, Kandon Ridge, Ahmsord",,,,FALSE,,#N/A
 Kandon Farm,TRUE,96,Region,Item,00 01 00 72,Kandon Ridge,,,,FALSE,85,96
 Kandon Ridge,TRUE,96,Region,Item,00 01 00 82,"Kandon Farm, Aerial Descent, Old Coal Mine, Temple Island",,,,FALSE,89,96
 Old Coal Mine,TRUE,96,Region,Item,00 01 00 83,Kandon Ridge,,,,FALSE,89,96
 Swamp Island,TRUE,96,Region,Item,00 01 00 88,"Temple Island, Astraulus' Tower, Ahmsord Outskirts",,,,FALSE,,96
-Raiders' Stronghold,TRUE,96,Region,Item,00 01 01 65,"Sky Island Ascent, Raiders' Airbase",,,,FALSE,,98
+Raiders' Stronghold,TRUE,96,Region,Item,00 01 01 65,"Sky Island Ascent, Raiders' Airbase",,,,FALSE,,97
 Raiders' Airbase,TRUE,96,Region,Item,00 01 01 66,Raiders' Stronghold,,,,FALSE,,96
 Silent Road,TRUE,100,Region,Item,00 01 00 45,"Mine Base Plains, Broken Road",,,,FALSE,,100
 Worm Tunnel,TRUE,100,Region,Item,00 01 00 9d,"Broken Road, Grey Ruins",,,,FALSE,,#N/A
