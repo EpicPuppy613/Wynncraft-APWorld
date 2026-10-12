@@ -371,10 +371,23 @@ class BossChecks(Toggle):
 class RaidChecks(Toggle):
     """
     Earn items for completing unique raids.
+    Warning: Requires interaction with other players to raid
     Check Count: Very Low
     """
 
     display_name = "Raidsanity"
+
+    default = False
+
+class WorldEventChecks(Toggle):
+    """
+    Earn items for completing unique world events.
+    Does not include 'Prelude to Annihilation'
+    Warning: World events cycle and may take a while to be completable
+    Check Count: Medium
+    """
+
+    display_name = "Eventsanity"
 
     default = False
 
@@ -561,6 +574,7 @@ class WynncraftOptions(PerGameCommonOptions):
     secret_checks: SecretChecks
     boss_checks: BossChecks
     raid_checks: RaidChecks
+    world_event_checks: WorldEventChecks
 
     # QOL Options
     early_territory_levels: EarlyTerritoryLevels
@@ -597,7 +611,7 @@ option_groups = [
     ),
     OptionGroup(
         "Check Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks]
     ),
     OptionGroup(
         "QOL Options",

@@ -9,7 +9,10 @@ from worlds.wynncraft.test.bases import WynncraftAccessibilityBase
 class TestGoalLevel(WynncraftAccessibilityBase):
     level: typing.ClassVar[int]
     options = {
-        "region_lock_mode": "full"
+        "region_lock_mode": "full",
+        "corrupted_dungeon_checks": "true",
+        "raid_checks": "true",
+        "world_event_checks": "true"
     }
     
     def setUp(self) -> None:
