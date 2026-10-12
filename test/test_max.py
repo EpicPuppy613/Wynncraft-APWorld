@@ -8,5 +8,6 @@ class TestMaxSettings(WynncraftTestBase):
         "gear_lock_mode": "full",
         "corrupted_dungeon_checks": "true",
         "raid_checks": "true",
-        "world_event_checks": "true"
+        "world_event_checks": "true",
+        "lootrun_checks": "true"
     }

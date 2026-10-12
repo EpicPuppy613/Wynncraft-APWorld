@@ -170,6 +170,8 @@ class WynncraftWorld(World):
                 return self.options.raid_checks.value
             case "World Event":
                 return self.options.world_event_checks.value
+            case "Lootrun":
+                return self.options.lootrun_checks.value
             case _:
                 return True
 

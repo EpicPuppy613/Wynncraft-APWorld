@@ -391,6 +391,16 @@ class WorldEventChecks(Toggle):
 
     default = False
 
+class LootrunChecks(Toggle):
+    """
+    Earn items for completing unique lootruns.
+    Check Count: Very Low
+    """
+
+    display_name = "Lootrunsanity"
+
+    default = False
+
 # --- QOL Options ---
 
 class EarlyTerritoryLevels(Range):
@@ -575,6 +585,7 @@ class WynncraftOptions(PerGameCommonOptions):
     boss_checks: BossChecks
     raid_checks: RaidChecks
     world_event_checks: WorldEventChecks
+    lootrun_checks: LootrunChecks
 
     # QOL Options
     early_territory_levels: EarlyTerritoryLevels
@@ -606,12 +617,12 @@ option_groups = [
         [RegionLockMode, StartingRoute, LockedRegionEnforcement, LockedRegionCountdown],
     ),
     OptionGroup(
-        "Progressive Item Options",
+        "Progression Options",
         [LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
         "Check Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks, LootrunChecks]
     ),
     OptionGroup(
         "QOL Options",

@@ -12,7 +12,8 @@ class TestGoalLevel(WynncraftAccessibilityBase):
         "region_lock_mode": "full",
         "corrupted_dungeon_checks": "true",
         "raid_checks": "true",
-        "world_event_checks": "true"
+        "world_event_checks": "true",
+        "lootrun_checks": "true"
     }
     
     def setUp(self) -> None:
