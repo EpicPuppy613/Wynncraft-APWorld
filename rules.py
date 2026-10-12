@@ -7,6 +7,7 @@ from math import ceil
 from rule_builder.rules import Has, True_, False_, CanReachRegion, CanReachLocation, Rule
 
 from .data import loader
+from .options import RegionLockMode
 
 if TYPE_CHECKING:
     from .world import WynncraftWorld
@@ -36,26 +37,38 @@ def set_all_entrance_rules(world: WynncraftWorld) -> None:
             continue
 
         for connection in row[loader.CONNECTIONS]:
-            if connection in world.unlockable_regions:
-                entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
+            if not connection in world.unlockable_regions:
+                continue
 
-                access_rule = True_()
-                if connection in access_rules:
-                    for location in access_rules[connection]:
-                        access_rule = access_rule & CanReachLocation(location)
+            entrance = world.get_entrance(f"{row[loader.NAME]} to {connection}")
 
-                        indirect_locations = [location]
+            access_rule = True_()
+            if connection in access_rules:
+                for location in access_rules[connection]:
+                    access_rule = access_rule & CanReachLocation(location)
 
-                        while len(indirect_locations) > 0:
-                            next_location = indirect_locations[0]
-                            for region in loader.prereqs[next_location][loader.REGION]:
-                                world.multiworld.register_indirect_condition(world.get_region(region), entrance)
-                            for prereq in loader.prereqs[next_location][loader.PREREQS]:
-                                indirect_locations.append(prereq)
-                            indirect_locations.pop(0)
+                    indirect_locations = [location]
 
-                world.set_rule(entrance, Has(f"Region: {connection}") & Has(
-                    "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & access_rule)
+                    while len(indirect_locations) > 0:
+                        next_location = indirect_locations[0]
+                        for region in loader.prereqs[next_location][loader.REGION]:
+                            world.multiworld.register_indirect_condition(world.get_region(region), entrance)
+                        for prereq in loader.prereqs[next_location][loader.PREREQS]:
+                            indirect_locations.append(prereq)
+                        indirect_locations.pop(0)
+
+            unlock_rule = True_()
+
+            match world.options.region_lock_mode.value:
+                case RegionLockMode.option_full:
+                    unlock_rule = Has(f"Region: {connection}")
+                case RegionLockMode.option_zones:
+                    unlock_rule = Has(loader.region_zone[connection])
+                case RegionLockMode.option_areas:
+                    unlock_rule = Has(loader.region_area[connection])
+
+            world.set_rule(entrance, unlock_rule & Has(
+                "Level " + str(max(1, int(row[loader.LEVEL]) - world.options.early_territory_levels.value))) & access_rule)
 
 
 def set_all_level_rules(world: WynncraftWorld) -> None:
@@ -116,7 +129,13 @@ def set_all_location_rules(world: WynncraftWorld) -> None:
                     rule = rule & CanReachRegion(region)
 
             for alt_region in row[loader.ALT_REGIONS]:
-                rule = rule & Has("Region: " + alt_region)
+                match world.options.region_lock_mode.value:
+                    case RegionLockMode.option_full:
+                        rule = rule & Has("Region: " + alt_region)
+                    case RegionLockMode.option_zones:
+                        rule = rule & Has(loader.region_zone[alt_region])
+                    case RegionLockMode.option_areas:
+                        rule = rule & Has(loader.region_area[alt_region])
 
             if row[loader.PREREQS] != "":
                 for prereq in row[loader.PREREQS]:

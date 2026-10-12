@@ -101,6 +101,7 @@ class WynncraftWorld(World):
             "goal_level",
             "extra_content_levels",
 
+            "region_lock_mode",
             "locked_region_enforcement",
             "locked_region_countdown",
 

@@ -50,6 +50,10 @@ def build_row(in_row: dict[str, str]) -> dict[str, str]:
 # run some preprocessing for future use
 all_dungeons = {}
 all_quests = {}
+region_zone = {}
+zone_regions = {}
+region_area = {}
+
 for row in reader:
     if row[READY] != "TRUE":
         continue
@@ -62,6 +66,21 @@ for row in reader:
         prereqs[row[NAME]] = build_row(row)
 
     rows.append(build_row(row))
+
+for row in rows:
+    if row[TYPE] != "Zone" or row[READY] != "TRUE":
+        continue
+    zone_regions[row[NAME]] = []
+    for region in row[REGION]:
+        region_zone[region] = row[NAME]
+        zone_regions[row[NAME]].append(region)
+
+for row in rows:
+    if row[TYPE] != "Area" or row[READY] != "TRUE":
+        continue
+    for zone in row[REGION]:
+        for region in zone_regions[zone]:
+            region_area[region] = row[NAME]
 
 for level_row in level_reader:
     level_rows.append(build_row(level_row))

@@ -143,6 +143,22 @@ class ExtraContentLevels(Range):
 
 # --- Region Lock Options ---
 
+class RegionLockMode(Choice):
+    """
+    Determines how many regions are unlocked each item.
+    Full: Each individual region is unlocked with an item
+    Zones: Groups of 2-5 regions are unlocked with an item
+    Areas: Groups of 2-5 zones are unlocked with an item
+    """
+    display_name = "Mode"
+
+    option_full = 0
+    option_zones = 1
+    option_areas = 2
+    option_off = 3
+
+    default = 1
+
 class StartingRoute(Choice):
     """
     How much of the route from Ragni to Detlas to start unlocked
@@ -492,6 +508,7 @@ class WynncraftOptions(PerGameCommonOptions):
     extra_content_levels: ExtraContentLevels
 
     # Region Lock Options
+    region_lock_mode: RegionLockMode
     starting_route: StartingRoute
     locked_region_enforcement: LockedRegionEnforcement
     locked_region_countdown: LockedRegionCountdown
@@ -540,7 +557,7 @@ option_groups = [
     ),
     OptionGroup(
         "Region Lock Options",
-        [StartingRoute, LockedRegionEnforcement, LockedRegionCountdown],
+        [RegionLockMode, StartingRoute, LockedRegionEnforcement, LockedRegionCountdown],
     ),
     OptionGroup(
         "Progressive Item Options",

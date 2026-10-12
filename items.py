@@ -7,11 +7,11 @@ from BaseClasses import Item, ItemClassification
 from Options import OptionError
 
 from .data import loader
+from .options import RegionLockMode
 
 if TYPE_CHECKING:
     from .world import WynncraftWorld
 
-item_names = []
 filler_names = []
 trap_names = []
 item_name_to_id = {}
@@ -22,7 +22,10 @@ ALEKIN_ROUTE = [
     "Region: Ragni Main Entrance",
     "Region: Emerald Trail",
     "Region: Entrance to Nivla Woods",
-    "Region: Nivla Woods"
+    "Region: Nivla Woods",
+    "Zone: Emerald Trail",
+    "Zone: Nivla Woods",
+    "Area: Nivla Woods"
 ]
 
 DETLAS_ROUTE = [
@@ -30,7 +33,10 @@ DETLAS_ROUTE = [
     "Region: Nivla Woods Exit",
     "Region: Akias Ruins",
     "Region: Corrupted Orchard",
-    "Region: Detlas Suburbs"
+    "Region: Detlas Suburbs",
+    "Zone: Nivla Outskirts",
+    "Zone: Detlas Suburbs",
+    "Area: West Detlas"
 ]
 
 for row in loader.rows:
@@ -39,16 +45,16 @@ for row in loader.rows:
     item_id = int(row[loader.ID].replace(" ", ""), 16)
     name = row[loader.NAME]
     item_class = ItemClassification.filler
+
     if row[loader.TYPE] == "Region":
         name = "Region: " + name
         item_class |= ItemClassification.progression
-    if name == "Progressive Max Level":
-        item_class |= ItemClassification.progression
     elif name.startswith("Progressive"):
         item_class |= ItemClassification.progression
+    elif row[loader.TYPE] == "Zone" or row[loader.TYPE] == "Area":
+        item_class |= ItemClassification.progression
+
     match row[loader.AP]:
-        case "Item":
-            item_names.append(name)
         case "Filler":
             filler_names.append(name)
         case "Trap":
@@ -99,12 +105,31 @@ def create_all_items(world: WynncraftWorld) -> None:
 
     itempool: list[Item] = []
 
-    for item, level in item_levels.items():
+    for item_row in loader.rows:
+        if item_row[loader.AP] != "Item" or item_row[loader.READY] != "TRUE":
+            continue
+
+        item_name = item_row[loader.NAME]
+        if item_row[loader.TYPE] == "Region":
+            item_name = "Region: " + item_name
+
+        if not item_name in item_levels:
+            continue
+
+        level = item_levels[item_name]
+
         if level > world.max_level:
             continue
 
-        ap_item = world.create_item(item)
-        if item in starting_items:
+        if item_row[loader.TYPE] == "Region" and world.options.region_lock_mode.value != RegionLockMode.option_full:
+            continue
+        elif item_row[loader.TYPE] == "Zone" and world.options.region_lock_mode.value != RegionLockMode.option_zones:
+            continue
+        elif item_row[loader.TYPE] == "Area" and world.options.region_lock_mode.value != RegionLockMode.option_areas:
+            continue
+
+        ap_item = world.create_item(item_name)
+        if item_name in starting_items:
             world.push_precollected(ap_item)
         else:
             itempool.append(ap_item)
