@@ -160,11 +160,11 @@ def set_completion_condition(world: WynncraftWorld) -> None:
 def max_levels_needed(level: int, world: WynncraftWorld):
     if level <= 0:
         return 0
-    return ceil((level - 1) / world.options.level_increment.value)
+    return ceil((level - world.options.starting_max_level.value) / world.options.level_increment.value)
 
 
 def gear_levels_needed(level: int, world: WynncraftWorld):
-    return ceil(level / world.options.gear_level_increment.value)
+    return ceil((level - world.options.starting_gear_level) / world.options.gear_level_increment.value)
 
 
 def gear_rule(world: WynncraftWorld, requirement: str) -> Rule:

@@ -202,18 +202,31 @@ class LockedRegionCountdown(Range):
     range_end = 60
     default = 3
 
-# --- Item Options ---
+# --- Progression Options ---
+
+class StartingMaxLevel(Range):
+    """
+    Initial max level.
+    Amount of "Progressive Max Level" items will be adjusted to match.
+    """
+
+    display_name = "Starting Max Level"
+
+    range_start = 1
+    range_end = 121
+
+    default = 1
 
 class LevelIncrement(Range):
     """
     How many levels each max level item increases by.
-    Set this higher if you disable a lot of checks.
+    Amount of "Progressive Max Level" items will be adjected to match.
     """
 
     display_name = "Level Increment"
 
     range_start = 1
-    range_end = 10
+    range_end = 20
     default = 1
 
 class ExtraMaxLevels(Range):
@@ -253,6 +266,18 @@ class SingleGearRarity(Toggle):
 
     default = False
 
+class StartingGearLevel(Range):
+    """
+    Initial max gear level.
+    """
+
+    display_name = "Starting Gear Level"
+
+    range_start = 1
+    range_end = 120
+
+    default = 1
+
 class GearLevelIncrement(Range):
     """
     How much to increase max gear level each item
@@ -276,7 +301,7 @@ class ExtraGearLevels(Range):
     range_end = 25
     default = 3
 
-# --- Location Options ---
+# --- Check Options ---
 
 class QuestChecks(Toggle):
     """
@@ -565,15 +590,17 @@ class WynncraftOptions(PerGameCommonOptions):
     locked_region_enforcement: LockedRegionEnforcement
     locked_region_countdown: LockedRegionCountdown
 
-    # Item Options
+    # Progression Options
+    starting_max_level: StartingMaxLevel
     level_increment: LevelIncrement
     extra_max_levels: ExtraMaxLevels
     gear_lock_mode: GearLockMode
     single_gear_rarity: SingleGearRarity
+    starting_gear_level: StartingGearLevel
     gear_level_increment: GearLevelIncrement
     extra_gear_levels: ExtraGearLevels
 
-    # Location Options
+    # Check Options
     quest_checks: QuestChecks
     mini_quest_checks: MiniQuestChecks
     cave_checks: CaveChecks
@@ -618,7 +645,7 @@ option_groups = [
     ),
     OptionGroup(
         "Progression Options",
-        [LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, GearLevelIncrement, ExtraGearLevels]
+        [StartingMaxLevel, LevelIncrement, ExtraMaxLevels, GearLockMode, SingleGearRarity, StartingGearLevel, GearLevelIncrement, ExtraGearLevels]
     ),
     OptionGroup(
         "Check Options",

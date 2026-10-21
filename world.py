@@ -105,9 +105,11 @@ class WynncraftWorld(World):
             "locked_region_enforcement",
             "locked_region_countdown",
 
+            "starting_max_level",
             "level_increment",
             "gear_lock_mode",
             "single_gear_rarity",
+            "starting_gear_level",
             "gear_level_increment",
 
             "quest_checks",
