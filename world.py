@@ -122,6 +122,7 @@ class WynncraftWorld(World):
             "raid_checks",
             "world_event_checks",
             "lootrun_checks",
+            "time_trial_checks",
 
             "early_territory_levels",
             "logical_levels",
@@ -174,6 +175,8 @@ class WynncraftWorld(World):
                 return self.options.world_event_checks.value
             case "Lootrun":
                 return self.options.lootrun_checks.value
+            case "Time Trial":
+                return self.options.time_trial_checks.value
             case _:
                 return True
 

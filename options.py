@@ -401,6 +401,16 @@ class LootrunChecks(Toggle):
 
     default = False
 
+class TimeTrialChecks(Toggle):
+    """
+    Earn items for completing time trials.
+    Check Count: Very Low
+    """
+
+    display_name = "Time Trialsanity"
+
+    default = True
+
 # --- QOL Options ---
 
 class EarlyTerritoryLevels(Range):
@@ -586,6 +596,7 @@ class WynncraftOptions(PerGameCommonOptions):
     raid_checks: RaidChecks
     world_event_checks: WorldEventChecks
     lootrun_checks: LootrunChecks
+    time_trial_checks: TimeTrialChecks
 
     # QOL Options
     early_territory_levels: EarlyTerritoryLevels
@@ -622,7 +633,7 @@ option_groups = [
     ),
     OptionGroup(
         "Check Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks, LootrunChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks, LootrunChecks, TimeTrialChecks]
     ),
     OptionGroup(
         "QOL Options",
