@@ -358,16 +358,6 @@ class SecretChecks(Toggle):
 
     default = True
 
-class BossChecks(Toggle):
-    """
-    Earn items for defeating unique bosses.
-    Check Count: Low
-    """
-
-    display_name = "Bosssanity"
-
-    default = True
-
 class RaidChecks(Toggle):
     """
     Earn items for completing unique raids.
@@ -592,7 +582,6 @@ class WynncraftOptions(PerGameCommonOptions):
     level_checks: LevelChecks
     territory_checks: TerritoryChecks
     secret_checks: SecretChecks
-    boss_checks: BossChecks
     raid_checks: RaidChecks
     world_event_checks: WorldEventChecks
     lootrun_checks: LootrunChecks
@@ -633,7 +622,7 @@ option_groups = [
     ),
     OptionGroup(
         "Check Options",
-        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, BossChecks, RaidChecks, WorldEventChecks, LootrunChecks, TimeTrialChecks]
+        [QuestChecks, MiniQuestChecks, CaveChecks, DungeonChecks, CorruptedDungeonChecks, LevelChecks, TerritoryChecks, SecretChecks, RaidChecks, WorldEventChecks, LootrunChecks, TimeTrialChecks]
     ),
     OptionGroup(
         "QOL Options",

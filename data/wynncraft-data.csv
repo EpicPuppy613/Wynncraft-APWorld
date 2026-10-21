@@ -30,21 +30,6 @@ Area: West Sky Islands,TRUE,94,Area,Item,00 01 20 1b,"Zone: West Ahmsord, Zone: 
 Area: Silent Expanse,TRUE,100,Area,Item,00 01 20 1c,"Zone: Silent Road, Zone: Expanse Approach, Zone: Path of Sludge, Zone: Gateway to Nothing, Zone: Descent into Madness",,,,FALSE,,
 Area: West Fruma,TRUE,103,Area,Item,00 01 20 1d,"Zone: Aubern Entrance, Zone: Aubern Forest, Zone: Roughworks",,,,FALSE,,
 Area: East Fruma,TRUE,112,Area,Item,00 01 20 1e,"Zone: Mistwoods, Zone: Highlands, Zone: Gates to Aelumia",,,,FALSE,,
-Slay: Bovine Barn,TRUE,20,Boss,Location,00 15 00 01,Durum Isles Barn,,,,FALSE,,
-Slay: Rotten Passage,TRUE,25,Boss,Location,00 15 00 02,Nemract Cathedral,,Complete: Brothers Return,,FALSE,,
-Slay: Sunrise Canyon,TRUE,40,Boss,Location,00 15 00 03,Sunrise Plateau,,,,FALSE,,
-Slay: Prison of Souls,TRUE,45,Boss,Location,00 15 00 04,Twain Lake,,,,FALSE,,
-Slay: Plague Laboratory,TRUE,55,Boss,Location,00 15 00 05,Shady Shack,,,,FALSE,,
-Slay: Tribal Sanctuary,TRUE,57,Boss,Location,00 15 00 06,Iboju Village,,Complete: The Passage,,FALSE,,
-Slay: Magmastream Core,TRUE,60,Boss,Location,00 15 00 07,Volcanic Excavation,,,,FALSE,,
-Slay: Arena of the Legends,TRUE,68,Boss,Location,00 15 00 08,Temple of Legends,,Complete: Temple of the Legends,,FALSE,,
-Slay: Altar of Sanctification,TRUE,70,Boss,Location,00 15 00 09,"Skien's Island, Delnar Manor",,,,FALSE,,
-Slay: Challenge of the Blades,TRUE,70,Boss,Location,00 15 00 0a,Entrance to Kander,,,,FALSE,,
-Slay: Geyser Pit,TRUE,90,Boss,Location,00 15 00 0b,Retrofitted Manufactory,,,,FALSE,,
-Slay: Aerie of the Recluse,TRUE,95,Boss,Location,00 15 00 0c,Avos Territory,,,,FALSE,,
-Slay: Unknown Area,TRUE,99,Boss,Location,00 15 00 0d,Wybel Island,,,,FALSE,,
-Slay: Bottomless Pit,TRUE,102,Boss,Location,00 15 00 0e,Bizarre Passage,,Complete: Eldritch Outlook,,FALSE,,
-Slay: Deserter's Refuge,TRUE,119,Boss,Location,00 15 00 0f,Royal Barracks,,Complete: Apotheosis,,FALSE,,
 Complete: Corrupted Decrepit Sewers,TRUE,70,C-Dungeon,Location,00 13 00 09,The Forgery,,,,FALSE,,
 Complete: Corrupted Infested Pit,TRUE,74,C-Dungeon,Location,00 13 00 10,The Forgery,,,,FALSE,,
 Complete: Corrupted Lost Sanctuary,TRUE,78,C-Dungeon,Location,00 13 00 11,The Forgery,,,,FALSE,,
@@ -639,7 +624,7 @@ Sulphuric Hollow,TRUE,20,Region,Item,00 01 00 1c,"Ragni South Entrance, Little W
 Durum Oat Islet,TRUE,20,Region,Item,00 01 00 2d,Durum Isles Barn,,,,FALSE,,#N/A
 Durum Malt Islet,TRUE,20,Region,Item,00 01 00 2e,Durum Isles Barn,,,,FALSE,,#N/A
 Durum Barley Islet,TRUE,20,Region,Item,00 01 00 2f,Durum Isles Barn,,,,FALSE,,#N/A
-Durum Isles Barn,TRUE,20,Region,Item,00 01 00 31,"Durum Barley Islet, Durum Oat Islet, Durum Malt Islet, Selchar",,,,FALSE,,20
+Durum Isles Barn,TRUE,20,Region,Item,00 01 00 31,"Durum Barley Islet, Durum Oat Islet, Durum Malt Islet, Selchar",,,,FALSE,,#N/A
 Mining Base Camp,TRUE,20,Region,Item,00 01 00 37,"Abandoned Mines Entrance, Abandoned Mines, Abandoned Pass, Mine Base Plains",,,,FALSE,,20
 Abandoned Mines,TRUE,20,Region,Item,00 01 00 3b,"Mining Base Camp, Mine Base Plains",,,,FALSE,,20
 Plains Lake,TRUE,20,Region,Item,00 01 00 3d,"Roots of Corruption, Desolate Valley, Mine Base Plains, Corrupted Warfront, Detlas",,,,FALSE,,20

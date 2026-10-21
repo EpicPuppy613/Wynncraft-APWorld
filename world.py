@@ -118,7 +118,6 @@ class WynncraftWorld(World):
             "level_checks",
             "territory_checks",
             "secret_checks",
-            "boss_checks",
             "raid_checks",
             "world_event_checks",
             "lootrun_checks",
@@ -167,8 +166,6 @@ class WynncraftWorld(World):
                 return self.options.territory_checks.value
             case "Secret":
                 return self.options.secret_checks.value
-            case "Boss":
-                return self.options.boss_checks.value
             case "Raid":
                 return self.options.raid_checks.value
             case "World Event":
